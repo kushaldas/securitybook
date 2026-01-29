@@ -412,6 +412,17 @@
                 }
             }
 
+            // Navigate when clicking a language item
+            langList.querySelectorAll("li").forEach(function(li) {
+                li.addEventListener("click", function(event) {
+                    event.preventDefault();
+                    var link = this.querySelector("a");
+                    if (link && window.location.href !== link.href) {
+                        window.location.href = link.href;
+                    }
+                });
+            });
+
             // Close when clicking outside
             document.addEventListener("click", function(event) {
                 if (!langToggle.contains(event.target) && !langList.contains(event.target)) {
