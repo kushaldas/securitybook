@@ -2,3 +2,12 @@
 title = "Security Guidebook"
 authors = ["Kushal Das"]
 language = "en"
+
+[build]
+extra-watch-dirs = ["po"]
+
+[preprocessor.gettext]
+after = ["links"]
+
+[output.html]
+additional-css = ["theme/css/language-picker.css"]
