@@ -83,6 +83,34 @@ Advanced Protection Mode is Android 16's flagship security feature—a single to
 - Some call screening may flag legitimate calls
 - Easy to turn on/off, so no harm in trying
 
+### Google Advanced Protection Program
+
+The Advanced Protection Program is Google's strongest account-level security offering, separate from the device-level Advanced Protection Mode above. It is designed for people at high risk of targeted online attacks, such as journalists, activists, political campaign staff, and anyone managing sensitive information.
+
+**What it protects:**
+- **Phishing defense** — Requires a passkey or FIDO-compliant security key to sign in. Unauthorized users cannot access your account even if they have your password.
+- **Download safety** — Enhanced screening for file downloads; app installations restricted to verified sources like Google Play Store and device manufacturer app stores.
+- **Third-party access control** — Only Google apps and verified third-party apps can access your Google Account data, and only with your permission.
+
+**How to enroll:**
+1. Go to [Google Advanced Protection Program](https://landing.google.com/advancedprotection/)
+2. Sign in with the Google Account you want to protect
+3. Set up a passkey or register a FIDO-compliant security key (e.g., Google Titan Security Key)
+4. Follow the enrollment steps
+
+**Requirements:**
+- A passkey or FIDO-compliant security key
+- A Google Account with 2-Step Verification enabled
+
+<div class="warning-block">
+<svg class="admon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#d4760a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+<div class="admon-body">
+<div class="admon-title">Important</div>
+
+The Advanced Protection Program enforces strict restrictions. Third-party apps that require access to Gmail or Drive data may stop working. Account recovery is intentionally harder — if you lose your passkey or security key, regaining access will require additional verification steps.
+
+</div></div>
+
 ---
 
 ## 2. Device Authentication
@@ -116,6 +144,46 @@ Android 16 supports multiple screen lock methods:
 1. Go to **Settings > Security & Privacy > Device Unlock > Fingerprint** (or Face Unlock)
 2. Add your biometrics
 3. Configure what biometrics can unlock (device, apps, payments)
+
+### Security Keys for Google Account
+
+Security keys are physical devices that serve as a second authentication factor for your Google Account. They replace SMS or authenticator app codes with a physical device you must have present, making phishing attacks ineffective.
+
+**Requirements:**
+- A FIDO2-compliant security key (e.g., Google Titan Security Key, YubiKey 5 series)
+- Google Account with 2-Step Verification enabled
+
+**Compatible connector types:**
+- **NFC** — Tap the key against the back of your Android phone
+- **USB-C** — Plug directly into your phone or computer
+- **USB-A** — For computers with USB-A ports
+- **Bluetooth** — Google Titan Security Key supports BLE pairing
+
+**How to add a security key:**
+1. Go to **Settings > Google > Manage your Google Account**
+2. Tap **Security**
+3. Under "How you sign in to Google," tap **2-Step Verification**
+4. Tap **Security key**
+5. Follow the on-screen instructions to register your key
+
+**What security keys protect:**
+- Signing in to your Google Account on a new device or browser
+- Accessing sensitive account settings
+- Signing in to apps and services that use Google authentication
+
+**Using your security key on Android:**
+- **NFC keys:** When prompted, tap the key against the back of your phone
+- **USB keys:** Plug the key into your phone's USB-C port when prompted
+- **Bluetooth keys:** Pair once, then press the button on the key when prompted
+
+<div class="warning-block">
+<svg class="admon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#d4760a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+<div class="admon-body">
+<div class="admon-title">Important</div>
+
+Register at least two security keys and store the backup in a safe place. If you lose all your security keys and have no other recovery method, you could be locked out of your Google Account.
+
+</div></div>
 
 ---
 

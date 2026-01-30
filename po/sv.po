@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Security Guidebook\n"
-"POT-Creation-Date: 2026-01-30T11:53:25+01:00\n"
+"POT-Creation-Date: 2026-01-30T12:03:58+01:00\n"
 "PO-Revision-Date: 2026-01-29T20:45:10+01:00\n"
 "Last-Translator: Kushal Das <mail@kushaldas.in>\n"
 "Language-Team: sv\n"
@@ -271,8 +271,8 @@ msgid ""
 "iOS 26.2.1 is required for AirTag (2nd Generation). Update via **Settings > "
 "General > Software Update**."
 msgstr ""
-"iOS 26.2.1 krävs för AirTag (2:a generationen). Uppdatera via **Inställningar > "
-"Allmänt > Programuppdatering**."
+"iOS 26.2.1 krävs för AirTag (2:a generationen). Uppdatera via "
+"**Inställningar > Allmänt > Programuppdatering**."
 
 #: src/ios_security.md:65
 msgid "1. Device Authentication"
@@ -425,7 +425,8 @@ msgstr ""
 "hjälper de till att förhindra att angripare avlyssnar eller begär din andra "
 "faktor via nätfiske."
 
-#: src/ios_security.md:112
+#: src/ios_security.md:112 src/android_security.md:101
+#: src/android_security.md:152
 msgid "**Requirements:**"
 msgstr "**Vad som krävs:**"
 
@@ -449,7 +450,7 @@ msgstr "Tvåfaktorsautentisering har ställts in för ditt Apple-konto"
 msgid "A modern web browser"
 msgstr "En modern webbläsare"
 
-#: src/ios_security.md:118
+#: src/ios_security.md:118 src/android_security.md:156
 msgid "**Compatible connector types:**"
 msgstr "**Kompatibla kontakttyper:**"
 
@@ -494,7 +495,7 @@ msgstr "Följ anvisningarna på skärmen"
 msgid "You can add up to six keys total"
 msgstr "Du kan lägga till upp till sex nycklar totalt"
 
-#: src/ios_security.md:132
+#: src/ios_security.md:132 src/android_security.md:169
 msgid "**What security keys protect:**"
 msgstr "**Det här skyddar säkerhetsnycklar:**"
 
@@ -622,7 +623,7 @@ msgstr "Stänga av Hitta"
 
 #: src/ios_security.md:174 src/ios_security.md:329 src/ios_security.md:398
 #: src/ios_security.md:446 src/ios_security.md:505 src/android_security.md:65
-#: src/android_security.md:136 src/android_security.md:515
+#: src/android_security.md:204 src/android_security.md:583
 msgid "How to Enable"
 msgstr "Så aktiverar du"
 
@@ -650,7 +651,7 @@ msgstr ""
 msgid "**Always** – Security features are always active"
 msgstr "**Alltid** – Säkerhetsfunktioner är alltid aktiva"
 
-#: src/ios_security.md:186 src/android_security.md:143
+#: src/ios_security.md:186 src/android_security.md:211
 msgid "Requirements"
 msgstr "Krav"
 
@@ -686,8 +687,8 @@ msgstr "3. Appintegritetskontroller"
 msgid "App Tracking Transparency"
 msgstr "Transparens för appspårning"
 
-#: src/ios_security.md:201 src/ios_security.md:618 src/android_security.md:94
-#: src/android_security.md:279
+#: src/ios_security.md:201 src/ios_security.md:618 src/android_security.md:122
+#: src/android_security.md:347
 msgid "**How to configure:**"
 msgstr "**Så konfigurerar du:**"
 
@@ -764,7 +765,7 @@ msgstr "4. Platstjänster"
 msgid "Per-App Location Settings"
 msgstr "Platsinställningar per app"
 
-#: src/ios_security.md:230 src/android_security.md:269
+#: src/ios_security.md:230 src/android_security.md:337
 msgid "For each app, choose:"
 msgstr "Välj för varje app:"
 
@@ -784,7 +785,7 @@ msgstr "**Medan appen används** – Åtkomst endast när appen är öppen"
 msgid "**Always** – Background access (use sparingly)"
 msgstr "**Alltid** – Bakgrundsåtkomst (använd sparsamt)"
 
-#: src/ios_security.md:236 src/android_security.md:275
+#: src/ios_security.md:236 src/android_security.md:343
 msgid "Precise vs. Approximate Location"
 msgstr "Exakt kontra ungefärlig plats"
 
@@ -1007,9 +1008,9 @@ msgstr ""
 msgid "7. Mail Privacy Protection"
 msgstr "7. Integritetsskydd för Mail"
 
-#: src/ios_security.md:323 src/android_security.md:295
-#: src/android_security.md:329 src/android_security.md:494
-#: src/android_security.md:521
+#: src/ios_security.md:323 src/android_security.md:363
+#: src/android_security.md:397 src/android_security.md:562
+#: src/android_security.md:589
 msgid "Features"
 msgstr "Funktioner"
 
@@ -1806,7 +1807,7 @@ msgstr "Engångskoder för AirDrop"
 msgid "iOS 26.2 introduces secure codes for sharing with unknown contacts:"
 msgstr "iOS 26.2 introducerar säkra koder för delning med okända kontakter:"
 
-#: src/ios_security.md:641 src/android_security.md:168
+#: src/ios_security.md:641 src/android_security.md:236
 msgid "**How it works:**"
 msgstr "**Så fungerar det:**"
 
@@ -1894,8 +1895,8 @@ msgstr "Tryck på **Automatiska uppdateringar**"
 msgid "Enable all options including **Security Responses & System Files**"
 msgstr "Aktivera alla alternativ inklusive **Säkerhetssvar och systemfiler**"
 
-#: src/ios_security.md:673 src/android_security.md:650
-#: src/android_security.md:706
+#: src/ios_security.md:673 src/android_security.md:718
+#: src/android_security.md:774
 msgid "Lock Screen Notifications"
 msgstr "Låsskärmsnotifikationer"
 
@@ -1944,20 +1945,20 @@ msgstr "Radera data efter misslyckade försök"
 msgid "Enable **Erase Data** (erases after 10 failed passcode attempts)"
 msgstr "Aktivera **Erase Data** (raderar efter 10 misslyckade lösenkodförsök)"
 
-#: src/ios_security.md:695 src/android_security.md:689
+#: src/ios_security.md:695 src/android_security.md:757
 msgid "Quick Reference: Essential Settings Checklist"
 msgstr "Snabbreferens: Checklista för viktiga inställningar"
 
-#: src/ios_security.md:697 src/android_security.md:691
+#: src/ios_security.md:697 src/android_security.md:759
 msgid "Setting"
 msgstr "Inställning"
 
-#: src/ios_security.md:697 src/android_security.md:213
-#: src/android_security.md:691 src/android_security.md:701
+#: src/ios_security.md:697 src/android_security.md:281
+#: src/android_security.md:759 src/android_security.md:769
 msgid "Location"
 msgstr "Plats"
 
-#: src/ios_security.md:697 src/android_security.md:691
+#: src/ios_security.md:697 src/android_security.md:759
 msgid "Recommended"
 msgstr "Rekommenderat"
 
@@ -1971,9 +1972,9 @@ msgstr "Inställningar > Face ID och lösenkod"
 
 #: src/ios_security.md:699 src/ios_security.md:701 src/ios_security.md:702
 #: src/ios_security.md:705 src/ios_security.md:706 src/ios_security.md:707
-#: src/ios_security.md:708 src/android_security.md:693
-#: src/android_security.md:695 src/android_security.md:696
-#: src/android_security.md:697 src/android_security.md:704
+#: src/ios_security.md:708 src/android_security.md:761
+#: src/android_security.md:763 src/android_security.md:764
+#: src/android_security.md:765 src/android_security.md:772
 msgid "✅ Enable"
 msgstr "✅ Aktivera"
 
@@ -1985,7 +1986,7 @@ msgstr "Stark lösenkod"
 msgid "✅ Alphanumeric"
 msgstr "✅ Alfanumerisk"
 
-#: src/ios_security.md:701 src/android_security.md:695
+#: src/ios_security.md:701 src/android_security.md:763
 msgid "Two-Factor Authentication"
 msgstr "Tvåfaktorsautentisering"
 
@@ -2005,7 +2006,7 @@ msgstr "Appspårning"
 msgid "Settings > Privacy & Security > Tracking"
 msgstr "Inställningar > Integritet och säkerhet > Spårning"
 
-#: src/ios_security.md:703 src/android_security.md:703
+#: src/ios_security.md:703 src/android_security.md:771
 msgid "❌ Disable"
 msgstr "❌ Inaktivera"
 
@@ -2077,7 +2078,7 @@ msgstr "Inställningar > Notiser > Visa förhandsvisningar"
 msgid "⚙️ When Unlocked"
 msgstr "⚙️ När upplåst"
 
-#: src/ios_security.md:714 src/android_security.md:710
+#: src/ios_security.md:714 src/android_security.md:778
 msgid "Conclusion"
 msgstr "Slutsats"
 
@@ -2443,48 +2444,146 @@ msgstr "Viss samtalsfiltrering kan flagga legitima samtal"
 msgid "Easy to turn on/off, so no harm in trying"
 msgstr "Enkelt att slå på/av, så det skadar inte att prova"
 
+#: src/android_security.md:86
+msgid "Google Advanced Protection Program"
+msgstr "Googles program Avancerat skydd"
+
 #: src/android_security.md:88
+msgid ""
+"The Advanced Protection Program is Google's strongest account-level security "
+"offering, separate from the device-level Advanced Protection Mode above. It "
+"is designed for people at high risk of targeted online attacks, such as "
+"journalists, activists, political campaign staff, and anyone managing "
+"sensitive information."
+msgstr ""
+"Programmet Avancerat skydd är Googles starkaste kontosäkerhet, separat från "
+"enhetsnivåns Avancerat skydd ovan. Det är utformat för personer med hög risk "
+"för riktade attacker på internet, såsom journalister, aktivister, politisk "
+"kampanjpersonal och alla som hanterar känslig information."
+
+#: src/android_security.md:90
+msgid "**What it protects:**"
+msgstr "**Vad det skyddar:**"
+
+#: src/android_security.md:91
+msgid ""
+"**Phishing defense** — Requires a passkey or FIDO-compliant security key to "
+"sign in. Unauthorized users cannot access your account even if they have "
+"your password."
+msgstr ""
+"**Skydd mot nätfiske** — Kräver en nyckel eller en säkerhetsnyckel som är "
+"kompatibel med FIDO för att logga in. Obehöriga användare kan inte komma åt "
+"ditt konto även om de har ditt lösenord."
+
+#: src/android_security.md:92
+msgid ""
+"**Download safety** — Enhanced screening for file downloads; app "
+"installations restricted to verified sources like Google Play Store and "
+"device manufacturer app stores."
+msgstr ""
+"**Skydd mot skadliga nedladdningar** — Ingående kontroller före varje "
+"nedladdning. Endast appinstallationer från verifierade butiker, t.ex. "
+"Google Play Butik och enhetstillverkarens appbutik, tillåts."
+
+#: src/android_security.md:93
+msgid ""
+"**Third-party access control** — Only Google apps and verified third-party "
+"apps can access your Google Account data, and only with your permission."
+msgstr ""
+"**Kontroll av tredjepartsåtkomst** — Endast Googles appar och verifierade "
+"appar från tredje part får åtkomst till data i Google-kontot, och endast med "
+"din tillåtelse."
+
+#: src/android_security.md:95
+msgid "**How to enroll:**"
+msgstr "**Så här registrerar du dig:**"
+
+#: src/android_security.md:96
+msgid ""
+"Go to [Google Advanced Protection Program](https://landing.google.com/"
+"advancedprotection/)"
+msgstr ""
+"Gå till [Googles program Avancerat skydd](https://landing.google.com/"
+"advancedprotection/)"
+
+#: src/android_security.md:97
+msgid "Sign in with the Google Account you want to protect"
+msgstr "Logga in med det Google-konto du vill skydda"
+
+#: src/android_security.md:98
+msgid ""
+"Set up a passkey or register a FIDO-compliant security key (e.g., Google "
+"Titan Security Key)"
+msgstr ""
+"Konfigurera en nyckel eller registrera en säkerhetsnyckel som är kompatibel "
+"med FIDO (t.ex. Googles Titan-säkerhetsnyckel)"
+
+#: src/android_security.md:99
+msgid "Follow the enrollment steps"
+msgstr "Följ registreringsstegen"
+
+#: src/android_security.md:102
+msgid "A passkey or FIDO-compliant security key"
+msgstr "En nyckel eller en säkerhetsnyckel som är kompatibel med FIDO"
+
+#: src/android_security.md:103
+msgid "A Google Account with 2-Step Verification enabled"
+msgstr "Ett Google-konto med tvåstegsverifiering aktiverat"
+
+#: src/android_security.md:110
+msgid ""
+"The Advanced Protection Program enforces strict restrictions. Third-party "
+"apps that require access to Gmail or Drive data may stop working. Account "
+"recovery is intentionally harder — if you lose your passkey or security key, "
+"regaining access will require additional verification steps."
+msgstr ""
+"Programmet Avancerat skydd tillämpar strikta begränsningar. Appar från tredje "
+"part som kräver åtkomst till Gmail- eller Drive-data kan sluta fungera. "
+"Kontoåterställning är avsiktligt svårare — om du tappar bort din nyckel eller "
+"säkerhetsnyckel krävs ytterligare verifieringssteg för att återfå åtkomst."
+
+#: src/android_security.md:116
 msgid "2. Device Authentication"
 msgstr "2. Enhetsautentisering"
 
-#: src/android_security.md:90
+#: src/android_security.md:118
 msgid "Screen Lock Options"
 msgstr "Skärmlåsalternativ"
 
-#: src/android_security.md:92
+#: src/android_security.md:120
 msgid "Android 16 supports multiple screen lock methods:"
 msgstr "Android 16 stöder flera skärmlåsmetoder:"
 
-#: src/android_security.md:95
+#: src/android_security.md:123
 msgid "Go to **Settings > Security & Privacy > Device Unlock > Screen Lock**"
 msgstr ""
 "Gå till **Inställningar > Säkerhet och integritet > Enhetslås > Skärmlås**"
 
-#: src/android_security.md:96
+#: src/android_security.md:124
 msgid "Choose your lock type:"
 msgstr "Välj din låstyp:"
 
-#: src/android_security.md:97
+#: src/android_security.md:125
 msgid "**PIN** – 6+ digits recommended"
 msgstr "**PIN** – 6+ siffror rekommenderas"
 
-#: src/android_security.md:98
+#: src/android_security.md:126
 msgid "**Password** – Most secure (alphanumeric)"
 msgstr "**Lösenord** – Säkrast (alfanumeriskt)"
 
-#: src/android_security.md:99
+#: src/android_security.md:127
 msgid "**Pattern** – Less secure, avoid simple patterns"
 msgstr "**Mönster** – Mindre säkert, undvik enkla mönster"
 
-#: src/android_security.md:100
+#: src/android_security.md:128
 msgid "**Fingerprint** – Convenient biometric"
 msgstr "**Fingeravtryck** – Bekväm biometri"
 
-#: src/android_security.md:101
+#: src/android_security.md:129
 msgid "**Face Unlock** – Available on supported devices"
 msgstr "**Ansiktslås** – Tillgängligt på enheter som stöds"
 
-#: src/android_security.md:103
+#: src/android_security.md:131
 msgid ""
 "**Best Practice:** Use a PIN with 6+ digits or an alphanumeric password. Add "
 "fingerprint for convenience."
@@ -2492,35 +2591,36 @@ msgstr ""
 "**Bästa praxis:** Använd en PIN med 6+ siffror eller ett alfanumeriskt "
 "lösenord. Lägg till fingeravtryck för bekvämlighet."
 
-#: src/android_security.md:105
+#: src/android_security.md:133
 msgid "Two-Factor Authentication (2FA) for Google Account"
 msgstr "Tvåfaktorsautentisering (2FA) för Google-konto"
 
-#: src/android_security.md:107 src/android_security.md:164
-#: src/android_security.md:177 src/android_security.md:185
-#: src/android_security.md:431 src/android_security.md:441
+#: src/android_security.md:135 src/android_security.md:232
+#: src/android_security.md:245 src/android_security.md:253
+#: src/android_security.md:499 src/android_security.md:509
 msgid "**How to enable:**"
 msgstr "**Så här aktiverar du:**"
 
-#: src/android_security.md:108 src/android_security.md:575
+#: src/android_security.md:136 src/android_security.md:163
+#: src/android_security.md:643
 msgid "Go to **Settings > Google > Manage your Google Account**"
 msgstr "Gå till **Inställningar > Google > Hantera ditt Google-konto**"
 
-#: src/android_security.md:109
+#: src/android_security.md:137 src/android_security.md:164
 msgid "Tap **Security**"
 msgstr "Tryck på **Säkerhet**"
 
-#: src/android_security.md:110
+#: src/android_security.md:138 src/android_security.md:165
 msgid "Under \"How you sign in to Google,\" tap **2-Step Verification**"
 msgstr ""
 "Under \"Så loggar du in på Google\" trycker du på **Tvåstegsverifiering**"
 
-#: src/android_security.md:111 src/android_security.md:140
-#: src/android_security.md:305
+#: src/android_security.md:139 src/android_security.md:208
+#: src/android_security.md:373
 msgid "Follow setup instructions"
 msgstr "Följ installationsinstruktionerna"
 
-#: src/android_security.md:112
+#: src/android_security.md:140
 msgid ""
 "Add multiple verification methods (authenticator app, backup codes, security "
 "key)"
@@ -2528,11 +2628,11 @@ msgstr ""
 "Lägg till flera verifieringsmetoder (autentiseringsapp, reservkoder, "
 "säkerhetsnyckel)"
 
-#: src/android_security.md:114
+#: src/android_security.md:142
 msgid "Biometric Settings"
 msgstr "Biometriska inställningar"
 
-#: src/android_security.md:116
+#: src/android_security.md:144
 msgid ""
 "Go to **Settings > Security & Privacy > Device Unlock > Fingerprint** (or "
 "Face Unlock)"
@@ -2540,19 +2640,116 @@ msgstr ""
 "Gå till **Inställningar > Säkerhet och integritet > Enhetslås > "
 "Fingeravtryck** (eller Ansiktslås)"
 
-#: src/android_security.md:117
+#: src/android_security.md:145
 msgid "Add your biometrics"
 msgstr "Lägg till din biometri"
 
-#: src/android_security.md:118
+#: src/android_security.md:146
 msgid "Configure what biometrics can unlock (device, apps, payments)"
 msgstr "Konfigurera vad biometri kan låsa upp (enhet, appar, betalningar)"
 
-#: src/android_security.md:122
+#: src/android_security.md:148
+msgid "Security Keys for Google Account"
+msgstr "Säkerhetsnycklar för Google-konto"
+
+#: src/android_security.md:150
+msgid ""
+"Security keys are physical devices that serve as a second authentication "
+"factor for your Google Account. They replace SMS or authenticator app codes "
+"with a physical device you must have present, making phishing attacks "
+"ineffective."
+msgstr ""
+"Säkerhetsnycklar är fysiska enheter som fungerar som en andra "
+"autentiseringsfaktor för ditt Google-konto. De ersätter SMS eller koder från "
+"autentiseringsappar med en fysisk enhet som du måste ha till hands, vilket "
+"gör nätfiskeattacker verkningslösa."
+
+#: src/android_security.md:153
+msgid ""
+"A FIDO2-compliant security key (e.g., Google Titan Security Key, YubiKey 5 "
+"series)"
+msgstr ""
+"En säkerhetsnyckel som är kompatibel med FIDO2 (t.ex. Googles "
+"Titan-säkerhetsnyckel, YubiKey 5-serien)"
+
+#: src/android_security.md:154
+msgid "Google Account with 2-Step Verification enabled"
+msgstr "Google-konto med tvåstegsverifiering aktiverat"
+
+#: src/android_security.md:157
+msgid "**NFC** — Tap the key against the back of your Android phone"
+msgstr "**NFC** — Håll nyckeln mot baksidan av din Android-telefon"
+
+#: src/android_security.md:158
+msgid "**USB-C** — Plug directly into your phone or computer"
+msgstr "**USB-C** — Anslut direkt till din telefon eller dator"
+
+#: src/android_security.md:159
+msgid "**USB-A** — For computers with USB-A ports"
+msgstr "**USB-A** — För datorer med USB-A-portar"
+
+#: src/android_security.md:160
+msgid "**Bluetooth** — Google Titan Security Key supports BLE pairing"
+msgstr "**Bluetooth** — Googles Titan-säkerhetsnyckel stöder BLE-parkoppling"
+
+#: src/android_security.md:162
+msgid "**How to add a security key:**"
+msgstr "**Så här lägger du till en säkerhetsnyckel:**"
+
+#: src/android_security.md:166
+msgid "Tap **Security key**"
+msgstr "Tryck på **Säkerhetsnyckel**"
+
+#: src/android_security.md:167
+msgid "Follow the on-screen instructions to register your key"
+msgstr "Följ instruktionerna på skärmen för att registrera din nyckel"
+
+#: src/android_security.md:170
+msgid "Signing in to your Google Account on a new device or browser"
+msgstr "Logga in på ditt Google-konto på en ny enhet eller webbläsare"
+
+#: src/android_security.md:171
+msgid "Accessing sensitive account settings"
+msgstr "Komma åt känsliga kontoinställningar"
+
+#: src/android_security.md:172
+msgid "Signing in to apps and services that use Google authentication"
+msgstr "Logga in på appar och tjänster som använder Google-autentisering"
+
+#: src/android_security.md:174
+msgid "**Using your security key on Android:**"
+msgstr "**Så här använder du säkerhetsnyckeln på Android:**"
+
+#: src/android_security.md:175
+msgid "**NFC keys:** When prompted, tap the key against the back of your phone"
+msgstr "**NFC-nycklar:** Håll nyckeln mot baksidan av telefonen när du uppmanas"
+
+#: src/android_security.md:176
+msgid "**USB keys:** Plug the key into your phone's USB-C port when prompted"
+msgstr "**USB-nycklar:** Anslut nyckeln till telefonens USB-C-port när du uppmanas"
+
+#: src/android_security.md:177
+msgid ""
+"**Bluetooth keys:** Pair once, then press the button on the key when prompted"
+msgstr ""
+"**Bluetooth-nycklar:** Parkoppla en gång, tryck sedan på knappen på nyckeln "
+"när du uppmanas"
+
+#: src/android_security.md:184
+msgid ""
+"Register at least two security keys and store the backup in a safe place. If "
+"you lose all your security keys and have no other recovery method, you could "
+"be locked out of your Google Account."
+msgstr ""
+"Registrera minst två säkerhetsnycklar och förvara reservnyckeln på ett säkert "
+"ställe. Om du tappar bort alla dina säkerhetsnycklar och inte har någon annan "
+"återställningsmetod kan du bli utestängd från ditt Google-konto."
+
+#: src/android_security.md:190
 msgid "3. Identity Check"
 msgstr "3. Identitetskoll"
 
-#: src/android_security.md:124
+#: src/android_security.md:192
 msgid ""
 "Identity Check requires biometric authentication for sensitive actions when "
 "you're away from trusted locations—similar to iOS's Stolen Device Protection."
@@ -2560,150 +2757,150 @@ msgstr ""
 "Identitetskoll kräver biometrisk autentisering för känsliga åtgärder när du "
 "är borta från betrodda platser—liknande iOS Skydd för stulen enhet."
 
-#: src/android_security.md:126
+#: src/android_security.md:194
 msgid "What It Protects"
 msgstr "Vad det skyddar"
 
-#: src/android_security.md:128
+#: src/android_security.md:196
 msgid ""
 "When outside trusted locations, biometric authentication is required for:"
 msgstr "När du är utanför betrodda platser krävs biometrisk autentisering för:"
 
-#: src/android_security.md:129
+#: src/android_security.md:197
 msgid "Changing device PIN or password"
 msgstr "Ändra enhetens PIN eller lösenord"
 
-#: src/android_security.md:130
+#: src/android_security.md:198
 msgid "Changing biometric settings"
 msgstr "Ändra biometriska inställningar"
 
-#: src/android_security.md:131
+#: src/android_security.md:199
 msgid "Disabling theft protection"
 msgstr "Inaktivera stöldskydd"
 
-#: src/android_security.md:132
+#: src/android_security.md:200
 msgid "Accessing passkeys"
 msgstr "Komma åt nycklar"
 
-#: src/android_security.md:133
+#: src/android_security.md:201
 msgid "Factory resetting the device"
 msgstr "Fabriksåterställa enheten"
 
-#: src/android_security.md:134
+#: src/android_security.md:202
 msgid "Changing Google Account settings"
 msgstr "Ändra Google-kontoinställningar"
 
-#: src/android_security.md:138
+#: src/android_security.md:206
 msgid ""
 "Go to **Settings > Security & Privacy > Device Unlock > Theft Protection**"
 msgstr ""
 "Gå till **Inställningar > Säkerhet och integritet > Enhetslås > Stöldskydd**"
 
-#: src/android_security.md:139
+#: src/android_security.md:207
 msgid "Tap **Identity Check**"
 msgstr "Tryck på **Identitetskoll**"
 
-#: src/android_security.md:141
+#: src/android_security.md:209
 msgid "Add trusted locations (home, work)"
 msgstr "Lägg till betrodda platser (hem, arbete)"
 
-#: src/android_security.md:145
+#: src/android_security.md:213
 msgid "Android 16 on supported devices (Pixel, Samsung One UI 7, others)"
 msgstr "Android 16 på enheter som stöds (Pixel, Samsung One UI 7, andra)"
 
-#: src/android_security.md:146
+#: src/android_security.md:214
 msgid "Screen lock and biometrics enabled"
 msgstr "Skärmlås och biometri aktiverat"
 
-#: src/android_security.md:147
+#: src/android_security.md:215
 msgid "Location services enabled"
 msgstr "Platstjänster aktiverat"
 
-#: src/android_security.md:149 src/android_security.md:315
+#: src/android_security.md:217 src/android_security.md:383
 msgid "Best Practice"
 msgstr "Bästa praxis"
 
-#: src/android_security.md:151
+#: src/android_security.md:219
 msgid "Only add truly trusted private locations"
 msgstr "Lägg endast till verkligt betrodda privata platser"
 
-#: src/android_security.md:152
+#: src/android_security.md:220
 msgid "Never add public places as trusted locations"
 msgstr "Lägg aldrig till offentliga platser som betrodda platser"
 
-#: src/android_security.md:156
+#: src/android_security.md:224
 msgid "4. Theft Protection"
 msgstr "4. Stöldskydd"
 
-#: src/android_security.md:158
+#: src/android_security.md:226
 msgid "Android 16 consolidates multiple theft protection features."
 msgstr "Android 16 samlar flera stöldskyddsfunktioner."
 
-#: src/android_security.md:160 src/android_security.md:697
+#: src/android_security.md:228 src/android_security.md:765
 msgid "Theft Detection Lock"
 msgstr "Stölddetekteringslås"
 
-#: src/android_security.md:162
+#: src/android_security.md:230
 msgid ""
 "Uses AI and device sensors to detect if someone snatches your phone and runs."
 msgstr ""
 "Använder AI och enhetens sensorer för att upptäcka om någon rycker åt sig "
 "din telefon och springer."
 
-#: src/android_security.md:165 src/android_security.md:178
-#: src/android_security.md:186
+#: src/android_security.md:233 src/android_security.md:246
+#: src/android_security.md:254
 msgid "Go to **Settings > Google > All services > Theft Protection**"
 msgstr "Gå till **Inställningar > Google > Alla tjänster > Stöldskydd**"
 
-#: src/android_security.md:166
+#: src/android_security.md:234
 msgid "Toggle on **Theft Detection Lock**"
 msgstr "Aktivera **Stölddetekteringslås**"
 
-#: src/android_security.md:169
+#: src/android_security.md:237
 msgid "Monitors motion sensors, Wi-Fi, and Bluetooth"
 msgstr "Övervakar rörelsesensorer, Wi-Fi och Bluetooth"
 
-#: src/android_security.md:170
+#: src/android_security.md:238
 msgid "Automatically locks screen if theft is detected"
 msgstr "Låser automatiskt skärmen om stöld upptäcks"
 
-#: src/android_security.md:171
+#: src/android_security.md:239
 msgid "Won't trigger during stable connections"
 msgstr "Utlöses inte under stabila anslutningar"
 
-#: src/android_security.md:173
+#: src/android_security.md:241
 msgid "Offline Device Lock"
 msgstr "Offlineenhetslås"
 
-#: src/android_security.md:175
+#: src/android_security.md:243
 msgid ""
 "Automatically locks your device if it goes offline (thief turns off "
 "internet)."
 msgstr ""
 "Låser automatiskt din enhet om den går offline (tjuven stänger av internet)."
 
-#: src/android_security.md:179
+#: src/android_security.md:247
 msgid "Toggle on **Offline Device Lock**"
 msgstr "Aktivera **Offlineenhetslås**"
 
-#: src/android_security.md:181
+#: src/android_security.md:249
 msgid "Failed Authentication Lock"
 msgstr "Lås vid misslyckad autentisering"
 
-#: src/android_security.md:183
+#: src/android_security.md:251
 msgid "Locks device after repeated failed unlock attempts."
 msgstr "Låser enheten efter upprepade misslyckade upplåsningsförsök."
 
-#: src/android_security.md:187
+#: src/android_security.md:255
 msgid "Toggle on **Failed Authentication Lock** (may be on by default)"
 msgstr ""
 "Aktivera **Lås vid misslyckad autentisering** (kan vara på som standard)"
 
-#: src/android_security.md:189
+#: src/android_security.md:257
 msgid "Inactivity Reboot"
 msgstr "Omstart vid inaktivitet"
 
-#: src/android_security.md:191
+#: src/android_security.md:259
 msgid ""
 "Automatically restarts device after 72 hours of being locked, making data "
 "unreadable until fresh unlock."
@@ -2711,25 +2908,25 @@ msgstr ""
 "Startar automatiskt om enheten efter 72 timmar av att vara låst, vilket gör "
 "data oläsbar tills ny upplåsning."
 
-#: src/android_security.md:193
+#: src/android_security.md:261
 msgid "**Enabled automatically with Advanced Protection**"
 msgstr "**Aktiveras automatiskt med Avancerat skydd**"
 
-#: src/android_security.md:195
+#: src/android_security.md:263
 msgid "Remote Lock"
 msgstr "Fjärrlås"
 
-#: src/android_security.md:197
+#: src/android_security.md:265
 msgid ""
 "Lock your device remotely via Find My Device with security challenge "
 "question."
 msgstr "Lås din enhet på distans via Hitta min enhet med säkerhetsfråga."
 
-#: src/android_security.md:199
+#: src/android_security.md:267
 msgid "Factory Reset Protection"
 msgstr "Fabriksåterställningsskydd"
 
-#: src/android_security.md:201
+#: src/android_security.md:269
 msgid ""
 "Enhanced in Android 16 to restrict all functions on devices reset without "
 "authorization."
@@ -2737,19 +2934,19 @@ msgstr ""
 "Förbättrat i Android 16 för att begränsa alla funktioner på enheter som "
 "återställts utan auktorisering."
 
-#: src/android_security.md:205
+#: src/android_security.md:273
 msgid "5. App Permissions"
 msgstr "5. Appbehörigheter"
 
-#: src/android_security.md:207
+#: src/android_security.md:275
 msgid "Permission Manager"
 msgstr "Behörighetshanterare"
 
-#: src/android_security.md:209
+#: src/android_security.md:277
 msgid "Review and control what data apps can access:"
 msgstr "Granska och kontrollera vilka data appar kan komma åt:"
 
-#: src/android_security.md:211 src/android_security.md:254
+#: src/android_security.md:279 src/android_security.md:322
 msgid ""
 "Go to **Settings > Security & Privacy > Privacy Controls > Permission "
 "Manager**"
@@ -2757,76 +2954,76 @@ msgstr ""
 "Gå till **Inställningar > Säkerhet och integritet > Integritetskontroller > "
 "Behörighetshanterare**"
 
-#: src/android_security.md:212
+#: src/android_security.md:280
 msgid "Review each category:"
 msgstr "Granska varje kategori:"
 
-#: src/android_security.md:214
+#: src/android_security.md:282
 msgid "Camera"
 msgstr "Kamera"
 
-#: src/android_security.md:215
+#: src/android_security.md:283
 msgid "Microphone"
 msgstr "Mikrofon"
 
-#: src/android_security.md:216
+#: src/android_security.md:284
 msgid "Contacts"
 msgstr "Kontakter"
 
-#: src/android_security.md:217
+#: src/android_security.md:285
 msgid "Files and media"
 msgstr "Filer och media"
 
-#: src/android_security.md:218
+#: src/android_security.md:286
 msgid "Calendar"
 msgstr "Kalender"
 
-#: src/android_security.md:219
+#: src/android_security.md:287
 msgid "Phone"
 msgstr "Telefon"
 
-#: src/android_security.md:220
+#: src/android_security.md:288
 msgid "SMS"
 msgstr "SMS"
 
-#: src/android_security.md:221
+#: src/android_security.md:289
 msgid "Body sensors / Health"
 msgstr "Kroppssensorer / Hälsa"
 
-#: src/android_security.md:222
+#: src/android_security.md:290
 msgid "Nearby devices"
 msgstr "Enheter i närheten"
 
-#: src/android_security.md:224
+#: src/android_security.md:292
 msgid "Permission Options"
 msgstr "Behörighetsalternativ"
 
-#: src/android_security.md:226
+#: src/android_security.md:294
 msgid "For each app, you can choose:"
 msgstr "För varje app kan du välja:"
 
-#: src/android_security.md:227
+#: src/android_security.md:295
 msgid "**Allow all the time** – Background access (use sparingly)"
 msgstr "**Tillåt alltid** – Bakgrundsåtkomst (använd sparsamt)"
 
-#: src/android_security.md:228
+#: src/android_security.md:296
 msgid "**Allow only while using the app** – Access only when app is open"
 msgstr ""
 "**Tillåt endast när appen används** – Åtkomst endast när appen är öppen"
 
-#: src/android_security.md:229
+#: src/android_security.md:297
 msgid "**Ask every time** – Prompts each use"
 msgstr "**Fråga varje gång** – Frågar vid varje användning"
 
-#: src/android_security.md:230
+#: src/android_security.md:298
 msgid "**Don't allow** – No access"
 msgstr "**Tillåt inte** – Ingen åtkomst"
 
-#: src/android_security.md:232
+#: src/android_security.md:300
 msgid "One-Time Permissions"
 msgstr "Engångsbehörigheter"
 
-#: src/android_security.md:234
+#: src/android_security.md:302
 msgid ""
 "For camera, microphone, and location, you can grant one-time access that "
 "revokes when you close the app."
@@ -2834,11 +3031,11 @@ msgstr ""
 "För kamera, mikrofon och plats kan du ge engångsåtkomst som återkallas när "
 "du stänger appen."
 
-#: src/android_security.md:236
+#: src/android_security.md:304
 msgid "Auto-Reset Unused App Permissions"
 msgstr "Automatisk återställning av oanvända appbehörigheter"
 
-#: src/android_security.md:238
+#: src/android_security.md:306
 msgid ""
 "Android automatically resets permissions for apps you haven't used in a "
 "while."
@@ -2846,29 +3043,29 @@ msgstr ""
 "Android återställer automatiskt behörigheter för appar du inte har använt på "
 "ett tag."
 
-#: src/android_security.md:240
+#: src/android_security.md:308
 msgid "Go to **Settings > Apps > \\[App name\\] > Permissions**"
 msgstr "Gå till **Inställningar > Appar > \\[Appnamn\\] > Behörigheter**"
 
-#: src/android_security.md:241
+#: src/android_security.md:309
 msgid "Ensure **Pause app activity if unused** is enabled"
 msgstr "Se till att **Pausa appaktivitet om oanvänd** är aktiverat"
 
-#: src/android_security.md:243
+#: src/android_security.md:311
 msgid "AI-Powered Permission Controls (Android 16)"
 msgstr "AI-drivna behörighetskontroller (Android 16)"
 
-#: src/android_security.md:245
+#: src/android_security.md:313
 msgid "Android 16 introduces contextual permission management:"
 msgstr "Android 16 introducerar kontextbaserad behörighetshantering:"
 
-#: src/android_security.md:246
+#: src/android_security.md:314
 msgid "System evaluates if permission requests match your usage patterns"
 msgstr ""
 "Systemet utvärderar om behörighetsförfrågningar matchar dina "
 "användningsmönster"
 
-#: src/android_security.md:247
+#: src/android_security.md:315
 msgid ""
 "Unusual requests (e.g., location at midnight) may trigger additional "
 "confirmation"
@@ -2876,15 +3073,15 @@ msgstr ""
 "Ovanliga förfrågningar (t.ex. plats vid midnatt) kan utlösa ytterligare "
 "bekräftelse"
 
-#: src/android_security.md:248
+#: src/android_security.md:316
 msgid "Detailed permission logs explain automated decisions"
 msgstr "Detaljerade behörighetsloggar förklarar automatiserade beslut"
 
-#: src/android_security.md:250
+#: src/android_security.md:318
 msgid "Local Network Protection (New in Android 16)"
 msgstr "Lokalt nätverksskydd (nytt i Android 16)"
 
-#: src/android_security.md:252
+#: src/android_security.md:320
 msgid ""
 "Apps now need explicit permission to access your local network (smart home "
 "devices, etc.):"
@@ -2892,51 +3089,51 @@ msgstr ""
 "Appar behöver nu uttryckligt tillstånd för att komma åt ditt lokala nätverk "
 "(smarta hemenheter, etc.):"
 
-#: src/android_security.md:255
+#: src/android_security.md:323
 msgid "Review **Nearby devices** and **Local network** permissions"
 msgstr "Granska behörigheter för **Enheter i närheten** och **Lokalt nätverk**"
 
-#: src/android_security.md:259
+#: src/android_security.md:327
 msgid "6. Location Services"
 msgstr "6. Platstjänster"
 
-#: src/android_security.md:261
+#: src/android_security.md:329
 msgid "Global Location Settings"
 msgstr "Globala platsinställningar"
 
-#: src/android_security.md:263
+#: src/android_security.md:331
 msgid "Go to **Settings > Location**"
 msgstr "Gå till **Inställningar > Plats**"
 
-#: src/android_security.md:264
+#: src/android_security.md:332
 msgid "Toggle **Use location** on or off"
 msgstr "Aktivera eller inaktivera **Använd plats**"
 
-#: src/android_security.md:266
+#: src/android_security.md:334
 msgid "Per-App Location Permissions"
 msgstr "Platsbehörigheter per app"
 
-#: src/android_security.md:268
+#: src/android_security.md:336
 msgid "Go to **Settings > Location > App location permissions**"
 msgstr "Gå till **Inställningar > Plats > Appplatsbehörigheter**"
 
-#: src/android_security.md:270
+#: src/android_security.md:338
 msgid "**Allowed all the time**"
 msgstr "**Tillåten alltid**"
 
-#: src/android_security.md:271
+#: src/android_security.md:339
 msgid "**Allowed only while using**"
 msgstr "**Tillåten endast vid användning**"
 
-#: src/android_security.md:272
+#: src/android_security.md:340
 msgid "**Ask every time**"
 msgstr "**Fråga varje gång**"
 
-#: src/android_security.md:273
+#: src/android_security.md:341
 msgid "**Not allowed**"
 msgstr "**Inte tillåten**"
 
-#: src/android_security.md:277
+#: src/android_security.md:345
 msgid ""
 "Android 16 fixes a flaw that allowed apps to infer precise location even "
 "with approximate permission."
@@ -2944,11 +3141,11 @@ msgstr ""
 "Android 16 åtgärdar en brist som tillät appar att härleda exakt plats även "
 "med ungefärlig behörighet."
 
-#: src/android_security.md:280
+#: src/android_security.md:348
 msgid "Go to **Settings > Location > App location permissions > \\[App\\]**"
 msgstr "Gå till **Inställningar > Plats > Appplatsbehörigheter > \\[App\\]**"
 
-#: src/android_security.md:281
+#: src/android_security.md:349
 msgid ""
 "Toggle **Use precise location** off for apps that don't need exact "
 "coordinates"
@@ -2956,32 +3153,32 @@ msgstr ""
 "Inaktivera **Använd exakt plats** för appar som inte behöver exakta "
 "koordinater"
 
-#: src/android_security.md:283
+#: src/android_security.md:351
 msgid "Location History"
 msgstr "Platshistorik"
 
-#: src/android_security.md:285 src/android_security.md:583
+#: src/android_security.md:353 src/android_security.md:651
 msgid ""
 "Go to **Settings > Google > Manage your Google Account > Data & privacy**"
 msgstr ""
 "Gå till **Inställningar > Google > Hantera ditt Google-konto > Data och "
 "integritet**"
 
-#: src/android_security.md:286
+#: src/android_security.md:354
 msgid "Under \"History settings,\" review **Location History**"
 msgstr "Under \"Historikinställningar\" granskar du **Platshistorik**"
 
-#: src/android_security.md:287
+#: src/android_security.md:355
 msgid "Turn off or set auto-delete (3 months, 18 months, 36 months)"
 msgstr ""
 "Stäng av eller ställ in automatisk radering (3 månader, 18 månader, 36 "
 "månader)"
 
-#: src/android_security.md:291
+#: src/android_security.md:359
 msgid "7. Private Space"
 msgstr "7. Privat utrymme"
 
-#: src/android_security.md:293
+#: src/android_security.md:361
 msgid ""
 "Private Space lets you hide and secure sensitive apps behind a separate "
 "authentication."
@@ -2989,262 +3186,262 @@ msgstr ""
 "Privat utrymme låter dig dölja och säkra känsliga appar bakom en separat "
 "autentisering."
 
-#: src/android_security.md:297
+#: src/android_security.md:365
 msgid "Hidden apps in a separate space"
 msgstr "Dolda appar i ett separat utrymme"
 
-#: src/android_security.md:298
+#: src/android_security.md:366
 msgid "Separate Google account for private apps"
 msgstr "Separat Google-konto för privata appar"
 
-#: src/android_security.md:299
+#: src/android_security.md:367
 msgid "Requires PIN/biometric to access"
 msgstr "Kräver PIN/biometri för åtkomst"
 
-#: src/android_security.md:300
+#: src/android_security.md:368
 msgid "Apps don't appear in app drawer, search, or notifications"
 msgstr "Appar visas inte i applådan, sökning eller notifikationer"
 
-#: src/android_security.md:302
+#: src/android_security.md:370
 msgid "How to Set Up"
 msgstr "Så här konfigurerar du"
 
-#: src/android_security.md:304
+#: src/android_security.md:372
 msgid "Go to **Settings > Security & Privacy > Private Space**"
 msgstr "Gå till **Inställningar > Säkerhet och integritet > Privat utrymme**"
 
-#: src/android_security.md:306
+#: src/android_security.md:374
 msgid "Create or sign into a Google account for Private Space"
 msgstr "Skapa eller logga in på ett Google-konto för Privat utrymme"
 
-#: src/android_security.md:307
+#: src/android_security.md:375
 msgid "Set up lock (PIN, pattern, or password)"
 msgstr "Ställ in lås (PIN, mönster eller lösenord)"
 
-#: src/android_security.md:309
+#: src/android_security.md:377
 msgid "Adding Apps to Private Space"
 msgstr "Lägga till appar i Privat utrymme"
 
-#: src/android_security.md:311
+#: src/android_security.md:379
 msgid "Open Private Space (swipe up and scroll to bottom of app list)"
 msgstr "Öppna Privat utrymme (svep uppåt och scrolla till botten av applistan)"
 
-#: src/android_security.md:312
+#: src/android_security.md:380
 msgid "Tap **Install apps**"
 msgstr "Tryck på **Installera appar**"
 
-#: src/android_security.md:313
+#: src/android_security.md:381
 msgid "Install or move apps to Private Space"
 msgstr "Installera eller flytta appar till Privat utrymme"
 
-#: src/android_security.md:317
+#: src/android_security.md:385
 msgid "Use Private Space for:"
 msgstr "Använd Privat utrymme för:"
 
-#: src/android_security.md:318
+#: src/android_security.md:386
 msgid "Banking and financial apps"
 msgstr "Bank- och finansappar"
 
-#: src/android_security.md:319
+#: src/android_security.md:387
 msgid "Personal health apps"
 msgstr "Personliga hälsoappar"
 
-#: src/android_security.md:320
+#: src/android_security.md:388
 msgid "Sensitive documents"
 msgstr "Känsliga dokument"
 
-#: src/android_security.md:321
+#: src/android_security.md:389
 msgid "Apps you want to keep private"
 msgstr "Appar du vill hålla privata"
 
-#: src/android_security.md:325
+#: src/android_security.md:393
 msgid "8. Google Play Protect"
 msgstr "8. Google Play Protect"
 
-#: src/android_security.md:327
+#: src/android_security.md:395
 msgid "Play Protect scans your device for harmful apps."
 msgstr "Play Protect söker igenom din enhet efter skadliga appar."
 
-#: src/android_security.md:331
+#: src/android_security.md:399
 msgid "Automatic app scanning"
 msgstr "Automatisk appskanning"
 
-#: src/android_security.md:332
+#: src/android_security.md:400
 msgid "Real-time threat protection"
 msgstr "Hotskydd i realtid"
 
-#: src/android_security.md:333
+#: src/android_security.md:401
 msgid "Identifies harmful apps and malware"
 msgstr "Identifierar skadliga appar och skadlig programvara"
 
-#: src/android_security.md:334
+#: src/android_security.md:402
 msgid "Cannot be disabled when Advanced Protection is on"
 msgstr "Kan inte inaktiveras när Avancerat skydd är på"
 
-#: src/android_security.md:336
+#: src/android_security.md:404
 msgid "How to Check Status"
 msgstr "Så här kontrollerar du status"
 
-#: src/android_security.md:338
+#: src/android_security.md:406
 msgid "Open **Google Play Store**"
 msgstr "Öppna **Google Play Butik**"
 
-#: src/android_security.md:339
+#: src/android_security.md:407
 msgid "Tap your profile icon"
 msgstr "Tryck på din profilikon"
 
-#: src/android_security.md:340
+#: src/android_security.md:408
 msgid "Tap **Play Protect**"
 msgstr "Tryck på **Play Protect**"
 
-#: src/android_security.md:341
+#: src/android_security.md:409
 msgid "Tap **Scan** to run manual scan"
 msgstr "Tryck på **Sök** för att köra manuell sökning"
 
-#: src/android_security.md:343 src/android_security.md:399
+#: src/android_security.md:411 src/android_security.md:467
 msgid "Settings"
 msgstr "Inställningar"
 
-#: src/android_security.md:345
+#: src/android_security.md:413
 msgid "In Play Protect, tap **Settings** (gear icon)"
 msgstr "I Play Protect, tryck på **Inställningar** (kugghjulsikonen)"
 
-#: src/android_security.md:346
+#: src/android_security.md:414
 msgid "Ensure **Scan apps with Play Protect** is on"
 msgstr "Se till att **Sök igenom appar med Play Protect** är aktiverat"
 
-#: src/android_security.md:347
+#: src/android_security.md:415
 msgid "Enable **Improve harmful app detection** to send unknown apps to Google"
 msgstr ""
 "Aktivera **Förbättra upptäckt av skadliga appar** för att skicka okända "
 "appar till Google"
 
-#: src/android_security.md:349
+#: src/android_security.md:417
 msgid "Live Threat Protection (Android 16)"
 msgstr "Realtidshotskydd (Android 16)"
 
-#: src/android_security.md:351
+#: src/android_security.md:419
 msgid "Enhanced scanning detects apps that:"
 msgstr "Förbättrad skanning upptäcker appar som:"
 
-#: src/android_security.md:352
+#: src/android_security.md:420
 msgid "Change their icon to hide"
 msgstr "Ändrar sin ikon för att dölja sig"
 
-#: src/android_security.md:353
+#: src/android_security.md:421
 msgid "Attempt to evade detection"
 msgstr "Försöker undvika upptäckt"
 
-#: src/android_security.md:354
+#: src/android_security.md:422
 msgid "Show malicious behavior"
 msgstr "Visar skadligt beteende"
 
-#: src/android_security.md:356
+#: src/android_security.md:424
 msgid "Available on Pixel 6+ and newer devices from other manufacturers."
 msgstr "Tillgängligt på Pixel 6+ och nyare enheter från andra tillverkare."
 
-#: src/android_security.md:360
+#: src/android_security.md:428
 msgid "9. Google Password Manager & Passkeys"
 msgstr "9. Googles lösenordshanterare och nycklar"
 
-#: src/android_security.md:362
+#: src/android_security.md:430
 msgid "Google Password Manager"
 msgstr "Googles lösenordshanterare"
 
-#: src/android_security.md:364
+#: src/android_security.md:432
 msgid "Built-in password manager that syncs across devices."
 msgstr "Inbyggd lösenordshanterare som synkroniserar mellan enheter."
 
-#: src/android_security.md:366
+#: src/android_security.md:434
 msgid "**How to access:**"
 msgstr "**Så här kommer du åt:**"
 
-#: src/android_security.md:367
+#: src/android_security.md:435
 msgid "Go to **Settings**"
 msgstr "Gå till **Inställningar**"
 
-#: src/android_security.md:368
+#: src/android_security.md:436
 msgid "Search for **Password Manager**"
 msgstr "Sök efter **Lösenordshanterare**"
 
-#: src/android_security.md:369
+#: src/android_security.md:437
 msgid "Or open the **Passwords** app"
 msgstr "Eller öppna appen **Lösenord**"
 
-#: src/android_security.md:371
+#: src/android_security.md:439
 msgid "**Features:**"
 msgstr "**Funktioner:**"
 
-#: src/android_security.md:372
+#: src/android_security.md:440
 msgid "Save and autofill passwords"
 msgstr "Spara och autofyll lösenord"
 
-#: src/android_security.md:373
+#: src/android_security.md:441
 msgid "Generate strong passwords"
 msgstr "Generera starka lösenord"
 
-#: src/android_security.md:374
+#: src/android_security.md:442
 msgid "Password checkup (finds weak, reused, compromised passwords)"
 msgstr ""
 "Lösenordskontroll (hittar svaga, återanvända, komprometterade lösenord)"
 
-#: src/android_security.md:375
+#: src/android_security.md:443
 msgid "Syncs to Google Account"
 msgstr "Synkroniserar till Google-konto"
 
-#: src/android_security.md:377 src/android_security.md:699
+#: src/android_security.md:445 src/android_security.md:767
 msgid "Passkeys"
 msgstr "Nycklar"
 
-#: src/android_security.md:379
+#: src/android_security.md:447
 msgid "Passkeys are phishing-resistant replacements for passwords."
 msgstr "Nycklar är nätfiskeresistenta ersättningar för lösenord."
 
-#: src/android_security.md:381
+#: src/android_security.md:449
 msgid "**Benefits:**"
 msgstr "**Fördelar:**"
 
-#: src/android_security.md:382
+#: src/android_security.md:450
 msgid "More secure than passwords"
 msgstr "Säkrare än lösenord"
 
-#: src/android_security.md:383
+#: src/android_security.md:451
 msgid "Cannot be phished"
 msgstr "Kan inte nätfiskas"
 
-#: src/android_security.md:384
+#: src/android_security.md:452
 msgid "Synced across devices via Google Password Manager"
 msgstr "Synkroniseras mellan enheter via Googles lösenordshanterare"
 
-#: src/android_security.md:385
+#: src/android_security.md:453
 msgid "Authenticate with fingerprint, face, or PIN"
 msgstr "Autentisera med fingeravtryck, ansikte eller PIN"
 
-#: src/android_security.md:387
+#: src/android_security.md:455
 msgid "**How to use passkeys:**"
 msgstr "**Så här använder du nycklar:**"
 
-#: src/android_security.md:388
+#: src/android_security.md:456
 msgid "When a site/app supports passkeys, you'll be prompted to create one"
 msgstr "När en webbplats/app stöder nycklar blir du ombedd att skapa en"
 
-#: src/android_security.md:389
+#: src/android_security.md:457
 msgid "Confirm with your screen lock (fingerprint, face, PIN)"
 msgstr "Bekräfta med ditt skärmlås (fingeravtryck, ansikte, PIN)"
 
-#: src/android_security.md:390
+#: src/android_security.md:458
 msgid "Passkey is saved to Google Password Manager"
 msgstr "Nyckeln sparas i Googles lösenordshanterare"
 
-#: src/android_security.md:391
+#: src/android_security.md:459
 msgid "Sign in using your device's biometric/PIN"
 msgstr "Logga in med din enhets biometri/PIN"
 
-#: src/android_security.md:393
+#: src/android_security.md:461
 msgid "**Automatic Passkey Creation (Android 16):**"
 msgstr "**Automatisk nyckelskapande (Android 16):**"
 
-#: src/android_security.md:394
+#: src/android_security.md:462
 msgid ""
 "When you sign in with a password, Android can automatically create a passkey "
 "for future use"
@@ -3252,11 +3449,11 @@ msgstr ""
 "När du loggar in med ett lösenord kan Android automatiskt skapa en nyckel "
 "för framtida användning"
 
-#: src/android_security.md:396
+#: src/android_security.md:464
 msgid "**Restore Credentials (Android 16):**"
 msgstr "**Återställ autentiseringsuppgifter (Android 16):**"
 
-#: src/android_security.md:397
+#: src/android_security.md:465
 msgid ""
 "When setting up a new device, passkeys and app credentials transfer "
 "automatically"
@@ -3264,329 +3461,329 @@ msgstr ""
 "När du konfigurerar en ny enhet överförs nycklar och "
 "appautentiseringsuppgifter automatiskt"
 
-#: src/android_security.md:401
+#: src/android_security.md:469
 msgid "Go to **Settings > Passwords, passkeys & accounts**"
 msgstr "Gå till **Inställningar > Lösenord, nycklar och konton**"
 
-#: src/android_security.md:402
+#: src/android_security.md:470
 msgid "Configure your password manager"
 msgstr "Konfigurera din lösenordshanterare"
 
-#: src/android_security.md:403
+#: src/android_security.md:471
 msgid "Enable **Offer to save passwords**"
 msgstr "Aktivera **Erbjud att spara lösenord**"
 
-#: src/android_security.md:404
+#: src/android_security.md:472
 msgid "Enable **Automatically create a passkey to sign in faster**"
 msgstr "Aktivera **Skapa automatiskt en nyckel för snabbare inloggning**"
 
-#: src/android_security.md:408
+#: src/android_security.md:476
 msgid "10. Scam & Spam Protection"
 msgstr "10. Bedrägeri- och skräppostskydd"
 
-#: src/android_security.md:410
+#: src/android_security.md:478
 msgid "In-Call Protection (Android 16)"
 msgstr "Skydd under samtal (Android 16)"
 
-#: src/android_security.md:412
+#: src/android_security.md:480
 msgid "Blocks dangerous actions during calls with non-contacts:"
 msgstr "Blockerar farliga åtgärder under samtal med icke-kontakter:"
 
-#: src/android_security.md:413
+#: src/android_security.md:481
 msgid "Cannot sideload apps for the first time"
 msgstr "Kan inte installera appar från okända källor för första gången"
 
-#: src/android_security.md:414
+#: src/android_security.md:482
 msgid "Cannot disable Google Play Protect"
 msgstr "Kan inte inaktivera Google Play Protect"
 
-#: src/android_security.md:415
+#: src/android_security.md:483
 msgid "Cannot grant accessibility permissions"
 msgstr "Kan inte bevilja tillgänglighetsbehörigheter"
 
-#: src/android_security.md:416
+#: src/android_security.md:484
 msgid "Screen-sharing reminder when call ends"
 msgstr "Påminnelse om skärmdelning när samtalet avslutas"
 
-#: src/android_security.md:418
+#: src/android_security.md:486
 msgid "Scam Detection in Phone App"
 msgstr "Bedrägeridetektering i Telefon-appen"
 
-#: src/android_security.md:420
+#: src/android_security.md:488
 msgid "AI-powered real-time scam detection warns you during suspicious calls."
 msgstr ""
 "AI-driven bedrägeridetektering i realtid varnar dig under misstänkta samtal."
 
-#: src/android_security.md:422
+#: src/android_security.md:490
 msgid "**Types detected:**"
 msgstr "**Typer som upptäcks:**"
 
-#: src/android_security.md:423
+#: src/android_security.md:491
 msgid "Package delivery scams"
 msgstr "Paketleveransbedrägerier"
 
-#: src/android_security.md:424
+#: src/android_security.md:492
 msgid "Job-seeking scams"
 msgstr "Jobbskarpabedrägerier"
 
-#: src/android_security.md:425
+#: src/android_security.md:493
 msgid "Toll road and billing scams"
 msgstr "Vägavgifts- och faktureringsbedrägerier"
 
-#: src/android_security.md:426
+#: src/android_security.md:494
 msgid "Crypto scams"
 msgstr "Kryptobedrägerier"
 
-#: src/android_security.md:427
+#: src/android_security.md:495
 msgid "Financial impersonation"
 msgstr "Finansiell imitation"
 
-#: src/android_security.md:428
+#: src/android_security.md:496
 msgid "Gift card and prize scams"
 msgstr "Presentkorts- och vinstbedrägerier"
 
-#: src/android_security.md:429
+#: src/android_security.md:497
 msgid "Tech support scams"
 msgstr "Teknisk support-bedrägerier"
 
-#: src/android_security.md:432
+#: src/android_security.md:500
 msgid "Open **Phone** app"
 msgstr "Öppna appen **Telefon**"
 
-#: src/android_security.md:433
+#: src/android_security.md:501
 msgid "Tap **More (⋮) > Settings > Caller ID & spam**"
 msgstr "Tryck på **Mer (⋮) > Inställningar > Nummerpresentation och spam**"
 
-#: src/android_security.md:434
+#: src/android_security.md:502
 msgid "Enable **See caller and spam ID**"
 msgstr "Aktivera **Se nummerpresentation och spam-ID**"
 
-#: src/android_security.md:435
+#: src/android_security.md:503
 msgid "Enable **Filter spam calls**"
 msgstr "Aktivera **Filtrera spamsamtal**"
 
-#: src/android_security.md:437
+#: src/android_security.md:505
 msgid "Scam Detection in Messages"
 msgstr "Bedrägeridetektering i Meddelanden"
 
-#: src/android_security.md:439
+#: src/android_security.md:507
 msgid "Detects suspicious conversation patterns and unsafe links."
 msgstr "Upptäcker misstänkta konversationsmönster och osäkra länkar."
 
-#: src/android_security.md:442
+#: src/android_security.md:510
 msgid "Open **Messages** app"
 msgstr "Öppna appen **Meddelanden**"
 
-#: src/android_security.md:443
+#: src/android_security.md:511
 msgid "Tap **More (⋮) > Settings > Spam protection**"
 msgstr "Tryck på **Mer (⋮) > Inställningar > Spamskydd**"
 
-#: src/android_security.md:444
+#: src/android_security.md:512
 msgid "Enable **Enable spam protection**"
 msgstr "Aktivera **Aktivera spamskydd**"
 
-#: src/android_security.md:446
+#: src/android_security.md:514
 msgid "OTP Protection (Android 16)"
 msgstr "OTP-skydd (Android 16)"
 
-#: src/android_security.md:448
+#: src/android_security.md:516
 msgid "One-time passwords won't show on lock screen for devices that:"
 msgstr "Engångslösenord visas inte på låsskärmen för enheter som:"
 
-#: src/android_security.md:449
+#: src/android_security.md:517
 msgid "Haven't been recently unlocked"
 msgstr "Inte har låsts upp nyligen"
 
-#: src/android_security.md:450
+#: src/android_security.md:518
 msgid "Aren't connected to known Wi-Fi"
 msgstr "Inte är anslutna till känt Wi-Fi"
 
-#: src/android_security.md:454
+#: src/android_security.md:522
 msgid "11. Network Security"
 msgstr "11. Nätverkssäkerhet"
 
-#: src/android_security.md:456
+#: src/android_security.md:524
 msgid "Disable 2G"
 msgstr "Inaktivera 2G"
 
-#: src/android_security.md:458
+#: src/android_security.md:526
 msgid "2G networks are vulnerable to interception and cell site simulators."
 msgstr "2G-nätverk är sårbara för avlyssning och cellsitesimulatorer."
 
-#: src/android_security.md:460
+#: src/android_security.md:528
 msgid "**How to disable (if not using Advanced Protection):**"
 msgstr "**Så här inaktiverar du (om du inte använder Avancerat skydd):**"
 
-#: src/android_security.md:461
+#: src/android_security.md:529
 msgid "Go to **Settings > Network & internet > SIMs > \\[Your SIM\\]**"
 msgstr ""
 "Gå till **Inställningar > Nätverk och internet > SIM-kort > \\[Ditt SIM\\]**"
 
-#: src/android_security.md:462
+#: src/android_security.md:530
 msgid "Toggle off **Allow 2G**"
 msgstr "Inaktivera **Tillåt 2G**"
 
-#: src/android_security.md:464
+#: src/android_security.md:532
 msgid "Wi-Fi Security"
 msgstr "Wi-Fi-säkerhet"
 
-#: src/android_security.md:466
+#: src/android_security.md:534
 msgid "**Disable auto-join for insecure networks:**"
 msgstr "**Inaktivera automatisk anslutning till osäkra nätverk:**"
 
-#: src/android_security.md:467
+#: src/android_security.md:535
 msgid "Go to **Settings > Network & internet > Internet**"
 msgstr "Gå till **Inställningar > Nätverk och internet > Internet**"
 
-#: src/android_security.md:468
+#: src/android_security.md:536
 msgid "Tap **Network preferences**"
 msgstr "Tryck på **Nätverksinställningar**"
 
-#: src/android_security.md:469
+#: src/android_security.md:537
 msgid "Disable **Connect to open networks**"
 msgstr "Inaktivera **Anslut till öppna nätverk**"
 
-#: src/android_security.md:471
+#: src/android_security.md:539
 msgid "**Forget insecure networks:**"
 msgstr "**Glöm osäkra nätverk:**"
 
-#: src/android_security.md:472
+#: src/android_security.md:540
 msgid "Go to **Settings > Network & internet > Internet > Saved networks**"
 msgstr ""
 "Gå till **Inställningar > Nätverk och internet > Internet > Sparade nätverk**"
 
-#: src/android_security.md:473
+#: src/android_security.md:541
 msgid "Remove networks you don't trust"
 msgstr "Ta bort nätverk du inte litar på"
 
-#: src/android_security.md:475
+#: src/android_security.md:543
 msgid "VPN"
 msgstr "VPN"
 
-#: src/android_security.md:477
+#: src/android_security.md:545
 msgid "Use a VPN on public Wi-Fi:"
 msgstr "Använd ett VPN på offentligt Wi-Fi:"
 
-#: src/android_security.md:478
+#: src/android_security.md:546
 msgid "Go to **Settings > Network & internet > VPN**"
 msgstr "Gå till **Inställningar > Nätverk och internet > VPN**"
 
-#: src/android_security.md:479
+#: src/android_security.md:547
 msgid "Configure your VPN provider"
 msgstr "Konfigurera din VPN-leverantör"
 
-#: src/android_security.md:481
+#: src/android_security.md:549
 msgid "DNS Settings"
 msgstr "DNS-inställningar"
 
-#: src/android_security.md:483
+#: src/android_security.md:551
 msgid "Use encrypted DNS:"
 msgstr "Använd krypterad DNS:"
 
-#: src/android_security.md:484
+#: src/android_security.md:552
 msgid "Go to **Settings > Network & internet > Private DNS**"
 msgstr "Gå till **Inställningar > Nätverk och internet > Privat DNS**"
 
-#: src/android_security.md:485
+#: src/android_security.md:553
 msgid "Select **Private DNS provider hostname**"
 msgstr "Välj **Värdnamn för privat DNS-leverantör**"
 
-#: src/android_security.md:486
+#: src/android_security.md:554
 msgid "Enter a provider (e.g., `dns.google` or `cloudflare-dns.com`)"
 msgstr "Ange en leverantör (t.ex. `dns.google` eller `cloudflare-dns.com`)"
 
-#: src/android_security.md:490
+#: src/android_security.md:558
 msgid "12. USB Protection"
 msgstr "12. USB-skydd"
 
-#: src/android_security.md:492
+#: src/android_security.md:560
 msgid "Android 16 defaults USB connections to charging-only when locked."
 msgstr ""
 "Android 16 ställer in USB-anslutningar till endast laddning som standard när "
 "låst."
 
-#: src/android_security.md:496
+#: src/android_security.md:564
 msgid "Prevents data transfer via USB when device is locked"
 msgstr "Förhindrar dataöverföring via USB när enheten är låst"
 
-#: src/android_security.md:497
+#: src/android_security.md:565
 msgid "Protects against \"juice jacking\" attacks at public charging stations"
 msgstr "Skyddar mot \"juice jacking\"-attacker vid offentliga laddstationer"
 
-#: src/android_security.md:498
+#: src/android_security.md:566
 msgid "Blocks physical data extraction attempts"
 msgstr "Blockerar försök till fysisk dataextrahering"
 
-#: src/android_security.md:500
+#: src/android_security.md:568
 msgid "How It Works"
 msgstr "Så fungerar det"
 
-#: src/android_security.md:502
+#: src/android_security.md:570
 msgid "When Advanced Protection is enabled:"
 msgstr "När Avancerat skydd är aktiverat:"
 
-#: src/android_security.md:503
+#: src/android_security.md:571
 msgid "USB defaults to charging-only when locked"
 msgstr "USB ställs in på endast laddning när låst"
 
-#: src/android_security.md:504
+#: src/android_security.md:572
 msgid "Must unlock device to enable data transfer"
 msgstr "Måste låsa upp enheten för att aktivera dataöverföring"
 
-#: src/android_security.md:506
+#: src/android_security.md:574
 msgid "Manual Configuration"
 msgstr "Manuell konfiguration"
 
-#: src/android_security.md:508
+#: src/android_security.md:576
 msgid "Go to **Settings > Connected devices > USB**"
 msgstr "Gå till **Inställningar > Anslutna enheter > USB**"
 
-#: src/android_security.md:509
+#: src/android_security.md:577
 msgid "When connected, choose **Charging only** unless you need data transfer"
 msgstr ""
 "När ansluten, välj **Endast laddning** om du inte behöver dataöverföring"
 
-#: src/android_security.md:513
+#: src/android_security.md:581
 msgid "13. Find My Device"
 msgstr "13. Hitta min enhet"
 
-#: src/android_security.md:517
+#: src/android_security.md:585
 msgid "Go to **Settings > Security & Privacy > Find My Device**"
 msgstr "Gå till **Inställningar > Säkerhet och integritet > Hitta min enhet**"
 
-#: src/android_security.md:518
+#: src/android_security.md:586
 msgid "Toggle on **Use Find My Device**"
 msgstr "Aktivera **Använd Hitta min enhet**"
 
-#: src/android_security.md:519
+#: src/android_security.md:587
 msgid "Ensure location is enabled"
 msgstr "Se till att plats är aktiverat"
 
-#: src/android_security.md:523
+#: src/android_security.md:591
 msgid "Locate your device on a map"
 msgstr "Hitta din enhet på en karta"
 
-#: src/android_security.md:524
+#: src/android_security.md:592
 msgid "Play sound to find nearby device"
 msgstr "Spela upp ljud för att hitta enhet i närheten"
 
-#: src/android_security.md:525
+#: src/android_security.md:593
 msgid "Secure device (lock with message)"
 msgstr "Säkra enhet (lås med meddelande)"
 
-#: src/android_security.md:526
+#: src/android_security.md:594
 msgid "Erase device remotely"
 msgstr "Radera enhet på distans"
 
-#: src/android_security.md:527
+#: src/android_security.md:595
 msgid "Locate offline devices using nearby Android devices"
 msgstr "Hitta offlineenheter med hjälp av Android-enheter i närheten"
 
-#: src/android_security.md:529
+#: src/android_security.md:597
 msgid "Find My Device Network"
 msgstr "Hitta min enhet-nätverk"
 
-#: src/android_security.md:531
+#: src/android_security.md:599
 msgid ""
 "Android can find your device even when offline using Bluetooth signals from "
 "nearby Android devices."
@@ -3594,92 +3791,92 @@ msgstr ""
 "Android kan hitta din enhet även när den är offline med hjälp av Bluetooth-"
 "signaler från Android-enheter i närheten."
 
-#: src/android_security.md:533
+#: src/android_security.md:601
 msgid "Go to **Settings > Google > All services > Find My Device**"
 msgstr "Gå till **Inställningar > Google > Alla tjänster > Hitta min enhet**"
 
-#: src/android_security.md:534
+#: src/android_security.md:602
 msgid "Toggle on **Find your offline devices**"
 msgstr "Aktivera **Hitta dina offlineenheter**"
 
-#: src/android_security.md:536
+#: src/android_security.md:604
 msgid "Using Find My Device"
 msgstr "Använda Hitta min enhet"
 
-#: src/android_security.md:538
+#: src/android_security.md:606
 msgid "Go to android.com/find or use Find My Device app on another device"
 msgstr ""
 "Gå till android.com/find eller använd Hitta min enhet-appen på en annan enhet"
 
-#: src/android_security.md:539
+#: src/android_security.md:607
 msgid "Sign in with your Google Account"
 msgstr "Logga in med ditt Google-konto"
 
-#: src/android_security.md:540
+#: src/android_security.md:608
 msgid "Select your device"
 msgstr "Välj din enhet"
 
-#: src/android_security.md:541
+#: src/android_security.md:609
 msgid "Choose action: Locate, Play Sound, Secure Device, Erase Device"
 msgstr "Välj åtgärd: Hitta, Spela upp ljud, Säkra enhet, Radera enhet"
 
-#: src/android_security.md:545
+#: src/android_security.md:613
 msgid "14. Advertising & Tracking Controls"
 msgstr "14. Reklam- och spårningskontroller"
 
-#: src/android_security.md:547
+#: src/android_security.md:615
 msgid "Delete Advertising ID"
 msgstr "Ta bort reklam-ID"
 
-#: src/android_security.md:549
+#: src/android_security.md:617
 msgid "Disabling AAID makes it harder for advertisers to track you."
 msgstr "Att inaktivera AAID gör det svårare för annonsörer att spåra dig."
 
-#: src/android_security.md:551
+#: src/android_security.md:619
 msgid "**How to delete:**"
 msgstr "**Så här tar du bort:**"
 
-#: src/android_security.md:552
+#: src/android_security.md:620
 msgid "Go to **Settings > Security & Privacy > Privacy Controls > Ads**"
 msgstr ""
 "Gå till **Inställningar > Säkerhet och integritet > Integritetskontroller > "
 "Annonser**"
 
-#: src/android_security.md:553
+#: src/android_security.md:621
 msgid "Tap **Delete advertising ID**"
 msgstr "Tryck på **Ta bort reklam-ID**"
 
-#: src/android_security.md:554
+#: src/android_security.md:622
 msgid "Confirm"
 msgstr "Bekräfta"
 
-#: src/android_security.md:556
+#: src/android_security.md:624
 msgid "Disable Personalized Ads"
 msgstr "Inaktivera personanpassade annonser"
 
-#: src/android_security.md:558
+#: src/android_security.md:626
 msgid "Go to **Settings > Google > Ads**"
 msgstr "Gå till **Inställningar > Google > Annonser**"
 
-#: src/android_security.md:559
+#: src/android_security.md:627
 msgid "Toggle off **Opt out of Ads Personalization**"
 msgstr "Inaktivera **Avstå från annonspersonalisering**"
 
-#: src/android_security.md:561
+#: src/android_security.md:629
 msgid "Unknown Tracker Alerts"
 msgstr "Varningar för okända spårare"
 
-#: src/android_security.md:563
+#: src/android_security.md:631
 msgid ""
 "Android detects unfamiliar tracking devices (like AirTags) moving with you."
 msgstr ""
 "Android upptäcker okända spårningsenheter (som AirTags) som rör sig med dig."
 
-#: src/android_security.md:565
+#: src/android_security.md:633
 msgid "**How to check:**"
 msgstr "**Så här kontrollerar du:**"
 
-#: src/android_security.md:566
+#: src/android_security.md:634
 msgid ""
 "Go to **Settings > Security & Privacy > More security & privacy > Unknown "
 "tracker alerts**"
@@ -3687,71 +3884,71 @@ msgstr ""
 "Gå till **Inställningar > Säkerhet och integritet > Mer säkerhet och "
 "integritet > Varningar för okända spårare**"
 
-#: src/android_security.md:567
+#: src/android_security.md:635
 msgid "Ensure it's enabled"
 msgstr "Se till att det är aktiverat"
 
-#: src/android_security.md:571
+#: src/android_security.md:639
 msgid "15. Google Account Privacy"
 msgstr "15. Integritet för Google-konto"
 
-#: src/android_security.md:573
+#: src/android_security.md:641
 msgid "Privacy Checkup"
 msgstr "Integritetskontroll"
 
-#: src/android_security.md:576
+#: src/android_security.md:644
 msgid "Tap **Data & privacy**"
 msgstr "Tryck på **Data och integritet**"
 
-#: src/android_security.md:577
+#: src/android_security.md:645
 msgid "Tap **Review your privacy settings**"
 msgstr "Tryck på **Granska dina integritetsinställningar**"
 
-#: src/android_security.md:579
+#: src/android_security.md:647
 msgid "Activity Controls"
 msgstr "Aktivitetskontroller"
 
-#: src/android_security.md:581
+#: src/android_security.md:649
 msgid "Control what Google saves about your activity:"
 msgstr "Kontrollera vad Google sparar om din aktivitet:"
 
-#: src/android_security.md:584
+#: src/android_security.md:652
 msgid "Under \"History settings,\" review:"
 msgstr "Under \"Historikinställningar\" granskar du:"
 
-#: src/android_security.md:585
+#: src/android_security.md:653
 msgid "**Web & App Activity** – Search and app activity"
 msgstr "**Webb- och appaktivitet** – Sök- och appaktivitet"
 
-#: src/android_security.md:586
+#: src/android_security.md:654
 msgid "**Location History** – Places you've been"
 msgstr "**Platshistorik** – Platser du har besökt"
 
-#: src/android_security.md:587
+#: src/android_security.md:655
 msgid "**YouTube History** – Videos watched"
 msgstr "**YouTube-historik** – Videor du har tittat på"
 
-#: src/android_security.md:589
+#: src/android_security.md:657
 msgid "For each:"
 msgstr "För varje:"
 
-#: src/android_security.md:590
+#: src/android_security.md:658
 msgid "Turn off to stop saving"
 msgstr "Stäng av för att sluta spara"
 
-#: src/android_security.md:591
+#: src/android_security.md:659
 msgid "Enable auto-delete (3, 18, or 36 months)"
 msgstr "Aktivera automatisk radering (3, 18 eller 36 månader)"
 
-#: src/android_security.md:593
+#: src/android_security.md:661
 msgid "Privacy Dashboard"
 msgstr "Integritetspanel"
 
-#: src/android_security.md:595
+#: src/android_security.md:663
 msgid "View recent permission usage:"
 msgstr "Visa senaste behörighetsanvändning:"
 
-#: src/android_security.md:597
+#: src/android_security.md:665
 msgid ""
 "Go to **Settings > Security & Privacy > Privacy Controls > Privacy "
 "dashboard**"
@@ -3759,83 +3956,83 @@ msgstr ""
 "Gå till **Inställningar > Säkerhet och integritet > Integritetskontroller > "
 "Integritetspanel**"
 
-#: src/android_security.md:598
+#: src/android_security.md:666
 msgid "See which apps accessed location, camera, microphone in last 24 hours"
 msgstr ""
 "Se vilka appar som har använt plats, kamera, mikrofon de senaste 24 timmarna"
 
-#: src/android_security.md:602
+#: src/android_security.md:670
 msgid "16. Chrome & Browser Privacy"
 msgstr "16. Chrome- och webbläsarintegritet"
 
-#: src/android_security.md:604
+#: src/android_security.md:672
 msgid "Safe Browsing"
 msgstr "Säker surfning"
 
-#: src/android_security.md:606
+#: src/android_security.md:674
 msgid "**Enable Enhanced Protection:**"
 msgstr "**Aktivera förbättrat skydd:**"
 
-#: src/android_security.md:607
+#: src/android_security.md:675
 msgid "Open **Chrome**"
 msgstr "Öppna **Chrome**"
 
-#: src/android_security.md:608
+#: src/android_security.md:676
 msgid "Tap **More (⋮) > Settings > Privacy and security > Safe Browsing**"
 msgstr ""
 "Tryck på **Mer (⋮) > Inställningar > Sekretess och säkerhet > Säker "
 "surfning**"
 
-#: src/android_security.md:609
+#: src/android_security.md:677
 msgid "Select **Enhanced protection**"
 msgstr "Välj **Förbättrat skydd**"
 
-#: src/android_security.md:611
+#: src/android_security.md:679
 msgid "Privacy Settings"
 msgstr "Integritetsinställningar"
 
-#: src/android_security.md:613
+#: src/android_security.md:681
 msgid "Open **Chrome > Settings > Privacy and security**"
 msgstr "Öppna **Chrome > Inställningar > Sekretess och säkerhet**"
 
-#: src/android_security.md:614
+#: src/android_security.md:682
 msgid "Configure:"
 msgstr "Konfigurera:"
 
-#: src/android_security.md:615
+#: src/android_security.md:683
 msgid "**Clear browsing data** – Regularly clear history, cookies, cache"
 msgstr "**Rensa webbinformation** – Rensa regelbundet historik, kakor, cache"
 
-#: src/android_security.md:616
+#: src/android_security.md:684
 msgid "**Always use secure connections** – Forces HTTPS"
 msgstr "**Använd alltid säkra anslutningar** – Tvingar HTTPS"
 
-#: src/android_security.md:617
+#: src/android_security.md:685
 msgid "**Do Not Track** – Send request to sites (limited effectiveness)"
 msgstr ""
 "**Spåra inte** – Skicka begäran till webbplatser (begränsad effektivitet)"
 
-#: src/android_security.md:618
+#: src/android_security.md:686
 msgid "**Preload pages** – Disable for more privacy"
 msgstr "**Förhandsladda sidor** – Inaktivera för mer integritet"
 
-#: src/android_security.md:620
+#: src/android_security.md:688
 msgid "Incognito Mode"
 msgstr "Inkognitoläge"
 
-#: src/android_security.md:622
+#: src/android_security.md:690
 msgid "For private browsing:"
 msgstr "För privat surfning:"
 
-#: src/android_security.md:623
+#: src/android_security.md:691
 msgid "Open Chrome"
 msgstr "Öppna Chrome"
 
-#: src/android_security.md:624
+#: src/android_security.md:692
 msgid "Tap **More (⋮) > New Incognito tab**"
 msgstr "Tryck på **Mer (⋮) > Ny inkognitoflik**"
 
-#: src/android_security.md:631
+#: src/android_security.md:699
 msgid ""
 "Incognito doesn't make you anonymous—your ISP and websites can still see "
 "your activity."
@@ -3843,43 +4040,43 @@ msgstr ""
 "Inkognito gör dig inte anonym—din internetleverantör och webbplatser kan "
 "fortfarande se din aktivitet."
 
-#: src/android_security.md:635
+#: src/android_security.md:703
 msgid "Third-Party Cookies"
 msgstr "Tredjepartskakor"
 
-#: src/android_security.md:637
+#: src/android_security.md:705
 msgid "Go to **Chrome > Settings > Site settings > Cookies**"
 msgstr "Gå till **Chrome > Inställningar > Webbplatsinställningar > Kakor**"
 
-#: src/android_security.md:638
+#: src/android_security.md:706
 msgid "Select **Block third-party cookies**"
 msgstr "Välj **Blockera tredjepartskakor**"
 
-#: src/android_security.md:642
+#: src/android_security.md:710
 msgid "17. Additional Security Recommendations"
 msgstr "17. Ytterligare säkerhetsrekommendationer"
 
-#: src/android_security.md:644
+#: src/android_security.md:712
 msgid "Software Updates"
 msgstr "Programuppdateringar"
 
-#: src/android_security.md:646
+#: src/android_security.md:714
 msgid "Go to **Settings > System > Software update**"
 msgstr "Gå till **Inställningar > System > Programuppdatering**"
 
-#: src/android_security.md:647
+#: src/android_security.md:715
 msgid "Enable automatic updates"
 msgstr "Aktivera automatiska uppdateringar"
 
-#: src/android_security.md:648
+#: src/android_security.md:716
 msgid "Install security patches promptly"
 msgstr "Installera säkerhetspatchar omedelbart"
 
-#: src/android_security.md:652
+#: src/android_security.md:720
 msgid "Go to **Settings > Notifications > Notifications on lock screen**"
 msgstr "Gå till **Inställningar > Aviseringar > Aviseringar på låsskärmen**"
 
-#: src/android_security.md:653
+#: src/android_security.md:721
 msgid ""
 "Choose **Show sensitive content only when unlocked** or **Don't show any "
 "notifications**"
@@ -3887,218 +4084,218 @@ msgstr ""
 "Välj **Visa känsligt innehåll endast när upplåst** eller **Visa inga "
 "aviseringar**"
 
-#: src/android_security.md:655
+#: src/android_security.md:723
 msgid "App Installation from Unknown Sources"
 msgstr "Appinstallation från okända källor"
 
-#: src/android_security.md:657
+#: src/android_security.md:725
 msgid "Go to **Settings > Apps > Special app access > Install unknown apps**"
 msgstr ""
 "Gå till **Inställningar > Appar > Särskild appåtkomst > Installera okända "
 "appar**"
 
-#: src/android_security.md:658
+#: src/android_security.md:726
 msgid "Ensure all apps show **Not allowed**"
 msgstr "Se till att alla appar visar **Inte tillåten**"
 
-#: src/android_security.md:659
+#: src/android_security.md:727
 msgid "Only enable temporarily when needed, then disable"
 msgstr "Aktivera endast tillfälligt vid behov, inaktivera sedan"
 
-#: src/android_security.md:661
+#: src/android_security.md:729
 msgid "Backup Encryption"
 msgstr "Säkerhetskopieringskryptering"
 
-#: src/android_security.md:663
+#: src/android_security.md:731
 msgid "Go to **Settings > Google > Backup**"
 msgstr "Gå till **Inställningar > Google > Säkerhetskopiering**"
 
-#: src/android_security.md:664
+#: src/android_security.md:732
 msgid "Ensure **Backup by Google One** is on"
 msgstr "Se till att **Säkerhetskopiering med Google One** är på"
 
-#: src/android_security.md:665
+#: src/android_security.md:733
 msgid "Backups are encrypted with your screen lock"
 msgstr "Säkerhetskopior krypteras med ditt skärmlås"
 
-#: src/android_security.md:667
+#: src/android_security.md:735
 msgid "SIM Lock"
 msgstr "SIM-lås"
 
-#: src/android_security.md:669
+#: src/android_security.md:737
 msgid ""
 "Go to **Settings > Security & Privacy > More security & privacy > SIM lock**"
 msgstr ""
 "Gå till **Inställningar > Säkerhet och integritet > Mer säkerhet och "
 "integritet > SIM-lås**"
 
-#: src/android_security.md:670
+#: src/android_security.md:738
 msgid "Toggle on **Lock SIM**"
 msgstr "Aktivera **Lås SIM**"
 
-#: src/android_security.md:671
+#: src/android_security.md:739
 msgid "Set a PIN (different from screen lock)"
 msgstr "Ställ in en PIN (annorlunda än skärmlås)"
 
-#: src/android_security.md:673
+#: src/android_security.md:741
 msgid "Repair Mode (Android 16)"
 msgstr "Reparationsläge (Android 16)"
 
-#: src/android_security.md:675
+#: src/android_security.md:743
 msgid "Securely prepare device for repair without exposing data:"
 msgstr "Förbered enheten säkert för reparation utan att exponera data:"
 
-#: src/android_security.md:677
+#: src/android_security.md:745
 msgid "Go to **Settings > System > Repair Mode**"
 msgstr "Gå till **Inställningar > System > Reparationsläge**"
 
-#: src/android_security.md:678
+#: src/android_security.md:746
 msgid "Follow instructions to wipe data while allowing hardware diagnostics"
 msgstr ""
 "Följ instruktionerna för att radera data samtidigt som hårdvarudiagnostik "
 "tillåts"
 
-#: src/android_security.md:680
+#: src/android_security.md:748
 msgid "Trade-in Mode (Android 16)"
 msgstr "Inbytesläge (Android 16)"
 
-#: src/android_security.md:682
+#: src/android_security.md:750
 msgid "Safely prepare device for resale:"
 msgstr "Förbered enheten säkert för återförsäljning:"
 
-#: src/android_security.md:684
+#: src/android_security.md:752
 msgid "Go to **Settings > System > Trade-in Mode**"
 msgstr "Gå till **Inställningar > System > Inbytesläge**"
 
-#: src/android_security.md:685
+#: src/android_security.md:753
 msgid "Allows buyer to test hardware without accessing personal data"
 msgstr "Låter köparen testa hårdvaran utan att komma åt personlig data"
 
-#: src/android_security.md:693
+#: src/android_security.md:761
 msgid "Advanced Protection"
 msgstr "Avancerat skydd"
 
-#: src/android_security.md:693
+#: src/android_security.md:761
 msgid "Settings > Security & Privacy > Advanced Protection"
 msgstr "Inställningar > Säkerhet och integritet > Avancerat skydd"
 
-#: src/android_security.md:694
+#: src/android_security.md:762
 msgid "Strong Screen Lock"
 msgstr "Starkt skärmlås"
 
-#: src/android_security.md:694
+#: src/android_security.md:762
 msgid "Settings > Security & Privacy > Device Unlock"
 msgstr "Inställningar > Säkerhet och integritet > Enhetslås"
 
-#: src/android_security.md:694
+#: src/android_security.md:762
 msgid "✅ PIN 6+ digits or password"
 msgstr "✅ PIN 6+ siffror eller lösenord"
 
-#: src/android_security.md:695
+#: src/android_security.md:763
 msgid "Google Account > Security"
 msgstr "Google-konto > Säkerhet"
 
-#: src/android_security.md:696
+#: src/android_security.md:764
 msgid "Identity Check"
 msgstr "Identitetskoll"
 
-#: src/android_security.md:696
+#: src/android_security.md:764
 msgid "Settings > Security & Privacy > Theft Protection"
 msgstr "Inställningar > Säkerhet och integritet > Stöldskydd"
 
-#: src/android_security.md:697
+#: src/android_security.md:765
 msgid "Settings > Google > Theft Protection"
 msgstr "Inställningar > Google > Stöldskydd"
 
-#: src/android_security.md:698
+#: src/android_security.md:766
 msgid "Play Protect"
 msgstr "Play Protect"
 
-#: src/android_security.md:698
+#: src/android_security.md:766
 msgid "Play Store > Play Protect"
 msgstr "Play Butik > Play Protect"
 
-#: src/android_security.md:698
+#: src/android_security.md:766
 msgid "✅ Ensure active"
 msgstr "✅ Säkerställ aktivt"
 
-#: src/android_security.md:699
+#: src/android_security.md:767
 msgid "Settings > Passwords, passkeys & accounts"
 msgstr "Inställningar > Lösenord, nycklar och konton"
 
-#: src/android_security.md:699
+#: src/android_security.md:767
 msgid "✅ Use where available"
 msgstr "✅ Använd där tillgängligt"
 
-#: src/android_security.md:700
+#: src/android_security.md:768
 msgid "App Permissions"
 msgstr "Appbehörigheter"
 
-#: src/android_security.md:700
+#: src/android_security.md:768
 msgid "Settings > Security & Privacy > Permission Manager"
 msgstr "Inställningar > Säkerhet och integritet > Behörighetshanterare"
 
-#: src/android_security.md:700
+#: src/android_security.md:768
 msgid "⚙️ Review regularly"
 msgstr "⚙️ Granska regelbundet"
 
-#: src/android_security.md:701
+#: src/android_security.md:769
 msgid "Settings > Location > App permissions"
 msgstr "Inställningar > Plats > Appbehörigheter"
 
-#: src/android_security.md:701
+#: src/android_security.md:769
 msgid "⚙️ Minimize \"All the time\""
 msgstr "⚙️ Minimera \"Alltid\""
 
-#: src/android_security.md:702
+#: src/android_security.md:770
 msgid "Advertising ID"
 msgstr "Reklam-ID"
 
-#: src/android_security.md:702
+#: src/android_security.md:770
 msgid "Settings > Security & Privacy > Ads"
 msgstr "Inställningar > Säkerhet och integritet > Annonser"
 
-#: src/android_security.md:702
+#: src/android_security.md:770
 msgid "❌ Delete"
 msgstr "❌ Ta bort"
 
-#: src/android_security.md:703
+#: src/android_security.md:771
 msgid "2G"
 msgstr "2G"
 
-#: src/android_security.md:703
+#: src/android_security.md:771
 msgid "Settings > Network & internet > SIMs"
 msgstr "Inställningar > Nätverk och internet > SIM-kort"
 
-#: src/android_security.md:704
+#: src/android_security.md:772
 msgid "Find My Device"
 msgstr "Hitta min enhet"
 
-#: src/android_security.md:704
+#: src/android_security.md:772
 msgid "Settings > Security & Privacy > Find My Device"
 msgstr "Inställningar > Säkerhet och integritet > Hitta min enhet"
 
-#: src/android_security.md:705
+#: src/android_security.md:773
 msgid "Unknown Sources"
 msgstr "Okända källor"
 
-#: src/android_security.md:705
+#: src/android_security.md:773
 msgid "Settings > Apps > Install unknown apps"
 msgstr "Inställningar > Appar > Installera okända appar"
 
-#: src/android_security.md:705
+#: src/android_security.md:773
 msgid "❌ Disable all"
 msgstr "❌ Inaktivera alla"
 
-#: src/android_security.md:706
+#: src/android_security.md:774
 msgid "Settings > Notifications"
 msgstr "Inställningar > Aviseringar"
 
-#: src/android_security.md:706
+#: src/android_security.md:774
 msgid "⚙️ Hide sensitive"
 msgstr "⚙️ Dölj känsligt"
 
-#: src/android_security.md:712
+#: src/android_security.md:780
 msgid ""
 "Android 16 represents Google's most comprehensive security update, with "
 "Advanced Protection Mode making it easy to enable maximum security with one "
@@ -4108,7 +4305,7 @@ msgstr ""
 "Avancerat skydd gör det enkelt att aktivera maximal säkerhet med en enda "
 "omkopplare. Viktiga prioriteringar:"
 
-#: src/android_security.md:714
+#: src/android_security.md:782
 msgid ""
 "**Enable Advanced Protection Mode** – Activates all major security features "
 "at once"
@@ -4116,7 +4313,7 @@ msgstr ""
 "**Aktivera Avancerat skydd** – Aktiverar alla viktiga säkerhetsfunktioner på "
 "en gång"
 
-#: src/android_security.md:715
+#: src/android_security.md:783
 msgid ""
 "**Set up Identity Check** – Protects sensitive settings when away from "
 "trusted locations"
@@ -4124,7 +4321,7 @@ msgstr ""
 "**Konfigurera Identitetskoll** – Skyddar känsliga inställningar när du är "
 "borta från betrodda platser"
 
-#: src/android_security.md:716
+#: src/android_security.md:784
 msgid ""
 "**Enable Theft Protection features** – Theft Detection Lock, Offline Device "
 "Lock, Remote Lock"
@@ -4132,23 +4329,23 @@ msgstr ""
 "**Aktivera stöldskyddsfunktioner** – Stölddetekteringslås, offlineenhetslås, "
 "fjärrlås"
 
-#: src/android_security.md:717
+#: src/android_security.md:785
 msgid "**Use Passkeys** – More secure than passwords, phishing-resistant"
 msgstr "**Använd nycklar** – Säkrare än lösenord, nätfiskeresistenta"
 
-#: src/android_security.md:718
+#: src/android_security.md:786
 msgid "**Review app permissions regularly** – Revoke unnecessary access"
 msgstr "**Granska appbehörigheter regelbundet** – Återkalla onödig åtkomst"
 
-#: src/android_security.md:719
+#: src/android_security.md:787
 msgid "**Delete your Advertising ID** – Reduces tracking"
 msgstr "**Ta bort ditt reklam-ID** – Minskar spårning"
 
-#: src/android_security.md:720
+#: src/android_security.md:788
 msgid "**Keep software updated** – Security patches are critical"
 msgstr "**Håll programvaran uppdaterad** – Säkerhetspatchar är kritiska"
 
-#: src/android_security.md:722
+#: src/android_security.md:790
 msgid ""
 "By configuring these settings, you significantly strengthen your privacy and "
 "security against both common threats and sophisticated attacks."
@@ -4156,7 +4353,7 @@ msgstr ""
 "Genom att konfigurera dessa inställningar stärker du avsevärt din integritet "
 "och säkerhet mot både vanliga hot och sofistikerade attacker."
 
-#: src/android_security.md:726
+#: src/android_security.md:794
 msgid ""
 "_Last updated: January 2026 | Applies to Android 16_ _Note: Settings may "
 "vary slightly by device manufacturer (Pixel, Samsung, etc.)_"

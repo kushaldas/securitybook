@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Security Guidebook\n"
-"POT-Creation-Date: 2026-01-30T11:53:25+01:00\n"
+"POT-Creation-Date: 2026-01-30T12:03:58+01:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -370,7 +370,8 @@ msgid ""
 "phishing."
 msgstr ""
 
-#: src/ios_security.md:112
+#: src/ios_security.md:112 src/android_security.md:101
+#: src/android_security.md:152
 msgid "**Requirements:**"
 msgstr ""
 
@@ -392,7 +393,7 @@ msgstr ""
 msgid "A modern web browser"
 msgstr ""
 
-#: src/ios_security.md:118
+#: src/ios_security.md:118 src/android_security.md:156
 msgid "**Compatible connector types:**"
 msgstr ""
 
@@ -436,7 +437,7 @@ msgstr ""
 msgid "You can add up to six keys total"
 msgstr ""
 
-#: src/ios_security.md:132
+#: src/ios_security.md:132 src/android_security.md:169
 msgid "**What security keys protect:**"
 msgstr ""
 
@@ -552,7 +553,7 @@ msgstr ""
 
 #: src/ios_security.md:174 src/ios_security.md:329 src/ios_security.md:398
 #: src/ios_security.md:446 src/ios_security.md:505 src/android_security.md:65
-#: src/android_security.md:136 src/android_security.md:515
+#: src/android_security.md:204 src/android_security.md:583
 msgid "How to Enable"
 msgstr ""
 
@@ -578,7 +579,7 @@ msgstr ""
 msgid "**Always** – Security features are always active"
 msgstr ""
 
-#: src/ios_security.md:186 src/android_security.md:143
+#: src/ios_security.md:186 src/android_security.md:211
 msgid "Requirements"
 msgstr ""
 
@@ -614,8 +615,8 @@ msgstr ""
 msgid "App Tracking Transparency"
 msgstr ""
 
-#: src/ios_security.md:201 src/ios_security.md:618 src/android_security.md:94
-#: src/android_security.md:279
+#: src/ios_security.md:201 src/ios_security.md:618 src/android_security.md:122
+#: src/android_security.md:347
 msgid "**How to configure:**"
 msgstr ""
 
@@ -686,7 +687,7 @@ msgstr ""
 msgid "Per-App Location Settings"
 msgstr ""
 
-#: src/ios_security.md:230 src/android_security.md:269
+#: src/ios_security.md:230 src/android_security.md:337
 msgid "For each app, choose:"
 msgstr ""
 
@@ -706,7 +707,7 @@ msgstr ""
 msgid "**Always** – Background access (use sparingly)"
 msgstr ""
 
-#: src/ios_security.md:236 src/android_security.md:275
+#: src/ios_security.md:236 src/android_security.md:343
 msgid "Precise vs. Approximate Location"
 msgstr ""
 
@@ -914,9 +915,9 @@ msgstr ""
 msgid "7. Mail Privacy Protection"
 msgstr ""
 
-#: src/ios_security.md:323 src/android_security.md:295
-#: src/android_security.md:329 src/android_security.md:494
-#: src/android_security.md:521
+#: src/ios_security.md:323 src/android_security.md:363
+#: src/android_security.md:397 src/android_security.md:562
+#: src/android_security.md:589
 msgid "Features"
 msgstr ""
 
@@ -1654,7 +1655,7 @@ msgstr ""
 msgid "iOS 26.2 introduces secure codes for sharing with unknown contacts:"
 msgstr ""
 
-#: src/ios_security.md:641 src/android_security.md:168
+#: src/ios_security.md:641 src/android_security.md:236
 msgid "**How it works:**"
 msgstr ""
 
@@ -1738,8 +1739,8 @@ msgstr ""
 msgid "Enable all options including **Security Responses & System Files**"
 msgstr ""
 
-#: src/ios_security.md:673 src/android_security.md:650
-#: src/android_security.md:706
+#: src/ios_security.md:673 src/android_security.md:718
+#: src/android_security.md:774
 msgid "Lock Screen Notifications"
 msgstr ""
 
@@ -1785,20 +1786,20 @@ msgstr ""
 msgid "Enable **Erase Data** (erases after 10 failed passcode attempts)"
 msgstr ""
 
-#: src/ios_security.md:695 src/android_security.md:689
+#: src/ios_security.md:695 src/android_security.md:757
 msgid "Quick Reference: Essential Settings Checklist"
 msgstr ""
 
-#: src/ios_security.md:697 src/android_security.md:691
+#: src/ios_security.md:697 src/android_security.md:759
 msgid "Setting"
 msgstr ""
 
-#: src/ios_security.md:697 src/android_security.md:213
-#: src/android_security.md:691 src/android_security.md:701
+#: src/ios_security.md:697 src/android_security.md:281
+#: src/android_security.md:759 src/android_security.md:769
 msgid "Location"
 msgstr ""
 
-#: src/ios_security.md:697 src/android_security.md:691
+#: src/ios_security.md:697 src/android_security.md:759
 msgid "Recommended"
 msgstr ""
 
@@ -1812,9 +1813,9 @@ msgstr ""
 
 #: src/ios_security.md:699 src/ios_security.md:701 src/ios_security.md:702
 #: src/ios_security.md:705 src/ios_security.md:706 src/ios_security.md:707
-#: src/ios_security.md:708 src/android_security.md:693
-#: src/android_security.md:695 src/android_security.md:696
-#: src/android_security.md:697 src/android_security.md:704
+#: src/ios_security.md:708 src/android_security.md:761
+#: src/android_security.md:763 src/android_security.md:764
+#: src/android_security.md:765 src/android_security.md:772
 msgid "✅ Enable"
 msgstr ""
 
@@ -1826,7 +1827,7 @@ msgstr ""
 msgid "✅ Alphanumeric"
 msgstr ""
 
-#: src/ios_security.md:701 src/android_security.md:695
+#: src/ios_security.md:701 src/android_security.md:763
 msgid "Two-Factor Authentication"
 msgstr ""
 
@@ -1846,7 +1847,7 @@ msgstr ""
 msgid "Settings > Privacy & Security > Tracking"
 msgstr ""
 
-#: src/ios_security.md:703 src/android_security.md:703
+#: src/ios_security.md:703 src/android_security.md:771
 msgid "❌ Disable"
 msgstr ""
 
@@ -1918,7 +1919,7 @@ msgstr ""
 msgid "⚙️ When Unlocked"
 msgstr ""
 
-#: src/ios_security.md:714 src/android_security.md:710
+#: src/ios_security.md:714 src/android_security.md:778
 msgid "Conclusion"
 msgstr ""
 
@@ -2234,1628 +2235,1792 @@ msgstr ""
 msgid "Easy to turn on/off, so no harm in trying"
 msgstr ""
 
+#: src/android_security.md:86
+msgid "Google Advanced Protection Program"
+msgstr ""
+
 #: src/android_security.md:88
-msgid "2. Device Authentication"
+msgid ""
+"The Advanced Protection Program is Google's strongest account-level security "
+"offering, separate from the device-level Advanced Protection Mode above. It "
+"is designed for people at high risk of targeted online attacks, such as "
+"journalists, activists, political campaign staff, and anyone managing "
+"sensitive information."
 msgstr ""
 
 #: src/android_security.md:90
-msgid "Screen Lock Options"
+msgid "**What it protects:**"
+msgstr ""
+
+#: src/android_security.md:91
+msgid ""
+"**Phishing defense** — Requires a passkey or FIDO-compliant security key to "
+"sign in. Unauthorized users cannot access your account even if they have "
+"your password."
 msgstr ""
 
 #: src/android_security.md:92
-msgid "Android 16 supports multiple screen lock methods:"
+msgid ""
+"**Download safety** — Enhanced screening for file downloads; app "
+"installations restricted to verified sources like Google Play Store and "
+"device manufacturer app stores."
+msgstr ""
+
+#: src/android_security.md:93
+msgid ""
+"**Third-party access control** — Only Google apps and verified third-party "
+"apps can access your Google Account data, and only with your permission."
 msgstr ""
 
 #: src/android_security.md:95
-msgid "Go to **Settings > Security & Privacy > Device Unlock > Screen Lock**"
+msgid "**How to enroll:**"
 msgstr ""
 
 #: src/android_security.md:96
-msgid "Choose your lock type:"
+msgid ""
+"Go to [Google Advanced Protection "
+"Program](https://landing.google.com/advancedprotection/)"
 msgstr ""
 
 #: src/android_security.md:97
-msgid "**PIN** – 6+ digits recommended"
+msgid "Sign in with the Google Account you want to protect"
 msgstr ""
 
 #: src/android_security.md:98
-msgid "**Password** – Most secure (alphanumeric)"
+msgid ""
+"Set up a passkey or register a FIDO-compliant security key (e.g., Google "
+"Titan Security Key)"
 msgstr ""
 
 #: src/android_security.md:99
-msgid "**Pattern** – Less secure, avoid simple patterns"
+msgid "Follow the enrollment steps"
 msgstr ""
 
-#: src/android_security.md:100
-msgid "**Fingerprint** – Convenient biometric"
-msgstr ""
-
-#: src/android_security.md:101
-msgid "**Face Unlock** – Available on supported devices"
+#: src/android_security.md:102
+msgid "A passkey or FIDO-compliant security key"
 msgstr ""
 
 #: src/android_security.md:103
+msgid "A Google Account with 2-Step Verification enabled"
+msgstr ""
+
+#: src/android_security.md:110
+msgid ""
+"The Advanced Protection Program enforces strict restrictions. Third-party "
+"apps that require access to Gmail or Drive data may stop working. Account "
+"recovery is intentionally harder — if you lose your passkey or security key, "
+"regaining access will require additional verification steps."
+msgstr ""
+
+#: src/android_security.md:116
+msgid "2. Device Authentication"
+msgstr ""
+
+#: src/android_security.md:118
+msgid "Screen Lock Options"
+msgstr ""
+
+#: src/android_security.md:120
+msgid "Android 16 supports multiple screen lock methods:"
+msgstr ""
+
+#: src/android_security.md:123
+msgid "Go to **Settings > Security & Privacy > Device Unlock > Screen Lock**"
+msgstr ""
+
+#: src/android_security.md:124
+msgid "Choose your lock type:"
+msgstr ""
+
+#: src/android_security.md:125
+msgid "**PIN** – 6+ digits recommended"
+msgstr ""
+
+#: src/android_security.md:126
+msgid "**Password** – Most secure (alphanumeric)"
+msgstr ""
+
+#: src/android_security.md:127
+msgid "**Pattern** – Less secure, avoid simple patterns"
+msgstr ""
+
+#: src/android_security.md:128
+msgid "**Fingerprint** – Convenient biometric"
+msgstr ""
+
+#: src/android_security.md:129
+msgid "**Face Unlock** – Available on supported devices"
+msgstr ""
+
+#: src/android_security.md:131
 msgid ""
 "**Best Practice:** Use a PIN with 6+ digits or an alphanumeric password. Add "
 "fingerprint for convenience."
 msgstr ""
 
-#: src/android_security.md:105
+#: src/android_security.md:133
 msgid "Two-Factor Authentication (2FA) for Google Account"
 msgstr ""
 
-#: src/android_security.md:107 src/android_security.md:164
-#: src/android_security.md:177 src/android_security.md:185
-#: src/android_security.md:431 src/android_security.md:441
+#: src/android_security.md:135 src/android_security.md:232
+#: src/android_security.md:245 src/android_security.md:253
+#: src/android_security.md:499 src/android_security.md:509
 msgid "**How to enable:**"
 msgstr ""
 
-#: src/android_security.md:108 src/android_security.md:575
+#: src/android_security.md:136 src/android_security.md:163
+#: src/android_security.md:643
 msgid "Go to **Settings > Google > Manage your Google Account**"
 msgstr ""
 
-#: src/android_security.md:109
+#: src/android_security.md:137 src/android_security.md:164
 msgid "Tap **Security**"
 msgstr ""
 
-#: src/android_security.md:110
+#: src/android_security.md:138 src/android_security.md:165
 msgid "Under \"How you sign in to Google,\" tap **2-Step Verification**"
 msgstr ""
 
-#: src/android_security.md:111 src/android_security.md:140
-#: src/android_security.md:305
+#: src/android_security.md:139 src/android_security.md:208
+#: src/android_security.md:373
 msgid "Follow setup instructions"
 msgstr ""
 
-#: src/android_security.md:112
+#: src/android_security.md:140
 msgid ""
 "Add multiple verification methods (authenticator app, backup codes, security "
 "key)"
 msgstr ""
 
-#: src/android_security.md:114
+#: src/android_security.md:142
 msgid "Biometric Settings"
 msgstr ""
 
-#: src/android_security.md:116
+#: src/android_security.md:144
 msgid ""
 "Go to **Settings > Security & Privacy > Device Unlock > Fingerprint** (or "
 "Face Unlock)"
 msgstr ""
 
-#: src/android_security.md:117
+#: src/android_security.md:145
 msgid "Add your biometrics"
 msgstr ""
 
-#: src/android_security.md:118
+#: src/android_security.md:146
 msgid "Configure what biometrics can unlock (device, apps, payments)"
 msgstr ""
 
-#: src/android_security.md:122
+#: src/android_security.md:148
+msgid "Security Keys for Google Account"
+msgstr ""
+
+#: src/android_security.md:150
+msgid ""
+"Security keys are physical devices that serve as a second authentication "
+"factor for your Google Account. They replace SMS or authenticator app codes "
+"with a physical device you must have present, making phishing attacks "
+"ineffective."
+msgstr ""
+
+#: src/android_security.md:153
+msgid ""
+"A FIDO2-compliant security key (e.g., Google Titan Security Key, YubiKey 5 "
+"series)"
+msgstr ""
+
+#: src/android_security.md:154
+msgid "Google Account with 2-Step Verification enabled"
+msgstr ""
+
+#: src/android_security.md:157
+msgid "**NFC** — Tap the key against the back of your Android phone"
+msgstr ""
+
+#: src/android_security.md:158
+msgid "**USB-C** — Plug directly into your phone or computer"
+msgstr ""
+
+#: src/android_security.md:159
+msgid "**USB-A** — For computers with USB-A ports"
+msgstr ""
+
+#: src/android_security.md:160
+msgid "**Bluetooth** — Google Titan Security Key supports BLE pairing"
+msgstr ""
+
+#: src/android_security.md:162
+msgid "**How to add a security key:**"
+msgstr ""
+
+#: src/android_security.md:166
+msgid "Tap **Security key**"
+msgstr ""
+
+#: src/android_security.md:167
+msgid "Follow the on-screen instructions to register your key"
+msgstr ""
+
+#: src/android_security.md:170
+msgid "Signing in to your Google Account on a new device or browser"
+msgstr ""
+
+#: src/android_security.md:171
+msgid "Accessing sensitive account settings"
+msgstr ""
+
+#: src/android_security.md:172
+msgid "Signing in to apps and services that use Google authentication"
+msgstr ""
+
+#: src/android_security.md:174
+msgid "**Using your security key on Android:**"
+msgstr ""
+
+#: src/android_security.md:175
+msgid "**NFC keys:** When prompted, tap the key against the back of your phone"
+msgstr ""
+
+#: src/android_security.md:176
+msgid "**USB keys:** Plug the key into your phone's USB-C port when prompted"
+msgstr ""
+
+#: src/android_security.md:177
+msgid ""
+"**Bluetooth keys:** Pair once, then press the button on the key when prompted"
+msgstr ""
+
+#: src/android_security.md:184
+msgid ""
+"Register at least two security keys and store the backup in a safe place. If "
+"you lose all your security keys and have no other recovery method, you could "
+"be locked out of your Google Account."
+msgstr ""
+
+#: src/android_security.md:190
 msgid "3. Identity Check"
 msgstr ""
 
-#: src/android_security.md:124
+#: src/android_security.md:192
 msgid ""
 "Identity Check requires biometric authentication for sensitive actions when "
 "you're away from trusted locations—similar to iOS's Stolen Device Protection."
 msgstr ""
 
-#: src/android_security.md:126
+#: src/android_security.md:194
 msgid "What It Protects"
 msgstr ""
 
-#: src/android_security.md:128
+#: src/android_security.md:196
 msgid "When outside trusted locations, biometric authentication is required for:"
 msgstr ""
 
-#: src/android_security.md:129
+#: src/android_security.md:197
 msgid "Changing device PIN or password"
 msgstr ""
 
-#: src/android_security.md:130
+#: src/android_security.md:198
 msgid "Changing biometric settings"
 msgstr ""
 
-#: src/android_security.md:131
+#: src/android_security.md:199
 msgid "Disabling theft protection"
 msgstr ""
 
-#: src/android_security.md:132
+#: src/android_security.md:200
 msgid "Accessing passkeys"
 msgstr ""
 
-#: src/android_security.md:133
+#: src/android_security.md:201
 msgid "Factory resetting the device"
 msgstr ""
 
-#: src/android_security.md:134
+#: src/android_security.md:202
 msgid "Changing Google Account settings"
 msgstr ""
 
-#: src/android_security.md:138
+#: src/android_security.md:206
 msgid ""
 "Go to **Settings > Security & Privacy > Device Unlock > Theft Protection**"
 msgstr ""
 
-#: src/android_security.md:139
+#: src/android_security.md:207
 msgid "Tap **Identity Check**"
 msgstr ""
 
-#: src/android_security.md:141
+#: src/android_security.md:209
 msgid "Add trusted locations (home, work)"
 msgstr ""
 
-#: src/android_security.md:145
+#: src/android_security.md:213
 msgid "Android 16 on supported devices (Pixel, Samsung One UI 7, others)"
 msgstr ""
 
-#: src/android_security.md:146
+#: src/android_security.md:214
 msgid "Screen lock and biometrics enabled"
 msgstr ""
 
-#: src/android_security.md:147
+#: src/android_security.md:215
 msgid "Location services enabled"
 msgstr ""
 
-#: src/android_security.md:149 src/android_security.md:315
+#: src/android_security.md:217 src/android_security.md:383
 msgid "Best Practice"
 msgstr ""
 
-#: src/android_security.md:151
+#: src/android_security.md:219
 msgid "Only add truly trusted private locations"
 msgstr ""
 
-#: src/android_security.md:152
+#: src/android_security.md:220
 msgid "Never add public places as trusted locations"
 msgstr ""
 
-#: src/android_security.md:156
+#: src/android_security.md:224
 msgid "4. Theft Protection"
 msgstr ""
 
-#: src/android_security.md:158
+#: src/android_security.md:226
 msgid "Android 16 consolidates multiple theft protection features."
 msgstr ""
 
-#: src/android_security.md:160 src/android_security.md:697
+#: src/android_security.md:228 src/android_security.md:765
 msgid "Theft Detection Lock"
 msgstr ""
 
-#: src/android_security.md:162
+#: src/android_security.md:230
 msgid ""
 "Uses AI and device sensors to detect if someone snatches your phone and runs."
 msgstr ""
 
-#: src/android_security.md:165 src/android_security.md:178
-#: src/android_security.md:186
+#: src/android_security.md:233 src/android_security.md:246
+#: src/android_security.md:254
 msgid "Go to **Settings > Google > All services > Theft Protection**"
 msgstr ""
 
-#: src/android_security.md:166
+#: src/android_security.md:234
 msgid "Toggle on **Theft Detection Lock**"
 msgstr ""
 
-#: src/android_security.md:169
+#: src/android_security.md:237
 msgid "Monitors motion sensors, Wi-Fi, and Bluetooth"
 msgstr ""
 
-#: src/android_security.md:170
+#: src/android_security.md:238
 msgid "Automatically locks screen if theft is detected"
 msgstr ""
 
-#: src/android_security.md:171
+#: src/android_security.md:239
 msgid "Won't trigger during stable connections"
 msgstr ""
 
-#: src/android_security.md:173
+#: src/android_security.md:241
 msgid "Offline Device Lock"
 msgstr ""
 
-#: src/android_security.md:175
+#: src/android_security.md:243
 msgid ""
 "Automatically locks your device if it goes offline (thief turns off "
 "internet)."
 msgstr ""
 
-#: src/android_security.md:179
+#: src/android_security.md:247
 msgid "Toggle on **Offline Device Lock**"
 msgstr ""
 
-#: src/android_security.md:181
+#: src/android_security.md:249
 msgid "Failed Authentication Lock"
 msgstr ""
 
-#: src/android_security.md:183
+#: src/android_security.md:251
 msgid "Locks device after repeated failed unlock attempts."
 msgstr ""
 
-#: src/android_security.md:187
+#: src/android_security.md:255
 msgid "Toggle on **Failed Authentication Lock** (may be on by default)"
 msgstr ""
 
-#: src/android_security.md:189
+#: src/android_security.md:257
 msgid "Inactivity Reboot"
 msgstr ""
 
-#: src/android_security.md:191
+#: src/android_security.md:259
 msgid ""
 "Automatically restarts device after 72 hours of being locked, making data "
 "unreadable until fresh unlock."
 msgstr ""
 
-#: src/android_security.md:193
+#: src/android_security.md:261
 msgid "**Enabled automatically with Advanced Protection**"
 msgstr ""
 
-#: src/android_security.md:195
+#: src/android_security.md:263
 msgid "Remote Lock"
 msgstr ""
 
-#: src/android_security.md:197
+#: src/android_security.md:265
 msgid ""
 "Lock your device remotely via Find My Device with security challenge "
 "question."
 msgstr ""
 
-#: src/android_security.md:199
+#: src/android_security.md:267
 msgid "Factory Reset Protection"
 msgstr ""
 
-#: src/android_security.md:201
+#: src/android_security.md:269
 msgid ""
 "Enhanced in Android 16 to restrict all functions on devices reset without "
 "authorization."
 msgstr ""
 
-#: src/android_security.md:205
+#: src/android_security.md:273
 msgid "5. App Permissions"
 msgstr ""
 
-#: src/android_security.md:207
+#: src/android_security.md:275
 msgid "Permission Manager"
 msgstr ""
 
-#: src/android_security.md:209
+#: src/android_security.md:277
 msgid "Review and control what data apps can access:"
 msgstr ""
 
-#: src/android_security.md:211 src/android_security.md:254
+#: src/android_security.md:279 src/android_security.md:322
 msgid ""
 "Go to **Settings > Security & Privacy > Privacy Controls > Permission "
 "Manager**"
 msgstr ""
 
-#: src/android_security.md:212
+#: src/android_security.md:280
 msgid "Review each category:"
 msgstr ""
 
-#: src/android_security.md:214
+#: src/android_security.md:282
 msgid "Camera"
 msgstr ""
 
-#: src/android_security.md:215
+#: src/android_security.md:283
 msgid "Microphone"
 msgstr ""
 
-#: src/android_security.md:216
+#: src/android_security.md:284
 msgid "Contacts"
 msgstr ""
 
-#: src/android_security.md:217
+#: src/android_security.md:285
 msgid "Files and media"
 msgstr ""
 
-#: src/android_security.md:218
+#: src/android_security.md:286
 msgid "Calendar"
 msgstr ""
 
-#: src/android_security.md:219
+#: src/android_security.md:287
 msgid "Phone"
 msgstr ""
 
-#: src/android_security.md:220
+#: src/android_security.md:288
 msgid "SMS"
 msgstr ""
 
-#: src/android_security.md:221
+#: src/android_security.md:289
 msgid "Body sensors / Health"
 msgstr ""
 
-#: src/android_security.md:222
+#: src/android_security.md:290
 msgid "Nearby devices"
 msgstr ""
 
-#: src/android_security.md:224
+#: src/android_security.md:292
 msgid "Permission Options"
 msgstr ""
 
-#: src/android_security.md:226
+#: src/android_security.md:294
 msgid "For each app, you can choose:"
 msgstr ""
 
-#: src/android_security.md:227
+#: src/android_security.md:295
 msgid "**Allow all the time** – Background access (use sparingly)"
 msgstr ""
 
-#: src/android_security.md:228
+#: src/android_security.md:296
 msgid "**Allow only while using the app** – Access only when app is open"
 msgstr ""
 
-#: src/android_security.md:229
+#: src/android_security.md:297
 msgid "**Ask every time** – Prompts each use"
 msgstr ""
 
-#: src/android_security.md:230
+#: src/android_security.md:298
 msgid "**Don't allow** – No access"
 msgstr ""
 
-#: src/android_security.md:232
+#: src/android_security.md:300
 msgid "One-Time Permissions"
 msgstr ""
 
-#: src/android_security.md:234
+#: src/android_security.md:302
 msgid ""
 "For camera, microphone, and location, you can grant one-time access that "
 "revokes when you close the app."
 msgstr ""
 
-#: src/android_security.md:236
+#: src/android_security.md:304
 msgid "Auto-Reset Unused App Permissions"
 msgstr ""
 
-#: src/android_security.md:238
+#: src/android_security.md:306
 msgid ""
 "Android automatically resets permissions for apps you haven't used in a "
 "while."
 msgstr ""
 
-#: src/android_security.md:240
+#: src/android_security.md:308
 msgid "Go to **Settings > Apps > \\[App name\\] > Permissions**"
 msgstr ""
 
-#: src/android_security.md:241
+#: src/android_security.md:309
 msgid "Ensure **Pause app activity if unused** is enabled"
 msgstr ""
 
-#: src/android_security.md:243
+#: src/android_security.md:311
 msgid "AI-Powered Permission Controls (Android 16)"
 msgstr ""
 
-#: src/android_security.md:245
+#: src/android_security.md:313
 msgid "Android 16 introduces contextual permission management:"
 msgstr ""
 
-#: src/android_security.md:246
+#: src/android_security.md:314
 msgid "System evaluates if permission requests match your usage patterns"
 msgstr ""
 
-#: src/android_security.md:247
+#: src/android_security.md:315
 msgid ""
 "Unusual requests (e.g., location at midnight) may trigger additional "
 "confirmation"
 msgstr ""
 
-#: src/android_security.md:248
+#: src/android_security.md:316
 msgid "Detailed permission logs explain automated decisions"
 msgstr ""
 
-#: src/android_security.md:250
+#: src/android_security.md:318
 msgid "Local Network Protection (New in Android 16)"
 msgstr ""
 
-#: src/android_security.md:252
+#: src/android_security.md:320
 msgid ""
 "Apps now need explicit permission to access your local network (smart home "
 "devices, etc.):"
 msgstr ""
 
-#: src/android_security.md:255
+#: src/android_security.md:323
 msgid "Review **Nearby devices** and **Local network** permissions"
 msgstr ""
 
-#: src/android_security.md:259
+#: src/android_security.md:327
 msgid "6. Location Services"
 msgstr ""
 
-#: src/android_security.md:261
+#: src/android_security.md:329
 msgid "Global Location Settings"
 msgstr ""
 
-#: src/android_security.md:263
+#: src/android_security.md:331
 msgid "Go to **Settings > Location**"
 msgstr ""
 
-#: src/android_security.md:264
+#: src/android_security.md:332
 msgid "Toggle **Use location** on or off"
 msgstr ""
 
-#: src/android_security.md:266
+#: src/android_security.md:334
 msgid "Per-App Location Permissions"
 msgstr ""
 
-#: src/android_security.md:268
+#: src/android_security.md:336
 msgid "Go to **Settings > Location > App location permissions**"
 msgstr ""
 
-#: src/android_security.md:270
+#: src/android_security.md:338
 msgid "**Allowed all the time**"
 msgstr ""
 
-#: src/android_security.md:271
+#: src/android_security.md:339
 msgid "**Allowed only while using**"
 msgstr ""
 
-#: src/android_security.md:272
+#: src/android_security.md:340
 msgid "**Ask every time**"
 msgstr ""
 
-#: src/android_security.md:273
+#: src/android_security.md:341
 msgid "**Not allowed**"
 msgstr ""
 
-#: src/android_security.md:277
+#: src/android_security.md:345
 msgid ""
 "Android 16 fixes a flaw that allowed apps to infer precise location even "
 "with approximate permission."
 msgstr ""
 
-#: src/android_security.md:280
+#: src/android_security.md:348
 msgid "Go to **Settings > Location > App location permissions > \\[App\\]**"
 msgstr ""
 
-#: src/android_security.md:281
+#: src/android_security.md:349
 msgid ""
 "Toggle **Use precise location** off for apps that don't need exact "
 "coordinates"
 msgstr ""
 
-#: src/android_security.md:283
+#: src/android_security.md:351
 msgid "Location History"
 msgstr ""
 
-#: src/android_security.md:285 src/android_security.md:583
+#: src/android_security.md:353 src/android_security.md:651
 msgid "Go to **Settings > Google > Manage your Google Account > Data & privacy**"
 msgstr ""
 
-#: src/android_security.md:286
+#: src/android_security.md:354
 msgid "Under \"History settings,\" review **Location History**"
 msgstr ""
 
-#: src/android_security.md:287
+#: src/android_security.md:355
 msgid "Turn off or set auto-delete (3 months, 18 months, 36 months)"
 msgstr ""
 
-#: src/android_security.md:291
+#: src/android_security.md:359
 msgid "7. Private Space"
 msgstr ""
 
-#: src/android_security.md:293
+#: src/android_security.md:361
 msgid ""
 "Private Space lets you hide and secure sensitive apps behind a separate "
 "authentication."
 msgstr ""
 
-#: src/android_security.md:297
+#: src/android_security.md:365
 msgid "Hidden apps in a separate space"
 msgstr ""
 
-#: src/android_security.md:298
+#: src/android_security.md:366
 msgid "Separate Google account for private apps"
 msgstr ""
 
-#: src/android_security.md:299
+#: src/android_security.md:367
 msgid "Requires PIN/biometric to access"
 msgstr ""
 
-#: src/android_security.md:300
+#: src/android_security.md:368
 msgid "Apps don't appear in app drawer, search, or notifications"
 msgstr ""
 
-#: src/android_security.md:302
+#: src/android_security.md:370
 msgid "How to Set Up"
 msgstr ""
 
-#: src/android_security.md:304
+#: src/android_security.md:372
 msgid "Go to **Settings > Security & Privacy > Private Space**"
 msgstr ""
 
-#: src/android_security.md:306
+#: src/android_security.md:374
 msgid "Create or sign into a Google account for Private Space"
 msgstr ""
 
-#: src/android_security.md:307
+#: src/android_security.md:375
 msgid "Set up lock (PIN, pattern, or password)"
 msgstr ""
 
-#: src/android_security.md:309
+#: src/android_security.md:377
 msgid "Adding Apps to Private Space"
 msgstr ""
 
-#: src/android_security.md:311
+#: src/android_security.md:379
 msgid "Open Private Space (swipe up and scroll to bottom of app list)"
 msgstr ""
 
-#: src/android_security.md:312
+#: src/android_security.md:380
 msgid "Tap **Install apps**"
 msgstr ""
 
-#: src/android_security.md:313
+#: src/android_security.md:381
 msgid "Install or move apps to Private Space"
 msgstr ""
 
-#: src/android_security.md:317
+#: src/android_security.md:385
 msgid "Use Private Space for:"
 msgstr ""
 
-#: src/android_security.md:318
+#: src/android_security.md:386
 msgid "Banking and financial apps"
 msgstr ""
 
-#: src/android_security.md:319
+#: src/android_security.md:387
 msgid "Personal health apps"
 msgstr ""
 
-#: src/android_security.md:320
+#: src/android_security.md:388
 msgid "Sensitive documents"
 msgstr ""
 
-#: src/android_security.md:321
+#: src/android_security.md:389
 msgid "Apps you want to keep private"
 msgstr ""
 
-#: src/android_security.md:325
+#: src/android_security.md:393
 msgid "8. Google Play Protect"
 msgstr ""
 
-#: src/android_security.md:327
+#: src/android_security.md:395
 msgid "Play Protect scans your device for harmful apps."
 msgstr ""
 
-#: src/android_security.md:331
+#: src/android_security.md:399
 msgid "Automatic app scanning"
 msgstr ""
 
-#: src/android_security.md:332
+#: src/android_security.md:400
 msgid "Real-time threat protection"
 msgstr ""
 
-#: src/android_security.md:333
+#: src/android_security.md:401
 msgid "Identifies harmful apps and malware"
 msgstr ""
 
-#: src/android_security.md:334
+#: src/android_security.md:402
 msgid "Cannot be disabled when Advanced Protection is on"
 msgstr ""
 
-#: src/android_security.md:336
+#: src/android_security.md:404
 msgid "How to Check Status"
 msgstr ""
 
-#: src/android_security.md:338
+#: src/android_security.md:406
 msgid "Open **Google Play Store**"
 msgstr ""
 
-#: src/android_security.md:339
+#: src/android_security.md:407
 msgid "Tap your profile icon"
 msgstr ""
 
-#: src/android_security.md:340
+#: src/android_security.md:408
 msgid "Tap **Play Protect**"
 msgstr ""
 
-#: src/android_security.md:341
+#: src/android_security.md:409
 msgid "Tap **Scan** to run manual scan"
 msgstr ""
 
-#: src/android_security.md:343 src/android_security.md:399
+#: src/android_security.md:411 src/android_security.md:467
 msgid "Settings"
 msgstr ""
 
-#: src/android_security.md:345
+#: src/android_security.md:413
 msgid "In Play Protect, tap **Settings** (gear icon)"
 msgstr ""
 
-#: src/android_security.md:346
+#: src/android_security.md:414
 msgid "Ensure **Scan apps with Play Protect** is on"
 msgstr ""
 
-#: src/android_security.md:347
+#: src/android_security.md:415
 msgid "Enable **Improve harmful app detection** to send unknown apps to Google"
 msgstr ""
 
-#: src/android_security.md:349
+#: src/android_security.md:417
 msgid "Live Threat Protection (Android 16)"
 msgstr ""
 
-#: src/android_security.md:351
+#: src/android_security.md:419
 msgid "Enhanced scanning detects apps that:"
 msgstr ""
 
-#: src/android_security.md:352
+#: src/android_security.md:420
 msgid "Change their icon to hide"
 msgstr ""
 
-#: src/android_security.md:353
+#: src/android_security.md:421
 msgid "Attempt to evade detection"
 msgstr ""
 
-#: src/android_security.md:354
+#: src/android_security.md:422
 msgid "Show malicious behavior"
 msgstr ""
 
-#: src/android_security.md:356
+#: src/android_security.md:424
 msgid "Available on Pixel 6+ and newer devices from other manufacturers."
 msgstr ""
 
-#: src/android_security.md:360
+#: src/android_security.md:428
 msgid "9. Google Password Manager & Passkeys"
 msgstr ""
 
-#: src/android_security.md:362
+#: src/android_security.md:430
 msgid "Google Password Manager"
 msgstr ""
 
-#: src/android_security.md:364
+#: src/android_security.md:432
 msgid "Built-in password manager that syncs across devices."
 msgstr ""
 
-#: src/android_security.md:366
+#: src/android_security.md:434
 msgid "**How to access:**"
 msgstr ""
 
-#: src/android_security.md:367
+#: src/android_security.md:435
 msgid "Go to **Settings**"
 msgstr ""
 
-#: src/android_security.md:368
+#: src/android_security.md:436
 msgid "Search for **Password Manager**"
 msgstr ""
 
-#: src/android_security.md:369
+#: src/android_security.md:437
 msgid "Or open the **Passwords** app"
 msgstr ""
 
-#: src/android_security.md:371
+#: src/android_security.md:439
 msgid "**Features:**"
 msgstr ""
 
-#: src/android_security.md:372
+#: src/android_security.md:440
 msgid "Save and autofill passwords"
 msgstr ""
 
-#: src/android_security.md:373
+#: src/android_security.md:441
 msgid "Generate strong passwords"
 msgstr ""
 
-#: src/android_security.md:374
+#: src/android_security.md:442
 msgid "Password checkup (finds weak, reused, compromised passwords)"
 msgstr ""
 
-#: src/android_security.md:375
+#: src/android_security.md:443
 msgid "Syncs to Google Account"
 msgstr ""
 
-#: src/android_security.md:377 src/android_security.md:699
+#: src/android_security.md:445 src/android_security.md:767
 msgid "Passkeys"
 msgstr ""
 
-#: src/android_security.md:379
+#: src/android_security.md:447
 msgid "Passkeys are phishing-resistant replacements for passwords."
 msgstr ""
 
-#: src/android_security.md:381
+#: src/android_security.md:449
 msgid "**Benefits:**"
 msgstr ""
 
-#: src/android_security.md:382
+#: src/android_security.md:450
 msgid "More secure than passwords"
 msgstr ""
 
-#: src/android_security.md:383
+#: src/android_security.md:451
 msgid "Cannot be phished"
 msgstr ""
 
-#: src/android_security.md:384
+#: src/android_security.md:452
 msgid "Synced across devices via Google Password Manager"
 msgstr ""
 
-#: src/android_security.md:385
+#: src/android_security.md:453
 msgid "Authenticate with fingerprint, face, or PIN"
 msgstr ""
 
-#: src/android_security.md:387
+#: src/android_security.md:455
 msgid "**How to use passkeys:**"
 msgstr ""
 
-#: src/android_security.md:388
+#: src/android_security.md:456
 msgid "When a site/app supports passkeys, you'll be prompted to create one"
 msgstr ""
 
-#: src/android_security.md:389
+#: src/android_security.md:457
 msgid "Confirm with your screen lock (fingerprint, face, PIN)"
 msgstr ""
 
-#: src/android_security.md:390
+#: src/android_security.md:458
 msgid "Passkey is saved to Google Password Manager"
 msgstr ""
 
-#: src/android_security.md:391
+#: src/android_security.md:459
 msgid "Sign in using your device's biometric/PIN"
 msgstr ""
 
-#: src/android_security.md:393
+#: src/android_security.md:461
 msgid "**Automatic Passkey Creation (Android 16):**"
 msgstr ""
 
-#: src/android_security.md:394
+#: src/android_security.md:462
 msgid ""
 "When you sign in with a password, Android can automatically create a passkey "
 "for future use"
 msgstr ""
 
-#: src/android_security.md:396
+#: src/android_security.md:464
 msgid "**Restore Credentials (Android 16):**"
 msgstr ""
 
-#: src/android_security.md:397
+#: src/android_security.md:465
 msgid ""
 "When setting up a new device, passkeys and app credentials transfer "
 "automatically"
 msgstr ""
 
-#: src/android_security.md:401
+#: src/android_security.md:469
 msgid "Go to **Settings > Passwords, passkeys & accounts**"
 msgstr ""
 
-#: src/android_security.md:402
+#: src/android_security.md:470
 msgid "Configure your password manager"
 msgstr ""
 
-#: src/android_security.md:403
+#: src/android_security.md:471
 msgid "Enable **Offer to save passwords**"
 msgstr ""
 
-#: src/android_security.md:404
+#: src/android_security.md:472
 msgid "Enable **Automatically create a passkey to sign in faster**"
 msgstr ""
 
-#: src/android_security.md:408
+#: src/android_security.md:476
 msgid "10. Scam & Spam Protection"
 msgstr ""
 
-#: src/android_security.md:410
+#: src/android_security.md:478
 msgid "In-Call Protection (Android 16)"
 msgstr ""
 
-#: src/android_security.md:412
+#: src/android_security.md:480
 msgid "Blocks dangerous actions during calls with non-contacts:"
 msgstr ""
 
-#: src/android_security.md:413
+#: src/android_security.md:481
 msgid "Cannot sideload apps for the first time"
 msgstr ""
 
-#: src/android_security.md:414
+#: src/android_security.md:482
 msgid "Cannot disable Google Play Protect"
 msgstr ""
 
-#: src/android_security.md:415
+#: src/android_security.md:483
 msgid "Cannot grant accessibility permissions"
 msgstr ""
 
-#: src/android_security.md:416
+#: src/android_security.md:484
 msgid "Screen-sharing reminder when call ends"
 msgstr ""
 
-#: src/android_security.md:418
+#: src/android_security.md:486
 msgid "Scam Detection in Phone App"
 msgstr ""
 
-#: src/android_security.md:420
+#: src/android_security.md:488
 msgid "AI-powered real-time scam detection warns you during suspicious calls."
 msgstr ""
 
-#: src/android_security.md:422
+#: src/android_security.md:490
 msgid "**Types detected:**"
 msgstr ""
 
-#: src/android_security.md:423
+#: src/android_security.md:491
 msgid "Package delivery scams"
 msgstr ""
 
-#: src/android_security.md:424
+#: src/android_security.md:492
 msgid "Job-seeking scams"
 msgstr ""
 
-#: src/android_security.md:425
+#: src/android_security.md:493
 msgid "Toll road and billing scams"
 msgstr ""
 
-#: src/android_security.md:426
+#: src/android_security.md:494
 msgid "Crypto scams"
 msgstr ""
 
-#: src/android_security.md:427
+#: src/android_security.md:495
 msgid "Financial impersonation"
 msgstr ""
 
-#: src/android_security.md:428
+#: src/android_security.md:496
 msgid "Gift card and prize scams"
 msgstr ""
 
-#: src/android_security.md:429
+#: src/android_security.md:497
 msgid "Tech support scams"
 msgstr ""
 
-#: src/android_security.md:432
+#: src/android_security.md:500
 msgid "Open **Phone** app"
 msgstr ""
 
-#: src/android_security.md:433
+#: src/android_security.md:501
 msgid "Tap **More (⋮) > Settings > Caller ID & spam**"
 msgstr ""
 
-#: src/android_security.md:434
+#: src/android_security.md:502
 msgid "Enable **See caller and spam ID**"
 msgstr ""
 
-#: src/android_security.md:435
+#: src/android_security.md:503
 msgid "Enable **Filter spam calls**"
 msgstr ""
 
-#: src/android_security.md:437
+#: src/android_security.md:505
 msgid "Scam Detection in Messages"
 msgstr ""
 
-#: src/android_security.md:439
+#: src/android_security.md:507
 msgid "Detects suspicious conversation patterns and unsafe links."
 msgstr ""
 
-#: src/android_security.md:442
+#: src/android_security.md:510
 msgid "Open **Messages** app"
 msgstr ""
 
-#: src/android_security.md:443
+#: src/android_security.md:511
 msgid "Tap **More (⋮) > Settings > Spam protection**"
 msgstr ""
 
-#: src/android_security.md:444
+#: src/android_security.md:512
 msgid "Enable **Enable spam protection**"
 msgstr ""
 
-#: src/android_security.md:446
+#: src/android_security.md:514
 msgid "OTP Protection (Android 16)"
 msgstr ""
 
-#: src/android_security.md:448
+#: src/android_security.md:516
 msgid "One-time passwords won't show on lock screen for devices that:"
 msgstr ""
 
-#: src/android_security.md:449
+#: src/android_security.md:517
 msgid "Haven't been recently unlocked"
 msgstr ""
 
-#: src/android_security.md:450
+#: src/android_security.md:518
 msgid "Aren't connected to known Wi-Fi"
 msgstr ""
 
-#: src/android_security.md:454
+#: src/android_security.md:522
 msgid "11. Network Security"
 msgstr ""
 
-#: src/android_security.md:456
+#: src/android_security.md:524
 msgid "Disable 2G"
 msgstr ""
 
-#: src/android_security.md:458
+#: src/android_security.md:526
 msgid "2G networks are vulnerable to interception and cell site simulators."
 msgstr ""
 
-#: src/android_security.md:460
+#: src/android_security.md:528
 msgid "**How to disable (if not using Advanced Protection):**"
 msgstr ""
 
-#: src/android_security.md:461
+#: src/android_security.md:529
 msgid "Go to **Settings > Network & internet > SIMs > \\[Your SIM\\]**"
 msgstr ""
 
-#: src/android_security.md:462
+#: src/android_security.md:530
 msgid "Toggle off **Allow 2G**"
 msgstr ""
 
-#: src/android_security.md:464
+#: src/android_security.md:532
 msgid "Wi-Fi Security"
 msgstr ""
 
-#: src/android_security.md:466
+#: src/android_security.md:534
 msgid "**Disable auto-join for insecure networks:**"
 msgstr ""
 
-#: src/android_security.md:467
+#: src/android_security.md:535
 msgid "Go to **Settings > Network & internet > Internet**"
 msgstr ""
 
-#: src/android_security.md:468
+#: src/android_security.md:536
 msgid "Tap **Network preferences**"
 msgstr ""
 
-#: src/android_security.md:469
+#: src/android_security.md:537
 msgid "Disable **Connect to open networks**"
 msgstr ""
 
-#: src/android_security.md:471
+#: src/android_security.md:539
 msgid "**Forget insecure networks:**"
 msgstr ""
 
-#: src/android_security.md:472
+#: src/android_security.md:540
 msgid "Go to **Settings > Network & internet > Internet > Saved networks**"
 msgstr ""
 
-#: src/android_security.md:473
+#: src/android_security.md:541
 msgid "Remove networks you don't trust"
 msgstr ""
 
-#: src/android_security.md:475
+#: src/android_security.md:543
 msgid "VPN"
 msgstr ""
 
-#: src/android_security.md:477
+#: src/android_security.md:545
 msgid "Use a VPN on public Wi-Fi:"
 msgstr ""
 
-#: src/android_security.md:478
+#: src/android_security.md:546
 msgid "Go to **Settings > Network & internet > VPN**"
 msgstr ""
 
-#: src/android_security.md:479
+#: src/android_security.md:547
 msgid "Configure your VPN provider"
 msgstr ""
 
-#: src/android_security.md:481
+#: src/android_security.md:549
 msgid "DNS Settings"
 msgstr ""
 
-#: src/android_security.md:483
+#: src/android_security.md:551
 msgid "Use encrypted DNS:"
 msgstr ""
 
-#: src/android_security.md:484
+#: src/android_security.md:552
 msgid "Go to **Settings > Network & internet > Private DNS**"
 msgstr ""
 
-#: src/android_security.md:485
+#: src/android_security.md:553
 msgid "Select **Private DNS provider hostname**"
 msgstr ""
 
-#: src/android_security.md:486
+#: src/android_security.md:554
 msgid "Enter a provider (e.g., `dns.google` or `cloudflare-dns.com`)"
 msgstr ""
 
-#: src/android_security.md:490
+#: src/android_security.md:558
 msgid "12. USB Protection"
 msgstr ""
 
-#: src/android_security.md:492
+#: src/android_security.md:560
 msgid "Android 16 defaults USB connections to charging-only when locked."
 msgstr ""
 
-#: src/android_security.md:496
+#: src/android_security.md:564
 msgid "Prevents data transfer via USB when device is locked"
 msgstr ""
 
-#: src/android_security.md:497
+#: src/android_security.md:565
 msgid "Protects against \"juice jacking\" attacks at public charging stations"
 msgstr ""
 
-#: src/android_security.md:498
+#: src/android_security.md:566
 msgid "Blocks physical data extraction attempts"
 msgstr ""
 
-#: src/android_security.md:500
+#: src/android_security.md:568
 msgid "How It Works"
 msgstr ""
 
-#: src/android_security.md:502
+#: src/android_security.md:570
 msgid "When Advanced Protection is enabled:"
 msgstr ""
 
-#: src/android_security.md:503
+#: src/android_security.md:571
 msgid "USB defaults to charging-only when locked"
 msgstr ""
 
-#: src/android_security.md:504
+#: src/android_security.md:572
 msgid "Must unlock device to enable data transfer"
 msgstr ""
 
-#: src/android_security.md:506
+#: src/android_security.md:574
 msgid "Manual Configuration"
 msgstr ""
 
-#: src/android_security.md:508
+#: src/android_security.md:576
 msgid "Go to **Settings > Connected devices > USB**"
 msgstr ""
 
-#: src/android_security.md:509
+#: src/android_security.md:577
 msgid "When connected, choose **Charging only** unless you need data transfer"
 msgstr ""
 
-#: src/android_security.md:513
+#: src/android_security.md:581
 msgid "13. Find My Device"
 msgstr ""
 
-#: src/android_security.md:517
+#: src/android_security.md:585
 msgid "Go to **Settings > Security & Privacy > Find My Device**"
 msgstr ""
 
-#: src/android_security.md:518
+#: src/android_security.md:586
 msgid "Toggle on **Use Find My Device**"
 msgstr ""
 
-#: src/android_security.md:519
+#: src/android_security.md:587
 msgid "Ensure location is enabled"
 msgstr ""
 
-#: src/android_security.md:523
+#: src/android_security.md:591
 msgid "Locate your device on a map"
 msgstr ""
 
-#: src/android_security.md:524
+#: src/android_security.md:592
 msgid "Play sound to find nearby device"
 msgstr ""
 
-#: src/android_security.md:525
+#: src/android_security.md:593
 msgid "Secure device (lock with message)"
 msgstr ""
 
-#: src/android_security.md:526
+#: src/android_security.md:594
 msgid "Erase device remotely"
 msgstr ""
 
-#: src/android_security.md:527
+#: src/android_security.md:595
 msgid "Locate offline devices using nearby Android devices"
 msgstr ""
 
-#: src/android_security.md:529
+#: src/android_security.md:597
 msgid "Find My Device Network"
 msgstr ""
 
-#: src/android_security.md:531
+#: src/android_security.md:599
 msgid ""
 "Android can find your device even when offline using Bluetooth signals from "
 "nearby Android devices."
 msgstr ""
 
-#: src/android_security.md:533
+#: src/android_security.md:601
 msgid "Go to **Settings > Google > All services > Find My Device**"
 msgstr ""
 
-#: src/android_security.md:534
+#: src/android_security.md:602
 msgid "Toggle on **Find your offline devices**"
 msgstr ""
 
-#: src/android_security.md:536
+#: src/android_security.md:604
 msgid "Using Find My Device"
 msgstr ""
 
-#: src/android_security.md:538
+#: src/android_security.md:606
 msgid "Go to android.com/find or use Find My Device app on another device"
 msgstr ""
 
-#: src/android_security.md:539
+#: src/android_security.md:607
 msgid "Sign in with your Google Account"
 msgstr ""
 
-#: src/android_security.md:540
+#: src/android_security.md:608
 msgid "Select your device"
 msgstr ""
 
-#: src/android_security.md:541
+#: src/android_security.md:609
 msgid "Choose action: Locate, Play Sound, Secure Device, Erase Device"
 msgstr ""
 
-#: src/android_security.md:545
+#: src/android_security.md:613
 msgid "14. Advertising & Tracking Controls"
 msgstr ""
 
-#: src/android_security.md:547
+#: src/android_security.md:615
 msgid "Delete Advertising ID"
 msgstr ""
 
-#: src/android_security.md:549
+#: src/android_security.md:617
 msgid "Disabling AAID makes it harder for advertisers to track you."
 msgstr ""
 
-#: src/android_security.md:551
+#: src/android_security.md:619
 msgid "**How to delete:**"
 msgstr ""
 
-#: src/android_security.md:552
+#: src/android_security.md:620
 msgid "Go to **Settings > Security & Privacy > Privacy Controls > Ads**"
 msgstr ""
 
-#: src/android_security.md:553
+#: src/android_security.md:621
 msgid "Tap **Delete advertising ID**"
 msgstr ""
 
-#: src/android_security.md:554
+#: src/android_security.md:622
 msgid "Confirm"
 msgstr ""
 
-#: src/android_security.md:556
+#: src/android_security.md:624
 msgid "Disable Personalized Ads"
 msgstr ""
 
-#: src/android_security.md:558
+#: src/android_security.md:626
 msgid "Go to **Settings > Google > Ads**"
 msgstr ""
 
-#: src/android_security.md:559
+#: src/android_security.md:627
 msgid "Toggle off **Opt out of Ads Personalization**"
 msgstr ""
 
-#: src/android_security.md:561
+#: src/android_security.md:629
 msgid "Unknown Tracker Alerts"
 msgstr ""
 
-#: src/android_security.md:563
+#: src/android_security.md:631
 msgid ""
 "Android detects unfamiliar tracking devices (like AirTags) moving with you."
 msgstr ""
 
-#: src/android_security.md:565
+#: src/android_security.md:633
 msgid "**How to check:**"
 msgstr ""
 
-#: src/android_security.md:566
+#: src/android_security.md:634
 msgid ""
 "Go to **Settings > Security & Privacy > More security & privacy > Unknown "
 "tracker alerts**"
 msgstr ""
 
-#: src/android_security.md:567
+#: src/android_security.md:635
 msgid "Ensure it's enabled"
 msgstr ""
 
-#: src/android_security.md:571
+#: src/android_security.md:639
 msgid "15. Google Account Privacy"
 msgstr ""
 
-#: src/android_security.md:573
+#: src/android_security.md:641
 msgid "Privacy Checkup"
 msgstr ""
 
-#: src/android_security.md:576
+#: src/android_security.md:644
 msgid "Tap **Data & privacy**"
 msgstr ""
 
-#: src/android_security.md:577
+#: src/android_security.md:645
 msgid "Tap **Review your privacy settings**"
 msgstr ""
 
-#: src/android_security.md:579
+#: src/android_security.md:647
 msgid "Activity Controls"
 msgstr ""
 
-#: src/android_security.md:581
+#: src/android_security.md:649
 msgid "Control what Google saves about your activity:"
 msgstr ""
 
-#: src/android_security.md:584
+#: src/android_security.md:652
 msgid "Under \"History settings,\" review:"
 msgstr ""
 
-#: src/android_security.md:585
+#: src/android_security.md:653
 msgid "**Web & App Activity** – Search and app activity"
 msgstr ""
 
-#: src/android_security.md:586
+#: src/android_security.md:654
 msgid "**Location History** – Places you've been"
 msgstr ""
 
-#: src/android_security.md:587
+#: src/android_security.md:655
 msgid "**YouTube History** – Videos watched"
 msgstr ""
 
-#: src/android_security.md:589
+#: src/android_security.md:657
 msgid "For each:"
 msgstr ""
 
-#: src/android_security.md:590
+#: src/android_security.md:658
 msgid "Turn off to stop saving"
 msgstr ""
 
-#: src/android_security.md:591
+#: src/android_security.md:659
 msgid "Enable auto-delete (3, 18, or 36 months)"
 msgstr ""
 
-#: src/android_security.md:593
+#: src/android_security.md:661
 msgid "Privacy Dashboard"
 msgstr ""
 
-#: src/android_security.md:595
+#: src/android_security.md:663
 msgid "View recent permission usage:"
 msgstr ""
 
-#: src/android_security.md:597
+#: src/android_security.md:665
 msgid ""
 "Go to **Settings > Security & Privacy > Privacy Controls > Privacy "
 "dashboard**"
 msgstr ""
 
-#: src/android_security.md:598
+#: src/android_security.md:666
 msgid "See which apps accessed location, camera, microphone in last 24 hours"
 msgstr ""
 
-#: src/android_security.md:602
+#: src/android_security.md:670
 msgid "16. Chrome & Browser Privacy"
 msgstr ""
 
-#: src/android_security.md:604
+#: src/android_security.md:672
 msgid "Safe Browsing"
 msgstr ""
 
-#: src/android_security.md:606
+#: src/android_security.md:674
 msgid "**Enable Enhanced Protection:**"
 msgstr ""
 
-#: src/android_security.md:607
+#: src/android_security.md:675
 msgid "Open **Chrome**"
 msgstr ""
 
-#: src/android_security.md:608
+#: src/android_security.md:676
 msgid "Tap **More (⋮) > Settings > Privacy and security > Safe Browsing**"
 msgstr ""
 
-#: src/android_security.md:609
+#: src/android_security.md:677
 msgid "Select **Enhanced protection**"
 msgstr ""
 
-#: src/android_security.md:611
+#: src/android_security.md:679
 msgid "Privacy Settings"
 msgstr ""
 
-#: src/android_security.md:613
+#: src/android_security.md:681
 msgid "Open **Chrome > Settings > Privacy and security**"
 msgstr ""
 
-#: src/android_security.md:614
+#: src/android_security.md:682
 msgid "Configure:"
 msgstr ""
 
-#: src/android_security.md:615
+#: src/android_security.md:683
 msgid "**Clear browsing data** – Regularly clear history, cookies, cache"
 msgstr ""
 
-#: src/android_security.md:616
+#: src/android_security.md:684
 msgid "**Always use secure connections** – Forces HTTPS"
 msgstr ""
 
-#: src/android_security.md:617
+#: src/android_security.md:685
 msgid "**Do Not Track** – Send request to sites (limited effectiveness)"
 msgstr ""
 
-#: src/android_security.md:618
+#: src/android_security.md:686
 msgid "**Preload pages** – Disable for more privacy"
 msgstr ""
 
-#: src/android_security.md:620
+#: src/android_security.md:688
 msgid "Incognito Mode"
 msgstr ""
 
-#: src/android_security.md:622
+#: src/android_security.md:690
 msgid "For private browsing:"
 msgstr ""
 
-#: src/android_security.md:623
+#: src/android_security.md:691
 msgid "Open Chrome"
 msgstr ""
 
-#: src/android_security.md:624
+#: src/android_security.md:692
 msgid "Tap **More (⋮) > New Incognito tab**"
 msgstr ""
 
-#: src/android_security.md:631
+#: src/android_security.md:699
 msgid ""
 "Incognito doesn't make you anonymous—your ISP and websites can still see "
 "your activity."
 msgstr ""
 
-#: src/android_security.md:635
+#: src/android_security.md:703
 msgid "Third-Party Cookies"
 msgstr ""
 
-#: src/android_security.md:637
+#: src/android_security.md:705
 msgid "Go to **Chrome > Settings > Site settings > Cookies**"
 msgstr ""
 
-#: src/android_security.md:638
+#: src/android_security.md:706
 msgid "Select **Block third-party cookies**"
 msgstr ""
 
-#: src/android_security.md:642
+#: src/android_security.md:710
 msgid "17. Additional Security Recommendations"
 msgstr ""
 
-#: src/android_security.md:644
+#: src/android_security.md:712
 msgid "Software Updates"
 msgstr ""
 
-#: src/android_security.md:646
+#: src/android_security.md:714
 msgid "Go to **Settings > System > Software update**"
 msgstr ""
 
-#: src/android_security.md:647
+#: src/android_security.md:715
 msgid "Enable automatic updates"
 msgstr ""
 
-#: src/android_security.md:648
+#: src/android_security.md:716
 msgid "Install security patches promptly"
 msgstr ""
 
-#: src/android_security.md:652
+#: src/android_security.md:720
 msgid "Go to **Settings > Notifications > Notifications on lock screen**"
 msgstr ""
 
-#: src/android_security.md:653
+#: src/android_security.md:721
 msgid ""
 "Choose **Show sensitive content only when unlocked** or **Don't show any "
 "notifications**"
 msgstr ""
 
-#: src/android_security.md:655
+#: src/android_security.md:723
 msgid "App Installation from Unknown Sources"
 msgstr ""
 
-#: src/android_security.md:657
+#: src/android_security.md:725
 msgid "Go to **Settings > Apps > Special app access > Install unknown apps**"
 msgstr ""
 
-#: src/android_security.md:658
+#: src/android_security.md:726
 msgid "Ensure all apps show **Not allowed**"
 msgstr ""
 
-#: src/android_security.md:659
+#: src/android_security.md:727
 msgid "Only enable temporarily when needed, then disable"
 msgstr ""
 
-#: src/android_security.md:661
+#: src/android_security.md:729
 msgid "Backup Encryption"
 msgstr ""
 
-#: src/android_security.md:663
+#: src/android_security.md:731
 msgid "Go to **Settings > Google > Backup**"
 msgstr ""
 
-#: src/android_security.md:664
+#: src/android_security.md:732
 msgid "Ensure **Backup by Google One** is on"
 msgstr ""
 
-#: src/android_security.md:665
+#: src/android_security.md:733
 msgid "Backups are encrypted with your screen lock"
 msgstr ""
 
-#: src/android_security.md:667
+#: src/android_security.md:735
 msgid "SIM Lock"
 msgstr ""
 
-#: src/android_security.md:669
+#: src/android_security.md:737
 msgid ""
 "Go to **Settings > Security & Privacy > More security & privacy > SIM lock**"
 msgstr ""
 
-#: src/android_security.md:670
+#: src/android_security.md:738
 msgid "Toggle on **Lock SIM**"
 msgstr ""
 
-#: src/android_security.md:671
+#: src/android_security.md:739
 msgid "Set a PIN (different from screen lock)"
 msgstr ""
 
-#: src/android_security.md:673
+#: src/android_security.md:741
 msgid "Repair Mode (Android 16)"
 msgstr ""
 
-#: src/android_security.md:675
+#: src/android_security.md:743
 msgid "Securely prepare device for repair without exposing data:"
 msgstr ""
 
-#: src/android_security.md:677
+#: src/android_security.md:745
 msgid "Go to **Settings > System > Repair Mode**"
 msgstr ""
 
-#: src/android_security.md:678
+#: src/android_security.md:746
 msgid "Follow instructions to wipe data while allowing hardware diagnostics"
 msgstr ""
 
-#: src/android_security.md:680
+#: src/android_security.md:748
 msgid "Trade-in Mode (Android 16)"
 msgstr ""
 
-#: src/android_security.md:682
+#: src/android_security.md:750
 msgid "Safely prepare device for resale:"
 msgstr ""
 
-#: src/android_security.md:684
+#: src/android_security.md:752
 msgid "Go to **Settings > System > Trade-in Mode**"
 msgstr ""
 
-#: src/android_security.md:685
+#: src/android_security.md:753
 msgid "Allows buyer to test hardware without accessing personal data"
 msgstr ""
 
-#: src/android_security.md:693
+#: src/android_security.md:761
 msgid "Advanced Protection"
 msgstr ""
 
-#: src/android_security.md:693
+#: src/android_security.md:761
 msgid "Settings > Security & Privacy > Advanced Protection"
 msgstr ""
 
-#: src/android_security.md:694
+#: src/android_security.md:762
 msgid "Strong Screen Lock"
 msgstr ""
 
-#: src/android_security.md:694
+#: src/android_security.md:762
 msgid "Settings > Security & Privacy > Device Unlock"
 msgstr ""
 
-#: src/android_security.md:694
+#: src/android_security.md:762
 msgid "✅ PIN 6+ digits or password"
 msgstr ""
 
-#: src/android_security.md:695
+#: src/android_security.md:763
 msgid "Google Account > Security"
 msgstr ""
 
-#: src/android_security.md:696
+#: src/android_security.md:764
 msgid "Identity Check"
 msgstr ""
 
-#: src/android_security.md:696
+#: src/android_security.md:764
 msgid "Settings > Security & Privacy > Theft Protection"
 msgstr ""
 
-#: src/android_security.md:697
+#: src/android_security.md:765
 msgid "Settings > Google > Theft Protection"
 msgstr ""
 
-#: src/android_security.md:698
+#: src/android_security.md:766
 msgid "Play Protect"
 msgstr ""
 
-#: src/android_security.md:698
+#: src/android_security.md:766
 msgid "Play Store > Play Protect"
 msgstr ""
 
-#: src/android_security.md:698
+#: src/android_security.md:766
 msgid "✅ Ensure active"
 msgstr ""
 
-#: src/android_security.md:699
+#: src/android_security.md:767
 msgid "Settings > Passwords, passkeys & accounts"
 msgstr ""
 
-#: src/android_security.md:699
+#: src/android_security.md:767
 msgid "✅ Use where available"
 msgstr ""
 
-#: src/android_security.md:700
+#: src/android_security.md:768
 msgid "App Permissions"
 msgstr ""
 
-#: src/android_security.md:700
+#: src/android_security.md:768
 msgid "Settings > Security & Privacy > Permission Manager"
 msgstr ""
 
-#: src/android_security.md:700
+#: src/android_security.md:768
 msgid "⚙️ Review regularly"
 msgstr ""
 
-#: src/android_security.md:701
+#: src/android_security.md:769
 msgid "Settings > Location > App permissions"
 msgstr ""
 
-#: src/android_security.md:701
+#: src/android_security.md:769
 msgid "⚙️ Minimize \"All the time\""
 msgstr ""
 
-#: src/android_security.md:702
+#: src/android_security.md:770
 msgid "Advertising ID"
 msgstr ""
 
-#: src/android_security.md:702
+#: src/android_security.md:770
 msgid "Settings > Security & Privacy > Ads"
 msgstr ""
 
-#: src/android_security.md:702
+#: src/android_security.md:770
 msgid "❌ Delete"
 msgstr ""
 
-#: src/android_security.md:703
+#: src/android_security.md:771
 msgid "2G"
 msgstr ""
 
-#: src/android_security.md:703
+#: src/android_security.md:771
 msgid "Settings > Network & internet > SIMs"
 msgstr ""
 
-#: src/android_security.md:704
+#: src/android_security.md:772
 msgid "Find My Device"
 msgstr ""
 
-#: src/android_security.md:704
+#: src/android_security.md:772
 msgid "Settings > Security & Privacy > Find My Device"
 msgstr ""
 
-#: src/android_security.md:705
+#: src/android_security.md:773
 msgid "Unknown Sources"
 msgstr ""
 
-#: src/android_security.md:705
+#: src/android_security.md:773
 msgid "Settings > Apps > Install unknown apps"
 msgstr ""
 
-#: src/android_security.md:705
+#: src/android_security.md:773
 msgid "❌ Disable all"
 msgstr ""
 
-#: src/android_security.md:706
+#: src/android_security.md:774
 msgid "Settings > Notifications"
 msgstr ""
 
-#: src/android_security.md:706
+#: src/android_security.md:774
 msgid "⚙️ Hide sensitive"
 msgstr ""
 
-#: src/android_security.md:712
+#: src/android_security.md:780
 msgid ""
 "Android 16 represents Google's most comprehensive security update, with "
 "Advanced Protection Mode making it easy to enable maximum security with one "
 "toggle. Key priorities:"
 msgstr ""
 
-#: src/android_security.md:714
+#: src/android_security.md:782
 msgid ""
 "**Enable Advanced Protection Mode** – Activates all major security features "
 "at once"
 msgstr ""
 
-#: src/android_security.md:715
+#: src/android_security.md:783
 msgid ""
 "**Set up Identity Check** – Protects sensitive settings when away from "
 "trusted locations"
 msgstr ""
 
-#: src/android_security.md:716
+#: src/android_security.md:784
 msgid ""
 "**Enable Theft Protection features** – Theft Detection Lock, Offline Device "
 "Lock, Remote Lock"
 msgstr ""
 
-#: src/android_security.md:717
+#: src/android_security.md:785
 msgid "**Use Passkeys** – More secure than passwords, phishing-resistant"
 msgstr ""
 
-#: src/android_security.md:718
+#: src/android_security.md:786
 msgid "**Review app permissions regularly** – Revoke unnecessary access"
 msgstr ""
 
-#: src/android_security.md:719
+#: src/android_security.md:787
 msgid "**Delete your Advertising ID** – Reduces tracking"
 msgstr ""
 
-#: src/android_security.md:720
+#: src/android_security.md:788
 msgid "**Keep software updated** – Security patches are critical"
 msgstr ""
 
-#: src/android_security.md:722
+#: src/android_security.md:790
 msgid ""
 "By configuring these settings, you significantly strengthen your privacy and "
 "security against both common threats and sophisticated attacks."
 msgstr ""
 
-#: src/android_security.md:726
+#: src/android_security.md:794
 msgid ""
 "_Last updated: January 2026 | Applies to Android 16_ _Note: Settings may "
 "vary slightly by device manufacturer (Pixel, Samsung, etc.)_"
