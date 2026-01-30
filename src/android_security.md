@@ -4,29 +4,6 @@ A comprehensive guide to configuring security and privacy settings on Android 16
 
 ---
 
-## Table of Contents
-
-1. [What's New in Android 16](#whats-new-in-android-16)
-2. [Advanced Protection Mode](#1-advanced-protection-mode)
-3. [Device Authentication](#2-device-authentication)
-4. [Identity Check](#3-identity-check)
-5. [Theft Protection](#4-theft-protection)
-6. [App Permissions](#5-app-permissions)
-7. [Location Services](#6-location-services)
-8. [Private Space](#7-private-space)
-9. [Google Play Protect](#8-google-play-protect)
-10. [Google Password Manager & Passkeys](#9-google-password-manager--passkeys)
-11. [Scam & Spam Protection](#10-scam--spam-protection)
-12. [Network Security](#11-network-security)
-13. [USB Protection](#12-usb-protection)
-14. [Find My Device](#13-find-my-device)
-15. [Advertising & Tracking Controls](#14-advertising--tracking-controls)
-16. [Google Account Privacy](#15-google-account-privacy)
-17. [Chrome & Browser Privacy](#16-chrome--browser-privacy)
-18. [Additional Security Recommendations](#17-additional-security-recommendations)
-
----
-
 ## What's New in Android 16
 
 Android 16, released in June 2025, represents Google's most significant security update, featuring a comprehensive "Advanced Protection Mode" that consolidates multiple security features into one easy toggle.

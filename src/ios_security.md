@@ -4,31 +4,6 @@ A comprehensive guide to configuring security and privacy settings on iOS 26.2.1
 
 ---
 
-## Table of Contents
-
-1. [What's New in iOS 26](#whats-new-in-ios-26)
-2. [Device Authentication](#1-device-authentication)
-3. [Stolen Device Protection](#2-stolen-device-protection)
-4. [App Privacy Controls](#3-app-privacy-controls)
-5. [Location Services](#4-location-services)
-6. [Lock and Hide Apps](#5-lock-and-hide-apps)
-7. [Safari Privacy Settings](#6-safari-privacy-settings)
-8. [Mail Privacy Protection](#7-mail-privacy-protection)
-9. [Passwords App](#8-passwords-app)
-10. [Advanced Data Protection for iCloud](#9-advanced-data-protection-for-icloud)
-11. [Lockdown Mode](#10-lockdown-mode)
-12. [Communication Safety & Parental Controls](#11-communication-safety--parental-controls)
-13. [Safety Check](#12-safety-check)
-14. [Find My iPhone](#13-find-my-iphone)
-15. [Advertising and Tracking Controls](#14-advertising-and-tracking-controls)
-16. [Apple Intelligence Privacy](#15-apple-intelligence-privacy)
-17. [Wi-Fi Aware & Network Security](#16-wi-fi-aware--network-security)
-18. [Wired Accessories Security](#17-wired-accessories-security)
-19. [AirDrop Security (iOS 26.2)](#18-airdrop-security-ios-262)
-20. [Additional Security Recommendations](#19-additional-security-recommendations)
-
----
-
 ## What's New in iOS 26
 
 iOS 26 (released September 15, 2025) represents Apple's biggest security and privacy update in years. Apple jumped from iOS 18 to iOS 26 to align version numbers with the year across all operating systems.

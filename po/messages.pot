@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Security Guidebook\n"
-"POT-Creation-Date: 2026-01-29T20:45:10+01:00\n"
+"POT-Creation-Date: 2026-01-30T10:53:14+01:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -49,1909 +49,1819 @@ msgid ""
 "data and secure your iPhone."
 msgstr ""
 
-#: src/ios_security.md:7 src/android_security.md:7
-msgid "Table of Contents"
-msgstr ""
-
-#: src/ios_security.md:9
-msgid "[What's New in iOS 26](#whats-new-in-ios-26)"
-msgstr ""
-
-#: src/ios_security.md:10
-msgid "[Device Authentication](#1-device-authentication)"
-msgstr ""
-
-#: src/ios_security.md:11
-msgid "[Stolen Device Protection](#2-stolen-device-protection)"
-msgstr ""
-
-#: src/ios_security.md:12
-msgid "[App Privacy Controls](#3-app-privacy-controls)"
-msgstr ""
-
-#: src/ios_security.md:13
-msgid "[Location Services](#4-location-services)"
-msgstr ""
-
-#: src/ios_security.md:14
-msgid "[Lock and Hide Apps](#5-lock-and-hide-apps)"
-msgstr ""
-
-#: src/ios_security.md:15
-msgid "[Safari Privacy Settings](#6-safari-privacy-settings)"
-msgstr ""
-
-#: src/ios_security.md:16
-msgid "[Mail Privacy Protection](#7-mail-privacy-protection)"
-msgstr ""
-
-#: src/ios_security.md:17
-msgid "[Passwords App](#8-passwords-app)"
-msgstr ""
-
-#: src/ios_security.md:18
-msgid ""
-"[Advanced Data Protection for iCloud](#9-advanced-data-protection-for-icloud)"
-msgstr ""
-
-#: src/ios_security.md:19
-msgid "[Lockdown Mode](#10-lockdown-mode)"
-msgstr ""
-
-#: src/ios_security.md:20
-msgid ""
-"[Communication Safety & Parental "
-"Controls](#11-communication-safety--parental-controls)"
-msgstr ""
-
-#: src/ios_security.md:21
-msgid "[Safety Check](#12-safety-check)"
-msgstr ""
-
-#: src/ios_security.md:22
-msgid "[Find My iPhone](#13-find-my-iphone)"
-msgstr ""
-
-#: src/ios_security.md:23
-msgid ""
-"[Advertising and Tracking Controls](#14-advertising-and-tracking-controls)"
-msgstr ""
-
-#: src/ios_security.md:24
-msgid "[Apple Intelligence Privacy](#15-apple-intelligence-privacy)"
-msgstr ""
-
-#: src/ios_security.md:25
-msgid "[Wi-Fi Aware & Network Security](#16-wi-fi-aware--network-security)"
-msgstr ""
-
-#: src/ios_security.md:26
-msgid "[Wired Accessories Security](#17-wired-accessories-security)"
-msgstr ""
-
-#: src/ios_security.md:27
-msgid "[AirDrop Security (iOS 26.2)](#18-airdrop-security-ios-262)"
-msgstr ""
-
-#: src/ios_security.md:28
-msgid ""
-"[Additional Security "
-"Recommendations](#19-additional-security-recommendations)"
-msgstr ""
-
-#: src/ios_security.md:32
+#: src/ios_security.md:7
 msgid "What's New in iOS 26"
 msgstr ""
 
-#: src/ios_security.md:34
+#: src/ios_security.md:9
 msgid ""
 "iOS 26 (released September 15, 2025) represents Apple's biggest security and "
 "privacy update in years. Apple jumped from iOS 18 to iOS 26 to align version "
 "numbers with the year across all operating systems."
 msgstr ""
 
-#: src/ios_security.md:36
+#: src/ios_security.md:11
 msgid "Major Security & Privacy Additions in iOS 26"
 msgstr ""
 
-#: src/ios_security.md:38
+#: src/ios_security.md:13
 msgid ""
 "**Wi-Fi Aware** – Secure peer-to-peer connections without internet access "
 "points"
 msgstr ""
 
-#: src/ios_security.md:39
+#: src/ios_security.md:14
 msgid ""
 "**Post-Quantum Cryptography** – Hybrid key exchange protecting against "
 "future quantum computing threats"
 msgstr ""
 
-#: src/ios_security.md:40
+#: src/ios_security.md:15
 msgid ""
 "**Expanded Passkey Support** – Automatic passkey creation and migration from "
 "passwords"
 msgstr ""
 
-#: src/ios_security.md:41
+#: src/ios_security.md:16
 msgid ""
 "**Advanced Tracking Protection for All Browsing** – Anti-fingerprinting "
 "expanded beyond Private Browsing"
 msgstr ""
 
-#: src/ios_security.md:42
+#: src/ios_security.md:17
 msgid ""
 "**Wired Accessories Security** – Explicit permission controls for "
 "USB-C/Lightning accessories"
 msgstr ""
 
-#: src/ios_security.md:43
+#: src/ios_security.md:18
 msgid ""
 "**Enhanced Parental Controls** – Stronger child account management and "
 "content filtering"
 msgstr ""
 
-#: src/ios_security.md:44
+#: src/ios_security.md:19
 msgid "**Password Version History** – Track changes to saved passwords over time"
 msgstr ""
 
-#: src/ios_security.md:45
+#: src/ios_security.md:20
 msgid ""
 "**Secure Password Export** – FIDO Alliance standard for moving credentials "
 "between managers"
 msgstr ""
 
-#: src/ios_security.md:46
+#: src/ios_security.md:21
 msgid ""
 "**Liquid Glass Design** – New translucent interface (including "
 "privacy-focused opacity controls)"
 msgstr ""
 
-#: src/ios_security.md:48
+#: src/ios_security.md:23
 msgid "iOS 26.2 Security Updates (December 2025)"
 msgstr ""
 
-#: src/ios_security.md:50
+#: src/ios_security.md:25
 msgid ""
 "**26+ security vulnerabilities patched**, including two actively exploited "
 "WebKit zero-days"
 msgstr ""
 
-#: src/ios_security.md:51
+#: src/ios_security.md:26
 msgid ""
 "**AirDrop security codes** – One-time codes for sharing with unknown contacts"
 msgstr ""
 
-#: src/ios_security.md:52
+#: src/ios_security.md:27
 msgid ""
 "**Hidden Photos fix** – Addressed vulnerability allowing unauthorized access"
 msgstr ""
 
-#: src/ios_security.md:53
+#: src/ios_security.md:28
 msgid ""
 "**FaceTime caller ID spoofing** – Patched to prevent impersonation attacks"
 msgstr ""
 
-#: src/ios_security.md:54
+#: src/ios_security.md:29
 msgid "**iMessage privacy controls** – Improved data handling"
 msgstr ""
 
-#: src/ios_security.md:56
+#: src/ios_security.md:31
 msgid "iOS 26.2.1 (January 26, 2026)"
 msgstr ""
 
-#: src/ios_security.md:58
+#: src/ios_security.md:33
 msgid ""
 "iOS 26.2.1 is a minor update focused on new hardware support and bug fixes."
 msgstr ""
 
-#: src/ios_security.md:60
+#: src/ios_security.md:35
 msgid "**New Features:**"
 msgstr ""
 
-#: src/ios_security.md:61
+#: src/ios_security.md:36
 msgid "**AirTag (2nd Generation) support** – Required for the new AirTag with:"
 msgstr ""
 
-#: src/ios_security.md:62
+#: src/ios_security.md:37
 msgid ""
 "Second-generation Ultra Wideband (UWB) chip for 50% longer Precision Finding "
 "range"
 msgstr ""
 
-#: src/ios_security.md:63
+#: src/ios_security.md:38
 msgid "Precision Finding on Apple Watch (Series 9+, Ultra 2+) for the first time"
 msgstr ""
 
-#: src/ios_security.md:64
+#: src/ios_security.md:39
 msgid ""
 "50% louder speaker for easier locating and enhanced anti-stalking measures"
 msgstr ""
 
-#: src/ios_security.md:65
+#: src/ios_security.md:40
 msgid "Expanded Bluetooth range for better Find My network detection"
 msgstr ""
 
-#: src/ios_security.md:66
+#: src/ios_security.md:41
 msgid "Share Item Location with 36+ airlines for lost luggage recovery"
 msgstr ""
 
-#: src/ios_security.md:68
+#: src/ios_security.md:43
 msgid "**Bug Fixes:**"
 msgstr ""
 
-#: src/ios_security.md:69
+#: src/ios_security.md:44
 msgid "Emergency calling fix for older mobile phones"
 msgstr ""
 
-#: src/ios_security.md:70
+#: src/ios_security.md:45
 msgid "Unspecified stability improvements"
 msgstr ""
 
-#: src/ios_security.md:72
+#: src/ios_security.md:47
 msgid "**Security Notes:**"
 msgstr ""
 
-#: src/ios_security.md:73
+#: src/ios_security.md:48
 msgid "No published CVE entries for iOS 26.2.1 itself"
 msgstr ""
 
-#: src/ios_security.md:74
+#: src/ios_security.md:49
 msgid ""
 "Users on iOS 26-compatible devices should update to maintain security (older "
 "iOS versions only receive certificate updates)"
 msgstr ""
 
-#: src/ios_security.md:76
+#: src/ios_security.md:51
 msgid "**Also Released:**"
 msgstr ""
 
-#: src/ios_security.md:77
+#: src/ios_security.md:52
 msgid ""
 "iOS 18.7.4, iOS 16.7.13, iOS 15.8.6, iOS 12.5.8 – Certificate updates for "
 "iMessage, FaceTime, and Apple account sign-in (valid until January 2027)"
 msgstr ""
 
-#: src/ios_security.md:79
+#: src/ios_security.md:54
 msgid ""
 "**Critical:** iOS 26.2.1 is required for AirTag (2nd Generation). Update via "
 "**Settings > General > Software Update**."
 msgstr ""
 
-#: src/ios_security.md:83
+#: src/ios_security.md:58
 msgid "1. Device Authentication"
 msgstr ""
 
-#: src/ios_security.md:85
+#: src/ios_security.md:60
 msgid "Face ID / Touch ID Setup"
 msgstr ""
 
-#: src/ios_security.md:87
+#: src/ios_security.md:62
 msgid "Biometric authentication provides secure and convenient device access."
 msgstr ""
 
-#: src/ios_security.md:89
+#: src/ios_security.md:64
 msgid "**How to set up Face ID:**"
 msgstr ""
 
-#: src/ios_security.md:90 src/android_security.md:90
+#: src/ios_security.md:65 src/android_security.md:67
 msgid "Open **Settings**"
 msgstr ""
 
-#: src/ios_security.md:91
+#: src/ios_security.md:66
 msgid "Tap **Face ID & Passcode**"
 msgstr ""
 
-#: src/ios_security.md:92 src/ios_security.md:154 src/ios_security.md:419
+#: src/ios_security.md:67 src/ios_security.md:129 src/ios_security.md:394
 msgid "Enter your passcode"
 msgstr ""
 
-#: src/ios_security.md:93
+#: src/ios_security.md:68
 msgid "Tap **Set Up Face ID**"
 msgstr ""
 
-#: src/ios_security.md:94
+#: src/ios_security.md:69
 msgid "Follow on-screen instructions to position your face"
 msgstr ""
 
-#: src/ios_security.md:95
+#: src/ios_security.md:70
 msgid "Move your head in a circle to complete the scan"
 msgstr ""
 
-#: src/ios_security.md:97
+#: src/ios_security.md:72
 msgid "**Configure Face ID uses:**"
 msgstr ""
 
-#: src/ios_security.md:98
+#: src/ios_security.md:73
 msgid "iPhone Unlock"
 msgstr ""
 
-#: src/ios_security.md:99
+#: src/ios_security.md:74
 msgid "iTunes & App Store purchases"
 msgstr ""
 
-#: src/ios_security.md:100
+#: src/ios_security.md:75
 msgid "Apple Pay"
 msgstr ""
 
-#: src/ios_security.md:101
+#: src/ios_security.md:76
 msgid "Password AutoFill"
 msgstr ""
 
-#: src/ios_security.md:102
+#: src/ios_security.md:77
 msgid "Other Apps (toggle individually)"
 msgstr ""
 
-#: src/ios_security.md:104
+#: src/ios_security.md:79
 msgid "Strong Passcode Configuration"
 msgstr ""
 
-#: src/ios_security.md:106
+#: src/ios_security.md:81
 msgid "**How to set a strong passcode:**"
 msgstr ""
 
-#: src/ios_security.md:107 src/ios_security.md:153 src/ios_security.md:586
-#: src/ios_security.md:628 src/ios_security.md:657
+#: src/ios_security.md:82 src/ios_security.md:128 src/ios_security.md:561
+#: src/ios_security.md:603 src/ios_security.md:632
 msgid "Go to **Settings > Face ID & Passcode**"
 msgstr ""
 
-#: src/ios_security.md:108
+#: src/ios_security.md:83
 msgid "Tap **Change Passcode**"
 msgstr ""
 
-#: src/ios_security.md:109
+#: src/ios_security.md:84
 msgid "Tap **Passcode Options**"
 msgstr ""
 
-#: src/ios_security.md:110
+#: src/ios_security.md:85
 msgid "Select **Custom Alphanumeric Code** (8-12 random characters recommended)"
 msgstr ""
 
-#: src/ios_security.md:112
+#: src/ios_security.md:87
 msgid "Two-Factor Authentication (2FA)"
 msgstr ""
 
-#: src/ios_security.md:114
+#: src/ios_security.md:89
 msgid "**How to enable 2FA:**"
 msgstr ""
 
-#: src/ios_security.md:115
+#: src/ios_security.md:90
 msgid "Go to **Settings > \\[Your Name\\] > Sign-In & Security**"
 msgstr ""
 
-#: src/ios_security.md:116
+#: src/ios_security.md:91
 msgid "Tap **Turn On Two-Factor Authentication**"
 msgstr ""
 
-#: src/ios_security.md:117
+#: src/ios_security.md:92
 msgid "Tap **Continue**"
 msgstr ""
 
-#: src/ios_security.md:118
+#: src/ios_security.md:93
 msgid "Enter a trusted phone number"
 msgstr ""
 
-#: src/ios_security.md:119
+#: src/ios_security.md:94
 msgid "Verify with the code sent to your phone"
 msgstr ""
 
-#: src/ios_security.md:121
+#: src/ios_security.md:96
 msgid "Auto-Lock Settings"
 msgstr ""
 
-#: src/ios_security.md:123
+#: src/ios_security.md:98
 msgid "Go to **Settings > Display & Brightness > Auto-Lock**"
 msgstr ""
 
-#: src/ios_security.md:124
+#: src/ios_security.md:99
 msgid "Select a time interval (30 seconds to 5 minutes recommended)"
 msgstr ""
 
-#: src/ios_security.md:128
+#: src/ios_security.md:103
 msgid "2. Stolen Device Protection"
 msgstr ""
 
-#: src/ios_security.md:130
+#: src/ios_security.md:105
 msgid ""
 "Stolen Device Protection adds security when your iPhone is away from "
 "familiar locations."
 msgstr ""
 
-#: src/ios_security.md:132
+#: src/ios_security.md:107
 msgid "Key Features"
 msgstr ""
 
-#: src/ios_security.md:134
+#: src/ios_security.md:109
 msgid "**Biometric Authentication Required** (no passcode fallback):"
 msgstr ""
 
-#: src/ios_security.md:135
+#: src/ios_security.md:110
 msgid "Accessing passwords stored in iCloud Keychain"
 msgstr ""
 
-#: src/ios_security.md:136
+#: src/ios_security.md:111
 msgid "Using saved payment methods in Safari"
 msgstr ""
 
-#: src/ios_security.md:137
+#: src/ios_security.md:112
 msgid "Turning off Lost Mode"
 msgstr ""
 
-#: src/ios_security.md:138
+#: src/ios_security.md:113
 msgid "Erasing all content and settings"
 msgstr ""
 
-#: src/ios_security.md:139
+#: src/ios_security.md:114
 msgid "Viewing Apple Card virtual card number"
 msgstr ""
 
-#: src/ios_security.md:140
+#: src/ios_security.md:115
 msgid "Opening locked and hidden apps"
 msgstr ""
 
-#: src/ios_security.md:142
+#: src/ios_security.md:117
 msgid "**Security Delay** (1-hour wait + second biometric scan):"
 msgstr ""
 
-#: src/ios_security.md:143
+#: src/ios_security.md:118
 msgid "Changing Apple Account password"
 msgstr ""
 
-#: src/ios_security.md:144
+#: src/ios_security.md:119
 msgid "Signing out of Apple Account"
 msgstr ""
 
-#: src/ios_security.md:145
+#: src/ios_security.md:120
 msgid "Turning off Stolen Device Protection"
 msgstr ""
 
-#: src/ios_security.md:146
+#: src/ios_security.md:121
 msgid "Changing Face ID or Touch ID settings"
 msgstr ""
 
-#: src/ios_security.md:147
+#: src/ios_security.md:122
 msgid "Changing device passcode"
 msgstr ""
 
-#: src/ios_security.md:148
+#: src/ios_security.md:123
 msgid "Resetting all settings"
 msgstr ""
 
-#: src/ios_security.md:149
+#: src/ios_security.md:124
 msgid "Turning off Find My"
 msgstr ""
 
-#: src/ios_security.md:151 src/ios_security.md:306 src/ios_security.md:375
-#: src/ios_security.md:413 src/ios_security.md:472 src/android_security.md:88
-#: src/android_security.md:159 src/android_security.md:538
+#: src/ios_security.md:126 src/ios_security.md:281 src/ios_security.md:350
+#: src/ios_security.md:388 src/ios_security.md:447 src/android_security.md:65
+#: src/android_security.md:136 src/android_security.md:515
 msgid "How to Enable"
 msgstr ""
 
-#: src/ios_security.md:155
+#: src/ios_security.md:130
 msgid "Scroll down and tap **Stolen Device Protection**"
 msgstr ""
 
-#: src/ios_security.md:156
+#: src/ios_security.md:131
 msgid "Toggle on"
 msgstr ""
 
-#: src/ios_security.md:158
+#: src/ios_security.md:133
 msgid "Configuration Options"
 msgstr ""
 
-#: src/ios_security.md:160
+#: src/ios_security.md:135
 msgid ""
 "**Away from Familiar Locations** – Security features activate only when away "
 "from home/work"
 msgstr ""
 
-#: src/ios_security.md:161
+#: src/ios_security.md:136
 msgid "**Always** – Security features are always active"
 msgstr ""
 
-#: src/ios_security.md:163 src/android_security.md:166
+#: src/ios_security.md:138 src/android_security.md:143
 msgid "Requirements"
 msgstr ""
 
-#: src/ios_security.md:165
+#: src/ios_security.md:140
 msgid "iOS 17.3 or later (enhanced in iOS 26)"
 msgstr ""
 
-#: src/ios_security.md:166
+#: src/ios_security.md:141
 msgid "Two-factor authentication enabled"
 msgstr ""
 
-#: src/ios_security.md:167
+#: src/ios_security.md:142
 msgid "Face ID or Touch ID configured"
 msgstr ""
 
-#: src/ios_security.md:168
+#: src/ios_security.md:143
 msgid "Device passcode set"
 msgstr ""
 
-#: src/ios_security.md:169
+#: src/ios_security.md:144
 msgid "Find My enabled"
 msgstr ""
 
-#: src/ios_security.md:170
+#: src/ios_security.md:145
 msgid "Significant Locations enabled"
 msgstr ""
 
-#: src/ios_security.md:174
+#: src/ios_security.md:149
 msgid "3. App Privacy Controls"
 msgstr ""
 
-#: src/ios_security.md:176
+#: src/ios_security.md:151
 msgid "App Tracking Transparency"
 msgstr ""
 
-#: src/ios_security.md:178 src/ios_security.md:585 src/android_security.md:117
-#: src/android_security.md:302
+#: src/ios_security.md:153 src/ios_security.md:560 src/android_security.md:94
+#: src/android_security.md:279
 msgid "**How to configure:**"
 msgstr ""
 
-#: src/ios_security.md:179 src/ios_security.md:518
+#: src/ios_security.md:154 src/ios_security.md:493
 msgid "Go to **Settings > Privacy & Security > Tracking**"
 msgstr ""
 
-#: src/ios_security.md:180
+#: src/ios_security.md:155
 msgid "Toggle **Allow Apps to Request to Track** off to block all tracking"
 msgstr ""
 
-#: src/ios_security.md:181
+#: src/ios_security.md:156
 msgid "Or manage individual app permissions below"
 msgstr ""
 
-#: src/ios_security.md:183
+#: src/ios_security.md:158
 msgid "App Privacy Report"
 msgstr ""
 
-#: src/ios_security.md:185
+#: src/ios_security.md:160
 msgid "View detailed app data access:"
 msgstr ""
 
-#: src/ios_security.md:187
+#: src/ios_security.md:162
 msgid "Go to **Settings > Privacy & Security > App Privacy Report**"
 msgstr ""
 
-#: src/ios_security.md:188
+#: src/ios_security.md:163
 msgid "Toggle on **App Privacy Report**"
 msgstr ""
 
-#: src/ios_security.md:189
+#: src/ios_security.md:164
 msgid "Review 7-day history of sensor, camera, microphone, and network access"
 msgstr ""
 
-#: src/ios_security.md:191
+#: src/ios_security.md:166
 msgid "Clipboard Access Alerts"
 msgstr ""
 
-#: src/ios_security.md:193
+#: src/ios_security.md:168
 msgid ""
 "iOS 26 continues to notify you whenever apps access your clipboard, "
 "preventing silent data harvesting."
 msgstr ""
 
-#: src/ios_security.md:195
+#: src/ios_security.md:170
 msgid "Review All Permissions"
 msgstr ""
 
-#: src/ios_security.md:197 src/ios_security.md:415 src/ios_security.md:457
+#: src/ios_security.md:172 src/ios_security.md:390 src/ios_security.md:432
 msgid "Go to **Settings > Privacy & Security**"
 msgstr ""
 
-#: src/ios_security.md:198
+#: src/ios_security.md:173
 msgid ""
 "Review each category: Location, Contacts, Photos, Microphone, Camera, etc."
 msgstr ""
 
-#: src/ios_security.md:199
+#: src/ios_security.md:174
 msgid "Revoke unnecessary permissions"
 msgstr ""
 
-#: src/ios_security.md:203
+#: src/ios_security.md:178
 msgid "4. Location Services"
 msgstr ""
 
-#: src/ios_security.md:205
+#: src/ios_security.md:180
 msgid "Per-App Location Settings"
 msgstr ""
 
-#: src/ios_security.md:207 src/android_security.md:292
+#: src/ios_security.md:182 src/android_security.md:269
 msgid "For each app, choose:"
 msgstr ""
 
-#: src/ios_security.md:208
+#: src/ios_security.md:183
 msgid "**Never** – No location access"
 msgstr ""
 
-#: src/ios_security.md:209
+#: src/ios_security.md:184
 msgid "**Ask Next Time Or When I Share** – Prompts each time"
 msgstr ""
 
-#: src/ios_security.md:210
+#: src/ios_security.md:185
 msgid "**While Using the App** – Access only when app is open"
 msgstr ""
 
-#: src/ios_security.md:211
+#: src/ios_security.md:186
 msgid "**Always** – Background access (use sparingly)"
 msgstr ""
 
-#: src/ios_security.md:213 src/android_security.md:298
+#: src/ios_security.md:188 src/android_security.md:275
 msgid "Precise vs. Approximate Location"
 msgstr ""
 
-#: src/ios_security.md:215
+#: src/ios_security.md:190
 msgid "Go to **Settings > Privacy & Security > Location Services**"
 msgstr ""
 
-#: src/ios_security.md:216
+#: src/ios_security.md:191
 msgid "Select an app"
 msgstr ""
 
-#: src/ios_security.md:217
+#: src/ios_security.md:192
 msgid "Toggle **Precise Location** off for approximate area sharing"
 msgstr ""
 
-#: src/ios_security.md:219
+#: src/ios_security.md:194
 msgid "Significant Locations"
 msgstr ""
 
-#: src/ios_security.md:221
+#: src/ios_security.md:196
 msgid ""
 "Go to **Settings > Privacy & Security > Location Services > System Services**"
 msgstr ""
 
-#: src/ios_security.md:222
+#: src/ios_security.md:197
 msgid "Tap **Significant Locations**"
 msgstr ""
 
-#: src/ios_security.md:223
+#: src/ios_security.md:198
 msgid "View, toggle off, or clear history"
 msgstr ""
 
-#: src/ios_security.md:227
+#: src/ios_security.md:202
 msgid "5. Lock and Hide Apps"
 msgstr ""
 
-#: src/ios_security.md:229
+#: src/ios_security.md:204
 msgid "How to Lock an App"
 msgstr ""
 
-#: src/ios_security.md:231
+#: src/ios_security.md:206
 msgid "Touch and hold the app icon on Home Screen"
 msgstr ""
 
-#: src/ios_security.md:232
+#: src/ios_security.md:207
 msgid "Tap **Require Face ID** (or Touch ID/Passcode)"
 msgstr ""
 
-#: src/ios_security.md:233
+#: src/ios_security.md:208
 msgid "Confirm your choice"
 msgstr ""
 
-#: src/ios_security.md:235
+#: src/ios_security.md:210
 msgid "How to Lock and Hide an App"
 msgstr ""
 
-#: src/ios_security.md:237
+#: src/ios_security.md:212
 msgid "Touch and hold the app icon"
 msgstr ""
 
-#: src/ios_security.md:238
+#: src/ios_security.md:213
 msgid "Select **Hide and Require Face ID**"
 msgstr ""
 
-#: src/ios_security.md:239
+#: src/ios_security.md:214
 msgid "App moves to Hidden folder in App Library"
 msgstr ""
 
-#: src/ios_security.md:241
+#: src/ios_security.md:216
 msgid "**To access hidden apps:**"
 msgstr ""
 
-#: src/ios_security.md:242
+#: src/ios_security.md:217
 msgid "Swipe left to App Library"
 msgstr ""
 
-#: src/ios_security.md:243
+#: src/ios_security.md:218
 msgid "Scroll to bottom, tap **Hidden** folder"
 msgstr ""
 
-#: src/ios_security.md:244 src/ios_security.md:332
+#: src/ios_security.md:219 src/ios_security.md:307
 msgid "Authenticate with Face ID/Touch ID"
 msgstr ""
 
-#: src/ios_security.md:246
+#: src/ios_security.md:221
 msgid "What Happens When Apps Are Locked"
 msgstr ""
 
-#: src/ios_security.md:248
+#: src/ios_security.md:223
 msgid "No notification previews"
 msgstr ""
 
-#: src/ios_security.md:249
+#: src/ios_security.md:224
 msgid "Hidden from Spotlight search"
 msgstr ""
 
-#: src/ios_security.md:250
+#: src/ios_security.md:225
 msgid "Hidden from Siri suggestions"
 msgstr ""
 
-#: src/ios_security.md:251
+#: src/ios_security.md:226
 msgid "Call history from locked apps is hidden"
 msgstr ""
 
-#: src/ios_security.md:253
+#: src/ios_security.md:228
 msgid "Integration with Stolen Device Protection"
 msgstr ""
 
-#: src/ios_security.md:255
+#: src/ios_security.md:230
 msgid ""
 "When Stolen Device Protection is enabled, locked apps can **only** be opened "
 "with Face ID/Touch ID—passcode fallback is disabled."
 msgstr ""
 
-#: src/ios_security.md:259
+#: src/ios_security.md:234
 msgid "6. Safari Privacy Settings"
 msgstr ""
 
-#: src/ios_security.md:261
+#: src/ios_security.md:236
 msgid "Advanced Tracking and Fingerprinting Protection (NEW in iOS 26)"
 msgstr ""
 
-#: src/ios_security.md:263
+#: src/ios_security.md:238
 msgid ""
 "iOS 26 expands anti-fingerprinting protection to **all browsing**, not just "
 "Private Browsing:"
 msgstr ""
 
-#: src/ios_security.md:265
+#: src/ios_security.md:240
 msgid "Go to **Settings > Apps > Safari > Advanced**"
 msgstr ""
 
-#: src/ios_security.md:266
+#: src/ios_security.md:241
 msgid ""
 "Set **Advanced Tracking and Fingerprinting Protection** to **All Browsing**"
 msgstr ""
 
-#: src/ios_security.md:268
+#: src/ios_security.md:243
 msgid ""
 "This normalizes browser data to make your device look generic to tracking "
 "scripts, significantly reducing fingerprinting effectiveness."
 msgstr ""
 
-#: src/ios_security.md:270
+#: src/ios_security.md:245
 msgid "Private Browsing with Face ID Lock"
 msgstr ""
 
-#: src/ios_security.md:272 src/ios_security.md:284 src/ios_security.md:289
+#: src/ios_security.md:247 src/ios_security.md:259 src/ios_security.md:264
 msgid "Go to **Settings > Apps > Safari**"
 msgstr ""
 
-#: src/ios_security.md:273
+#: src/ios_security.md:248
 msgid "Enable **Require Face ID to Unlock Private Browsing**"
 msgstr ""
 
-#: src/ios_security.md:275
+#: src/ios_security.md:250
 msgid "Hide IP Address"
 msgstr ""
 
-#: src/ios_security.md:277
+#: src/ios_security.md:252
 msgid "Go to **Settings > Apps > Safari > Hide IP Address**"
 msgstr ""
 
-#: src/ios_security.md:278
+#: src/ios_security.md:253
 msgid "Choose:"
 msgstr ""
 
-#: src/ios_security.md:279
+#: src/ios_security.md:254
 msgid "**Trackers Only** – Hides IP from known trackers"
 msgstr ""
 
-#: src/ios_security.md:280
+#: src/ios_security.md:255
 msgid ""
 "**Trackers and Websites** – Hides IP from all sites (requires iCloud+ "
 "Private Relay)"
 msgstr ""
 
-#: src/ios_security.md:282
+#: src/ios_security.md:257
 msgid "Intelligent Tracking Prevention"
 msgstr ""
 
-#: src/ios_security.md:285
+#: src/ios_security.md:260
 msgid "Enable **Prevent Cross-Site Tracking**"
 msgstr ""
 
-#: src/ios_security.md:287
+#: src/ios_security.md:262
 msgid "Fraudulent Website Warning"
 msgstr ""
 
-#: src/ios_security.md:290
+#: src/ios_security.md:265
 msgid "Enable **Fraudulent Website Warning**"
 msgstr ""
 
-#: src/ios_security.md:292
+#: src/ios_security.md:267
 msgid "Link Tracking Protection"
 msgstr ""
 
-#: src/ios_security.md:294
+#: src/ios_security.md:269
 msgid ""
 "iOS 26 automatically strips tracking parameters (UTMs) from URLs in Safari "
 "Private Browsing, Messages, and Mail."
 msgstr ""
 
-#: src/ios_security.md:298
+#: src/ios_security.md:273
 msgid "7. Mail Privacy Protection"
 msgstr ""
 
-#: src/ios_security.md:300 src/android_security.md:318
-#: src/android_security.md:352 src/android_security.md:517
-#: src/android_security.md:544
+#: src/ios_security.md:275 src/android_security.md:295
+#: src/android_security.md:329 src/android_security.md:494
+#: src/android_security.md:521
 msgid "Features"
 msgstr ""
 
-#: src/ios_security.md:302
+#: src/ios_security.md:277
 msgid "Hides your IP address from senders"
 msgstr ""
 
-#: src/ios_security.md:303
+#: src/ios_security.md:278
 msgid "Prevents open tracking"
 msgstr ""
 
-#: src/ios_security.md:304
+#: src/ios_security.md:279
 msgid "Blocks invisible tracking pixels"
 msgstr ""
 
-#: src/ios_security.md:308
+#: src/ios_security.md:283
 msgid "Go to **Settings > Apps > Mail > Privacy Protection**"
 msgstr ""
 
-#: src/ios_security.md:309
+#: src/ios_security.md:284
 msgid "Enable **Protect Mail Activity**"
 msgstr ""
 
-#: src/ios_security.md:311
+#: src/ios_security.md:286
 msgid "Or configure separately:"
 msgstr ""
 
-#: src/ios_security.md:312
+#: src/ios_security.md:287
 msgid "**Hide IP Address**"
 msgstr ""
 
-#: src/ios_security.md:313
+#: src/ios_security.md:288
 msgid "**Block All Remote Content**"
 msgstr ""
 
-#: src/ios_security.md:317
+#: src/ios_security.md:292
 msgid "8. Passwords App"
 msgstr ""
 
-#: src/ios_security.md:319
+#: src/ios_security.md:294
 msgid "iOS 26 significantly enhances the standalone Passwords app."
 msgstr ""
 
-#: src/ios_security.md:321
+#: src/ios_security.md:296
 msgid "New Features in iOS 26"
 msgstr ""
 
-#: src/ios_security.md:323
+#: src/ios_security.md:298
 msgid ""
 "**Password Version History** – View previous passwords for any account with "
 "timestamps"
 msgstr ""
 
-#: src/ios_security.md:324
+#: src/ios_security.md:299
 msgid ""
 "**Secure Export** – FIDO Alliance standard for moving passwords, passkeys, "
 "and verification codes to other managers"
 msgstr ""
 
-#: src/ios_security.md:325
+#: src/ios_security.md:300
 msgid ""
 "**Automatic Passkey Upgrades** – When you sign in with a password, system "
 "can create a passkey for next time"
 msgstr ""
 
-#: src/ios_security.md:326
+#: src/ios_security.md:301
 msgid ""
 "**Credential Management Endpoints** – Prompts to upgrade passwords to "
 "passkeys"
 msgstr ""
 
-#: src/ios_security.md:327
+#: src/ios_security.md:302
 msgid "**Websites to Exclude** – Manage sites where passwords shouldn't be saved"
 msgstr ""
 
-#: src/ios_security.md:329 src/ios_security.md:455
+#: src/ios_security.md:304 src/ios_security.md:430
 msgid "How to Access"
 msgstr ""
 
-#: src/ios_security.md:331
+#: src/ios_security.md:306
 msgid "Open the **Passwords** app"
 msgstr ""
 
-#: src/ios_security.md:334
+#: src/ios_security.md:309
 msgid "View Password History"
 msgstr ""
 
-#: src/ios_security.md:336 src/ios_security.md:342
+#: src/ios_security.md:311 src/ios_security.md:317
 msgid "Open **Passwords**"
 msgstr ""
 
-#: src/ios_security.md:337
+#: src/ios_security.md:312
 msgid "Select a saved login"
 msgstr ""
 
-#: src/ios_security.md:338
+#: src/ios_security.md:313
 msgid "Tap **View History** (appears when multiple versions exist)"
 msgstr ""
 
-#: src/ios_security.md:340
+#: src/ios_security.md:315
 msgid "Export Passwords Securely"
 msgstr ""
 
-#: src/ios_security.md:343
+#: src/ios_security.md:318
 msgid "Tap **Settings** (gear icon)"
 msgstr ""
 
-#: src/ios_security.md:344
+#: src/ios_security.md:319
 msgid "Select **Export Passwords**"
 msgstr ""
 
-#: src/ios_security.md:345
+#: src/ios_security.md:320
 msgid "Choose destination app (uses encrypted FIDO Alliance format)"
 msgstr ""
 
-#: src/ios_security.md:347
+#: src/ios_security.md:322
 msgid "Security Alerts"
 msgstr ""
 
-#: src/ios_security.md:349
+#: src/ios_security.md:324
 msgid "The app warns about:"
 msgstr ""
 
-#: src/ios_security.md:350
+#: src/ios_security.md:325
 msgid "Credentials in known data breaches"
 msgstr ""
 
-#: src/ios_security.md:351
+#: src/ios_security.md:326
 msgid "Weak passwords"
 msgstr ""
 
-#: src/ios_security.md:352
+#: src/ios_security.md:327
 msgid "Reused passwords"
 msgstr ""
 
-#: src/ios_security.md:356
+#: src/ios_security.md:331
 msgid "9. Advanced Data Protection for iCloud"
 msgstr ""
 
-#: src/ios_security.md:358
+#: src/ios_security.md:333
 msgid "End-to-end encryption for the majority of your iCloud data."
 msgstr ""
 
-#: src/ios_security.md:360
+#: src/ios_security.md:335
 msgid "What It Protects (25 categories total)"
 msgstr ""
 
-#: src/ios_security.md:362
+#: src/ios_security.md:337
 msgid "iCloud Backup (including Messages)"
 msgstr ""
 
-#: src/ios_security.md:363
+#: src/ios_security.md:338
 msgid "iCloud Drive"
 msgstr ""
 
-#: src/ios_security.md:364
+#: src/ios_security.md:339
 msgid "Photos"
 msgstr ""
 
-#: src/ios_security.md:365
+#: src/ios_security.md:340
 msgid "Notes"
 msgstr ""
 
-#: src/ios_security.md:366
+#: src/ios_security.md:341
 msgid "Reminders"
 msgstr ""
 
-#: src/ios_security.md:367
+#: src/ios_security.md:342
 msgid "Safari Bookmarks"
 msgstr ""
 
-#: src/ios_security.md:368
+#: src/ios_security.md:343
 msgid "Voice Memos"
 msgstr ""
 
-#: src/ios_security.md:369
+#: src/ios_security.md:344
 msgid "Freeform boards"
 msgstr ""
 
-#: src/ios_security.md:370
+#: src/ios_security.md:345
 msgid "And more..."
 msgstr ""
 
-#: src/ios_security.md:372
+#: src/ios_security.md:347
 msgid "**Cannot be encrypted:**"
 msgstr ""
 
-#: src/ios_security.md:373
+#: src/ios_security.md:348
 msgid "iCloud Mail, Contacts, Calendars (due to interoperability requirements)"
 msgstr ""
 
-#: src/ios_security.md:377
+#: src/ios_security.md:352
 msgid "Go to **Settings > \\[Your Name\\] > iCloud**"
 msgstr ""
 
-#: src/ios_security.md:378
+#: src/ios_security.md:353
 msgid "Tap **Advanced Data Protection**"
 msgstr ""
 
-#: src/ios_security.md:379
+#: src/ios_security.md:354
 msgid "Tap **Turn On Advanced Data Protection**"
 msgstr ""
 
-#: src/ios_security.md:380
+#: src/ios_security.md:355
 msgid "Set up recovery method first:"
 msgstr ""
 
-#: src/ios_security.md:381
+#: src/ios_security.md:356
 msgid "**Recovery Contact** – Trusted person to help regain access"
 msgstr ""
 
-#: src/ios_security.md:382
+#: src/ios_security.md:357
 msgid "**Recovery Key** – 28-character code to store securely"
 msgstr ""
 
-#: src/ios_security.md:384
+#: src/ios_security.md:359
 msgid "Important"
 msgstr ""
 
-#: src/ios_security.md:386
+#: src/ios_security.md:361
 msgid "**Apple cannot recover your data** if you lose access"
 msgstr ""
 
-#: src/ios_security.md:387
+#: src/ios_security.md:362
 msgid "All devices must run supported OS versions"
 msgstr ""
 
-#: src/ios_security.md:388
+#: src/ios_security.md:363
 msgid "iCloud.com access is disabled by default"
 msgstr ""
 
-#: src/ios_security.md:392
+#: src/ios_security.md:367
 msgid "10. Lockdown Mode"
 msgstr ""
 
-#: src/ios_security.md:394
+#: src/ios_security.md:369
 msgid ""
 "Extreme protection for users who may be targeted by sophisticated attacks. "
 "This mode significantly restricts device functionality to reduce attack "
 "surfaces, but also provides robust defense against mercenary spyware."
 msgstr ""
 
-#: src/ios_security.md:398 src/android_security.md:96
+#: src/ios_security.md:373 src/android_security.md:73
 msgid "Who Should Use It"
 msgstr ""
 
-#: src/ios_security.md:400
+#: src/ios_security.md:375
 msgid "Journalists, activists, diplomats"
 msgstr ""
 
-#: src/ios_security.md:401
+#: src/ios_security.md:376
 msgid "High-profile individuals"
 msgstr ""
 
-#: src/ios_security.md:402
+#: src/ios_security.md:377
 msgid "Anyone targeted by mercenary spyware"
 msgstr ""
 
-#: src/ios_security.md:404
+#: src/ios_security.md:379
 msgid "What Lockdown Mode Does"
 msgstr ""
 
-#: src/ios_security.md:406
+#: src/ios_security.md:381
 msgid "**Messages:** Most attachments blocked"
 msgstr ""
 
-#: src/ios_security.md:407
+#: src/ios_security.md:382
 msgid "**Web:** Complex technologies disabled (JIT JavaScript)"
 msgstr ""
 
-#: src/ios_security.md:408
+#: src/ios_security.md:383
 msgid "**FaceTime:** Incoming calls blocked from unknown contacts"
 msgstr ""
 
-#: src/ios_security.md:409
+#: src/ios_security.md:384
 msgid "**Photos:** Location excluded from shared photos"
 msgstr ""
 
-#: src/ios_security.md:410
+#: src/ios_security.md:385
 msgid "**Device:** Wired connections blocked when locked"
 msgstr ""
 
-#: src/ios_security.md:411
+#: src/ios_security.md:386
 msgid "**Wireless:** 2G cellular disabled, won't auto-join insecure Wi-Fi"
 msgstr ""
 
-#: src/ios_security.md:416
+#: src/ios_security.md:391
 msgid "Scroll down and tap **Lockdown Mode**"
 msgstr ""
 
-#: src/ios_security.md:417
+#: src/ios_security.md:392
 msgid "Tap **Turn On Lockdown Mode**"
 msgstr ""
 
-#: src/ios_security.md:418
+#: src/ios_security.md:393
 msgid "Tap **Turn On & Restart**"
 msgstr ""
 
-#: src/ios_security.md:423
+#: src/ios_security.md:398
 msgid "11. Communication Safety & Parental Controls"
 msgstr ""
 
-#: src/ios_security.md:425
+#: src/ios_security.md:400
 msgid "Enhanced Parental Controls (iOS 26)"
 msgstr ""
 
-#: src/ios_security.md:427
+#: src/ios_security.md:402
 msgid "iOS 26 significantly strengthens parental controls:"
 msgstr ""
 
-#: src/ios_security.md:429
+#: src/ios_security.md:404
 msgid "**Child Accounts** – Create or move kids into managed accounts easily"
 msgstr ""
 
-#: src/ios_security.md:430
+#: src/ios_security.md:405
 msgid "**Communication Controls** – Decide who children can text/call"
 msgstr ""
 
-#: src/ios_security.md:431
+#: src/ios_security.md:406
 msgid ""
 "**Third-Party App Management** – Control messaging in gaming and social apps"
 msgstr ""
 
-#: src/ios_security.md:432
+#: src/ios_security.md:407
 msgid "**Unknown Number Blocking** – Block calls/messages from unknown numbers"
 msgstr ""
 
-#: src/ios_security.md:433
+#: src/ios_security.md:408
 msgid "**Age Limits** – Set strict age limits for app downloads"
 msgstr ""
 
-#: src/ios_security.md:434
+#: src/ios_security.md:409
 msgid ""
 "**Explicit Content Detection** – Blurs inappropriate content in shared "
 "albums and FaceTime"
 msgstr ""
 
-#: src/ios_security.md:436
+#: src/ios_security.md:411
 msgid "Communication Safety"
 msgstr ""
 
-#: src/ios_security.md:438
+#: src/ios_security.md:413
 msgid "Protects children from sensitive content in Messages:"
 msgstr ""
 
-#: src/ios_security.md:440
+#: src/ios_security.md:415
 msgid "Go to **Settings > Screen Time**"
 msgstr ""
 
-#: src/ios_security.md:441
+#: src/ios_security.md:416
 msgid "Tap **Communication Safety**"
 msgstr ""
 
-#: src/ios_security.md:442
+#: src/ios_security.md:417
 msgid "Toggle on **Communication Safety**"
 msgstr ""
 
-#: src/ios_security.md:444
+#: src/ios_security.md:419
 msgid "Sensitive Content Warning (Adults)"
 msgstr ""
 
-#: src/ios_security.md:446
+#: src/ios_security.md:421
 msgid "Go to **Settings > Privacy & Security > Sensitive Content Warning**"
 msgstr ""
 
-#: src/ios_security.md:447
+#: src/ios_security.md:422
 msgid "Toggle on to blur sensitive images"
 msgstr ""
 
-#: src/ios_security.md:451
+#: src/ios_security.md:426
 msgid "12. Safety Check"
 msgstr ""
 
-#: src/ios_security.md:453
+#: src/ios_security.md:428
 msgid "Quickly review and reset access you've granted to others."
 msgstr ""
 
-#: src/ios_security.md:458
+#: src/ios_security.md:433
 msgid "Tap **Safety Check**"
 msgstr ""
 
-#: src/ios_security.md:460
+#: src/ios_security.md:435
 msgid "Options"
 msgstr ""
 
-#: src/ios_security.md:462
+#: src/ios_security.md:437
 msgid "**Manage Sharing & Access:** Granular control over individual permissions"
 msgstr ""
 
-#: src/ios_security.md:464
+#: src/ios_security.md:439
 msgid ""
 "**Emergency Reset:** Immediately stops all sharing, resets permissions, "
 "signs out of iCloud on other devices"
 msgstr ""
 
-#: src/ios_security.md:466
+#: src/ios_security.md:441
 msgid "**Quick Exit:** Instantly returns to Home Screen (progress saved)"
 msgstr ""
 
-#: src/ios_security.md:470
+#: src/ios_security.md:445
 msgid "13. Find My iPhone"
 msgstr ""
 
-#: src/ios_security.md:474
+#: src/ios_security.md:449
 msgid "Go to **Settings > \\[Your Name\\] > Find My**"
 msgstr ""
 
-#: src/ios_security.md:475
+#: src/ios_security.md:450
 msgid "Tap **Find My iPhone**"
 msgstr ""
 
-#: src/ios_security.md:476
+#: src/ios_security.md:451
 msgid "Enable:"
 msgstr ""
 
-#: src/ios_security.md:477
+#: src/ios_security.md:452
 msgid "**Find My iPhone**"
 msgstr ""
 
-#: src/ios_security.md:478
+#: src/ios_security.md:453
 msgid "**Find My Network** (locate even when offline)"
 msgstr ""
 
-#: src/ios_security.md:479
+#: src/ios_security.md:454
 msgid "**Send Last Location**"
 msgstr ""
 
-#: src/ios_security.md:481
+#: src/ios_security.md:456
 msgid "Activation Lock for Parts (iOS 26)"
 msgstr ""
 
-#: src/ios_security.md:483
+#: src/ios_security.md:458
 msgid ""
 "iOS 26 extends Activation Lock to individual components (batteries, cameras, "
 "displays), making stolen parts unusable."
 msgstr ""
 
-#: src/ios_security.md:485
+#: src/ios_security.md:460
 msgid "AirTag (2nd Generation) - iOS 26.2.1 Required"
 msgstr ""
 
-#: src/ios_security.md:487
+#: src/ios_security.md:462
 msgid ""
 "The new AirTag (released January 26, 2026) requires iOS 26.2.1 or later and "
 "includes significant security and tracking improvements:"
 msgstr ""
 
-#: src/ios_security.md:489
+#: src/ios_security.md:464
 msgid "**Enhanced Finding Capabilities:**"
 msgstr ""
 
-#: src/ios_security.md:490
+#: src/ios_security.md:465
 msgid ""
 "**50% longer Precision Finding range** via second-generation Ultra Wideband "
 "chip"
 msgstr ""
 
-#: src/ios_security.md:491
+#: src/ios_security.md:466
 msgid ""
 "**Precision Finding on Apple Watch** – Works on Apple Watch Series 9+, Ultra "
 "2+ (first time on wrist)"
 msgstr ""
 
-#: src/ios_security.md:492
+#: src/ios_security.md:467
 msgid ""
 "**Expanded Bluetooth range** – Better detection by Find My network devices"
 msgstr ""
 
-#: src/ios_security.md:493
+#: src/ios_security.md:468
 msgid "**50% louder speaker** – Easier to locate and harder for stalkers to mask"
 msgstr ""
 
-#: src/ios_security.md:495
+#: src/ios_security.md:470
 msgid "**Anti-Stalking Improvements:**"
 msgstr ""
 
-#: src/ios_security.md:496
+#: src/ios_security.md:471
 msgid "Louder alert sounds when separated from owner's device"
 msgstr ""
 
-#: src/ios_security.md:497
+#: src/ios_security.md:472
 msgid "Improved detection notifications on iPhones"
 msgstr ""
 
-#: src/ios_security.md:498
+#: src/ios_security.md:473
 msgid "Same separation alert timing (approximately 8 hours)"
 msgstr ""
 
-#: src/ios_security.md:500
+#: src/ios_security.md:475
 msgid "**Share Item Location:**"
 msgstr ""
 
-#: src/ios_security.md:501
+#: src/ios_security.md:476
 msgid "Securely share AirTag location with airlines for lost luggage"
 msgstr ""
 
-#: src/ios_security.md:502
+#: src/ios_security.md:477
 msgid "36 airlines supported at launch, 15+ more coming"
 msgstr ""
 
-#: src/ios_security.md:503
+#: src/ios_security.md:478
 msgid "End-to-end encrypted sharing"
 msgstr ""
 
-#: src/ios_security.md:505
+#: src/ios_security.md:480
 msgid "**How to Set Up AirTag (2nd Gen):**"
 msgstr ""
 
-#: src/ios_security.md:506
+#: src/ios_security.md:481
 msgid "Ensure iOS 26.2.1 is installed"
 msgstr ""
 
-#: src/ios_security.md:507
+#: src/ios_security.md:482
 msgid "Bring AirTag near your iPhone"
 msgstr ""
 
-#: src/ios_security.md:508
+#: src/ios_security.md:483
 msgid "Tap **Connect** when prompted"
 msgstr ""
 
-#: src/ios_security.md:509
+#: src/ios_security.md:484
 msgid "Name your AirTag and assign an emoji"
 msgstr ""
 
-#: src/ios_security.md:510
+#: src/ios_security.md:485
 msgid "Register to your Apple ID"
 msgstr ""
 
-#: src/ios_security.md:514
+#: src/ios_security.md:489
 msgid "14. Advertising and Tracking Controls"
 msgstr ""
 
-#: src/ios_security.md:516
+#: src/ios_security.md:491
 msgid "Disable Advertising Identifier"
 msgstr ""
 
-#: src/ios_security.md:519
+#: src/ios_security.md:494
 msgid "Toggle off **Allow Apps to Request to Track**"
 msgstr ""
 
-#: src/ios_security.md:521
+#: src/ios_security.md:496
 msgid "Disable Apple Personalized Ads"
 msgstr ""
 
-#: src/ios_security.md:523
+#: src/ios_security.md:498
 msgid "Go to **Settings > Privacy & Security > Apple Advertising**"
 msgstr ""
 
-#: src/ios_security.md:524
+#: src/ios_security.md:499
 msgid "Toggle off **Personalized Ads**"
 msgstr ""
 
-#: src/ios_security.md:526
+#: src/ios_security.md:501
 msgid "Analytics & Improvements"
 msgstr ""
 
-#: src/ios_security.md:528
+#: src/ios_security.md:503
 msgid "Go to **Settings > Privacy & Security > Analytics & Improvements**"
 msgstr ""
 
-#: src/ios_security.md:529
+#: src/ios_security.md:504
 msgid "Toggle off data sharing options"
 msgstr ""
 
-#: src/ios_security.md:533
+#: src/ios_security.md:508
 msgid "15. Apple Intelligence Privacy"
 msgstr ""
 
-#: src/ios_security.md:535
+#: src/ios_security.md:510
 msgid "On-Device Processing"
 msgstr ""
 
-#: src/ios_security.md:537
+#: src/ios_security.md:512
 msgid "Most Apple Intelligence features process data locally on your device."
 msgstr ""
 
-#: src/ios_security.md:539
+#: src/ios_security.md:514
 msgid "Private Cloud Compute"
 msgstr ""
 
-#: src/ios_security.md:541
+#: src/ios_security.md:516
 msgid "For complex requests:"
 msgstr ""
 
-#: src/ios_security.md:542
+#: src/ios_security.md:517
 msgid "Uses Apple's Private Cloud Compute"
 msgstr ""
 
-#: src/ios_security.md:543
+#: src/ios_security.md:518
 msgid "Data never stored on servers"
 msgstr ""
 
-#: src/ios_security.md:544
+#: src/ios_security.md:519
 msgid "Cryptographically verified privacy"
 msgstr ""
 
-#: src/ios_security.md:546
+#: src/ios_security.md:521
 msgid "Control AI Learning"
 msgstr ""
 
-#: src/ios_security.md:548
+#: src/ios_security.md:523
 msgid "Go to **Settings > Apple Intelligence & Siri**"
 msgstr ""
 
-#: src/ios_security.md:549
+#: src/ios_security.md:524
 msgid "Scroll to **Apps**"
 msgstr ""
 
-#: src/ios_security.md:550
+#: src/ios_security.md:525
 msgid "Toggle off **Learn from this App** for sensitive apps"
 msgstr ""
 
-#: src/ios_security.md:554
+#: src/ios_security.md:529
 msgid "16. Wi-Fi Aware & Network Security (NEW in iOS 26)"
 msgstr ""
 
-#: src/ios_security.md:556
+#: src/ios_security.md:531
 msgid "Wi-Fi Aware"
 msgstr ""
 
-#: src/ios_security.md:558
+#: src/ios_security.md:533
 msgid ""
 "A new peer-to-peer networking framework allowing secure connections without "
 "access points:"
 msgstr ""
 
-#: src/ios_security.md:560
+#: src/ios_security.md:535
 msgid "Direct encrypted links between devices"
 msgstr ""
 
-#: src/ios_security.md:561
+#: src/ios_security.md:536
 msgid "Ideal for file transfers, gaming, media streaming"
 msgstr ""
 
-#: src/ios_security.md:562
+#: src/ios_security.md:537
 msgid "No internet connection required"
 msgstr ""
 
-#: src/ios_security.md:563
+#: src/ios_security.md:538
 msgid "Third-party apps can use this for secure local sharing"
 msgstr ""
 
-#: src/ios_security.md:565
+#: src/ios_security.md:540
 msgid "Post-Quantum Cryptography (iOS 26)"
 msgstr ""
 
-#: src/ios_security.md:567
+#: src/ios_security.md:542
 msgid "iOS 26 adds hybrid post-quantum key exchange to TLS connections:"
 msgstr ""
 
-#: src/ios_security.md:569
+#: src/ios_security.md:544
 msgid "Pairs classic elliptic curve math with lattice-based schemes"
 msgstr ""
 
-#: src/ios_security.md:570
+#: src/ios_security.md:545
 msgid "Protects current data against future quantum computing threats"
 msgstr ""
 
-#: src/ios_security.md:571
+#: src/ios_security.md:546
 msgid "Works automatically with Apple's networking frameworks"
 msgstr ""
 
-#: src/ios_security.md:573
+#: src/ios_security.md:548
 msgid "Captive Assist"
 msgstr ""
 
-#: src/ios_security.md:575
+#: src/ios_security.md:550
 msgid ""
 "When you connect to public Wi-Fi by filling out a form, iOS 26 can "
 "automatically share that form information with your other Apple devices, "
 "making it easier to connect securely."
 msgstr ""
 
-#: src/ios_security.md:579
+#: src/ios_security.md:554
 msgid "17. Wired Accessories Security (NEW in iOS 26)"
 msgstr ""
 
-#: src/ios_security.md:581
+#: src/ios_security.md:556
 msgid "Enhanced USB-C/Lightning Port Security"
 msgstr ""
 
-#: src/ios_security.md:583
+#: src/ios_security.md:558
 msgid ""
 "iOS 26 gives you explicit control over what happens when accessories connect:"
 msgstr ""
 
-#: src/ios_security.md:587
+#: src/ios_security.md:562
 msgid "Scroll to **Accessories**"
 msgstr ""
 
-#: src/ios_security.md:588
+#: src/ios_security.md:563
 msgid "Choose behavior:"
 msgstr ""
 
-#: src/ios_security.md:589
+#: src/ios_security.md:564
 msgid "**Allow when unlocked** (default)"
 msgstr ""
 
-#: src/ios_security.md:590
+#: src/ios_security.md:565
 msgid "**Always ask**"
 msgstr ""
 
-#: src/ios_security.md:591
+#: src/ios_security.md:566
 msgid "**Never allow**"
 msgstr ""
 
-#: src/ios_security.md:593
+#: src/ios_security.md:568
 msgid "Why This Matters"
 msgstr ""
 
-#: src/ios_security.md:595
+#: src/ios_security.md:570
 msgid "Malicious cables can extract data while appearing to charge"
 msgstr ""
 
-#: src/ios_security.md:596
+#: src/ios_security.md:571
 msgid "Compromised chargers in public places pose real risks"
 msgstr ""
 
-#: src/ios_security.md:597
+#: src/ios_security.md:572
 msgid ""
 "You now get immediate notification when a cable tries to do more than charge"
 msgstr ""
 
-#: src/ios_security.md:598
+#: src/ios_security.md:573
 msgid ""
 "Stops \"juice jacking\" attacks at airports, hotels, and other public "
 "charging stations"
 msgstr ""
 
-#: src/ios_security.md:602
+#: src/ios_security.md:577
 msgid "18. AirDrop Security (NEW in iOS 26.2)"
 msgstr ""
 
-#: src/ios_security.md:604
+#: src/ios_security.md:579
 msgid "One-Time AirDrop Codes"
 msgstr ""
 
-#: src/ios_security.md:606
+#: src/ios_security.md:581
 msgid "iOS 26.2 introduces secure codes for sharing with unknown contacts:"
 msgstr ""
 
-#: src/ios_security.md:608 src/android_security.md:191
+#: src/ios_security.md:583 src/android_security.md:168
 msgid "**How it works:**"
 msgstr ""
 
-#: src/ios_security.md:609
+#: src/ios_security.md:584
 msgid "When sharing with someone not in your contacts, generate a temporary code"
 msgstr ""
 
-#: src/ios_security.md:610
+#: src/ios_security.md:585
 msgid "The receiver displays the code on their device"
 msgstr ""
 
-#: src/ios_security.md:611
+#: src/ios_security.md:586
 msgid "Sender enters the code to complete transfer"
 msgstr ""
 
-#: src/ios_security.md:612
+#: src/ios_security.md:587
 msgid "Code is valid for 30 days for that contact"
 msgstr ""
 
-#: src/ios_security.md:614
+#: src/ios_security.md:589
 msgid "Tighter Proximity Detection"
 msgstr ""
 
-#: src/ios_security.md:616
+#: src/ios_security.md:591
 msgid "AirDrop now shows only devices within close physical proximity, reducing:"
 msgstr ""
 
-#: src/ios_security.md:617
+#: src/ios_security.md:592
 msgid "Accidental transfers"
 msgstr ""
 
-#: src/ios_security.md:618
+#: src/ios_security.md:593
 msgid "Unsolicited content (\"AirDrop spam\")"
 msgstr ""
 
-#: src/ios_security.md:619
+#: src/ios_security.md:594
 msgid "Faster peer-to-peer connections in crowded areas"
 msgstr ""
 
-#: src/ios_security.md:623
+#: src/ios_security.md:598
 msgid "19. Additional Security Recommendations"
 msgstr ""
 
-#: src/ios_security.md:625
+#: src/ios_security.md:600
 msgid "Lock Screen Security"
 msgstr ""
 
-#: src/ios_security.md:627
+#: src/ios_security.md:602
 msgid "**Disable Control Center from lock screen:**"
 msgstr ""
 
-#: src/ios_security.md:629
+#: src/ios_security.md:604
 msgid "Under **Allow Access When Locked**, toggle off:"
 msgstr ""
 
-#: src/ios_security.md:630
+#: src/ios_security.md:605
 msgid "Control Center"
 msgstr ""
 
-#: src/ios_security.md:631
+#: src/ios_security.md:606
 msgid "Notification Center"
 msgstr ""
 
-#: src/ios_security.md:632
+#: src/ios_security.md:607
 msgid "USB Accessories"
 msgstr ""
 
-#: src/ios_security.md:634
+#: src/ios_security.md:609
 msgid "Automatic Software Updates"
 msgstr ""
 
-#: src/ios_security.md:636
+#: src/ios_security.md:611
 msgid "Go to **Settings > General > Software Update**"
 msgstr ""
 
-#: src/ios_security.md:637
+#: src/ios_security.md:612
 msgid "Tap **Automatic Updates**"
 msgstr ""
 
-#: src/ios_security.md:638
+#: src/ios_security.md:613
 msgid "Enable all options including **Security Responses & System Files**"
 msgstr ""
 
-#: src/ios_security.md:640 src/android_security.md:666
-#: src/android_security.md:722
+#: src/ios_security.md:615 src/android_security.md:643
+#: src/android_security.md:699
 msgid "Lock Screen Notifications"
 msgstr ""
 
-#: src/ios_security.md:642
+#: src/ios_security.md:617
 msgid "Go to **Settings > Notifications > Show Previews**"
 msgstr ""
 
-#: src/ios_security.md:643
+#: src/ios_security.md:618
 msgid "Select **When Unlocked** or **Never**"
 msgstr ""
 
-#: src/ios_security.md:645
+#: src/ios_security.md:620
 msgid "Liquid Glass Opacity (iOS 26)"
 msgstr ""
 
-#: src/ios_security.md:647
+#: src/ios_security.md:622
 msgid "For better readability and reduced glare:"
 msgstr ""
 
-#: src/ios_security.md:648
+#: src/ios_security.md:623
 msgid "Go to **Settings > Display & Brightness > Liquid Glass**"
 msgstr ""
 
-#: src/ios_security.md:649
+#: src/ios_security.md:624
 msgid "Choose **Clear** (sharper) or **Tinted** (softer, less glare)"
 msgstr ""
 
-#: src/ios_security.md:651
+#: src/ios_security.md:626
 msgid "Restart After Security Updates"
 msgstr ""
 
-#: src/ios_security.md:653
+#: src/ios_security.md:628
 msgid ""
 "After installing iOS 26.2 or any security update, **restart your device**. "
 "Some spyware lives only in volatile memory and is cleared by a reboot."
 msgstr ""
 
-#: src/ios_security.md:655
+#: src/ios_security.md:630
 msgid "Erase Data After Failed Attempts"
 msgstr ""
 
-#: src/ios_security.md:658
+#: src/ios_security.md:633
 msgid "Enable **Erase Data** (erases after 10 failed passcode attempts)"
 msgstr ""
 
-#: src/ios_security.md:662 src/android_security.md:705
+#: src/ios_security.md:637 src/android_security.md:682
 msgid "Quick Reference: Essential Settings Checklist"
 msgstr ""
 
-#: src/ios_security.md:664 src/android_security.md:707
+#: src/ios_security.md:639 src/android_security.md:684
 msgid "Setting"
 msgstr ""
 
-#: src/ios_security.md:664 src/android_security.md:236
-#: src/android_security.md:707 src/android_security.md:717
+#: src/ios_security.md:639 src/android_security.md:213
+#: src/android_security.md:684 src/android_security.md:694
 msgid "Location"
 msgstr ""
 
-#: src/ios_security.md:664 src/android_security.md:707
+#: src/ios_security.md:639 src/android_security.md:684
 msgid "Recommended"
 msgstr ""
 
-#: src/ios_security.md:666
+#: src/ios_security.md:641
 msgid "Face ID/Touch ID"
 msgstr ""
 
-#: src/ios_security.md:666 src/ios_security.md:667 src/ios_security.md:669
+#: src/ios_security.md:641 src/ios_security.md:642 src/ios_security.md:644
 msgid "Settings > Face ID & Passcode"
 msgstr ""
 
-#: src/ios_security.md:666 src/ios_security.md:668 src/ios_security.md:669
-#: src/ios_security.md:672 src/ios_security.md:673 src/ios_security.md:674
-#: src/ios_security.md:675 src/android_security.md:709
-#: src/android_security.md:711 src/android_security.md:712
-#: src/android_security.md:713 src/android_security.md:720
+#: src/ios_security.md:641 src/ios_security.md:643 src/ios_security.md:644
+#: src/ios_security.md:647 src/ios_security.md:648 src/ios_security.md:649
+#: src/ios_security.md:650 src/android_security.md:686
+#: src/android_security.md:688 src/android_security.md:689
+#: src/android_security.md:690 src/android_security.md:697
 msgid "✅ Enable"
 msgstr ""
 
-#: src/ios_security.md:667
+#: src/ios_security.md:642
 msgid "Strong Passcode"
 msgstr ""
 
-#: src/ios_security.md:667
+#: src/ios_security.md:642
 msgid "✅ Alphanumeric"
 msgstr ""
 
-#: src/ios_security.md:668 src/android_security.md:711
+#: src/ios_security.md:643 src/android_security.md:688
 msgid "Two-Factor Authentication"
 msgstr ""
 
-#: src/ios_security.md:668
+#: src/ios_security.md:643
 msgid "Settings > \\[Name\\] > Sign-In & Security"
 msgstr ""
 
-#: src/ios_security.md:669
+#: src/ios_security.md:644
 msgid "Stolen Device Protection"
 msgstr ""
 
-#: src/ios_security.md:670
+#: src/ios_security.md:645
 msgid "App Tracking"
 msgstr ""
 
-#: src/ios_security.md:670
+#: src/ios_security.md:645
 msgid "Settings > Privacy & Security > Tracking"
 msgstr ""
 
-#: src/ios_security.md:670 src/android_security.md:719
+#: src/ios_security.md:645 src/android_security.md:696
 msgid "❌ Disable"
 msgstr ""
 
-#: src/ios_security.md:671
+#: src/ios_security.md:646
 msgid "Advanced Tracking Protection"
 msgstr ""
 
-#: src/ios_security.md:671
+#: src/ios_security.md:646
 msgid "Settings > Apps > Safari > Advanced"
 msgstr ""
 
-#: src/ios_security.md:671
+#: src/ios_security.md:646
 msgid "✅ All Browsing"
 msgstr ""
 
-#: src/ios_security.md:672
+#: src/ios_security.md:647
 msgid "Mail Privacy"
 msgstr ""
 
-#: src/ios_security.md:672
+#: src/ios_security.md:647
 msgid "Settings > Apps > Mail > Privacy Protection"
 msgstr ""
 
-#: src/ios_security.md:673
+#: src/ios_security.md:648
 msgid "Advanced Data Protection"
 msgstr ""
 
-#: src/ios_security.md:673
+#: src/ios_security.md:648
 msgid "Settings > \\[Name\\] > iCloud > Advanced Data Protection"
 msgstr ""
 
-#: src/ios_security.md:674
+#: src/ios_security.md:649
 msgid "Find My"
 msgstr ""
 
-#: src/ios_security.md:674
+#: src/ios_security.md:649
 msgid "Settings > \\[Name\\] > Find My"
 msgstr ""
 
-#: src/ios_security.md:675
+#: src/ios_security.md:650
 msgid "Automatic Updates"
 msgstr ""
 
-#: src/ios_security.md:675
+#: src/ios_security.md:650
 msgid "Settings > General > Software Update"
 msgstr ""
 
-#: src/ios_security.md:676
+#: src/ios_security.md:651
 msgid "Wired Accessories"
 msgstr ""
 
-#: src/ios_security.md:676
+#: src/ios_security.md:651
 msgid "Settings > Face ID & Passcode > Accessories"
 msgstr ""
 
-#: src/ios_security.md:676
+#: src/ios_security.md:651
 msgid "⚙️ Always Ask"
 msgstr ""
 
-#: src/ios_security.md:677
+#: src/ios_security.md:652
 msgid "Lock Screen Previews"
 msgstr ""
 
-#: src/ios_security.md:677
+#: src/ios_security.md:652
 msgid "Settings > Notifications > Show Previews"
 msgstr ""
 
-#: src/ios_security.md:677
+#: src/ios_security.md:652
 msgid "⚙️ When Unlocked"
 msgstr ""
 
-#: src/ios_security.md:681 src/android_security.md:726
+#: src/ios_security.md:656 src/android_security.md:703
 msgid "Conclusion"
 msgstr ""
 
-#: src/ios_security.md:683
+#: src/ios_security.md:658
 msgid ""
 "iOS 26.2 represents Apple's most comprehensive security and privacy update "
 "to date. Key priorities:"
 msgstr ""
 
-#: src/ios_security.md:685
+#: src/ios_security.md:660
 msgid ""
 "**Update to iOS 26.2 immediately** – Patches actively exploited zero-day "
 "vulnerabilities"
 msgstr ""
 
-#: src/ios_security.md:686
+#: src/ios_security.md:661
 msgid "**Enable lockdown mode** – Prevents sophisticated spyware attacks"
 msgstr ""
 
-#: src/ios_security.md:687
+#: src/ios_security.md:662
 msgid ""
 "**Enable Stolen Device Protection** – Prevents thieves from accessing data "
 "even with your passcode"
 msgstr ""
 
-#: src/ios_security.md:688
+#: src/ios_security.md:663
 msgid ""
 "**Turn on Advanced Data Protection** – End-to-end encrypts your iCloud data"
 msgstr ""
 
-#: src/ios_security.md:689
+#: src/ios_security.md:664
 msgid ""
 "**Enable Advanced Tracking Protection for All Browsing** – Major "
 "anti-fingerprinting improvement"
 msgstr ""
 
-#: src/ios_security.md:690
+#: src/ios_security.md:665
 msgid ""
 "**Configure Wired Accessories security** – Protects against malicious "
 "charging cables"
 msgstr ""
 
-#: src/ios_security.md:691
+#: src/ios_security.md:666
 msgid ""
 "**Use Passkeys** – Let iOS 26 automatically upgrade your passwords to "
 "phishing-resistant passkeys"
 msgstr ""
 
-#: src/ios_security.md:692
+#: src/ios_security.md:667
 msgid "**Restart after updates** – Clears memory-resident threats"
 msgstr ""
 
-#: src/ios_security.md:694
+#: src/ios_security.md:669
 msgid ""
 "By configuring these settings, you significantly strengthen your privacy and "
 "security against both common and sophisticated threats."
 msgstr ""
 
-#: src/ios_security.md:698
+#: src/ios_security.md:673
 msgid ""
 "_Last updated: January 29, 2026 | Applies to iOS 26.2.1_ _Device "
 "requirements: iPhone 11 or later (A13 Bionic chip minimum)_ _AirTag (2nd "
@@ -1968,1943 +1878,1868 @@ msgid ""
 "Android 16 to protect your personal data and secure your device."
 msgstr ""
 
-#: src/android_security.md:9
-msgid "[What's New in Android 16](#whats-new-in-android-16)"
-msgstr ""
-
-#: src/android_security.md:10
-msgid "[Advanced Protection Mode](#1-advanced-protection-mode)"
-msgstr ""
-
-#: src/android_security.md:11
-msgid "[Device Authentication](#2-device-authentication)"
-msgstr ""
-
-#: src/android_security.md:12
-msgid "[Identity Check](#3-identity-check)"
-msgstr ""
-
-#: src/android_security.md:13
-msgid "[Theft Protection](#4-theft-protection)"
-msgstr ""
-
-#: src/android_security.md:14
-msgid "[App Permissions](#5-app-permissions)"
-msgstr ""
-
-#: src/android_security.md:15
-msgid "[Location Services](#6-location-services)"
-msgstr ""
-
-#: src/android_security.md:16
-msgid "[Private Space](#7-private-space)"
-msgstr ""
-
-#: src/android_security.md:17
-msgid "[Google Play Protect](#8-google-play-protect)"
-msgstr ""
-
-#: src/android_security.md:18
-msgid ""
-"[Google Password Manager & Passkeys](#9-google-password-manager--passkeys)"
-msgstr ""
-
-#: src/android_security.md:19
-msgid "[Scam & Spam Protection](#10-scam--spam-protection)"
-msgstr ""
-
-#: src/android_security.md:20
-msgid "[Network Security](#11-network-security)"
-msgstr ""
-
-#: src/android_security.md:21
-msgid "[USB Protection](#12-usb-protection)"
-msgstr ""
-
-#: src/android_security.md:22
-msgid "[Find My Device](#13-find-my-device)"
-msgstr ""
-
-#: src/android_security.md:23
-msgid "[Advertising & Tracking Controls](#14-advertising--tracking-controls)"
-msgstr ""
-
-#: src/android_security.md:24
-msgid "[Google Account Privacy](#15-google-account-privacy)"
-msgstr ""
-
-#: src/android_security.md:25
-msgid "[Chrome & Browser Privacy](#16-chrome--browser-privacy)"
-msgstr ""
-
-#: src/android_security.md:26
-msgid ""
-"[Additional Security "
-"Recommendations](#17-additional-security-recommendations)"
-msgstr ""
-
-#: src/android_security.md:30
+#: src/android_security.md:7
 msgid "What's New in Android 16"
 msgstr ""
 
-#: src/android_security.md:32
+#: src/android_security.md:9
 msgid ""
 "Android 16, released in June 2025, represents Google's most significant "
 "security update, featuring a comprehensive \"Advanced Protection Mode\" that "
 "consolidates multiple security features into one easy toggle."
 msgstr ""
 
-#: src/android_security.md:34
+#: src/android_security.md:11
 msgid "Major Security & Privacy Additions"
 msgstr ""
 
-#: src/android_security.md:36
+#: src/android_security.md:13
 msgid ""
 "**Advanced Protection Mode** – One-tap activation of all major security "
 "features"
 msgstr ""
 
-#: src/android_security.md:37
+#: src/android_security.md:14
 msgid ""
 "**Identity Check** – Biometric authentication required for sensitive "
 "settings when away from trusted locations"
 msgstr ""
 
-#: src/android_security.md:38
+#: src/android_security.md:15
 msgid ""
 "**AI-Powered Privacy Controls** – Contextual permission management based on "
 "usage patterns"
 msgstr ""
 
-#: src/android_security.md:39
+#: src/android_security.md:16
 msgid ""
 "**Enhanced Theft Protection** – Theft Detection Lock, Offline Device Lock, "
 "Inactivity Reboot"
 msgstr ""
 
-#: src/android_security.md:40
+#: src/android_security.md:17
 msgid ""
 "**Intrusion Logging** – Encrypted activity logs for post-breach analysis "
 "(coming in QPR3, March 2026)"
 msgstr ""
 
-#: src/android_security.md:41
+#: src/android_security.md:18
 msgid "**USB Protection** – Default charging-only mode when locked"
 msgstr ""
 
-#: src/android_security.md:42
+#: src/android_security.md:19
 msgid ""
 "**Improved Scam Detection** – Real-time AI-powered scam call and message "
 "protection"
 msgstr ""
 
-#: src/android_security.md:43
+#: src/android_security.md:20
 msgid ""
 "**Enhanced Factory Reset Protection** – Stolen devices become harder to use"
 msgstr ""
 
-#: src/android_security.md:44
+#: src/android_security.md:21
 msgid "**Trade-in Mode** – Secure device preparation for resale"
 msgstr ""
 
-#: src/android_security.md:45
+#: src/android_security.md:22
 msgid ""
 "**Fixed Approximate Location** – Prevents apps from inferring precise "
 "location through workarounds"
 msgstr ""
 
-#: src/android_security.md:46
+#: src/android_security.md:23
 msgid ""
 "**Local Network Protection** – New runtime permission for local network "
 "access"
 msgstr ""
 
-#: src/android_security.md:47
+#: src/android_security.md:24
 msgid "**Restore Credentials** – Seamless passkey migration to new devices"
 msgstr ""
 
-#: src/android_security.md:49
+#: src/android_security.md:26
 msgid "Device Requirements"
 msgstr ""
 
-#: src/android_security.md:51
+#: src/android_security.md:28
 msgid "Android 16 stable released June 2025"
 msgstr ""
 
-#: src/android_security.md:52
+#: src/android_security.md:29
 msgid "Available on Google Pixel and expanding to other manufacturers"
 msgstr ""
 
-#: src/android_security.md:53
+#: src/android_security.md:30
 msgid ""
 "Some features require specific hardware (e.g., motion sensors for Theft "
 "Detection Lock)"
 msgstr ""
 
-#: src/android_security.md:57
+#: src/android_security.md:34
 msgid "1. Advanced Protection Mode"
 msgstr ""
 
-#: src/android_security.md:59
+#: src/android_security.md:36
 msgid ""
 "Advanced Protection Mode is Android 16's flagship security feature—a single "
 "toggle that activates Google's strongest device protections."
 msgstr ""
 
-#: src/android_security.md:61
+#: src/android_security.md:38
 msgid "What It Enables"
 msgstr ""
 
-#: src/android_security.md:63
+#: src/android_security.md:40
 msgid "**Device Security:**"
 msgstr ""
 
-#: src/android_security.md:64
+#: src/android_security.md:41
 msgid "Theft Detection Lock (AI-powered theft detection)"
 msgstr ""
 
-#: src/android_security.md:65
+#: src/android_security.md:42
 msgid "Offline Device Lock (locks when disconnected)"
 msgstr ""
 
-#: src/android_security.md:66
+#: src/android_security.md:43
 msgid "Inactivity Reboot (restarts after 72 hours locked)"
 msgstr ""
 
-#: src/android_security.md:67
+#: src/android_security.md:44
 msgid "USB Protection (charging-only when locked)"
 msgstr ""
 
-#: src/android_security.md:69
+#: src/android_security.md:46
 msgid "**App Security:**"
 msgstr ""
 
-#: src/android_security.md:70
+#: src/android_security.md:47
 msgid "Google Play Protect (cannot be disabled)"
 msgstr ""
 
-#: src/android_security.md:71
+#: src/android_security.md:48
 msgid "Blocks installation from unknown sources"
 msgstr ""
 
-#: src/android_security.md:72
+#: src/android_security.md:49
 msgid "Android Safe Browsing"
 msgstr ""
 
-#: src/android_security.md:74
+#: src/android_security.md:51
 msgid "**Network Security:**"
 msgstr ""
 
-#: src/android_security.md:75
+#: src/android_security.md:52
 msgid "Disables 2G connections"
 msgstr ""
 
-#: src/android_security.md:76
+#: src/android_security.md:53
 msgid "Blocks auto-reconnect to insecure networks"
 msgstr ""
 
-#: src/android_security.md:77
+#: src/android_security.md:54
 msgid "Forces HTTPS in Chrome"
 msgstr ""
 
-#: src/android_security.md:79
+#: src/android_security.md:56
 msgid "**Communication Protection:**"
 msgstr ""
 
-#: src/android_security.md:80
+#: src/android_security.md:57
 msgid "Scam Detection in Phone app"
 msgstr ""
 
-#: src/android_security.md:81
+#: src/android_security.md:58
 msgid "Spam filtering in Google Messages"
 msgstr ""
 
-#: src/android_security.md:82
+#: src/android_security.md:59
 msgid "Unsafe link warnings"
 msgstr ""
 
-#: src/android_security.md:84
+#: src/android_security.md:61
 msgid "**Coming Soon:**"
 msgstr ""
 
-#: src/android_security.md:85
+#: src/android_security.md:62
 msgid "Intrusion Logging (encrypted activity logs)"
 msgstr ""
 
-#: src/android_security.md:86
+#: src/android_security.md:63
 msgid "Enhanced app permission controls"
 msgstr ""
 
-#: src/android_security.md:91
+#: src/android_security.md:68
 msgid "Tap **Security & Privacy**"
 msgstr ""
 
-#: src/android_security.md:92
+#: src/android_security.md:69
 msgid "Tap **Advanced Protection**"
 msgstr ""
 
-#: src/android_security.md:93
+#: src/android_security.md:70
 msgid "Toggle on **Device Protection**"
 msgstr ""
 
-#: src/android_security.md:94
+#: src/android_security.md:71
 msgid "Tap **Turn on** and then **Restart**"
 msgstr ""
 
-#: src/android_security.md:98
+#: src/android_security.md:75
 msgid "Journalists, activists, public figures"
 msgstr ""
 
-#: src/android_security.md:99
+#: src/android_security.md:76
 msgid "Anyone wanting maximum protection"
 msgstr ""
 
-#: src/android_security.md:100
+#: src/android_security.md:77
 msgid "Users who don't need to sideload apps"
 msgstr ""
 
-#: src/android_security.md:102
+#: src/android_security.md:79
 msgid "Considerations"
 msgstr ""
 
-#: src/android_security.md:104
+#: src/android_security.md:81
 msgid "Cannot sideload apps from unknown sources"
 msgstr ""
 
-#: src/android_security.md:105
+#: src/android_security.md:82
 msgid "JavaScript optimizer disabled in Chrome (may break some websites)"
 msgstr ""
 
-#: src/android_security.md:106
+#: src/android_security.md:83
 msgid "Some call screening may flag legitimate calls"
 msgstr ""
 
-#: src/android_security.md:107
+#: src/android_security.md:84
 msgid "Easy to turn on/off, so no harm in trying"
 msgstr ""
 
-#: src/android_security.md:111
+#: src/android_security.md:88
 msgid "2. Device Authentication"
 msgstr ""
 
-#: src/android_security.md:113
+#: src/android_security.md:90
 msgid "Screen Lock Options"
 msgstr ""
 
-#: src/android_security.md:115
+#: src/android_security.md:92
 msgid "Android 16 supports multiple screen lock methods:"
 msgstr ""
 
-#: src/android_security.md:118
+#: src/android_security.md:95
 msgid "Go to **Settings > Security & Privacy > Device Unlock > Screen Lock**"
 msgstr ""
 
-#: src/android_security.md:119
+#: src/android_security.md:96
 msgid "Choose your lock type:"
 msgstr ""
 
-#: src/android_security.md:120
+#: src/android_security.md:97
 msgid "**PIN** – 6+ digits recommended"
 msgstr ""
 
-#: src/android_security.md:121
+#: src/android_security.md:98
 msgid "**Password** – Most secure (alphanumeric)"
 msgstr ""
 
-#: src/android_security.md:122
+#: src/android_security.md:99
 msgid "**Pattern** – Less secure, avoid simple patterns"
 msgstr ""
 
-#: src/android_security.md:123
+#: src/android_security.md:100
 msgid "**Fingerprint** – Convenient biometric"
 msgstr ""
 
-#: src/android_security.md:124
+#: src/android_security.md:101
 msgid "**Face Unlock** – Available on supported devices"
 msgstr ""
 
-#: src/android_security.md:126
+#: src/android_security.md:103
 msgid ""
 "**Best Practice:** Use a PIN with 6+ digits or an alphanumeric password. Add "
 "fingerprint for convenience."
 msgstr ""
 
-#: src/android_security.md:128
+#: src/android_security.md:105
 msgid "Two-Factor Authentication (2FA) for Google Account"
 msgstr ""
 
-#: src/android_security.md:130 src/android_security.md:187
-#: src/android_security.md:200 src/android_security.md:208
-#: src/android_security.md:454 src/android_security.md:464
+#: src/android_security.md:107 src/android_security.md:164
+#: src/android_security.md:177 src/android_security.md:185
+#: src/android_security.md:431 src/android_security.md:441
 msgid "**How to enable:**"
 msgstr ""
 
-#: src/android_security.md:131 src/android_security.md:598
+#: src/android_security.md:108 src/android_security.md:575
 msgid "Go to **Settings > Google > Manage your Google Account**"
 msgstr ""
 
-#: src/android_security.md:132
+#: src/android_security.md:109
 msgid "Tap **Security**"
 msgstr ""
 
-#: src/android_security.md:133
+#: src/android_security.md:110
 msgid "Under \"How you sign in to Google,\" tap **2-Step Verification**"
 msgstr ""
 
-#: src/android_security.md:134 src/android_security.md:163
-#: src/android_security.md:328
+#: src/android_security.md:111 src/android_security.md:140
+#: src/android_security.md:305
 msgid "Follow setup instructions"
 msgstr ""
 
-#: src/android_security.md:135
+#: src/android_security.md:112
 msgid ""
 "Add multiple verification methods (authenticator app, backup codes, security "
 "key)"
 msgstr ""
 
-#: src/android_security.md:137
+#: src/android_security.md:114
 msgid "Biometric Settings"
 msgstr ""
 
-#: src/android_security.md:139
+#: src/android_security.md:116
 msgid ""
 "Go to **Settings > Security & Privacy > Device Unlock > Fingerprint** (or "
 "Face Unlock)"
 msgstr ""
 
-#: src/android_security.md:140
+#: src/android_security.md:117
 msgid "Add your biometrics"
 msgstr ""
 
-#: src/android_security.md:141
+#: src/android_security.md:118
 msgid "Configure what biometrics can unlock (device, apps, payments)"
 msgstr ""
 
-#: src/android_security.md:145
+#: src/android_security.md:122
 msgid "3. Identity Check"
 msgstr ""
 
-#: src/android_security.md:147
+#: src/android_security.md:124
 msgid ""
 "Identity Check requires biometric authentication for sensitive actions when "
 "you're away from trusted locations—similar to iOS's Stolen Device Protection."
 msgstr ""
 
-#: src/android_security.md:149
+#: src/android_security.md:126
 msgid "What It Protects"
 msgstr ""
 
-#: src/android_security.md:151
+#: src/android_security.md:128
 msgid "When outside trusted locations, biometric authentication is required for:"
 msgstr ""
 
-#: src/android_security.md:152
+#: src/android_security.md:129
 msgid "Changing device PIN or password"
 msgstr ""
 
-#: src/android_security.md:153
+#: src/android_security.md:130
 msgid "Changing biometric settings"
 msgstr ""
 
-#: src/android_security.md:154
+#: src/android_security.md:131
 msgid "Disabling theft protection"
 msgstr ""
 
-#: src/android_security.md:155
+#: src/android_security.md:132
 msgid "Accessing passkeys"
 msgstr ""
 
-#: src/android_security.md:156
+#: src/android_security.md:133
 msgid "Factory resetting the device"
 msgstr ""
 
-#: src/android_security.md:157
+#: src/android_security.md:134
 msgid "Changing Google Account settings"
 msgstr ""
 
-#: src/android_security.md:161
+#: src/android_security.md:138
 msgid ""
 "Go to **Settings > Security & Privacy > Device Unlock > Theft Protection**"
 msgstr ""
 
-#: src/android_security.md:162
+#: src/android_security.md:139
 msgid "Tap **Identity Check**"
 msgstr ""
 
-#: src/android_security.md:164
+#: src/android_security.md:141
 msgid "Add trusted locations (home, work)"
 msgstr ""
 
-#: src/android_security.md:168
+#: src/android_security.md:145
 msgid "Android 16 on supported devices (Pixel, Samsung One UI 7, others)"
 msgstr ""
 
-#: src/android_security.md:169
+#: src/android_security.md:146
 msgid "Screen lock and biometrics enabled"
 msgstr ""
 
-#: src/android_security.md:170
+#: src/android_security.md:147
 msgid "Location services enabled"
 msgstr ""
 
-#: src/android_security.md:172 src/android_security.md:338
+#: src/android_security.md:149 src/android_security.md:315
 msgid "Best Practice"
 msgstr ""
 
-#: src/android_security.md:174
+#: src/android_security.md:151
 msgid "Only add truly trusted private locations"
 msgstr ""
 
-#: src/android_security.md:175
+#: src/android_security.md:152
 msgid "Never add public places as trusted locations"
 msgstr ""
 
-#: src/android_security.md:179
+#: src/android_security.md:156
 msgid "4. Theft Protection"
 msgstr ""
 
-#: src/android_security.md:181
+#: src/android_security.md:158
 msgid "Android 16 consolidates multiple theft protection features."
 msgstr ""
 
-#: src/android_security.md:183 src/android_security.md:713
+#: src/android_security.md:160 src/android_security.md:690
 msgid "Theft Detection Lock"
 msgstr ""
 
-#: src/android_security.md:185
+#: src/android_security.md:162
 msgid ""
 "Uses AI and device sensors to detect if someone snatches your phone and runs."
 msgstr ""
 
-#: src/android_security.md:188 src/android_security.md:201
-#: src/android_security.md:209
+#: src/android_security.md:165 src/android_security.md:178
+#: src/android_security.md:186
 msgid "Go to **Settings > Google > All services > Theft Protection**"
 msgstr ""
 
-#: src/android_security.md:189
+#: src/android_security.md:166
 msgid "Toggle on **Theft Detection Lock**"
 msgstr ""
 
-#: src/android_security.md:192
+#: src/android_security.md:169
 msgid "Monitors motion sensors, Wi-Fi, and Bluetooth"
 msgstr ""
 
-#: src/android_security.md:193
+#: src/android_security.md:170
 msgid "Automatically locks screen if theft is detected"
 msgstr ""
 
-#: src/android_security.md:194
+#: src/android_security.md:171
 msgid "Won't trigger during stable connections"
 msgstr ""
 
-#: src/android_security.md:196
+#: src/android_security.md:173
 msgid "Offline Device Lock"
 msgstr ""
 
-#: src/android_security.md:198
+#: src/android_security.md:175
 msgid ""
 "Automatically locks your device if it goes offline (thief turns off "
 "internet)."
 msgstr ""
 
-#: src/android_security.md:202
+#: src/android_security.md:179
 msgid "Toggle on **Offline Device Lock**"
 msgstr ""
 
-#: src/android_security.md:204
+#: src/android_security.md:181
 msgid "Failed Authentication Lock"
 msgstr ""
 
-#: src/android_security.md:206
+#: src/android_security.md:183
 msgid "Locks device after repeated failed unlock attempts."
 msgstr ""
 
-#: src/android_security.md:210
+#: src/android_security.md:187
 msgid "Toggle on **Failed Authentication Lock** (may be on by default)"
 msgstr ""
 
-#: src/android_security.md:212
+#: src/android_security.md:189
 msgid "Inactivity Reboot"
 msgstr ""
 
-#: src/android_security.md:214
+#: src/android_security.md:191
 msgid ""
 "Automatically restarts device after 72 hours of being locked, making data "
 "unreadable until fresh unlock."
 msgstr ""
 
-#: src/android_security.md:216
+#: src/android_security.md:193
 msgid "**Enabled automatically with Advanced Protection**"
 msgstr ""
 
-#: src/android_security.md:218
+#: src/android_security.md:195
 msgid "Remote Lock"
 msgstr ""
 
-#: src/android_security.md:220
+#: src/android_security.md:197
 msgid ""
 "Lock your device remotely via Find My Device with security challenge "
 "question."
 msgstr ""
 
-#: src/android_security.md:222
+#: src/android_security.md:199
 msgid "Factory Reset Protection"
 msgstr ""
 
-#: src/android_security.md:224
+#: src/android_security.md:201
 msgid ""
 "Enhanced in Android 16 to restrict all functions on devices reset without "
 "authorization."
 msgstr ""
 
-#: src/android_security.md:228
+#: src/android_security.md:205
 msgid "5. App Permissions"
 msgstr ""
 
-#: src/android_security.md:230
+#: src/android_security.md:207
 msgid "Permission Manager"
 msgstr ""
 
-#: src/android_security.md:232
+#: src/android_security.md:209
 msgid "Review and control what data apps can access:"
 msgstr ""
 
-#: src/android_security.md:234 src/android_security.md:277
+#: src/android_security.md:211 src/android_security.md:254
 msgid ""
 "Go to **Settings > Security & Privacy > Privacy Controls > Permission "
 "Manager**"
 msgstr ""
 
-#: src/android_security.md:235
+#: src/android_security.md:212
 msgid "Review each category:"
 msgstr ""
 
-#: src/android_security.md:237
+#: src/android_security.md:214
 msgid "Camera"
 msgstr ""
 
-#: src/android_security.md:238
+#: src/android_security.md:215
 msgid "Microphone"
 msgstr ""
 
-#: src/android_security.md:239
+#: src/android_security.md:216
 msgid "Contacts"
 msgstr ""
 
-#: src/android_security.md:240
+#: src/android_security.md:217
 msgid "Files and media"
 msgstr ""
 
-#: src/android_security.md:241
+#: src/android_security.md:218
 msgid "Calendar"
 msgstr ""
 
-#: src/android_security.md:242
+#: src/android_security.md:219
 msgid "Phone"
 msgstr ""
 
-#: src/android_security.md:243
+#: src/android_security.md:220
 msgid "SMS"
 msgstr ""
 
-#: src/android_security.md:244
+#: src/android_security.md:221
 msgid "Body sensors / Health"
 msgstr ""
 
-#: src/android_security.md:245
+#: src/android_security.md:222
 msgid "Nearby devices"
 msgstr ""
 
-#: src/android_security.md:247
+#: src/android_security.md:224
 msgid "Permission Options"
 msgstr ""
 
-#: src/android_security.md:249
+#: src/android_security.md:226
 msgid "For each app, you can choose:"
 msgstr ""
 
-#: src/android_security.md:250
+#: src/android_security.md:227
 msgid "**Allow all the time** – Background access (use sparingly)"
 msgstr ""
 
-#: src/android_security.md:251
+#: src/android_security.md:228
 msgid "**Allow only while using the app** – Access only when app is open"
 msgstr ""
 
-#: src/android_security.md:252
+#: src/android_security.md:229
 msgid "**Ask every time** – Prompts each use"
 msgstr ""
 
-#: src/android_security.md:253
+#: src/android_security.md:230
 msgid "**Don't allow** – No access"
 msgstr ""
 
-#: src/android_security.md:255
+#: src/android_security.md:232
 msgid "One-Time Permissions"
 msgstr ""
 
-#: src/android_security.md:257
+#: src/android_security.md:234
 msgid ""
 "For camera, microphone, and location, you can grant one-time access that "
 "revokes when you close the app."
 msgstr ""
 
-#: src/android_security.md:259
+#: src/android_security.md:236
 msgid "Auto-Reset Unused App Permissions"
 msgstr ""
 
-#: src/android_security.md:261
+#: src/android_security.md:238
 msgid ""
 "Android automatically resets permissions for apps you haven't used in a "
 "while."
 msgstr ""
 
-#: src/android_security.md:263
+#: src/android_security.md:240
 msgid "Go to **Settings > Apps > \\[App name\\] > Permissions**"
 msgstr ""
 
-#: src/android_security.md:264
+#: src/android_security.md:241
 msgid "Ensure **Pause app activity if unused** is enabled"
 msgstr ""
 
-#: src/android_security.md:266
+#: src/android_security.md:243
 msgid "AI-Powered Permission Controls (Android 16)"
 msgstr ""
 
-#: src/android_security.md:268
+#: src/android_security.md:245
 msgid "Android 16 introduces contextual permission management:"
 msgstr ""
 
-#: src/android_security.md:269
+#: src/android_security.md:246
 msgid "System evaluates if permission requests match your usage patterns"
 msgstr ""
 
-#: src/android_security.md:270
+#: src/android_security.md:247
 msgid ""
 "Unusual requests (e.g., location at midnight) may trigger additional "
 "confirmation"
 msgstr ""
 
-#: src/android_security.md:271
+#: src/android_security.md:248
 msgid "Detailed permission logs explain automated decisions"
 msgstr ""
 
-#: src/android_security.md:273
+#: src/android_security.md:250
 msgid "Local Network Protection (New in Android 16)"
 msgstr ""
 
-#: src/android_security.md:275
+#: src/android_security.md:252
 msgid ""
 "Apps now need explicit permission to access your local network (smart home "
 "devices, etc.):"
 msgstr ""
 
-#: src/android_security.md:278
+#: src/android_security.md:255
 msgid "Review **Nearby devices** and **Local network** permissions"
 msgstr ""
 
-#: src/android_security.md:282
+#: src/android_security.md:259
 msgid "6. Location Services"
 msgstr ""
 
-#: src/android_security.md:284
+#: src/android_security.md:261
 msgid "Global Location Settings"
 msgstr ""
 
-#: src/android_security.md:286
+#: src/android_security.md:263
 msgid "Go to **Settings > Location**"
 msgstr ""
 
-#: src/android_security.md:287
+#: src/android_security.md:264
 msgid "Toggle **Use location** on or off"
 msgstr ""
 
-#: src/android_security.md:289
+#: src/android_security.md:266
 msgid "Per-App Location Permissions"
 msgstr ""
 
-#: src/android_security.md:291
+#: src/android_security.md:268
 msgid "Go to **Settings > Location > App location permissions**"
 msgstr ""
 
-#: src/android_security.md:293
+#: src/android_security.md:270
 msgid "**Allowed all the time**"
 msgstr ""
 
-#: src/android_security.md:294
+#: src/android_security.md:271
 msgid "**Allowed only while using**"
 msgstr ""
 
-#: src/android_security.md:295
+#: src/android_security.md:272
 msgid "**Ask every time**"
 msgstr ""
 
-#: src/android_security.md:296
+#: src/android_security.md:273
 msgid "**Not allowed**"
 msgstr ""
 
-#: src/android_security.md:300
+#: src/android_security.md:277
 msgid ""
 "Android 16 fixes a flaw that allowed apps to infer precise location even "
 "with approximate permission."
 msgstr ""
 
-#: src/android_security.md:303
+#: src/android_security.md:280
 msgid "Go to **Settings > Location > App location permissions > \\[App\\]**"
 msgstr ""
 
-#: src/android_security.md:304
+#: src/android_security.md:281
 msgid ""
 "Toggle **Use precise location** off for apps that don't need exact "
 "coordinates"
 msgstr ""
 
-#: src/android_security.md:306
+#: src/android_security.md:283
 msgid "Location History"
 msgstr ""
 
-#: src/android_security.md:308 src/android_security.md:606
+#: src/android_security.md:285 src/android_security.md:583
 msgid "Go to **Settings > Google > Manage your Google Account > Data & privacy**"
 msgstr ""
 
-#: src/android_security.md:309
+#: src/android_security.md:286
 msgid "Under \"History settings,\" review **Location History**"
 msgstr ""
 
-#: src/android_security.md:310
+#: src/android_security.md:287
 msgid "Turn off or set auto-delete (3 months, 18 months, 36 months)"
 msgstr ""
 
-#: src/android_security.md:314
+#: src/android_security.md:291
 msgid "7. Private Space"
 msgstr ""
 
-#: src/android_security.md:316
+#: src/android_security.md:293
 msgid ""
 "Private Space lets you hide and secure sensitive apps behind a separate "
 "authentication."
 msgstr ""
 
-#: src/android_security.md:320
+#: src/android_security.md:297
 msgid "Hidden apps in a separate space"
 msgstr ""
 
-#: src/android_security.md:321
+#: src/android_security.md:298
 msgid "Separate Google account for private apps"
 msgstr ""
 
-#: src/android_security.md:322
+#: src/android_security.md:299
 msgid "Requires PIN/biometric to access"
 msgstr ""
 
-#: src/android_security.md:323
+#: src/android_security.md:300
 msgid "Apps don't appear in app drawer, search, or notifications"
 msgstr ""
 
-#: src/android_security.md:325
+#: src/android_security.md:302
 msgid "How to Set Up"
 msgstr ""
 
-#: src/android_security.md:327
+#: src/android_security.md:304
 msgid "Go to **Settings > Security & Privacy > Private Space**"
 msgstr ""
 
-#: src/android_security.md:329
+#: src/android_security.md:306
 msgid "Create or sign into a Google account for Private Space"
 msgstr ""
 
-#: src/android_security.md:330
+#: src/android_security.md:307
 msgid "Set up lock (PIN, pattern, or password)"
 msgstr ""
 
-#: src/android_security.md:332
+#: src/android_security.md:309
 msgid "Adding Apps to Private Space"
 msgstr ""
 
-#: src/android_security.md:334
+#: src/android_security.md:311
 msgid "Open Private Space (swipe up and scroll to bottom of app list)"
 msgstr ""
 
-#: src/android_security.md:335
+#: src/android_security.md:312
 msgid "Tap **Install apps**"
 msgstr ""
 
-#: src/android_security.md:336
+#: src/android_security.md:313
 msgid "Install or move apps to Private Space"
 msgstr ""
 
-#: src/android_security.md:340
+#: src/android_security.md:317
 msgid "Use Private Space for:"
 msgstr ""
 
-#: src/android_security.md:341
+#: src/android_security.md:318
 msgid "Banking and financial apps"
 msgstr ""
 
-#: src/android_security.md:342
+#: src/android_security.md:319
 msgid "Personal health apps"
 msgstr ""
 
-#: src/android_security.md:343
+#: src/android_security.md:320
 msgid "Sensitive documents"
 msgstr ""
 
-#: src/android_security.md:344
+#: src/android_security.md:321
 msgid "Apps you want to keep private"
 msgstr ""
 
-#: src/android_security.md:348
+#: src/android_security.md:325
 msgid "8. Google Play Protect"
 msgstr ""
 
-#: src/android_security.md:350
+#: src/android_security.md:327
 msgid "Play Protect scans your device for harmful apps."
 msgstr ""
 
-#: src/android_security.md:354
+#: src/android_security.md:331
 msgid "Automatic app scanning"
 msgstr ""
 
-#: src/android_security.md:355
+#: src/android_security.md:332
 msgid "Real-time threat protection"
 msgstr ""
 
-#: src/android_security.md:356
+#: src/android_security.md:333
 msgid "Identifies harmful apps and malware"
 msgstr ""
 
-#: src/android_security.md:357
+#: src/android_security.md:334
 msgid "Cannot be disabled when Advanced Protection is on"
 msgstr ""
 
-#: src/android_security.md:359
+#: src/android_security.md:336
 msgid "How to Check Status"
 msgstr ""
 
-#: src/android_security.md:361
+#: src/android_security.md:338
 msgid "Open **Google Play Store**"
 msgstr ""
 
-#: src/android_security.md:362
+#: src/android_security.md:339
 msgid "Tap your profile icon"
 msgstr ""
 
-#: src/android_security.md:363
+#: src/android_security.md:340
 msgid "Tap **Play Protect**"
 msgstr ""
 
-#: src/android_security.md:364
+#: src/android_security.md:341
 msgid "Tap **Scan** to run manual scan"
 msgstr ""
 
-#: src/android_security.md:366 src/android_security.md:422
+#: src/android_security.md:343 src/android_security.md:399
 msgid "Settings"
 msgstr ""
 
-#: src/android_security.md:368
+#: src/android_security.md:345
 msgid "In Play Protect, tap **Settings** (gear icon)"
 msgstr ""
 
-#: src/android_security.md:369
+#: src/android_security.md:346
 msgid "Ensure **Scan apps with Play Protect** is on"
 msgstr ""
 
-#: src/android_security.md:370
+#: src/android_security.md:347
 msgid "Enable **Improve harmful app detection** to send unknown apps to Google"
 msgstr ""
 
-#: src/android_security.md:372
+#: src/android_security.md:349
 msgid "Live Threat Protection (Android 16)"
 msgstr ""
 
-#: src/android_security.md:374
+#: src/android_security.md:351
 msgid "Enhanced scanning detects apps that:"
 msgstr ""
 
-#: src/android_security.md:375
+#: src/android_security.md:352
 msgid "Change their icon to hide"
 msgstr ""
 
-#: src/android_security.md:376
+#: src/android_security.md:353
 msgid "Attempt to evade detection"
 msgstr ""
 
-#: src/android_security.md:377
+#: src/android_security.md:354
 msgid "Show malicious behavior"
 msgstr ""
 
-#: src/android_security.md:379
+#: src/android_security.md:356
 msgid "Available on Pixel 6+ and newer devices from other manufacturers."
 msgstr ""
 
-#: src/android_security.md:383
+#: src/android_security.md:360
 msgid "9. Google Password Manager & Passkeys"
 msgstr ""
 
-#: src/android_security.md:385
+#: src/android_security.md:362
 msgid "Google Password Manager"
 msgstr ""
 
-#: src/android_security.md:387
+#: src/android_security.md:364
 msgid "Built-in password manager that syncs across devices."
 msgstr ""
 
-#: src/android_security.md:389
+#: src/android_security.md:366
 msgid "**How to access:**"
 msgstr ""
 
-#: src/android_security.md:390
+#: src/android_security.md:367
 msgid "Go to **Settings**"
 msgstr ""
 
-#: src/android_security.md:391
+#: src/android_security.md:368
 msgid "Search for **Password Manager**"
 msgstr ""
 
-#: src/android_security.md:392
+#: src/android_security.md:369
 msgid "Or open the **Passwords** app"
 msgstr ""
 
-#: src/android_security.md:394
+#: src/android_security.md:371
 msgid "**Features:**"
 msgstr ""
 
-#: src/android_security.md:395
+#: src/android_security.md:372
 msgid "Save and autofill passwords"
 msgstr ""
 
-#: src/android_security.md:396
+#: src/android_security.md:373
 msgid "Generate strong passwords"
 msgstr ""
 
-#: src/android_security.md:397
+#: src/android_security.md:374
 msgid "Password checkup (finds weak, reused, compromised passwords)"
 msgstr ""
 
-#: src/android_security.md:398
+#: src/android_security.md:375
 msgid "Syncs to Google Account"
 msgstr ""
 
-#: src/android_security.md:400 src/android_security.md:715
+#: src/android_security.md:377 src/android_security.md:692
 msgid "Passkeys"
 msgstr ""
 
-#: src/android_security.md:402
+#: src/android_security.md:379
 msgid "Passkeys are phishing-resistant replacements for passwords."
 msgstr ""
 
-#: src/android_security.md:404
+#: src/android_security.md:381
 msgid "**Benefits:**"
 msgstr ""
 
-#: src/android_security.md:405
+#: src/android_security.md:382
 msgid "More secure than passwords"
 msgstr ""
 
-#: src/android_security.md:406
+#: src/android_security.md:383
 msgid "Cannot be phished"
 msgstr ""
 
-#: src/android_security.md:407
+#: src/android_security.md:384
 msgid "Synced across devices via Google Password Manager"
 msgstr ""
 
-#: src/android_security.md:408
+#: src/android_security.md:385
 msgid "Authenticate with fingerprint, face, or PIN"
 msgstr ""
 
-#: src/android_security.md:410
+#: src/android_security.md:387
 msgid "**How to use passkeys:**"
 msgstr ""
 
-#: src/android_security.md:411
+#: src/android_security.md:388
 msgid "When a site/app supports passkeys, you'll be prompted to create one"
 msgstr ""
 
-#: src/android_security.md:412
+#: src/android_security.md:389
 msgid "Confirm with your screen lock (fingerprint, face, PIN)"
 msgstr ""
 
-#: src/android_security.md:413
+#: src/android_security.md:390
 msgid "Passkey is saved to Google Password Manager"
 msgstr ""
 
-#: src/android_security.md:414
+#: src/android_security.md:391
 msgid "Sign in using your device's biometric/PIN"
 msgstr ""
 
-#: src/android_security.md:416
+#: src/android_security.md:393
 msgid "**Automatic Passkey Creation (Android 16):**"
 msgstr ""
 
-#: src/android_security.md:417
+#: src/android_security.md:394
 msgid ""
 "When you sign in with a password, Android can automatically create a passkey "
 "for future use"
 msgstr ""
 
-#: src/android_security.md:419
+#: src/android_security.md:396
 msgid "**Restore Credentials (Android 16):**"
 msgstr ""
 
-#: src/android_security.md:420
+#: src/android_security.md:397
 msgid ""
 "When setting up a new device, passkeys and app credentials transfer "
 "automatically"
 msgstr ""
 
-#: src/android_security.md:424
+#: src/android_security.md:401
 msgid "Go to **Settings > Passwords, passkeys & accounts**"
 msgstr ""
 
-#: src/android_security.md:425
+#: src/android_security.md:402
 msgid "Configure your password manager"
 msgstr ""
 
-#: src/android_security.md:426
+#: src/android_security.md:403
 msgid "Enable **Offer to save passwords**"
 msgstr ""
 
-#: src/android_security.md:427
+#: src/android_security.md:404
 msgid "Enable **Automatically create a passkey to sign in faster**"
 msgstr ""
 
-#: src/android_security.md:431
+#: src/android_security.md:408
 msgid "10. Scam & Spam Protection"
 msgstr ""
 
-#: src/android_security.md:433
+#: src/android_security.md:410
 msgid "In-Call Protection (Android 16)"
 msgstr ""
 
-#: src/android_security.md:435
+#: src/android_security.md:412
 msgid "Blocks dangerous actions during calls with non-contacts:"
 msgstr ""
 
-#: src/android_security.md:436
+#: src/android_security.md:413
 msgid "Cannot sideload apps for the first time"
 msgstr ""
 
-#: src/android_security.md:437
+#: src/android_security.md:414
 msgid "Cannot disable Google Play Protect"
 msgstr ""
 
-#: src/android_security.md:438
+#: src/android_security.md:415
 msgid "Cannot grant accessibility permissions"
 msgstr ""
 
-#: src/android_security.md:439
+#: src/android_security.md:416
 msgid "Screen-sharing reminder when call ends"
 msgstr ""
 
-#: src/android_security.md:441
+#: src/android_security.md:418
 msgid "Scam Detection in Phone App"
 msgstr ""
 
-#: src/android_security.md:443
+#: src/android_security.md:420
 msgid "AI-powered real-time scam detection warns you during suspicious calls."
 msgstr ""
 
-#: src/android_security.md:445
+#: src/android_security.md:422
 msgid "**Types detected:**"
 msgstr ""
 
-#: src/android_security.md:446
+#: src/android_security.md:423
 msgid "Package delivery scams"
 msgstr ""
 
-#: src/android_security.md:447
+#: src/android_security.md:424
 msgid "Job-seeking scams"
 msgstr ""
 
-#: src/android_security.md:448
+#: src/android_security.md:425
 msgid "Toll road and billing scams"
 msgstr ""
 
-#: src/android_security.md:449
+#: src/android_security.md:426
 msgid "Crypto scams"
 msgstr ""
 
-#: src/android_security.md:450
+#: src/android_security.md:427
 msgid "Financial impersonation"
 msgstr ""
 
-#: src/android_security.md:451
+#: src/android_security.md:428
 msgid "Gift card and prize scams"
 msgstr ""
 
-#: src/android_security.md:452
+#: src/android_security.md:429
 msgid "Tech support scams"
 msgstr ""
 
-#: src/android_security.md:455
+#: src/android_security.md:432
 msgid "Open **Phone** app"
 msgstr ""
 
-#: src/android_security.md:456
+#: src/android_security.md:433
 msgid "Tap **More (⋮) > Settings > Caller ID & spam**"
 msgstr ""
 
-#: src/android_security.md:457
+#: src/android_security.md:434
 msgid "Enable **See caller and spam ID**"
 msgstr ""
 
-#: src/android_security.md:458
+#: src/android_security.md:435
 msgid "Enable **Filter spam calls**"
 msgstr ""
 
-#: src/android_security.md:460
+#: src/android_security.md:437
 msgid "Scam Detection in Messages"
 msgstr ""
 
-#: src/android_security.md:462
+#: src/android_security.md:439
 msgid "Detects suspicious conversation patterns and unsafe links."
 msgstr ""
 
-#: src/android_security.md:465
+#: src/android_security.md:442
 msgid "Open **Messages** app"
 msgstr ""
 
-#: src/android_security.md:466
+#: src/android_security.md:443
 msgid "Tap **More (⋮) > Settings > Spam protection**"
 msgstr ""
 
-#: src/android_security.md:467
+#: src/android_security.md:444
 msgid "Enable **Enable spam protection**"
 msgstr ""
 
-#: src/android_security.md:469
+#: src/android_security.md:446
 msgid "OTP Protection (Android 16)"
 msgstr ""
 
-#: src/android_security.md:471
+#: src/android_security.md:448
 msgid "One-time passwords won't show on lock screen for devices that:"
 msgstr ""
 
-#: src/android_security.md:472
+#: src/android_security.md:449
 msgid "Haven't been recently unlocked"
 msgstr ""
 
-#: src/android_security.md:473
+#: src/android_security.md:450
 msgid "Aren't connected to known Wi-Fi"
 msgstr ""
 
-#: src/android_security.md:477
+#: src/android_security.md:454
 msgid "11. Network Security"
 msgstr ""
 
-#: src/android_security.md:479
+#: src/android_security.md:456
 msgid "Disable 2G"
 msgstr ""
 
-#: src/android_security.md:481
+#: src/android_security.md:458
 msgid "2G networks are vulnerable to interception and cell site simulators."
 msgstr ""
 
-#: src/android_security.md:483
+#: src/android_security.md:460
 msgid "**How to disable (if not using Advanced Protection):**"
 msgstr ""
 
-#: src/android_security.md:484
+#: src/android_security.md:461
 msgid "Go to **Settings > Network & internet > SIMs > \\[Your SIM\\]**"
 msgstr ""
 
-#: src/android_security.md:485
+#: src/android_security.md:462
 msgid "Toggle off **Allow 2G**"
 msgstr ""
 
-#: src/android_security.md:487
+#: src/android_security.md:464
 msgid "Wi-Fi Security"
 msgstr ""
 
-#: src/android_security.md:489
+#: src/android_security.md:466
 msgid "**Disable auto-join for insecure networks:**"
 msgstr ""
 
-#: src/android_security.md:490
+#: src/android_security.md:467
 msgid "Go to **Settings > Network & internet > Internet**"
 msgstr ""
 
-#: src/android_security.md:491
+#: src/android_security.md:468
 msgid "Tap **Network preferences**"
 msgstr ""
 
-#: src/android_security.md:492
+#: src/android_security.md:469
 msgid "Disable **Connect to open networks**"
 msgstr ""
 
-#: src/android_security.md:494
+#: src/android_security.md:471
 msgid "**Forget insecure networks:**"
 msgstr ""
 
-#: src/android_security.md:495
+#: src/android_security.md:472
 msgid "Go to **Settings > Network & internet > Internet > Saved networks**"
 msgstr ""
 
-#: src/android_security.md:496
+#: src/android_security.md:473
 msgid "Remove networks you don't trust"
 msgstr ""
 
-#: src/android_security.md:498
+#: src/android_security.md:475
 msgid "VPN"
 msgstr ""
 
-#: src/android_security.md:500
+#: src/android_security.md:477
 msgid "Use a VPN on public Wi-Fi:"
 msgstr ""
 
-#: src/android_security.md:501
+#: src/android_security.md:478
 msgid "Go to **Settings > Network & internet > VPN**"
 msgstr ""
 
-#: src/android_security.md:502
+#: src/android_security.md:479
 msgid "Configure your VPN provider"
 msgstr ""
 
-#: src/android_security.md:504
+#: src/android_security.md:481
 msgid "DNS Settings"
 msgstr ""
 
-#: src/android_security.md:506
+#: src/android_security.md:483
 msgid "Use encrypted DNS:"
 msgstr ""
 
-#: src/android_security.md:507
+#: src/android_security.md:484
 msgid "Go to **Settings > Network & internet > Private DNS**"
 msgstr ""
 
-#: src/android_security.md:508
+#: src/android_security.md:485
 msgid "Select **Private DNS provider hostname**"
 msgstr ""
 
-#: src/android_security.md:509
+#: src/android_security.md:486
 msgid "Enter a provider (e.g., `dns.google` or `cloudflare-dns.com`)"
 msgstr ""
 
-#: src/android_security.md:513
+#: src/android_security.md:490
 msgid "12. USB Protection"
 msgstr ""
 
-#: src/android_security.md:515
+#: src/android_security.md:492
 msgid "Android 16 defaults USB connections to charging-only when locked."
 msgstr ""
 
-#: src/android_security.md:519
+#: src/android_security.md:496
 msgid "Prevents data transfer via USB when device is locked"
 msgstr ""
 
-#: src/android_security.md:520
+#: src/android_security.md:497
 msgid "Protects against \"juice jacking\" attacks at public charging stations"
 msgstr ""
 
-#: src/android_security.md:521
+#: src/android_security.md:498
 msgid "Blocks physical data extraction attempts"
 msgstr ""
 
-#: src/android_security.md:523
+#: src/android_security.md:500
 msgid "How It Works"
 msgstr ""
 
-#: src/android_security.md:525
+#: src/android_security.md:502
 msgid "When Advanced Protection is enabled:"
 msgstr ""
 
-#: src/android_security.md:526
+#: src/android_security.md:503
 msgid "USB defaults to charging-only when locked"
 msgstr ""
 
-#: src/android_security.md:527
+#: src/android_security.md:504
 msgid "Must unlock device to enable data transfer"
 msgstr ""
 
-#: src/android_security.md:529
+#: src/android_security.md:506
 msgid "Manual Configuration"
 msgstr ""
 
-#: src/android_security.md:531
+#: src/android_security.md:508
 msgid "Go to **Settings > Connected devices > USB**"
 msgstr ""
 
-#: src/android_security.md:532
+#: src/android_security.md:509
 msgid "When connected, choose **Charging only** unless you need data transfer"
 msgstr ""
 
-#: src/android_security.md:536
+#: src/android_security.md:513
 msgid "13. Find My Device"
 msgstr ""
 
-#: src/android_security.md:540
+#: src/android_security.md:517
 msgid "Go to **Settings > Security & Privacy > Find My Device**"
 msgstr ""
 
-#: src/android_security.md:541
+#: src/android_security.md:518
 msgid "Toggle on **Use Find My Device**"
 msgstr ""
 
-#: src/android_security.md:542
+#: src/android_security.md:519
 msgid "Ensure location is enabled"
 msgstr ""
 
-#: src/android_security.md:546
+#: src/android_security.md:523
 msgid "Locate your device on a map"
 msgstr ""
 
-#: src/android_security.md:547
+#: src/android_security.md:524
 msgid "Play sound to find nearby device"
 msgstr ""
 
-#: src/android_security.md:548
+#: src/android_security.md:525
 msgid "Secure device (lock with message)"
 msgstr ""
 
-#: src/android_security.md:549
+#: src/android_security.md:526
 msgid "Erase device remotely"
 msgstr ""
 
-#: src/android_security.md:550
+#: src/android_security.md:527
 msgid "Locate offline devices using nearby Android devices"
 msgstr ""
 
-#: src/android_security.md:552
+#: src/android_security.md:529
 msgid "Find My Device Network"
 msgstr ""
 
-#: src/android_security.md:554
+#: src/android_security.md:531
 msgid ""
 "Android can find your device even when offline using Bluetooth signals from "
 "nearby Android devices."
 msgstr ""
 
-#: src/android_security.md:556
+#: src/android_security.md:533
 msgid "Go to **Settings > Google > All services > Find My Device**"
 msgstr ""
 
-#: src/android_security.md:557
+#: src/android_security.md:534
 msgid "Toggle on **Find your offline devices**"
 msgstr ""
 
-#: src/android_security.md:559
+#: src/android_security.md:536
 msgid "Using Find My Device"
 msgstr ""
 
-#: src/android_security.md:561
+#: src/android_security.md:538
 msgid "Go to android.com/find or use Find My Device app on another device"
 msgstr ""
 
-#: src/android_security.md:562
+#: src/android_security.md:539
 msgid "Sign in with your Google Account"
 msgstr ""
 
-#: src/android_security.md:563
+#: src/android_security.md:540
 msgid "Select your device"
 msgstr ""
 
-#: src/android_security.md:564
+#: src/android_security.md:541
 msgid "Choose action: Locate, Play Sound, Secure Device, Erase Device"
 msgstr ""
 
-#: src/android_security.md:568
+#: src/android_security.md:545
 msgid "14. Advertising & Tracking Controls"
 msgstr ""
 
-#: src/android_security.md:570
+#: src/android_security.md:547
 msgid "Delete Advertising ID"
 msgstr ""
 
-#: src/android_security.md:572
+#: src/android_security.md:549
 msgid "Disabling AAID makes it harder for advertisers to track you."
 msgstr ""
 
-#: src/android_security.md:574
+#: src/android_security.md:551
 msgid "**How to delete:**"
 msgstr ""
 
-#: src/android_security.md:575
+#: src/android_security.md:552
 msgid "Go to **Settings > Security & Privacy > Privacy Controls > Ads**"
 msgstr ""
 
-#: src/android_security.md:576
+#: src/android_security.md:553
 msgid "Tap **Delete advertising ID**"
 msgstr ""
 
-#: src/android_security.md:577
+#: src/android_security.md:554
 msgid "Confirm"
 msgstr ""
 
-#: src/android_security.md:579
+#: src/android_security.md:556
 msgid "Disable Personalized Ads"
 msgstr ""
 
-#: src/android_security.md:581
+#: src/android_security.md:558
 msgid "Go to **Settings > Google > Ads**"
 msgstr ""
 
-#: src/android_security.md:582
+#: src/android_security.md:559
 msgid "Toggle off **Opt out of Ads Personalization**"
 msgstr ""
 
-#: src/android_security.md:584
+#: src/android_security.md:561
 msgid "Unknown Tracker Alerts"
 msgstr ""
 
-#: src/android_security.md:586
+#: src/android_security.md:563
 msgid ""
 "Android detects unfamiliar tracking devices (like AirTags) moving with you."
 msgstr ""
 
-#: src/android_security.md:588
+#: src/android_security.md:565
 msgid "**How to check:**"
 msgstr ""
 
-#: src/android_security.md:589
+#: src/android_security.md:566
 msgid ""
 "Go to **Settings > Security & Privacy > More security & privacy > Unknown "
 "tracker alerts**"
 msgstr ""
 
-#: src/android_security.md:590
+#: src/android_security.md:567
 msgid "Ensure it's enabled"
 msgstr ""
 
-#: src/android_security.md:594
+#: src/android_security.md:571
 msgid "15. Google Account Privacy"
 msgstr ""
 
-#: src/android_security.md:596
+#: src/android_security.md:573
 msgid "Privacy Checkup"
 msgstr ""
 
-#: src/android_security.md:599
+#: src/android_security.md:576
 msgid "Tap **Data & privacy**"
 msgstr ""
 
-#: src/android_security.md:600
+#: src/android_security.md:577
 msgid "Tap **Review your privacy settings**"
 msgstr ""
 
-#: src/android_security.md:602
+#: src/android_security.md:579
 msgid "Activity Controls"
 msgstr ""
 
-#: src/android_security.md:604
+#: src/android_security.md:581
 msgid "Control what Google saves about your activity:"
 msgstr ""
 
-#: src/android_security.md:607
+#: src/android_security.md:584
 msgid "Under \"History settings,\" review:"
 msgstr ""
 
-#: src/android_security.md:608
+#: src/android_security.md:585
 msgid "**Web & App Activity** – Search and app activity"
 msgstr ""
 
-#: src/android_security.md:609
+#: src/android_security.md:586
 msgid "**Location History** – Places you've been"
 msgstr ""
 
-#: src/android_security.md:610
+#: src/android_security.md:587
 msgid "**YouTube History** – Videos watched"
 msgstr ""
 
-#: src/android_security.md:612
+#: src/android_security.md:589
 msgid "For each:"
 msgstr ""
 
-#: src/android_security.md:613
+#: src/android_security.md:590
 msgid "Turn off to stop saving"
 msgstr ""
 
-#: src/android_security.md:614
+#: src/android_security.md:591
 msgid "Enable auto-delete (3, 18, or 36 months)"
 msgstr ""
 
-#: src/android_security.md:616
+#: src/android_security.md:593
 msgid "Privacy Dashboard"
 msgstr ""
 
-#: src/android_security.md:618
+#: src/android_security.md:595
 msgid "View recent permission usage:"
 msgstr ""
 
-#: src/android_security.md:620
+#: src/android_security.md:597
 msgid ""
 "Go to **Settings > Security & Privacy > Privacy Controls > Privacy "
 "dashboard**"
 msgstr ""
 
-#: src/android_security.md:621
+#: src/android_security.md:598
 msgid "See which apps accessed location, camera, microphone in last 24 hours"
 msgstr ""
 
-#: src/android_security.md:625
+#: src/android_security.md:602
 msgid "16. Chrome & Browser Privacy"
 msgstr ""
 
-#: src/android_security.md:627
+#: src/android_security.md:604
 msgid "Safe Browsing"
 msgstr ""
 
-#: src/android_security.md:629
+#: src/android_security.md:606
 msgid "**Enable Enhanced Protection:**"
 msgstr ""
 
-#: src/android_security.md:630
+#: src/android_security.md:607
 msgid "Open **Chrome**"
 msgstr ""
 
-#: src/android_security.md:631
+#: src/android_security.md:608
 msgid "Tap **More (⋮) > Settings > Privacy and security > Safe Browsing**"
 msgstr ""
 
-#: src/android_security.md:632
+#: src/android_security.md:609
 msgid "Select **Enhanced protection**"
 msgstr ""
 
-#: src/android_security.md:634
+#: src/android_security.md:611
 msgid "Privacy Settings"
 msgstr ""
 
-#: src/android_security.md:636
+#: src/android_security.md:613
 msgid "Open **Chrome > Settings > Privacy and security**"
 msgstr ""
 
-#: src/android_security.md:637
+#: src/android_security.md:614
 msgid "Configure:"
 msgstr ""
 
-#: src/android_security.md:638
+#: src/android_security.md:615
 msgid "**Clear browsing data** – Regularly clear history, cookies, cache"
 msgstr ""
 
-#: src/android_security.md:639
+#: src/android_security.md:616
 msgid "**Always use secure connections** – Forces HTTPS"
 msgstr ""
 
-#: src/android_security.md:640
+#: src/android_security.md:617
 msgid "**Do Not Track** – Send request to sites (limited effectiveness)"
 msgstr ""
 
-#: src/android_security.md:641
+#: src/android_security.md:618
 msgid "**Preload pages** – Disable for more privacy"
 msgstr ""
 
-#: src/android_security.md:643
+#: src/android_security.md:620
 msgid "Incognito Mode"
 msgstr ""
 
-#: src/android_security.md:645
+#: src/android_security.md:622
 msgid "For private browsing:"
 msgstr ""
 
-#: src/android_security.md:646
+#: src/android_security.md:623
 msgid "Open Chrome"
 msgstr ""
 
-#: src/android_security.md:647
+#: src/android_security.md:624
 msgid "Tap **More (⋮) > New Incognito tab**"
 msgstr ""
 
-#: src/android_security.md:649
+#: src/android_security.md:626
 msgid ""
 "**Note:** Incognito doesn't make you anonymous—your ISP and websites can "
 "still see your activity."
 msgstr ""
 
-#: src/android_security.md:651
+#: src/android_security.md:628
 msgid "Third-Party Cookies"
 msgstr ""
 
-#: src/android_security.md:653
+#: src/android_security.md:630
 msgid "Go to **Chrome > Settings > Site settings > Cookies**"
 msgstr ""
 
-#: src/android_security.md:654
+#: src/android_security.md:631
 msgid "Select **Block third-party cookies**"
 msgstr ""
 
-#: src/android_security.md:658
+#: src/android_security.md:635
 msgid "17. Additional Security Recommendations"
 msgstr ""
 
-#: src/android_security.md:660
+#: src/android_security.md:637
 msgid "Software Updates"
 msgstr ""
 
-#: src/android_security.md:662
+#: src/android_security.md:639
 msgid "Go to **Settings > System > Software update**"
 msgstr ""
 
-#: src/android_security.md:663
+#: src/android_security.md:640
 msgid "Enable automatic updates"
 msgstr ""
 
-#: src/android_security.md:664
+#: src/android_security.md:641
 msgid "Install security patches promptly"
 msgstr ""
 
-#: src/android_security.md:668
+#: src/android_security.md:645
 msgid "Go to **Settings > Notifications > Notifications on lock screen**"
 msgstr ""
 
-#: src/android_security.md:669
+#: src/android_security.md:646
 msgid ""
 "Choose **Show sensitive content only when unlocked** or **Don't show any "
 "notifications**"
 msgstr ""
 
-#: src/android_security.md:671
+#: src/android_security.md:648
 msgid "App Installation from Unknown Sources"
 msgstr ""
 
-#: src/android_security.md:673
+#: src/android_security.md:650
 msgid "Go to **Settings > Apps > Special app access > Install unknown apps**"
 msgstr ""
 
-#: src/android_security.md:674
+#: src/android_security.md:651
 msgid "Ensure all apps show **Not allowed**"
 msgstr ""
 
-#: src/android_security.md:675
+#: src/android_security.md:652
 msgid "Only enable temporarily when needed, then disable"
 msgstr ""
 
-#: src/android_security.md:677
+#: src/android_security.md:654
 msgid "Backup Encryption"
 msgstr ""
 
-#: src/android_security.md:679
+#: src/android_security.md:656
 msgid "Go to **Settings > Google > Backup**"
 msgstr ""
 
-#: src/android_security.md:680
+#: src/android_security.md:657
 msgid "Ensure **Backup by Google One** is on"
 msgstr ""
 
-#: src/android_security.md:681
+#: src/android_security.md:658
 msgid "Backups are encrypted with your screen lock"
 msgstr ""
 
-#: src/android_security.md:683
+#: src/android_security.md:660
 msgid "SIM Lock"
 msgstr ""
 
-#: src/android_security.md:685
+#: src/android_security.md:662
 msgid ""
 "Go to **Settings > Security & Privacy > More security & privacy > SIM lock**"
 msgstr ""
 
-#: src/android_security.md:686
+#: src/android_security.md:663
 msgid "Toggle on **Lock SIM**"
 msgstr ""
 
-#: src/android_security.md:687
+#: src/android_security.md:664
 msgid "Set a PIN (different from screen lock)"
 msgstr ""
 
-#: src/android_security.md:689
+#: src/android_security.md:666
 msgid "Repair Mode (Android 16)"
 msgstr ""
 
-#: src/android_security.md:691
+#: src/android_security.md:668
 msgid "Securely prepare device for repair without exposing data:"
 msgstr ""
 
-#: src/android_security.md:693
+#: src/android_security.md:670
 msgid "Go to **Settings > System > Repair Mode**"
 msgstr ""
 
-#: src/android_security.md:694
+#: src/android_security.md:671
 msgid "Follow instructions to wipe data while allowing hardware diagnostics"
 msgstr ""
 
-#: src/android_security.md:696
+#: src/android_security.md:673
 msgid "Trade-in Mode (Android 16)"
 msgstr ""
 
-#: src/android_security.md:698
+#: src/android_security.md:675
 msgid "Safely prepare device for resale:"
 msgstr ""
 
-#: src/android_security.md:700
+#: src/android_security.md:677
 msgid "Go to **Settings > System > Trade-in Mode**"
 msgstr ""
 
-#: src/android_security.md:701
+#: src/android_security.md:678
 msgid "Allows buyer to test hardware without accessing personal data"
 msgstr ""
 
-#: src/android_security.md:709
+#: src/android_security.md:686
 msgid "Advanced Protection"
 msgstr ""
 
-#: src/android_security.md:709
+#: src/android_security.md:686
 msgid "Settings > Security & Privacy > Advanced Protection"
 msgstr ""
 
-#: src/android_security.md:710
+#: src/android_security.md:687
 msgid "Strong Screen Lock"
 msgstr ""
 
-#: src/android_security.md:710
+#: src/android_security.md:687
 msgid "Settings > Security & Privacy > Device Unlock"
 msgstr ""
 
-#: src/android_security.md:710
+#: src/android_security.md:687
 msgid "✅ PIN 6+ digits or password"
 msgstr ""
 
-#: src/android_security.md:711
+#: src/android_security.md:688
 msgid "Google Account > Security"
 msgstr ""
 
-#: src/android_security.md:712
+#: src/android_security.md:689
 msgid "Identity Check"
 msgstr ""
 
-#: src/android_security.md:712
+#: src/android_security.md:689
 msgid "Settings > Security & Privacy > Theft Protection"
 msgstr ""
 
-#: src/android_security.md:713
+#: src/android_security.md:690
 msgid "Settings > Google > Theft Protection"
 msgstr ""
 
-#: src/android_security.md:714
+#: src/android_security.md:691
 msgid "Play Protect"
 msgstr ""
 
-#: src/android_security.md:714
+#: src/android_security.md:691
 msgid "Play Store > Play Protect"
 msgstr ""
 
-#: src/android_security.md:714
+#: src/android_security.md:691
 msgid "✅ Ensure active"
 msgstr ""
 
-#: src/android_security.md:715
+#: src/android_security.md:692
 msgid "Settings > Passwords, passkeys & accounts"
 msgstr ""
 
-#: src/android_security.md:715
+#: src/android_security.md:692
 msgid "✅ Use where available"
 msgstr ""
 
-#: src/android_security.md:716
+#: src/android_security.md:693
 msgid "App Permissions"
 msgstr ""
 
-#: src/android_security.md:716
+#: src/android_security.md:693
 msgid "Settings > Security & Privacy > Permission Manager"
 msgstr ""
 
-#: src/android_security.md:716
+#: src/android_security.md:693
 msgid "⚙️ Review regularly"
 msgstr ""
 
-#: src/android_security.md:717
+#: src/android_security.md:694
 msgid "Settings > Location > App permissions"
 msgstr ""
 
-#: src/android_security.md:717
+#: src/android_security.md:694
 msgid "⚙️ Minimize \"All the time\""
 msgstr ""
 
-#: src/android_security.md:718
+#: src/android_security.md:695
 msgid "Advertising ID"
 msgstr ""
 
-#: src/android_security.md:718
+#: src/android_security.md:695
 msgid "Settings > Security & Privacy > Ads"
 msgstr ""
 
-#: src/android_security.md:718
+#: src/android_security.md:695
 msgid "❌ Delete"
 msgstr ""
 
-#: src/android_security.md:719
+#: src/android_security.md:696
 msgid "2G"
 msgstr ""
 
-#: src/android_security.md:719
+#: src/android_security.md:696
 msgid "Settings > Network & internet > SIMs"
 msgstr ""
 
-#: src/android_security.md:720
+#: src/android_security.md:697
 msgid "Find My Device"
 msgstr ""
 
-#: src/android_security.md:720
+#: src/android_security.md:697
 msgid "Settings > Security & Privacy > Find My Device"
 msgstr ""
 
-#: src/android_security.md:721
+#: src/android_security.md:698
 msgid "Unknown Sources"
 msgstr ""
 
-#: src/android_security.md:721
+#: src/android_security.md:698
 msgid "Settings > Apps > Install unknown apps"
 msgstr ""
 
-#: src/android_security.md:721
+#: src/android_security.md:698
 msgid "❌ Disable all"
 msgstr ""
 
-#: src/android_security.md:722
+#: src/android_security.md:699
 msgid "Settings > Notifications"
 msgstr ""
 
-#: src/android_security.md:722
+#: src/android_security.md:699
 msgid "⚙️ Hide sensitive"
 msgstr ""
 
-#: src/android_security.md:728
+#: src/android_security.md:705
 msgid ""
 "Android 16 represents Google's most comprehensive security update, with "
 "Advanced Protection Mode making it easy to enable maximum security with one "
 "toggle. Key priorities:"
 msgstr ""
 
-#: src/android_security.md:730
+#: src/android_security.md:707
 msgid ""
 "**Enable Advanced Protection Mode** – Activates all major security features "
 "at once"
 msgstr ""
 
-#: src/android_security.md:731
+#: src/android_security.md:708
 msgid ""
 "**Set up Identity Check** – Protects sensitive settings when away from "
 "trusted locations"
 msgstr ""
 
-#: src/android_security.md:732
+#: src/android_security.md:709
 msgid ""
 "**Enable Theft Protection features** – Theft Detection Lock, Offline Device "
 "Lock, Remote Lock"
 msgstr ""
 
-#: src/android_security.md:733
+#: src/android_security.md:710
 msgid "**Use Passkeys** – More secure than passwords, phishing-resistant"
 msgstr ""
 
-#: src/android_security.md:734
+#: src/android_security.md:711
 msgid "**Review app permissions regularly** – Revoke unnecessary access"
 msgstr ""
 
-#: src/android_security.md:735
+#: src/android_security.md:712
 msgid "**Delete your Advertising ID** – Reduces tracking"
 msgstr ""
 
-#: src/android_security.md:736
+#: src/android_security.md:713
 msgid "**Keep software updated** – Security patches are critical"
 msgstr ""
 
-#: src/android_security.md:738
+#: src/android_security.md:715
 msgid ""
 "By configuring these settings, you significantly strengthen your privacy and "
 "security against both common threats and sophisticated attacks."
 msgstr ""
 
-#: src/android_security.md:742
+#: src/android_security.md:719
 msgid ""
 "_Last updated: January 2026 | Applies to Android 16_ _Note: Settings may "
 "vary slightly by device manufacturer (Pixel, Samsung, etc.)_"
