@@ -98,6 +98,41 @@ Biometric authentication provides secure and convenient device access.
 1. Go to **Settings > Display & Brightness > Auto-Lock**
 2. Select a time interval (30 seconds to 5 minutes recommended)
 
+### Security Keys for Apple Account
+
+Security keys are small external devices that look like a thumb drive or tag. They provide extra protection for your Apple Account by replacing the standard six-digit verification code with a physical device as the second factor in two-factor authentication. Because they are physical, they help prevent attackers from intercepting or requesting your second factor through phishing.
+
+**Requirements:**
+- At least two FIDO® Certified security keys (e.g., YubiKey 5C NFC, YubiKey 5Ci, or FEITIAN ePass K9 NFC)
+- iOS 16.3 or later
+- Two-factor authentication already enabled on your Apple Account
+- A modern web browser
+
+**Compatible connector types:**
+- **NFC** — Works with iPhone via tap (contactless)
+- **USB-C** — Works with iPhone 15 or later and most Mac models
+- **Lightning** — Works with iPhone 14 and earlier
+- **USB-A** — Works with older Mac models
+
+**How to add security keys:**
+1. Go to **Settings > [Your Name] > Sign-In & Security**
+2. Tap **Two-Factor Authentication**
+3. Tap **Security Keys**
+4. Tap **Add Security Keys**
+5. Follow the on-screen instructions
+6. You can add up to six keys total
+
+**What security keys protect:**
+- Signing in to your Apple Account on a new device or on the web
+- Resetting your Apple Account password or unlocking your account
+- Adding or removing security keys
+
+**Important:**
+- You must keep at least two security keys in safe places. If you lose all your trusted devices and security keys, you could be locked out of your account permanently.
+- Security keys are not compatible with child accounts or Managed Apple Accounts.
+- Apple Watch paired using a family member's iPhone is not supported.
+- Devices signed in with your account that have not been used for more than 90 days will be signed out when you add security keys. You can sign back in to those devices using a security key.
+
 ---
 
 ## 2. Stolen Device Protection

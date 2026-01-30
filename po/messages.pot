@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Security Guidebook\n"
-"POT-Creation-Date: 2026-01-30T10:53:14+01:00\n"
+"POT-Creation-Date: 2026-01-30T11:06:58+01:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -251,7 +251,7 @@ msgstr ""
 msgid "Tap **Face ID & Passcode**"
 msgstr ""
 
-#: src/ios_security.md:67 src/ios_security.md:129 src/ios_security.md:394
+#: src/ios_security.md:67 src/ios_security.md:164 src/ios_security.md:429
 msgid "Enter your passcode"
 msgstr ""
 
@@ -299,8 +299,8 @@ msgstr ""
 msgid "**How to set a strong passcode:**"
 msgstr ""
 
-#: src/ios_security.md:82 src/ios_security.md:128 src/ios_security.md:561
-#: src/ios_security.md:603 src/ios_security.md:632
+#: src/ios_security.md:82 src/ios_security.md:163 src/ios_security.md:596
+#: src/ios_security.md:638 src/ios_security.md:667
 msgid "Go to **Settings > Face ID & Passcode**"
 msgstr ""
 
@@ -324,7 +324,7 @@ msgstr ""
 msgid "**How to enable 2FA:**"
 msgstr ""
 
-#: src/ios_security.md:90
+#: src/ios_security.md:90 src/ios_security.md:118
 msgid "Go to **Settings > \\[Your Name\\] > Sign-In & Security**"
 msgstr ""
 
@@ -356,1512 +356,1636 @@ msgstr ""
 msgid "Select a time interval (30 seconds to 5 minutes recommended)"
 msgstr ""
 
+#: src/ios_security.md:101
+msgid "Security Keys for Apple Account"
+msgstr ""
+
 #: src/ios_security.md:103
-msgid "2. Stolen Device Protection"
+msgid ""
+"Security keys are small external devices that look like a thumb drive or "
+"tag. They provide extra protection for your Apple Account by replacing the "
+"standard six-digit verification code with a physical device as the second "
+"factor in two-factor authentication. Because they are physical, they help "
+"prevent attackers from intercepting or requesting your second factor through "
+"phishing."
 msgstr ""
 
 #: src/ios_security.md:105
+msgid "**Requirements:**"
+msgstr ""
+
+#: src/ios_security.md:106
+msgid ""
+"At least two FIDO® Certified security keys (e.g., YubiKey 5C NFC, YubiKey "
+"5Ci, or FEITIAN ePass K9 NFC)"
+msgstr ""
+
+#: src/ios_security.md:107
+msgid "iOS 16.3 or later"
+msgstr ""
+
+#: src/ios_security.md:108
+msgid "Two-factor authentication already enabled on your Apple Account"
+msgstr ""
+
+#: src/ios_security.md:109
+msgid "A modern web browser"
+msgstr ""
+
+#: src/ios_security.md:111
+msgid "**Compatible connector types:**"
+msgstr ""
+
+#: src/ios_security.md:112
+msgid "**NFC** — Works with iPhone via tap (contactless)"
+msgstr ""
+
+#: src/ios_security.md:113
+msgid "**USB-C** — Works with iPhone 15 or later and most Mac models"
+msgstr ""
+
+#: src/ios_security.md:114
+msgid "**Lightning** — Works with iPhone 14 and earlier"
+msgstr ""
+
+#: src/ios_security.md:115
+msgid "**USB-A** — Works with older Mac models"
+msgstr ""
+
+#: src/ios_security.md:117
+msgid "**How to add security keys:**"
+msgstr ""
+
+#: src/ios_security.md:119
+msgid "Tap **Two-Factor Authentication**"
+msgstr ""
+
+#: src/ios_security.md:120
+msgid "Tap **Security Keys**"
+msgstr ""
+
+#: src/ios_security.md:121
+msgid "Tap **Add Security Keys**"
+msgstr ""
+
+#: src/ios_security.md:122
+msgid "Follow the on-screen instructions"
+msgstr ""
+
+#: src/ios_security.md:123
+msgid "You can add up to six keys total"
+msgstr ""
+
+#: src/ios_security.md:125
+msgid "**What security keys protect:**"
+msgstr ""
+
+#: src/ios_security.md:126
+msgid "Signing in to your Apple Account on a new device or on the web"
+msgstr ""
+
+#: src/ios_security.md:127
+msgid "Resetting your Apple Account password or unlocking your account"
+msgstr ""
+
+#: src/ios_security.md:128
+msgid "Adding or removing security keys"
+msgstr ""
+
+#: src/ios_security.md:130
+msgid "**Important:**"
+msgstr ""
+
+#: src/ios_security.md:131
+msgid ""
+"You must keep at least two security keys in safe places. If you lose all "
+"your trusted devices and security keys, you could be locked out of your "
+"account permanently."
+msgstr ""
+
+#: src/ios_security.md:132
+msgid ""
+"Security keys are not compatible with child accounts or Managed Apple "
+"Accounts."
+msgstr ""
+
+#: src/ios_security.md:133
+msgid "Apple Watch paired using a family member's iPhone is not supported."
+msgstr ""
+
+#: src/ios_security.md:134
+msgid ""
+"Devices signed in with your account that have not been used for more than 90 "
+"days will be signed out when you add security keys. You can sign back in to "
+"those devices using a security key."
+msgstr ""
+
+#: src/ios_security.md:138
+msgid "2. Stolen Device Protection"
+msgstr ""
+
+#: src/ios_security.md:140
 msgid ""
 "Stolen Device Protection adds security when your iPhone is away from "
 "familiar locations."
 msgstr ""
 
-#: src/ios_security.md:107
+#: src/ios_security.md:142
 msgid "Key Features"
 msgstr ""
 
-#: src/ios_security.md:109
+#: src/ios_security.md:144
 msgid "**Biometric Authentication Required** (no passcode fallback):"
 msgstr ""
 
-#: src/ios_security.md:110
+#: src/ios_security.md:145
 msgid "Accessing passwords stored in iCloud Keychain"
 msgstr ""
 
-#: src/ios_security.md:111
+#: src/ios_security.md:146
 msgid "Using saved payment methods in Safari"
 msgstr ""
 
-#: src/ios_security.md:112
+#: src/ios_security.md:147
 msgid "Turning off Lost Mode"
 msgstr ""
 
-#: src/ios_security.md:113
+#: src/ios_security.md:148
 msgid "Erasing all content and settings"
 msgstr ""
 
-#: src/ios_security.md:114
+#: src/ios_security.md:149
 msgid "Viewing Apple Card virtual card number"
 msgstr ""
 
-#: src/ios_security.md:115
+#: src/ios_security.md:150
 msgid "Opening locked and hidden apps"
 msgstr ""
 
-#: src/ios_security.md:117
+#: src/ios_security.md:152
 msgid "**Security Delay** (1-hour wait + second biometric scan):"
 msgstr ""
 
-#: src/ios_security.md:118
+#: src/ios_security.md:153
 msgid "Changing Apple Account password"
 msgstr ""
 
-#: src/ios_security.md:119
+#: src/ios_security.md:154
 msgid "Signing out of Apple Account"
 msgstr ""
 
-#: src/ios_security.md:120
+#: src/ios_security.md:155
 msgid "Turning off Stolen Device Protection"
 msgstr ""
 
-#: src/ios_security.md:121
+#: src/ios_security.md:156
 msgid "Changing Face ID or Touch ID settings"
 msgstr ""
 
-#: src/ios_security.md:122
+#: src/ios_security.md:157
 msgid "Changing device passcode"
 msgstr ""
 
-#: src/ios_security.md:123
+#: src/ios_security.md:158
 msgid "Resetting all settings"
 msgstr ""
 
-#: src/ios_security.md:124
+#: src/ios_security.md:159
 msgid "Turning off Find My"
 msgstr ""
 
-#: src/ios_security.md:126 src/ios_security.md:281 src/ios_security.md:350
-#: src/ios_security.md:388 src/ios_security.md:447 src/android_security.md:65
+#: src/ios_security.md:161 src/ios_security.md:316 src/ios_security.md:385
+#: src/ios_security.md:423 src/ios_security.md:482 src/android_security.md:65
 #: src/android_security.md:136 src/android_security.md:515
 msgid "How to Enable"
 msgstr ""
 
-#: src/ios_security.md:130
+#: src/ios_security.md:165
 msgid "Scroll down and tap **Stolen Device Protection**"
 msgstr ""
 
-#: src/ios_security.md:131
+#: src/ios_security.md:166
 msgid "Toggle on"
 msgstr ""
 
-#: src/ios_security.md:133
+#: src/ios_security.md:168
 msgid "Configuration Options"
 msgstr ""
 
-#: src/ios_security.md:135
+#: src/ios_security.md:170
 msgid ""
 "**Away from Familiar Locations** – Security features activate only when away "
 "from home/work"
 msgstr ""
 
-#: src/ios_security.md:136
+#: src/ios_security.md:171
 msgid "**Always** – Security features are always active"
 msgstr ""
 
-#: src/ios_security.md:138 src/android_security.md:143
+#: src/ios_security.md:173 src/android_security.md:143
 msgid "Requirements"
 msgstr ""
 
-#: src/ios_security.md:140
+#: src/ios_security.md:175
 msgid "iOS 17.3 or later (enhanced in iOS 26)"
 msgstr ""
 
-#: src/ios_security.md:141
+#: src/ios_security.md:176
 msgid "Two-factor authentication enabled"
 msgstr ""
 
-#: src/ios_security.md:142
+#: src/ios_security.md:177
 msgid "Face ID or Touch ID configured"
 msgstr ""
 
-#: src/ios_security.md:143
+#: src/ios_security.md:178
 msgid "Device passcode set"
 msgstr ""
 
-#: src/ios_security.md:144
+#: src/ios_security.md:179
 msgid "Find My enabled"
 msgstr ""
 
-#: src/ios_security.md:145
+#: src/ios_security.md:180
 msgid "Significant Locations enabled"
 msgstr ""
 
-#: src/ios_security.md:149
+#: src/ios_security.md:184
 msgid "3. App Privacy Controls"
 msgstr ""
 
-#: src/ios_security.md:151
+#: src/ios_security.md:186
 msgid "App Tracking Transparency"
 msgstr ""
 
-#: src/ios_security.md:153 src/ios_security.md:560 src/android_security.md:94
+#: src/ios_security.md:188 src/ios_security.md:595 src/android_security.md:94
 #: src/android_security.md:279
 msgid "**How to configure:**"
 msgstr ""
 
-#: src/ios_security.md:154 src/ios_security.md:493
+#: src/ios_security.md:189 src/ios_security.md:528
 msgid "Go to **Settings > Privacy & Security > Tracking**"
 msgstr ""
 
-#: src/ios_security.md:155
+#: src/ios_security.md:190
 msgid "Toggle **Allow Apps to Request to Track** off to block all tracking"
 msgstr ""
 
-#: src/ios_security.md:156
+#: src/ios_security.md:191
 msgid "Or manage individual app permissions below"
 msgstr ""
 
-#: src/ios_security.md:158
+#: src/ios_security.md:193
 msgid "App Privacy Report"
 msgstr ""
 
-#: src/ios_security.md:160
+#: src/ios_security.md:195
 msgid "View detailed app data access:"
 msgstr ""
 
-#: src/ios_security.md:162
+#: src/ios_security.md:197
 msgid "Go to **Settings > Privacy & Security > App Privacy Report**"
 msgstr ""
 
-#: src/ios_security.md:163
+#: src/ios_security.md:198
 msgid "Toggle on **App Privacy Report**"
 msgstr ""
 
-#: src/ios_security.md:164
+#: src/ios_security.md:199
 msgid "Review 7-day history of sensor, camera, microphone, and network access"
 msgstr ""
 
-#: src/ios_security.md:166
+#: src/ios_security.md:201
 msgid "Clipboard Access Alerts"
 msgstr ""
 
-#: src/ios_security.md:168
+#: src/ios_security.md:203
 msgid ""
 "iOS 26 continues to notify you whenever apps access your clipboard, "
 "preventing silent data harvesting."
 msgstr ""
 
-#: src/ios_security.md:170
+#: src/ios_security.md:205
 msgid "Review All Permissions"
 msgstr ""
 
-#: src/ios_security.md:172 src/ios_security.md:390 src/ios_security.md:432
+#: src/ios_security.md:207 src/ios_security.md:425 src/ios_security.md:467
 msgid "Go to **Settings > Privacy & Security**"
 msgstr ""
 
-#: src/ios_security.md:173
+#: src/ios_security.md:208
 msgid ""
 "Review each category: Location, Contacts, Photos, Microphone, Camera, etc."
 msgstr ""
 
-#: src/ios_security.md:174
+#: src/ios_security.md:209
 msgid "Revoke unnecessary permissions"
 msgstr ""
 
-#: src/ios_security.md:178
+#: src/ios_security.md:213
 msgid "4. Location Services"
 msgstr ""
 
-#: src/ios_security.md:180
+#: src/ios_security.md:215
 msgid "Per-App Location Settings"
 msgstr ""
 
-#: src/ios_security.md:182 src/android_security.md:269
+#: src/ios_security.md:217 src/android_security.md:269
 msgid "For each app, choose:"
 msgstr ""
 
-#: src/ios_security.md:183
+#: src/ios_security.md:218
 msgid "**Never** – No location access"
 msgstr ""
 
-#: src/ios_security.md:184
+#: src/ios_security.md:219
 msgid "**Ask Next Time Or When I Share** – Prompts each time"
 msgstr ""
 
-#: src/ios_security.md:185
+#: src/ios_security.md:220
 msgid "**While Using the App** – Access only when app is open"
 msgstr ""
 
-#: src/ios_security.md:186
+#: src/ios_security.md:221
 msgid "**Always** – Background access (use sparingly)"
 msgstr ""
 
-#: src/ios_security.md:188 src/android_security.md:275
+#: src/ios_security.md:223 src/android_security.md:275
 msgid "Precise vs. Approximate Location"
 msgstr ""
 
-#: src/ios_security.md:190
+#: src/ios_security.md:225
 msgid "Go to **Settings > Privacy & Security > Location Services**"
 msgstr ""
 
-#: src/ios_security.md:191
+#: src/ios_security.md:226
 msgid "Select an app"
 msgstr ""
 
-#: src/ios_security.md:192
+#: src/ios_security.md:227
 msgid "Toggle **Precise Location** off for approximate area sharing"
 msgstr ""
 
-#: src/ios_security.md:194
+#: src/ios_security.md:229
 msgid "Significant Locations"
 msgstr ""
 
-#: src/ios_security.md:196
+#: src/ios_security.md:231
 msgid ""
 "Go to **Settings > Privacy & Security > Location Services > System Services**"
 msgstr ""
 
-#: src/ios_security.md:197
+#: src/ios_security.md:232
 msgid "Tap **Significant Locations**"
 msgstr ""
 
-#: src/ios_security.md:198
+#: src/ios_security.md:233
 msgid "View, toggle off, or clear history"
 msgstr ""
 
-#: src/ios_security.md:202
+#: src/ios_security.md:237
 msgid "5. Lock and Hide Apps"
 msgstr ""
 
-#: src/ios_security.md:204
+#: src/ios_security.md:239
 msgid "How to Lock an App"
 msgstr ""
 
-#: src/ios_security.md:206
+#: src/ios_security.md:241
 msgid "Touch and hold the app icon on Home Screen"
 msgstr ""
 
-#: src/ios_security.md:207
+#: src/ios_security.md:242
 msgid "Tap **Require Face ID** (or Touch ID/Passcode)"
 msgstr ""
 
-#: src/ios_security.md:208
+#: src/ios_security.md:243
 msgid "Confirm your choice"
 msgstr ""
 
-#: src/ios_security.md:210
+#: src/ios_security.md:245
 msgid "How to Lock and Hide an App"
 msgstr ""
 
-#: src/ios_security.md:212
+#: src/ios_security.md:247
 msgid "Touch and hold the app icon"
 msgstr ""
 
-#: src/ios_security.md:213
+#: src/ios_security.md:248
 msgid "Select **Hide and Require Face ID**"
 msgstr ""
 
-#: src/ios_security.md:214
+#: src/ios_security.md:249
 msgid "App moves to Hidden folder in App Library"
 msgstr ""
 
-#: src/ios_security.md:216
+#: src/ios_security.md:251
 msgid "**To access hidden apps:**"
 msgstr ""
 
-#: src/ios_security.md:217
+#: src/ios_security.md:252
 msgid "Swipe left to App Library"
 msgstr ""
 
-#: src/ios_security.md:218
+#: src/ios_security.md:253
 msgid "Scroll to bottom, tap **Hidden** folder"
 msgstr ""
 
-#: src/ios_security.md:219 src/ios_security.md:307
+#: src/ios_security.md:254 src/ios_security.md:342
 msgid "Authenticate with Face ID/Touch ID"
 msgstr ""
 
-#: src/ios_security.md:221
+#: src/ios_security.md:256
 msgid "What Happens When Apps Are Locked"
 msgstr ""
 
-#: src/ios_security.md:223
+#: src/ios_security.md:258
 msgid "No notification previews"
 msgstr ""
 
-#: src/ios_security.md:224
+#: src/ios_security.md:259
 msgid "Hidden from Spotlight search"
 msgstr ""
 
-#: src/ios_security.md:225
+#: src/ios_security.md:260
 msgid "Hidden from Siri suggestions"
 msgstr ""
 
-#: src/ios_security.md:226
+#: src/ios_security.md:261
 msgid "Call history from locked apps is hidden"
 msgstr ""
 
-#: src/ios_security.md:228
+#: src/ios_security.md:263
 msgid "Integration with Stolen Device Protection"
 msgstr ""
 
-#: src/ios_security.md:230
+#: src/ios_security.md:265
 msgid ""
 "When Stolen Device Protection is enabled, locked apps can **only** be opened "
 "with Face ID/Touch ID—passcode fallback is disabled."
 msgstr ""
 
-#: src/ios_security.md:234
+#: src/ios_security.md:269
 msgid "6. Safari Privacy Settings"
 msgstr ""
 
-#: src/ios_security.md:236
+#: src/ios_security.md:271
 msgid "Advanced Tracking and Fingerprinting Protection (NEW in iOS 26)"
 msgstr ""
 
-#: src/ios_security.md:238
+#: src/ios_security.md:273
 msgid ""
 "iOS 26 expands anti-fingerprinting protection to **all browsing**, not just "
 "Private Browsing:"
 msgstr ""
 
-#: src/ios_security.md:240
+#: src/ios_security.md:275
 msgid "Go to **Settings > Apps > Safari > Advanced**"
 msgstr ""
 
-#: src/ios_security.md:241
+#: src/ios_security.md:276
 msgid ""
 "Set **Advanced Tracking and Fingerprinting Protection** to **All Browsing**"
 msgstr ""
 
-#: src/ios_security.md:243
+#: src/ios_security.md:278
 msgid ""
 "This normalizes browser data to make your device look generic to tracking "
 "scripts, significantly reducing fingerprinting effectiveness."
 msgstr ""
 
-#: src/ios_security.md:245
+#: src/ios_security.md:280
 msgid "Private Browsing with Face ID Lock"
 msgstr ""
 
-#: src/ios_security.md:247 src/ios_security.md:259 src/ios_security.md:264
+#: src/ios_security.md:282 src/ios_security.md:294 src/ios_security.md:299
 msgid "Go to **Settings > Apps > Safari**"
 msgstr ""
 
-#: src/ios_security.md:248
+#: src/ios_security.md:283
 msgid "Enable **Require Face ID to Unlock Private Browsing**"
 msgstr ""
 
-#: src/ios_security.md:250
+#: src/ios_security.md:285
 msgid "Hide IP Address"
 msgstr ""
 
-#: src/ios_security.md:252
+#: src/ios_security.md:287
 msgid "Go to **Settings > Apps > Safari > Hide IP Address**"
 msgstr ""
 
-#: src/ios_security.md:253
+#: src/ios_security.md:288
 msgid "Choose:"
 msgstr ""
 
-#: src/ios_security.md:254
+#: src/ios_security.md:289
 msgid "**Trackers Only** – Hides IP from known trackers"
 msgstr ""
 
-#: src/ios_security.md:255
+#: src/ios_security.md:290
 msgid ""
 "**Trackers and Websites** – Hides IP from all sites (requires iCloud+ "
 "Private Relay)"
 msgstr ""
 
-#: src/ios_security.md:257
+#: src/ios_security.md:292
 msgid "Intelligent Tracking Prevention"
 msgstr ""
 
-#: src/ios_security.md:260
+#: src/ios_security.md:295
 msgid "Enable **Prevent Cross-Site Tracking**"
 msgstr ""
 
-#: src/ios_security.md:262
+#: src/ios_security.md:297
 msgid "Fraudulent Website Warning"
 msgstr ""
 
-#: src/ios_security.md:265
+#: src/ios_security.md:300
 msgid "Enable **Fraudulent Website Warning**"
 msgstr ""
 
-#: src/ios_security.md:267
+#: src/ios_security.md:302
 msgid "Link Tracking Protection"
 msgstr ""
 
-#: src/ios_security.md:269
+#: src/ios_security.md:304
 msgid ""
 "iOS 26 automatically strips tracking parameters (UTMs) from URLs in Safari "
 "Private Browsing, Messages, and Mail."
 msgstr ""
 
-#: src/ios_security.md:273
+#: src/ios_security.md:308
 msgid "7. Mail Privacy Protection"
 msgstr ""
 
-#: src/ios_security.md:275 src/android_security.md:295
+#: src/ios_security.md:310 src/android_security.md:295
 #: src/android_security.md:329 src/android_security.md:494
 #: src/android_security.md:521
 msgid "Features"
 msgstr ""
 
-#: src/ios_security.md:277
+#: src/ios_security.md:312
 msgid "Hides your IP address from senders"
 msgstr ""
 
-#: src/ios_security.md:278
+#: src/ios_security.md:313
 msgid "Prevents open tracking"
 msgstr ""
 
-#: src/ios_security.md:279
+#: src/ios_security.md:314
 msgid "Blocks invisible tracking pixels"
 msgstr ""
 
-#: src/ios_security.md:283
+#: src/ios_security.md:318
 msgid "Go to **Settings > Apps > Mail > Privacy Protection**"
 msgstr ""
 
-#: src/ios_security.md:284
+#: src/ios_security.md:319
 msgid "Enable **Protect Mail Activity**"
 msgstr ""
 
-#: src/ios_security.md:286
+#: src/ios_security.md:321
 msgid "Or configure separately:"
 msgstr ""
 
-#: src/ios_security.md:287
+#: src/ios_security.md:322
 msgid "**Hide IP Address**"
 msgstr ""
 
-#: src/ios_security.md:288
+#: src/ios_security.md:323
 msgid "**Block All Remote Content**"
 msgstr ""
 
-#: src/ios_security.md:292
+#: src/ios_security.md:327
 msgid "8. Passwords App"
 msgstr ""
 
-#: src/ios_security.md:294
+#: src/ios_security.md:329
 msgid "iOS 26 significantly enhances the standalone Passwords app."
 msgstr ""
 
-#: src/ios_security.md:296
+#: src/ios_security.md:331
 msgid "New Features in iOS 26"
 msgstr ""
 
-#: src/ios_security.md:298
+#: src/ios_security.md:333
 msgid ""
 "**Password Version History** – View previous passwords for any account with "
 "timestamps"
 msgstr ""
 
-#: src/ios_security.md:299
+#: src/ios_security.md:334
 msgid ""
 "**Secure Export** – FIDO Alliance standard for moving passwords, passkeys, "
 "and verification codes to other managers"
 msgstr ""
 
-#: src/ios_security.md:300
+#: src/ios_security.md:335
 msgid ""
 "**Automatic Passkey Upgrades** – When you sign in with a password, system "
 "can create a passkey for next time"
 msgstr ""
 
-#: src/ios_security.md:301
+#: src/ios_security.md:336
 msgid ""
 "**Credential Management Endpoints** – Prompts to upgrade passwords to "
 "passkeys"
 msgstr ""
 
-#: src/ios_security.md:302
+#: src/ios_security.md:337
 msgid "**Websites to Exclude** – Manage sites where passwords shouldn't be saved"
 msgstr ""
 
-#: src/ios_security.md:304 src/ios_security.md:430
+#: src/ios_security.md:339 src/ios_security.md:465
 msgid "How to Access"
 msgstr ""
 
-#: src/ios_security.md:306
+#: src/ios_security.md:341
 msgid "Open the **Passwords** app"
 msgstr ""
 
-#: src/ios_security.md:309
+#: src/ios_security.md:344
 msgid "View Password History"
 msgstr ""
 
-#: src/ios_security.md:311 src/ios_security.md:317
+#: src/ios_security.md:346 src/ios_security.md:352
 msgid "Open **Passwords**"
 msgstr ""
 
-#: src/ios_security.md:312
+#: src/ios_security.md:347
 msgid "Select a saved login"
 msgstr ""
 
-#: src/ios_security.md:313
+#: src/ios_security.md:348
 msgid "Tap **View History** (appears when multiple versions exist)"
 msgstr ""
 
-#: src/ios_security.md:315
+#: src/ios_security.md:350
 msgid "Export Passwords Securely"
 msgstr ""
 
-#: src/ios_security.md:318
+#: src/ios_security.md:353
 msgid "Tap **Settings** (gear icon)"
 msgstr ""
 
-#: src/ios_security.md:319
+#: src/ios_security.md:354
 msgid "Select **Export Passwords**"
 msgstr ""
 
-#: src/ios_security.md:320
+#: src/ios_security.md:355
 msgid "Choose destination app (uses encrypted FIDO Alliance format)"
 msgstr ""
 
-#: src/ios_security.md:322
+#: src/ios_security.md:357
 msgid "Security Alerts"
 msgstr ""
 
-#: src/ios_security.md:324
+#: src/ios_security.md:359
 msgid "The app warns about:"
 msgstr ""
 
-#: src/ios_security.md:325
+#: src/ios_security.md:360
 msgid "Credentials in known data breaches"
 msgstr ""
 
-#: src/ios_security.md:326
+#: src/ios_security.md:361
 msgid "Weak passwords"
 msgstr ""
 
-#: src/ios_security.md:327
+#: src/ios_security.md:362
 msgid "Reused passwords"
 msgstr ""
 
-#: src/ios_security.md:331
+#: src/ios_security.md:366
 msgid "9. Advanced Data Protection for iCloud"
 msgstr ""
 
-#: src/ios_security.md:333
+#: src/ios_security.md:368
 msgid "End-to-end encryption for the majority of your iCloud data."
 msgstr ""
 
-#: src/ios_security.md:335
+#: src/ios_security.md:370
 msgid "What It Protects (25 categories total)"
 msgstr ""
 
-#: src/ios_security.md:337
+#: src/ios_security.md:372
 msgid "iCloud Backup (including Messages)"
 msgstr ""
 
-#: src/ios_security.md:338
+#: src/ios_security.md:373
 msgid "iCloud Drive"
 msgstr ""
 
-#: src/ios_security.md:339
+#: src/ios_security.md:374
 msgid "Photos"
 msgstr ""
 
-#: src/ios_security.md:340
+#: src/ios_security.md:375
 msgid "Notes"
 msgstr ""
 
-#: src/ios_security.md:341
+#: src/ios_security.md:376
 msgid "Reminders"
 msgstr ""
 
-#: src/ios_security.md:342
+#: src/ios_security.md:377
 msgid "Safari Bookmarks"
 msgstr ""
 
-#: src/ios_security.md:343
+#: src/ios_security.md:378
 msgid "Voice Memos"
 msgstr ""
 
-#: src/ios_security.md:344
+#: src/ios_security.md:379
 msgid "Freeform boards"
 msgstr ""
 
-#: src/ios_security.md:345
+#: src/ios_security.md:380
 msgid "And more..."
 msgstr ""
 
-#: src/ios_security.md:347
+#: src/ios_security.md:382
 msgid "**Cannot be encrypted:**"
 msgstr ""
 
-#: src/ios_security.md:348
+#: src/ios_security.md:383
 msgid "iCloud Mail, Contacts, Calendars (due to interoperability requirements)"
 msgstr ""
 
-#: src/ios_security.md:352
+#: src/ios_security.md:387
 msgid "Go to **Settings > \\[Your Name\\] > iCloud**"
 msgstr ""
 
-#: src/ios_security.md:353
+#: src/ios_security.md:388
 msgid "Tap **Advanced Data Protection**"
 msgstr ""
 
-#: src/ios_security.md:354
+#: src/ios_security.md:389
 msgid "Tap **Turn On Advanced Data Protection**"
 msgstr ""
 
-#: src/ios_security.md:355
+#: src/ios_security.md:390
 msgid "Set up recovery method first:"
 msgstr ""
 
-#: src/ios_security.md:356
+#: src/ios_security.md:391
 msgid "**Recovery Contact** – Trusted person to help regain access"
 msgstr ""
 
-#: src/ios_security.md:357
+#: src/ios_security.md:392
 msgid "**Recovery Key** – 28-character code to store securely"
 msgstr ""
 
-#: src/ios_security.md:359
+#: src/ios_security.md:394
 msgid "Important"
 msgstr ""
 
-#: src/ios_security.md:361
+#: src/ios_security.md:396
 msgid "**Apple cannot recover your data** if you lose access"
 msgstr ""
 
-#: src/ios_security.md:362
+#: src/ios_security.md:397
 msgid "All devices must run supported OS versions"
 msgstr ""
 
-#: src/ios_security.md:363
+#: src/ios_security.md:398
 msgid "iCloud.com access is disabled by default"
 msgstr ""
 
-#: src/ios_security.md:367
+#: src/ios_security.md:402
 msgid "10. Lockdown Mode"
 msgstr ""
 
-#: src/ios_security.md:369
+#: src/ios_security.md:404
 msgid ""
 "Extreme protection for users who may be targeted by sophisticated attacks. "
 "This mode significantly restricts device functionality to reduce attack "
 "surfaces, but also provides robust defense against mercenary spyware."
 msgstr ""
 
-#: src/ios_security.md:373 src/android_security.md:73
+#: src/ios_security.md:408 src/android_security.md:73
 msgid "Who Should Use It"
 msgstr ""
 
-#: src/ios_security.md:375
+#: src/ios_security.md:410
 msgid "Journalists, activists, diplomats"
 msgstr ""
 
-#: src/ios_security.md:376
+#: src/ios_security.md:411
 msgid "High-profile individuals"
 msgstr ""
 
-#: src/ios_security.md:377
+#: src/ios_security.md:412
 msgid "Anyone targeted by mercenary spyware"
 msgstr ""
 
-#: src/ios_security.md:379
+#: src/ios_security.md:414
 msgid "What Lockdown Mode Does"
 msgstr ""
 
-#: src/ios_security.md:381
+#: src/ios_security.md:416
 msgid "**Messages:** Most attachments blocked"
 msgstr ""
 
-#: src/ios_security.md:382
+#: src/ios_security.md:417
 msgid "**Web:** Complex technologies disabled (JIT JavaScript)"
 msgstr ""
 
-#: src/ios_security.md:383
+#: src/ios_security.md:418
 msgid "**FaceTime:** Incoming calls blocked from unknown contacts"
 msgstr ""
 
-#: src/ios_security.md:384
+#: src/ios_security.md:419
 msgid "**Photos:** Location excluded from shared photos"
 msgstr ""
 
-#: src/ios_security.md:385
+#: src/ios_security.md:420
 msgid "**Device:** Wired connections blocked when locked"
 msgstr ""
 
-#: src/ios_security.md:386
+#: src/ios_security.md:421
 msgid "**Wireless:** 2G cellular disabled, won't auto-join insecure Wi-Fi"
 msgstr ""
 
-#: src/ios_security.md:391
+#: src/ios_security.md:426
 msgid "Scroll down and tap **Lockdown Mode**"
 msgstr ""
 
-#: src/ios_security.md:392
+#: src/ios_security.md:427
 msgid "Tap **Turn On Lockdown Mode**"
 msgstr ""
 
-#: src/ios_security.md:393
+#: src/ios_security.md:428
 msgid "Tap **Turn On & Restart**"
 msgstr ""
 
-#: src/ios_security.md:398
+#: src/ios_security.md:433
 msgid "11. Communication Safety & Parental Controls"
 msgstr ""
 
-#: src/ios_security.md:400
+#: src/ios_security.md:435
 msgid "Enhanced Parental Controls (iOS 26)"
 msgstr ""
 
-#: src/ios_security.md:402
+#: src/ios_security.md:437
 msgid "iOS 26 significantly strengthens parental controls:"
 msgstr ""
 
-#: src/ios_security.md:404
+#: src/ios_security.md:439
 msgid "**Child Accounts** – Create or move kids into managed accounts easily"
 msgstr ""
 
-#: src/ios_security.md:405
+#: src/ios_security.md:440
 msgid "**Communication Controls** – Decide who children can text/call"
 msgstr ""
 
-#: src/ios_security.md:406
+#: src/ios_security.md:441
 msgid ""
 "**Third-Party App Management** – Control messaging in gaming and social apps"
 msgstr ""
 
-#: src/ios_security.md:407
+#: src/ios_security.md:442
 msgid "**Unknown Number Blocking** – Block calls/messages from unknown numbers"
 msgstr ""
 
-#: src/ios_security.md:408
+#: src/ios_security.md:443
 msgid "**Age Limits** – Set strict age limits for app downloads"
 msgstr ""
 
-#: src/ios_security.md:409
+#: src/ios_security.md:444
 msgid ""
 "**Explicit Content Detection** – Blurs inappropriate content in shared "
 "albums and FaceTime"
 msgstr ""
 
-#: src/ios_security.md:411
+#: src/ios_security.md:446
 msgid "Communication Safety"
 msgstr ""
 
-#: src/ios_security.md:413
+#: src/ios_security.md:448
 msgid "Protects children from sensitive content in Messages:"
 msgstr ""
 
-#: src/ios_security.md:415
+#: src/ios_security.md:450
 msgid "Go to **Settings > Screen Time**"
 msgstr ""
 
-#: src/ios_security.md:416
+#: src/ios_security.md:451
 msgid "Tap **Communication Safety**"
 msgstr ""
 
-#: src/ios_security.md:417
+#: src/ios_security.md:452
 msgid "Toggle on **Communication Safety**"
 msgstr ""
 
-#: src/ios_security.md:419
+#: src/ios_security.md:454
 msgid "Sensitive Content Warning (Adults)"
 msgstr ""
 
-#: src/ios_security.md:421
+#: src/ios_security.md:456
 msgid "Go to **Settings > Privacy & Security > Sensitive Content Warning**"
 msgstr ""
 
-#: src/ios_security.md:422
+#: src/ios_security.md:457
 msgid "Toggle on to blur sensitive images"
 msgstr ""
 
-#: src/ios_security.md:426
+#: src/ios_security.md:461
 msgid "12. Safety Check"
 msgstr ""
 
-#: src/ios_security.md:428
+#: src/ios_security.md:463
 msgid "Quickly review and reset access you've granted to others."
 msgstr ""
 
-#: src/ios_security.md:433
+#: src/ios_security.md:468
 msgid "Tap **Safety Check**"
 msgstr ""
 
-#: src/ios_security.md:435
+#: src/ios_security.md:470
 msgid "Options"
 msgstr ""
 
-#: src/ios_security.md:437
+#: src/ios_security.md:472
 msgid "**Manage Sharing & Access:** Granular control over individual permissions"
 msgstr ""
 
-#: src/ios_security.md:439
+#: src/ios_security.md:474
 msgid ""
 "**Emergency Reset:** Immediately stops all sharing, resets permissions, "
 "signs out of iCloud on other devices"
 msgstr ""
 
-#: src/ios_security.md:441
+#: src/ios_security.md:476
 msgid "**Quick Exit:** Instantly returns to Home Screen (progress saved)"
 msgstr ""
 
-#: src/ios_security.md:445
+#: src/ios_security.md:480
 msgid "13. Find My iPhone"
 msgstr ""
 
-#: src/ios_security.md:449
+#: src/ios_security.md:484
 msgid "Go to **Settings > \\[Your Name\\] > Find My**"
 msgstr ""
 
-#: src/ios_security.md:450
+#: src/ios_security.md:485
 msgid "Tap **Find My iPhone**"
 msgstr ""
 
-#: src/ios_security.md:451
+#: src/ios_security.md:486
 msgid "Enable:"
 msgstr ""
 
-#: src/ios_security.md:452
+#: src/ios_security.md:487
 msgid "**Find My iPhone**"
 msgstr ""
 
-#: src/ios_security.md:453
+#: src/ios_security.md:488
 msgid "**Find My Network** (locate even when offline)"
 msgstr ""
 
-#: src/ios_security.md:454
+#: src/ios_security.md:489
 msgid "**Send Last Location**"
 msgstr ""
 
-#: src/ios_security.md:456
+#: src/ios_security.md:491
 msgid "Activation Lock for Parts (iOS 26)"
 msgstr ""
 
-#: src/ios_security.md:458
+#: src/ios_security.md:493
 msgid ""
 "iOS 26 extends Activation Lock to individual components (batteries, cameras, "
 "displays), making stolen parts unusable."
 msgstr ""
 
-#: src/ios_security.md:460
+#: src/ios_security.md:495
 msgid "AirTag (2nd Generation) - iOS 26.2.1 Required"
 msgstr ""
 
-#: src/ios_security.md:462
+#: src/ios_security.md:497
 msgid ""
 "The new AirTag (released January 26, 2026) requires iOS 26.2.1 or later and "
 "includes significant security and tracking improvements:"
 msgstr ""
 
-#: src/ios_security.md:464
+#: src/ios_security.md:499
 msgid "**Enhanced Finding Capabilities:**"
 msgstr ""
 
-#: src/ios_security.md:465
+#: src/ios_security.md:500
 msgid ""
 "**50% longer Precision Finding range** via second-generation Ultra Wideband "
 "chip"
 msgstr ""
 
-#: src/ios_security.md:466
+#: src/ios_security.md:501
 msgid ""
 "**Precision Finding on Apple Watch** – Works on Apple Watch Series 9+, Ultra "
 "2+ (first time on wrist)"
 msgstr ""
 
-#: src/ios_security.md:467
+#: src/ios_security.md:502
 msgid ""
 "**Expanded Bluetooth range** – Better detection by Find My network devices"
 msgstr ""
 
-#: src/ios_security.md:468
+#: src/ios_security.md:503
 msgid "**50% louder speaker** – Easier to locate and harder for stalkers to mask"
 msgstr ""
 
-#: src/ios_security.md:470
+#: src/ios_security.md:505
 msgid "**Anti-Stalking Improvements:**"
 msgstr ""
 
-#: src/ios_security.md:471
+#: src/ios_security.md:506
 msgid "Louder alert sounds when separated from owner's device"
 msgstr ""
 
-#: src/ios_security.md:472
+#: src/ios_security.md:507
 msgid "Improved detection notifications on iPhones"
 msgstr ""
 
-#: src/ios_security.md:473
+#: src/ios_security.md:508
 msgid "Same separation alert timing (approximately 8 hours)"
 msgstr ""
 
-#: src/ios_security.md:475
+#: src/ios_security.md:510
 msgid "**Share Item Location:**"
 msgstr ""
 
-#: src/ios_security.md:476
+#: src/ios_security.md:511
 msgid "Securely share AirTag location with airlines for lost luggage"
 msgstr ""
 
-#: src/ios_security.md:477
+#: src/ios_security.md:512
 msgid "36 airlines supported at launch, 15+ more coming"
 msgstr ""
 
-#: src/ios_security.md:478
+#: src/ios_security.md:513
 msgid "End-to-end encrypted sharing"
 msgstr ""
 
-#: src/ios_security.md:480
+#: src/ios_security.md:515
 msgid "**How to Set Up AirTag (2nd Gen):**"
 msgstr ""
 
-#: src/ios_security.md:481
+#: src/ios_security.md:516
 msgid "Ensure iOS 26.2.1 is installed"
 msgstr ""
 
-#: src/ios_security.md:482
+#: src/ios_security.md:517
 msgid "Bring AirTag near your iPhone"
 msgstr ""
 
-#: src/ios_security.md:483
+#: src/ios_security.md:518
 msgid "Tap **Connect** when prompted"
 msgstr ""
 
-#: src/ios_security.md:484
+#: src/ios_security.md:519
 msgid "Name your AirTag and assign an emoji"
 msgstr ""
 
-#: src/ios_security.md:485
+#: src/ios_security.md:520
 msgid "Register to your Apple ID"
 msgstr ""
 
-#: src/ios_security.md:489
+#: src/ios_security.md:524
 msgid "14. Advertising and Tracking Controls"
 msgstr ""
 
-#: src/ios_security.md:491
+#: src/ios_security.md:526
 msgid "Disable Advertising Identifier"
 msgstr ""
 
-#: src/ios_security.md:494
+#: src/ios_security.md:529
 msgid "Toggle off **Allow Apps to Request to Track**"
 msgstr ""
 
-#: src/ios_security.md:496
+#: src/ios_security.md:531
 msgid "Disable Apple Personalized Ads"
 msgstr ""
 
-#: src/ios_security.md:498
+#: src/ios_security.md:533
 msgid "Go to **Settings > Privacy & Security > Apple Advertising**"
 msgstr ""
 
-#: src/ios_security.md:499
+#: src/ios_security.md:534
 msgid "Toggle off **Personalized Ads**"
 msgstr ""
 
-#: src/ios_security.md:501
+#: src/ios_security.md:536
 msgid "Analytics & Improvements"
 msgstr ""
 
-#: src/ios_security.md:503
+#: src/ios_security.md:538
 msgid "Go to **Settings > Privacy & Security > Analytics & Improvements**"
 msgstr ""
 
-#: src/ios_security.md:504
+#: src/ios_security.md:539
 msgid "Toggle off data sharing options"
 msgstr ""
 
-#: src/ios_security.md:508
+#: src/ios_security.md:543
 msgid "15. Apple Intelligence Privacy"
 msgstr ""
 
-#: src/ios_security.md:510
+#: src/ios_security.md:545
 msgid "On-Device Processing"
 msgstr ""
 
-#: src/ios_security.md:512
+#: src/ios_security.md:547
 msgid "Most Apple Intelligence features process data locally on your device."
 msgstr ""
 
-#: src/ios_security.md:514
+#: src/ios_security.md:549
 msgid "Private Cloud Compute"
 msgstr ""
 
-#: src/ios_security.md:516
+#: src/ios_security.md:551
 msgid "For complex requests:"
 msgstr ""
 
-#: src/ios_security.md:517
+#: src/ios_security.md:552
 msgid "Uses Apple's Private Cloud Compute"
 msgstr ""
 
-#: src/ios_security.md:518
+#: src/ios_security.md:553
 msgid "Data never stored on servers"
 msgstr ""
 
-#: src/ios_security.md:519
+#: src/ios_security.md:554
 msgid "Cryptographically verified privacy"
 msgstr ""
 
-#: src/ios_security.md:521
+#: src/ios_security.md:556
 msgid "Control AI Learning"
 msgstr ""
 
-#: src/ios_security.md:523
+#: src/ios_security.md:558
 msgid "Go to **Settings > Apple Intelligence & Siri**"
 msgstr ""
 
-#: src/ios_security.md:524
+#: src/ios_security.md:559
 msgid "Scroll to **Apps**"
 msgstr ""
 
-#: src/ios_security.md:525
+#: src/ios_security.md:560
 msgid "Toggle off **Learn from this App** for sensitive apps"
 msgstr ""
 
-#: src/ios_security.md:529
+#: src/ios_security.md:564
 msgid "16. Wi-Fi Aware & Network Security (NEW in iOS 26)"
 msgstr ""
 
-#: src/ios_security.md:531
+#: src/ios_security.md:566
 msgid "Wi-Fi Aware"
 msgstr ""
 
-#: src/ios_security.md:533
+#: src/ios_security.md:568
 msgid ""
 "A new peer-to-peer networking framework allowing secure connections without "
 "access points:"
 msgstr ""
 
-#: src/ios_security.md:535
+#: src/ios_security.md:570
 msgid "Direct encrypted links between devices"
 msgstr ""
 
-#: src/ios_security.md:536
+#: src/ios_security.md:571
 msgid "Ideal for file transfers, gaming, media streaming"
 msgstr ""
 
-#: src/ios_security.md:537
+#: src/ios_security.md:572
 msgid "No internet connection required"
 msgstr ""
 
-#: src/ios_security.md:538
+#: src/ios_security.md:573
 msgid "Third-party apps can use this for secure local sharing"
 msgstr ""
 
-#: src/ios_security.md:540
+#: src/ios_security.md:575
 msgid "Post-Quantum Cryptography (iOS 26)"
 msgstr ""
 
-#: src/ios_security.md:542
+#: src/ios_security.md:577
 msgid "iOS 26 adds hybrid post-quantum key exchange to TLS connections:"
 msgstr ""
 
-#: src/ios_security.md:544
+#: src/ios_security.md:579
 msgid "Pairs classic elliptic curve math with lattice-based schemes"
 msgstr ""
 
-#: src/ios_security.md:545
+#: src/ios_security.md:580
 msgid "Protects current data against future quantum computing threats"
 msgstr ""
 
-#: src/ios_security.md:546
+#: src/ios_security.md:581
 msgid "Works automatically with Apple's networking frameworks"
 msgstr ""
 
-#: src/ios_security.md:548
+#: src/ios_security.md:583
 msgid "Captive Assist"
 msgstr ""
 
-#: src/ios_security.md:550
+#: src/ios_security.md:585
 msgid ""
 "When you connect to public Wi-Fi by filling out a form, iOS 26 can "
 "automatically share that form information with your other Apple devices, "
 "making it easier to connect securely."
 msgstr ""
 
-#: src/ios_security.md:554
+#: src/ios_security.md:589
 msgid "17. Wired Accessories Security (NEW in iOS 26)"
 msgstr ""
 
-#: src/ios_security.md:556
+#: src/ios_security.md:591
 msgid "Enhanced USB-C/Lightning Port Security"
 msgstr ""
 
-#: src/ios_security.md:558
+#: src/ios_security.md:593
 msgid ""
 "iOS 26 gives you explicit control over what happens when accessories connect:"
 msgstr ""
 
-#: src/ios_security.md:562
+#: src/ios_security.md:597
 msgid "Scroll to **Accessories**"
 msgstr ""
 
-#: src/ios_security.md:563
+#: src/ios_security.md:598
 msgid "Choose behavior:"
 msgstr ""
 
-#: src/ios_security.md:564
+#: src/ios_security.md:599
 msgid "**Allow when unlocked** (default)"
 msgstr ""
 
-#: src/ios_security.md:565
+#: src/ios_security.md:600
 msgid "**Always ask**"
 msgstr ""
 
-#: src/ios_security.md:566
+#: src/ios_security.md:601
 msgid "**Never allow**"
 msgstr ""
 
-#: src/ios_security.md:568
+#: src/ios_security.md:603
 msgid "Why This Matters"
 msgstr ""
 
-#: src/ios_security.md:570
+#: src/ios_security.md:605
 msgid "Malicious cables can extract data while appearing to charge"
 msgstr ""
 
-#: src/ios_security.md:571
+#: src/ios_security.md:606
 msgid "Compromised chargers in public places pose real risks"
 msgstr ""
 
-#: src/ios_security.md:572
+#: src/ios_security.md:607
 msgid ""
 "You now get immediate notification when a cable tries to do more than charge"
 msgstr ""
 
-#: src/ios_security.md:573
+#: src/ios_security.md:608
 msgid ""
 "Stops \"juice jacking\" attacks at airports, hotels, and other public "
 "charging stations"
 msgstr ""
 
-#: src/ios_security.md:577
+#: src/ios_security.md:612
 msgid "18. AirDrop Security (NEW in iOS 26.2)"
 msgstr ""
 
-#: src/ios_security.md:579
+#: src/ios_security.md:614
 msgid "One-Time AirDrop Codes"
 msgstr ""
 
-#: src/ios_security.md:581
+#: src/ios_security.md:616
 msgid "iOS 26.2 introduces secure codes for sharing with unknown contacts:"
 msgstr ""
 
-#: src/ios_security.md:583 src/android_security.md:168
+#: src/ios_security.md:618 src/android_security.md:168
 msgid "**How it works:**"
 msgstr ""
 
-#: src/ios_security.md:584
+#: src/ios_security.md:619
 msgid "When sharing with someone not in your contacts, generate a temporary code"
 msgstr ""
 
-#: src/ios_security.md:585
+#: src/ios_security.md:620
 msgid "The receiver displays the code on their device"
 msgstr ""
 
-#: src/ios_security.md:586
+#: src/ios_security.md:621
 msgid "Sender enters the code to complete transfer"
 msgstr ""
 
-#: src/ios_security.md:587
+#: src/ios_security.md:622
 msgid "Code is valid for 30 days for that contact"
 msgstr ""
 
-#: src/ios_security.md:589
+#: src/ios_security.md:624
 msgid "Tighter Proximity Detection"
 msgstr ""
 
-#: src/ios_security.md:591
+#: src/ios_security.md:626
 msgid "AirDrop now shows only devices within close physical proximity, reducing:"
 msgstr ""
 
-#: src/ios_security.md:592
+#: src/ios_security.md:627
 msgid "Accidental transfers"
 msgstr ""
 
-#: src/ios_security.md:593
+#: src/ios_security.md:628
 msgid "Unsolicited content (\"AirDrop spam\")"
 msgstr ""
 
-#: src/ios_security.md:594
+#: src/ios_security.md:629
 msgid "Faster peer-to-peer connections in crowded areas"
 msgstr ""
 
-#: src/ios_security.md:598
+#: src/ios_security.md:633
 msgid "19. Additional Security Recommendations"
 msgstr ""
 
-#: src/ios_security.md:600
+#: src/ios_security.md:635
 msgid "Lock Screen Security"
 msgstr ""
 
-#: src/ios_security.md:602
+#: src/ios_security.md:637
 msgid "**Disable Control Center from lock screen:**"
 msgstr ""
 
-#: src/ios_security.md:604
+#: src/ios_security.md:639
 msgid "Under **Allow Access When Locked**, toggle off:"
 msgstr ""
 
-#: src/ios_security.md:605
+#: src/ios_security.md:640
 msgid "Control Center"
 msgstr ""
 
-#: src/ios_security.md:606
+#: src/ios_security.md:641
 msgid "Notification Center"
 msgstr ""
 
-#: src/ios_security.md:607
+#: src/ios_security.md:642
 msgid "USB Accessories"
 msgstr ""
 
-#: src/ios_security.md:609
+#: src/ios_security.md:644
 msgid "Automatic Software Updates"
 msgstr ""
 
-#: src/ios_security.md:611
+#: src/ios_security.md:646
 msgid "Go to **Settings > General > Software Update**"
 msgstr ""
 
-#: src/ios_security.md:612
+#: src/ios_security.md:647
 msgid "Tap **Automatic Updates**"
 msgstr ""
 
-#: src/ios_security.md:613
+#: src/ios_security.md:648
 msgid "Enable all options including **Security Responses & System Files**"
 msgstr ""
 
-#: src/ios_security.md:615 src/android_security.md:643
+#: src/ios_security.md:650 src/android_security.md:643
 #: src/android_security.md:699
 msgid "Lock Screen Notifications"
 msgstr ""
 
-#: src/ios_security.md:617
+#: src/ios_security.md:652
 msgid "Go to **Settings > Notifications > Show Previews**"
 msgstr ""
 
-#: src/ios_security.md:618
+#: src/ios_security.md:653
 msgid "Select **When Unlocked** or **Never**"
 msgstr ""
 
-#: src/ios_security.md:620
+#: src/ios_security.md:655
 msgid "Liquid Glass Opacity (iOS 26)"
 msgstr ""
 
-#: src/ios_security.md:622
+#: src/ios_security.md:657
 msgid "For better readability and reduced glare:"
 msgstr ""
 
-#: src/ios_security.md:623
+#: src/ios_security.md:658
 msgid "Go to **Settings > Display & Brightness > Liquid Glass**"
 msgstr ""
 
-#: src/ios_security.md:624
+#: src/ios_security.md:659
 msgid "Choose **Clear** (sharper) or **Tinted** (softer, less glare)"
 msgstr ""
 
-#: src/ios_security.md:626
+#: src/ios_security.md:661
 msgid "Restart After Security Updates"
 msgstr ""
 
-#: src/ios_security.md:628
+#: src/ios_security.md:663
 msgid ""
 "After installing iOS 26.2 or any security update, **restart your device**. "
 "Some spyware lives only in volatile memory and is cleared by a reboot."
 msgstr ""
 
-#: src/ios_security.md:630
+#: src/ios_security.md:665
 msgid "Erase Data After Failed Attempts"
 msgstr ""
 
-#: src/ios_security.md:633
+#: src/ios_security.md:668
 msgid "Enable **Erase Data** (erases after 10 failed passcode attempts)"
 msgstr ""
 
-#: src/ios_security.md:637 src/android_security.md:682
+#: src/ios_security.md:672 src/android_security.md:682
 msgid "Quick Reference: Essential Settings Checklist"
 msgstr ""
 
-#: src/ios_security.md:639 src/android_security.md:684
+#: src/ios_security.md:674 src/android_security.md:684
 msgid "Setting"
 msgstr ""
 
-#: src/ios_security.md:639 src/android_security.md:213
+#: src/ios_security.md:674 src/android_security.md:213
 #: src/android_security.md:684 src/android_security.md:694
 msgid "Location"
 msgstr ""
 
-#: src/ios_security.md:639 src/android_security.md:684
+#: src/ios_security.md:674 src/android_security.md:684
 msgid "Recommended"
 msgstr ""
 
-#: src/ios_security.md:641
+#: src/ios_security.md:676
 msgid "Face ID/Touch ID"
 msgstr ""
 
-#: src/ios_security.md:641 src/ios_security.md:642 src/ios_security.md:644
+#: src/ios_security.md:676 src/ios_security.md:677 src/ios_security.md:679
 msgid "Settings > Face ID & Passcode"
 msgstr ""
 
-#: src/ios_security.md:641 src/ios_security.md:643 src/ios_security.md:644
-#: src/ios_security.md:647 src/ios_security.md:648 src/ios_security.md:649
-#: src/ios_security.md:650 src/android_security.md:686
+#: src/ios_security.md:676 src/ios_security.md:678 src/ios_security.md:679
+#: src/ios_security.md:682 src/ios_security.md:683 src/ios_security.md:684
+#: src/ios_security.md:685 src/android_security.md:686
 #: src/android_security.md:688 src/android_security.md:689
 #: src/android_security.md:690 src/android_security.md:697
 msgid "✅ Enable"
 msgstr ""
 
-#: src/ios_security.md:642
+#: src/ios_security.md:677
 msgid "Strong Passcode"
 msgstr ""
 
-#: src/ios_security.md:642
+#: src/ios_security.md:677
 msgid "✅ Alphanumeric"
 msgstr ""
 
-#: src/ios_security.md:643 src/android_security.md:688
+#: src/ios_security.md:678 src/android_security.md:688
 msgid "Two-Factor Authentication"
 msgstr ""
 
-#: src/ios_security.md:643
+#: src/ios_security.md:678
 msgid "Settings > \\[Name\\] > Sign-In & Security"
 msgstr ""
 
-#: src/ios_security.md:644
+#: src/ios_security.md:679
 msgid "Stolen Device Protection"
 msgstr ""
 
-#: src/ios_security.md:645
+#: src/ios_security.md:680
 msgid "App Tracking"
 msgstr ""
 
-#: src/ios_security.md:645
+#: src/ios_security.md:680
 msgid "Settings > Privacy & Security > Tracking"
 msgstr ""
 
-#: src/ios_security.md:645 src/android_security.md:696
+#: src/ios_security.md:680 src/android_security.md:696
 msgid "❌ Disable"
 msgstr ""
 
-#: src/ios_security.md:646
+#: src/ios_security.md:681
 msgid "Advanced Tracking Protection"
 msgstr ""
 
-#: src/ios_security.md:646
+#: src/ios_security.md:681
 msgid "Settings > Apps > Safari > Advanced"
 msgstr ""
 
-#: src/ios_security.md:646
+#: src/ios_security.md:681
 msgid "✅ All Browsing"
 msgstr ""
 
-#: src/ios_security.md:647
+#: src/ios_security.md:682
 msgid "Mail Privacy"
 msgstr ""
 
-#: src/ios_security.md:647
+#: src/ios_security.md:682
 msgid "Settings > Apps > Mail > Privacy Protection"
 msgstr ""
 
-#: src/ios_security.md:648
+#: src/ios_security.md:683
 msgid "Advanced Data Protection"
 msgstr ""
 
-#: src/ios_security.md:648
+#: src/ios_security.md:683
 msgid "Settings > \\[Name\\] > iCloud > Advanced Data Protection"
 msgstr ""
 
-#: src/ios_security.md:649
+#: src/ios_security.md:684
 msgid "Find My"
 msgstr ""
 
-#: src/ios_security.md:649
+#: src/ios_security.md:684
 msgid "Settings > \\[Name\\] > Find My"
 msgstr ""
 
-#: src/ios_security.md:650
+#: src/ios_security.md:685
 msgid "Automatic Updates"
 msgstr ""
 
-#: src/ios_security.md:650
+#: src/ios_security.md:685
 msgid "Settings > General > Software Update"
 msgstr ""
 
-#: src/ios_security.md:651
+#: src/ios_security.md:686
 msgid "Wired Accessories"
 msgstr ""
 
-#: src/ios_security.md:651
+#: src/ios_security.md:686
 msgid "Settings > Face ID & Passcode > Accessories"
 msgstr ""
 
-#: src/ios_security.md:651
+#: src/ios_security.md:686
 msgid "⚙️ Always Ask"
 msgstr ""
 
-#: src/ios_security.md:652
+#: src/ios_security.md:687
 msgid "Lock Screen Previews"
 msgstr ""
 
-#: src/ios_security.md:652
+#: src/ios_security.md:687
 msgid "Settings > Notifications > Show Previews"
 msgstr ""
 
-#: src/ios_security.md:652
+#: src/ios_security.md:687
 msgid "⚙️ When Unlocked"
 msgstr ""
 
-#: src/ios_security.md:656 src/android_security.md:703
+#: src/ios_security.md:691 src/android_security.md:703
 msgid "Conclusion"
 msgstr ""
 
-#: src/ios_security.md:658
+#: src/ios_security.md:693
 msgid ""
 "iOS 26.2 represents Apple's most comprehensive security and privacy update "
 "to date. Key priorities:"
 msgstr ""
 
-#: src/ios_security.md:660
+#: src/ios_security.md:695
 msgid ""
 "**Update to iOS 26.2 immediately** – Patches actively exploited zero-day "
 "vulnerabilities"
 msgstr ""
 
-#: src/ios_security.md:661
+#: src/ios_security.md:696
 msgid "**Enable lockdown mode** – Prevents sophisticated spyware attacks"
 msgstr ""
 
-#: src/ios_security.md:662
+#: src/ios_security.md:697
 msgid ""
 "**Enable Stolen Device Protection** – Prevents thieves from accessing data "
 "even with your passcode"
 msgstr ""
 
-#: src/ios_security.md:663
+#: src/ios_security.md:698
 msgid ""
 "**Turn on Advanced Data Protection** – End-to-end encrypts your iCloud data"
 msgstr ""
 
-#: src/ios_security.md:664
+#: src/ios_security.md:699
 msgid ""
 "**Enable Advanced Tracking Protection for All Browsing** – Major "
 "anti-fingerprinting improvement"
 msgstr ""
 
-#: src/ios_security.md:665
+#: src/ios_security.md:700
 msgid ""
 "**Configure Wired Accessories security** – Protects against malicious "
 "charging cables"
 msgstr ""
 
-#: src/ios_security.md:666
+#: src/ios_security.md:701
 msgid ""
 "**Use Passkeys** – Let iOS 26 automatically upgrade your passwords to "
 "phishing-resistant passkeys"
 msgstr ""
 
-#: src/ios_security.md:667
+#: src/ios_security.md:702
 msgid "**Restart after updates** – Clears memory-resident threats"
 msgstr ""
 
-#: src/ios_security.md:669
+#: src/ios_security.md:704
 msgid ""
 "By configuring these settings, you significantly strengthen your privacy and "
 "security against both common and sophisticated threats."
 msgstr ""
 
-#: src/ios_security.md:673
+#: src/ios_security.md:708
 msgid ""
 "_Last updated: January 29, 2026 | Applies to iOS 26.2.1_ _Device "
 "requirements: iPhone 11 or later (A13 Bionic chip minimum)_ _AirTag (2nd "
