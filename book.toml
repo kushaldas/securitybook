@@ -10,4 +10,4 @@ extra-watch-dirs = ["po"]
 after = ["links"]
 
 [output.html]
-additional-css = ["theme/css/language-picker.css"]
+additional-css = ["theme/css/language-picker.css", "theme/css/admonitions.css"]

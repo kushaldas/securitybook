@@ -1,0 +1,60 @@
+/* Admonition blocks using blockquote with class */
+.warning-block, .danger-block {
+    border-left: 4px solid;
+    border-radius: 4px;
+    padding: 12px 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.warning-block {
+    border-left-color: #d4760a;
+    background-color: #fef3e2;
+}
+
+.danger-block {
+    border-left-color: #c62828;
+    background-color: #fdecea;
+}
+
+.warning-block .admon-icon,
+.danger-block .admon-icon {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    margin-top: 2px;
+}
+
+.warning-block .admon-body,
+.danger-block .admon-body {
+    flex: 1;
+}
+
+.warning-block .admon-title,
+.danger-block .admon-title {
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.warning-block .admon-title {
+    color: #d4760a;
+}
+
+.danger-block .admon-title {
+    color: #c62828;
+}
+
+/* Dark theme adjustments */
+.coal .warning-block,
+.navy .warning-block,
+.ayu .warning-block {
+    background-color: rgba(212, 118, 10, 0.15);
+}
+
+.coal .danger-block,
+.navy .danger-block,
+.ayu .danger-block {
+    background-color: rgba(198, 40, 40, 0.15);
+}

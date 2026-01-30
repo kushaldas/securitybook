@@ -51,7 +51,14 @@ iOS 26.2.1 is a minor update focused on new hardware support and bug fixes.
 **Also Released:**
 - iOS 18.7.4, iOS 16.7.13, iOS 15.8.6, iOS 12.5.8 – Certificate updates for iMessage, FaceTime, and Apple account sign-in (valid until January 2027)
 
-**Critical:** iOS 26.2.1 is required for AirTag (2nd Generation). Update via **Settings > General > Software Update**.
+<div class="danger-block">
+<svg class="admon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#c62828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+<div class="admon-body">
+<div class="admon-title">Critical</div>
+
+iOS 26.2.1 is required for AirTag (2nd Generation). Update via **Settings > General > Software Update**.
+
+</div></div>
 
 ---
 
@@ -127,11 +134,17 @@ Security keys are small external devices that look like a thumb drive or tag. Th
 - Resetting your Apple Account password or unlocking your account
 - Adding or removing security keys
 
-**Important:**
+<div class="warning-block">
+<svg class="admon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#d4760a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+<div class="admon-body">
+<div class="admon-title">Important</div>
+
 - You must keep at least two security keys in safe places. If you lose all your trusted devices and security keys, you could be locked out of your account permanently.
 - Security keys are not compatible with child accounts or Managed Apple Accounts.
 - Apple Watch paired using a family member's iPhone is not supported.
 - Devices signed in with your account that have not been used for more than 90 days will be signed out when you add security keys. You can sign back in to those devices using a security key.
+
+</div></div>
 
 ---
 
@@ -391,19 +404,29 @@ End-to-end encryption for the majority of your iCloud data.
    - **Recovery Contact** – Trusted person to help regain access
    - **Recovery Key** – 28-character code to store securely
 
-### Important
+<div class="warning-block">
+<svg class="admon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#d4760a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+<div class="admon-body">
+<div class="admon-title">Important</div>
 
 - **Apple cannot recover your data** if you lose access
 - All devices must run supported OS versions
 - iCloud.com access is disabled by default
 
+</div></div>
+
 ---
 
 ## 10. Lockdown Mode
 
-Extreme protection for users who may be targeted by sophisticated attacks. This
-mode significantly restricts device functionality to reduce attack surfaces,
-but also provides robust defense against mercenary spyware.
+<div class="warning-block">
+<svg class="admon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#d4760a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+<div class="admon-body">
+<div class="admon-title">Important</div>
+
+Extreme protection for users who may be targeted by sophisticated attacks. This mode significantly restricts device functionality to reduce attack surfaces, but also provides robust defense against mercenary spyware.
+
+</div></div>
 
 ### Who Should Use It
 
