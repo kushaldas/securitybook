@@ -1,3 +1,6 @@
+_default:
+  @just --list
+
 # Install required tools
 install:
     cargo install mdbook mdbook-i18n-helpers
