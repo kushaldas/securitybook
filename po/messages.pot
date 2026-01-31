@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Security Guidebook\n"
-"POT-Creation-Date: 2026-01-30T12:03:58+01:00\n"
+"POT-Creation-Date: 2026-01-31T10:57:51+01:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -26,6 +26,10 @@ msgstr ""
 
 #: src/SUMMARY.md:5
 msgid "Android Security and Privacy Settings"
+msgstr ""
+
+#: src/SUMMARY.md:6
+msgid "GrapheneOS Security and Privacy Settings"
 msgstr ""
 
 #: src/chapter_1.md:1
@@ -1077,7 +1081,7 @@ msgstr ""
 msgid "Photos"
 msgstr ""
 
-#: src/ios_security.md:388
+#: src/ios_security.md:388 src/grapheneos_security.md:193
 msgid "Notes"
 msgstr ""
 
@@ -1656,6 +1660,7 @@ msgid "iOS 26.2 introduces secure codes for sharing with unknown contacts:"
 msgstr ""
 
 #: src/ios_security.md:641 src/android_security.md:236
+#: src/grapheneos_security.md:263
 msgid "**How it works:**"
 msgstr ""
 
@@ -1791,6 +1796,8 @@ msgid "Quick Reference: Essential Settings Checklist"
 msgstr ""
 
 #: src/ios_security.md:697 src/android_security.md:759
+#: src/grapheneos_security.md:255 src/grapheneos_security.md:555
+#: src/grapheneos_security.md:636
 msgid "Setting"
 msgstr ""
 
@@ -1887,7 +1894,7 @@ msgstr ""
 msgid "Settings > \\[Name\\] > Find My"
 msgstr ""
 
-#: src/ios_security.md:708
+#: src/ios_security.md:708 src/grapheneos_security.md:773
 msgid "Automatic Updates"
 msgstr ""
 
@@ -2075,7 +2082,7 @@ msgstr ""
 msgid "**Restore Credentials** – Seamless passkey migration to new devices"
 msgstr ""
 
-#: src/android_security.md:26
+#: src/android_security.md:26 src/grapheneos_security.md:115
 msgid "Device Requirements"
 msgstr ""
 
@@ -2316,7 +2323,7 @@ msgstr ""
 msgid "2. Device Authentication"
 msgstr ""
 
-#: src/android_security.md:118
+#: src/android_security.md:118 src/grapheneos_security.md:189
 msgid "Screen Lock Options"
 msgstr ""
 
@@ -3081,7 +3088,7 @@ msgstr ""
 msgid "Or open the **Passwords** app"
 msgstr ""
 
-#: src/android_security.md:439
+#: src/android_security.md:439 src/grapheneos_security.md:741
 msgid "**Features:**"
 msgstr ""
 
@@ -3109,7 +3116,8 @@ msgstr ""
 msgid "Passkeys are phishing-resistant replacements for passwords."
 msgstr ""
 
-#: src/android_security.md:449
+#: src/android_security.md:449 src/grapheneos_security.md:216
+#: src/grapheneos_security.md:787
 msgid "**Benefits:**"
 msgstr ""
 
@@ -3417,7 +3425,9 @@ msgstr ""
 msgid "Blocks physical data extraction attempts"
 msgstr ""
 
-#: src/android_security.md:568
+#: src/android_security.md:568 src/grapheneos_security.md:324
+#: src/grapheneos_security.md:356 src/grapheneos_security.md:378
+#: src/grapheneos_security.md:410
 msgid "How It Works"
 msgstr ""
 
@@ -3676,7 +3686,7 @@ msgstr ""
 msgid "Select **Enhanced protection**"
 msgstr ""
 
-#: src/android_security.md:679
+#: src/android_security.md:679 src/grapheneos_security.md:872
 msgid "Privacy Settings"
 msgstr ""
 
@@ -4024,5 +4034,2766 @@ msgstr ""
 msgid ""
 "_Last updated: January 2026 | Applies to Android 16_ _Note: Settings may "
 "vary slightly by device manufacturer (Pixel, Samsung, etc.)_"
+msgstr ""
+
+#: src/grapheneos_security.md:1
+msgid "GrapheneOS Security & Privacy Settings Guide"
+msgstr ""
+
+#: src/grapheneos_security.md:2
+msgid "Latest Stable Release: 2026012100 (January 21, 2026)"
+msgstr ""
+
+#: src/grapheneos_security.md:3
+msgid "Latest Beta/Alpha Release: 2026012800 (January 28, 2026)"
+msgstr ""
+
+#: src/grapheneos_security.md:4
+msgid "Based on Android 16 QPR2"
+msgstr ""
+
+#: src/grapheneos_security.md:8
+msgid "**Current Version Information:**"
+msgstr ""
+
+#: src/grapheneos_security.md:9
+msgid "**Stable Release:** 2026012100 (January 21, 2026)"
+msgstr ""
+
+#: src/grapheneos_security.md:10
+msgid "**Beta/Alpha Release:** 2026012800 (January 28, 2026)"
+msgstr ""
+
+#: src/grapheneos_security.md:11
+msgid "**Security Preview:** 2026012801 (includes patches through June 2026 ASB)"
+msgstr ""
+
+#: src/grapheneos_security.md:12
+msgid "**Android Base:** Android 16 QPR2 (BP4A.251205.006)"
+msgstr ""
+
+#: src/grapheneos_security.md:13
+msgid "**Kernel Versions:** 6.1.161 (GKI LTS), 6.6 LTS, 6.12.67 LTS"
+msgstr ""
+
+#: src/grapheneos_security.md:14
+msgid "**Vanadium Browser:** 144.0.7559.109.0"
+msgstr ""
+
+#: src/grapheneos_security.md:18
+msgid "1. Overview"
+msgstr ""
+
+#: src/grapheneos_security.md:20
+msgid ""
+"GrapheneOS is a privacy and security-focused mobile operating system based "
+"on the Android Open Source Project (AOSP). It is designed for users who "
+"require the highest level of mobile security, including journalists, "
+"activists, security researchers, and privacy-conscious individuals. Notably, "
+"Edward Snowden has publicly endorsed GrapheneOS as his mobile OS of choice."
+msgstr ""
+
+#: src/grapheneos_security.md:27
+msgid ""
+"I personally did not verify all details as I am running an older version of "
+"GrapheneOS."
+msgstr ""
+
+#: src/grapheneos_security.md:31
+msgid "What's New in 2025-2026"
+msgstr ""
+
+#: src/grapheneos_security.md:33
+msgid "**Latest Beta Release (2026012800 - January 28, 2026):**"
+msgstr ""
+
+#: src/grapheneos_security.md:34
+msgid ""
+"FusedLocationProvider: Restored pre-16-QPR1 GNSS usage policy (uses GNSS for "
+"both balanced and high power requests)"
+msgstr ""
+
+#: src/grapheneos_security.md:35
+msgid ""
+"Sandboxed Google Play: Added special case for SMS permission to enable "
+"SMS-based authentication for apps using Google Play services"
+msgstr ""
+
+#: src/grapheneos_security.md:36
+msgid ""
+"Sandboxed Google Play: Prevented Play Store from attempting to install "
+"unnecessary \"Device configuration\" package"
+msgstr ""
+
+#: src/grapheneos_security.md:37
+msgid ""
+"Improved secure app spawning compatibility with anti-tampering checks in "
+"certain apps"
+msgstr ""
+
+#: src/grapheneos_security.md:38
+msgid ""
+"Settings: Now requires device restart after changing secure app spawning "
+"setting"
+msgstr ""
+
+#: src/grapheneos_security.md:39
+msgid ""
+"Network Location: Renamed \"GrapheneOS proxy\" to \"GrapheneOS Apple proxy\" "
+"for clarity"
+msgstr ""
+
+#: src/grapheneos_security.md:40
+msgid ""
+"Network Location: Added \"Apple China\" server choice for China data "
+"compliance"
+msgstr ""
+
+#: src/grapheneos_security.md:41
+msgid "Pixel 8a, 9th/10th gen: Disabled NTP usage in Samsung gnssd"
+msgstr ""
+
+#: src/grapheneos_security.md:42
+msgid "Improved UI for Network/Sensors permissions in permission manager"
+msgstr ""
+
+#: src/grapheneos_security.md:43
+msgid "Fixed Material 3 Expressive styling for Contact/Storage Scopes UI"
+msgstr ""
+
+#: src/grapheneos_security.md:44
+msgid "Kernel 6.12 updated to 6.12.67"
+msgstr ""
+
+#: src/grapheneos_security.md:45
+msgid "Vanadium updated to 144.0.7559.109.0"
+msgstr ""
+
+#: src/grapheneos_security.md:47
+msgid "**Current Stable Release (2026012100 - January 21, 2026):**"
+msgstr ""
+
+#: src/grapheneos_security.md:48
+msgid ""
+"Fixed upstream infinite loop bug in ProtoFieldFilter.skipBytes() causing "
+"system unusability in early boot"
+msgstr ""
+
+#: src/grapheneos_security.md:49
+msgid "libpng: Backported security patches"
+msgstr ""
+
+#: src/grapheneos_security.md:50
+msgid "Removed unused INTERNET permission from Pixel Camera Services"
+msgstr ""
+
+#: src/grapheneos_security.md:51
+msgid "Kernel 6.1 updated to 6.1.161, Kernel 6.12 updated to 6.12.66"
+msgstr ""
+
+#: src/grapheneos_security.md:52
+msgid "Vanadium updated through version 144.0.7559.90.0"
+msgstr ""
+
+#: src/grapheneos_security.md:54
+msgid "**Security Preview Release (2026012801):**"
+msgstr ""
+
+#: src/grapheneos_security.md:55
+msgid "Includes patches through June 2026 Android Security Bulletin"
+msgstr ""
+
+#: src/grapheneos_security.md:56
+msgid "8 Critical CVEs patched (CVE-2026-0039 through CVE-2026-0049)"
+msgstr ""
+
+#: src/grapheneos_security.md:57
+msgid "38+ High-severity CVEs patched ahead of public disclosure"
+msgstr ""
+
+#: src/grapheneos_security.md:58
+msgid ""
+"Enable via Settings > System > System update > Receive security preview "
+"releases"
+msgstr ""
+
+#: src/grapheneos_security.md:60
+msgid "**Recent Major Features:**"
+msgstr ""
+
+#: src/grapheneos_security.md:61
+msgid "**Android 16 QPR2 base** - Latest security patches and features"
+msgstr ""
+
+#: src/grapheneos_security.md:62
+msgid ""
+"**Security Preview Releases** - Get security patches months ahead of public "
+"disclosure"
+msgstr ""
+
+#: src/grapheneos_security.md:63
+msgid ""
+"**Pixel 10 support** - Full support for Pixel 10 family (no longer "
+"experimental as of January 2026)"
+msgstr ""
+
+#: src/grapheneos_security.md:64
+msgid ""
+"**Private Space integration** - Android 15+ feature fully supported as "
+"replacement for work profiles"
+msgstr ""
+
+#: src/grapheneos_security.md:65
+msgid ""
+"**Enhanced memory tagging** - Expanded MTE support for hardware-level memory "
+"safety"
+msgstr ""
+
+#: src/grapheneos_security.md:66
+msgid "**Post-quantum cryptography** - Hybrid key exchange in Vanadium browser"
+msgstr ""
+
+#: src/grapheneos_security.md:67
+msgid ""
+"**Improved VPN leak protection** - Comprehensive protection against all "
+"forms of VPN bypasses"
+msgstr ""
+
+#: src/grapheneos_security.md:68
+msgid ""
+"**OEM partnership announced** - Non-Pixel devices expected Q4 2026 or Q1 2027"
+msgstr ""
+
+#: src/grapheneos_security.md:69
+msgid "**Lockscreen widget support** - Enabled in December 2025 release"
+msgstr ""
+
+#: src/grapheneos_security.md:71
+msgid "Key Differentiators from Stock Android"
+msgstr ""
+
+#: src/grapheneos_security.md:73
+msgid "Feature"
+msgstr ""
+
+#: src/grapheneos_security.md:73 src/grapheneos_security.md:512
+#: src/grapheneos_security.md:578
+msgid "Stock Android"
+msgstr ""
+
+#: src/grapheneos_security.md:73 src/grapheneos_security.md:512
+#: src/grapheneos_security.md:578
+msgid "GrapheneOS"
+msgstr ""
+
+#: src/grapheneos_security.md:75
+msgid "Google Services"
+msgstr ""
+
+#: src/grapheneos_security.md:75
+msgid "Deeply integrated with privileged access"
+msgstr ""
+
+#: src/grapheneos_security.md:75
+msgid "Optional, fully sandboxed, no special privileges"
+msgstr ""
+
+#: src/grapheneos_security.md:76
+msgid "Network Permission"
+msgstr ""
+
+#: src/grapheneos_security.md:76 src/grapheneos_security.md:78
+#: src/grapheneos_security.md:79
+msgid "Not available"
+msgstr ""
+
+#: src/grapheneos_security.md:76
+msgid "Per-app toggle to completely block network"
+msgstr ""
+
+#: src/grapheneos_security.md:77
+msgid "Sensors Permission"
+msgstr ""
+
+#: src/grapheneos_security.md:77
+msgid "Limited"
+msgstr ""
+
+#: src/grapheneos_security.md:77
+msgid "Per-app toggle for accelerometer, gyroscope, etc."
+msgstr ""
+
+#: src/grapheneos_security.md:78
+msgid "Auto-Reboot"
+msgstr ""
+
+#: src/grapheneos_security.md:78
+msgid "Configurable 10 min to 72 hours (default: 18 hours)"
+msgstr ""
+
+#: src/grapheneos_security.md:79
+msgid "Duress PIN"
+msgstr ""
+
+#: src/grapheneos_security.md:79
+msgid "Instantly wipes device when entered"
+msgstr ""
+
+#: src/grapheneos_security.md:80
+msgid "USB Protection"
+msgstr ""
+
+#: src/grapheneos_security.md:80
+msgid "Software-only"
+msgstr ""
+
+#: src/grapheneos_security.md:80
+msgid "Hardware + software, blocks data lines"
+msgstr ""
+
+#: src/grapheneos_security.md:81
+msgid "Exploit Mitigations"
+msgstr ""
+
+#: src/grapheneos_security.md:81
+msgid "Standard"
+msgstr ""
+
+#: src/grapheneos_security.md:81
+msgid "Hardened malloc, kernel hardening, MTE"
+msgstr ""
+
+#: src/grapheneos_security.md:82
+msgid "Update Speed"
+msgstr ""
+
+#: src/grapheneos_security.md:82
+msgid "Monthly patches"
+msgstr ""
+
+#: src/grapheneos_security.md:82
+msgid "Security patches months ahead via preview releases"
+msgstr ""
+
+#: src/grapheneos_security.md:86
+msgid "2. Supported Devices"
+msgstr ""
+
+#: src/grapheneos_security.md:88
+msgid ""
+"GrapheneOS exclusively supports Google Pixel devices due to their hardware "
+"security features, including the Titan M2 security chip and hardware-backed "
+"attestation."
+msgstr ""
+
+#: src/grapheneos_security.md:90
+msgid "Currently Supported (Full Support)"
+msgstr ""
+
+#: src/grapheneos_security.md:92
+msgid "Device"
+msgstr ""
+
+#: src/grapheneos_security.md:92
+msgid "Codename"
+msgstr ""
+
+#: src/grapheneos_security.md:92
+msgid "Support Until"
+msgstr ""
+
+#: src/grapheneos_security.md:94
+msgid "Pixel 10 Pro Fold"
+msgstr ""
+
+#: src/grapheneos_security.md:94
+msgid "rango"
+msgstr ""
+
+#: src/grapheneos_security.md:94 src/grapheneos_security.md:95
+#: src/grapheneos_security.md:96 src/grapheneos_security.md:97
+msgid "~2032"
+msgstr ""
+
+#: src/grapheneos_security.md:95
+msgid "Pixel 10 Pro XL"
+msgstr ""
+
+#: src/grapheneos_security.md:95
+msgid "mustang"
+msgstr ""
+
+#: src/grapheneos_security.md:96
+msgid "Pixel 10 Pro"
+msgstr ""
+
+#: src/grapheneos_security.md:96
+msgid "blazer"
+msgstr ""
+
+#: src/grapheneos_security.md:97
+msgid "Pixel 10"
+msgstr ""
+
+#: src/grapheneos_security.md:97
+msgid "frankel"
+msgstr ""
+
+#: src/grapheneos_security.md:98
+msgid "Pixel 9a"
+msgstr ""
+
+#: src/grapheneos_security.md:98
+msgid "toki"
+msgstr ""
+
+#: src/grapheneos_security.md:98 src/grapheneos_security.md:99
+#: src/grapheneos_security.md:100 src/grapheneos_security.md:101
+#: src/grapheneos_security.md:102 src/grapheneos_security.md:103
+msgid "~2031"
+msgstr ""
+
+#: src/grapheneos_security.md:99
+msgid "Pixel 9 Pro Fold"
+msgstr ""
+
+#: src/grapheneos_security.md:99
+msgid "comet"
+msgstr ""
+
+#: src/grapheneos_security.md:100
+msgid "Pixel 9 Pro XL"
+msgstr ""
+
+#: src/grapheneos_security.md:100
+msgid "komodo"
+msgstr ""
+
+#: src/grapheneos_security.md:101
+msgid "Pixel 9 Pro"
+msgstr ""
+
+#: src/grapheneos_security.md:101
+msgid "caiman"
+msgstr ""
+
+#: src/grapheneos_security.md:102
+msgid "Pixel 9"
+msgstr ""
+
+#: src/grapheneos_security.md:102
+msgid "tokay"
+msgstr ""
+
+#: src/grapheneos_security.md:103
+msgid "Pixel 8a"
+msgstr ""
+
+#: src/grapheneos_security.md:103
+msgid "akita"
+msgstr ""
+
+#: src/grapheneos_security.md:104
+msgid "Pixel 8 Pro"
+msgstr ""
+
+#: src/grapheneos_security.md:104
+msgid "husky"
+msgstr ""
+
+#: src/grapheneos_security.md:104 src/grapheneos_security.md:105
+msgid "~2030"
+msgstr ""
+
+#: src/grapheneos_security.md:105
+msgid "Pixel 8"
+msgstr ""
+
+#: src/grapheneos_security.md:105
+msgid "shiba"
+msgstr ""
+
+#: src/grapheneos_security.md:106
+msgid "Pixel Fold"
+msgstr ""
+
+#: src/grapheneos_security.md:106
+msgid "felix"
+msgstr ""
+
+#: src/grapheneos_security.md:106 src/grapheneos_security.md:107
+#: src/grapheneos_security.md:108
+msgid "~2028"
+msgstr ""
+
+#: src/grapheneos_security.md:107
+msgid "Pixel Tablet"
+msgstr ""
+
+#: src/grapheneos_security.md:107
+msgid "tangorpro"
+msgstr ""
+
+#: src/grapheneos_security.md:108
+msgid "Pixel 7a"
+msgstr ""
+
+#: src/grapheneos_security.md:108
+msgid "lynx"
+msgstr ""
+
+#: src/grapheneos_security.md:109
+msgid "Pixel 7 Pro"
+msgstr ""
+
+#: src/grapheneos_security.md:109
+msgid "cheetah"
+msgstr ""
+
+#: src/grapheneos_security.md:109 src/grapheneos_security.md:110
+#: src/grapheneos_security.md:111
+msgid "~2027"
+msgstr ""
+
+#: src/grapheneos_security.md:110
+msgid "Pixel 7"
+msgstr ""
+
+#: src/grapheneos_security.md:110
+msgid "panther"
+msgstr ""
+
+#: src/grapheneos_security.md:111
+msgid "Pixel 6a"
+msgstr ""
+
+#: src/grapheneos_security.md:111
+msgid "bluejay"
+msgstr ""
+
+#: src/grapheneos_security.md:112
+msgid "Pixel 6 Pro"
+msgstr ""
+
+#: src/grapheneos_security.md:112
+msgid "raven"
+msgstr ""
+
+#: src/grapheneos_security.md:112 src/grapheneos_security.md:113
+msgid "~2026"
+msgstr ""
+
+#: src/grapheneos_security.md:113
+msgid "Pixel 6"
+msgstr ""
+
+#: src/grapheneos_security.md:113
+msgid "oriole"
+msgstr ""
+
+#: src/grapheneos_security.md:117
+msgid ""
+"**OEM-unlockable bootloader** - Carrier-locked devices (e.g., Verizon) are "
+"NOT supported"
+msgstr ""
+
+#: src/grapheneos_security.md:118
+msgid ""
+"**Titan M/M2 security chip** - Required for hardware-based security features"
+msgstr ""
+
+#: src/grapheneos_security.md:119
+msgid ""
+"**Google hardware** - Only official Pixel devices meet security requirements"
+msgstr ""
+
+#: src/grapheneos_security.md:121
+msgid "Future Support"
+msgstr ""
+
+#: src/grapheneos_security.md:123
+msgid ""
+"GrapheneOS announced in October 2025 a partnership with a \"major Android "
+"OEM\" to support Snapdragon-powered flagship devices, expected Q4 2026 or Q1 "
+"2027."
+msgstr ""
+
+#: src/grapheneos_security.md:127
+msgid "3. Installation"
+msgstr ""
+
+#: src/grapheneos_security.md:129
+msgid "Prerequisites"
+msgstr ""
+
+#: src/grapheneos_security.md:131
+msgid "Unlocked Pixel device (not carrier-locked)"
+msgstr ""
+
+#: src/grapheneos_security.md:132
+msgid "Computer with Chrome/Chromium browser (for web installer)"
+msgstr ""
+
+#: src/grapheneos_security.md:133
+msgid "USB cable"
+msgstr ""
+
+#: src/grapheneos_security.md:135
+msgid "Web Installer (Recommended)"
+msgstr ""
+
+#: src/grapheneos_security.md:137
+msgid "Go to **https://grapheneos.org/install/web**"
+msgstr ""
+
+#: src/grapheneos_security.md:138
+msgid "Connect your Pixel via USB"
+msgstr ""
+
+#: src/grapheneos_security.md:139
+msgid "Follow on-screen instructions to:"
+msgstr ""
+
+#: src/grapheneos_security.md:140
+msgid "Enable OEM unlocking in Developer Options"
+msgstr ""
+
+#: src/grapheneos_security.md:141
+msgid "Unlock the bootloader"
+msgstr ""
+
+#: src/grapheneos_security.md:142
+msgid "Flash GrapheneOS"
+msgstr ""
+
+#: src/grapheneos_security.md:143
+msgid "Lock the bootloader (critical for security)"
+msgstr ""
+
+#: src/grapheneos_security.md:145
+msgid "Important Notes"
+msgstr ""
+
+#: src/grapheneos_security.md:147
+msgid ""
+"**Always lock the bootloader after installation** - An unlocked bootloader "
+"defeats security"
+msgstr ""
+
+#: src/grapheneos_security.md:148
+msgid "Installation takes approximately 10-15 minutes"
+msgstr ""
+
+#: src/grapheneos_security.md:149
+msgid "All data will be erased during installation"
+msgstr ""
+
+#: src/grapheneos_security.md:150
+msgid "The web installer prevents bricking - it's very safe"
+msgstr ""
+
+#: src/grapheneos_security.md:154
+msgid "4. Initial Setup"
+msgstr ""
+
+#: src/grapheneos_security.md:156
+msgid "Setup Wizard Security Features"
+msgstr ""
+
+#: src/grapheneos_security.md:158
+msgid "GrapheneOS's Setup Wizard includes enhanced security checks:"
+msgstr ""
+
+#: src/grapheneos_security.md:160
+msgid ""
+"**Bootloader Warning** - Alerts if bootloader is unlocked with option to "
+"reboot to fastboot"
+msgstr ""
+
+#: src/grapheneos_security.md:161
+msgid ""
+"**OEM Unlocking Auto-Disable** - Disables OEM unlocking at end of setup "
+"(toggle to opt-out)"
+msgstr ""
+
+#: src/grapheneos_security.md:163
+msgid "Recommended Initial Configuration"
+msgstr ""
+
+#: src/grapheneos_security.md:165
+msgid "After completing basic setup:"
+msgstr ""
+
+#: src/grapheneos_security.md:167
+msgid "**Set a strong lock method**"
+msgstr ""
+
+#: src/grapheneos_security.md:168
+msgid "Settings > Security & privacy > Device unlock > Screen lock"
+msgstr ""
+
+#: src/grapheneos_security.md:169
+msgid "Use a strong password (16+ characters) or secure PIN (6+ digits)"
+msgstr ""
+
+#: src/grapheneos_security.md:170
+msgid "Consider enabling **Scramble PIN input layout**"
+msgstr ""
+
+#: src/grapheneos_security.md:172
+msgid "**Configure fingerprint with 2FA PIN** (optional)"
+msgstr ""
+
+#: src/grapheneos_security.md:173
+msgid "Adds requirement to enter short PIN after fingerprint"
+msgstr ""
+
+#: src/grapheneos_security.md:174
+msgid "Provides strong passphrase security with fingerprint convenience"
+msgstr ""
+
+#: src/grapheneos_security.md:176
+msgid "**Enable Duress PIN/Password**"
+msgstr ""
+
+#: src/grapheneos_security.md:177
+msgid "Settings > Security & privacy > Device unlock > Duress Password"
+msgstr ""
+
+#: src/grapheneos_security.md:178
+msgid "Set BOTH a duress PIN and password"
+msgstr ""
+
+#: src/grapheneos_security.md:179
+msgid "This will wipe the device instantly when entered"
+msgstr ""
+
+#: src/grapheneos_security.md:181
+msgid "**Review exploit protection defaults**"
+msgstr ""
+
+#: src/grapheneos_security.md:182
+msgid "Settings > Security & privacy > Exploit protection"
+msgstr ""
+
+#: src/grapheneos_security.md:183
+msgid "Default settings are secure; customize as needed"
+msgstr ""
+
+#: src/grapheneos_security.md:187
+msgid "5. Device Unlock & Authentication"
+msgstr ""
+
+#: src/grapheneos_security.md:191
+msgid "**Location:** Settings > Security & privacy > Device unlock > Screen lock"
+msgstr ""
+
+#: src/grapheneos_security.md:193
+msgid "Method"
+msgstr ""
+
+#: src/grapheneos_security.md:193
+msgid "Security Level"
+msgstr ""
+
+#: src/grapheneos_security.md:195
+msgid "Password"
+msgstr ""
+
+#: src/grapheneos_security.md:195
+msgid "Highest"
+msgstr ""
+
+#: src/grapheneos_security.md:195
+msgid "Up to 128 characters (vs 16 on stock Android)"
+msgstr ""
+
+#: src/grapheneos_security.md:196
+msgid "PIN"
+msgstr ""
+
+#: src/grapheneos_security.md:196
+msgid "High"
+msgstr ""
+
+#: src/grapheneos_security.md:196
+msgid "Use 6+ random digits"
+msgstr ""
+
+#: src/grapheneos_security.md:197
+msgid "Pattern"
+msgstr ""
+
+#: src/grapheneos_security.md:197
+msgid "Medium"
+msgstr ""
+
+#: src/grapheneos_security.md:197
+msgid "Not recommended"
+msgstr ""
+
+#: src/grapheneos_security.md:198
+msgid "None"
+msgstr ""
+
+#: src/grapheneos_security.md:198
+msgid "Never use"
+msgstr ""
+
+#: src/grapheneos_security.md:200
+msgid "PIN Scrambling"
+msgstr ""
+
+#: src/grapheneos_security.md:202
+msgid ""
+"**Location:** Settings > Security & privacy > Device unlock > Scramble PIN "
+"input layout"
+msgstr ""
+
+#: src/grapheneos_security.md:204
+msgid "Randomizes keypad layout each time"
+msgstr ""
+
+#: src/grapheneos_security.md:205
+msgid "Prevents shoulder-surfing and smudge attacks"
+msgstr ""
+
+#: src/grapheneos_security.md:206
+msgid "Recommended: **Enable**"
+msgstr ""
+
+#: src/grapheneos_security.md:208
+msgid "Two-Factor Fingerprint Unlock"
+msgstr ""
+
+#: src/grapheneos_security.md:210
+msgid "**Location:** Settings > Security & privacy > Device unlock"
+msgstr ""
+
+#: src/grapheneos_security.md:212
+msgid "When enabled:"
+msgstr ""
+
+#: src/grapheneos_security.md:213
+msgid "Authenticate with fingerprint"
+msgstr ""
+
+#: src/grapheneos_security.md:214
+msgid "Then enter a short PIN to complete unlock"
+msgstr ""
+
+#: src/grapheneos_security.md:217
+msgid "Use a strong passphrase as primary unlock"
+msgstr ""
+
+#: src/grapheneos_security.md:218
+msgid "Convenience of fingerprint + short PIN for daily use"
+msgstr ""
+
+#: src/grapheneos_security.md:219
+msgid "Failed PIN attempts count toward lockout limit"
+msgstr ""
+
+#: src/grapheneos_security.md:221
+msgid "Duress PIN/Password"
+msgstr ""
+
+#: src/grapheneos_security.md:223
+msgid ""
+"**Location:** Settings > Security & privacy > Device unlock > Duress Password"
+msgstr ""
+
+#: src/grapheneos_security.md:225
+msgid "**Both** a duress PIN and password are required"
+msgstr ""
+
+#: src/grapheneos_security.md:226
+msgid ""
+"When entered **anywhere** credentials are requested (lockscreen, settings "
+"prompts):"
+msgstr ""
+
+#: src/grapheneos_security.md:227
+msgid "Device is **immediately and irreversibly wiped**"
+msgstr ""
+
+#: src/grapheneos_security.md:228
+msgid "All installed eSIMs are wiped"
+msgstr ""
+
+#: src/grapheneos_security.md:229
+msgid "Wipe cannot be interrupted"
+msgstr ""
+
+#: src/grapheneos_security.md:230
+msgid "Device is NOT bricked - can reinstall GrapheneOS"
+msgstr ""
+
+#: src/grapheneos_security.md:232
+msgid "**Critical Rules:**"
+msgstr ""
+
+#: src/grapheneos_security.md:233
+msgid ""
+"If duress PIN equals your real PIN, the real PIN takes precedence (no wipe)"
+msgstr ""
+
+#: src/grapheneos_security.md:234
+msgid "Check local laws regarding evidence destruction before using"
+msgstr ""
+
+#: src/grapheneos_security.md:235
+msgid "Do NOT use simple sequences like 1234 that others might guess"
+msgstr ""
+
+#: src/grapheneos_security.md:237
+msgid "Fingerprint Security Improvements"
+msgstr ""
+
+#: src/grapheneos_security.md:239
+msgid ""
+"GrapheneOS limits fingerprint attempts to **5 total** (vs 20 on stock "
+"Android with delays):"
+msgstr ""
+
+#: src/grapheneos_security.md:240
+msgid "Makes intentional lockout easy (use wrong finger 5 times)"
+msgstr ""
+
+#: src/grapheneos_security.md:241
+msgid "Significantly reduces brute-force risk"
+msgstr ""
+
+#: src/grapheneos_security.md:245
+msgid "6. Exploit Protection"
+msgstr ""
+
+#: src/grapheneos_security.md:247 src/grapheneos_security.md:540
+msgid "**Location:** Settings > Security & privacy > Exploit protection"
+msgstr ""
+
+#: src/grapheneos_security.md:249
+msgid ""
+"GrapheneOS includes extensive hardening against memory corruption and other "
+"exploits."
+msgstr ""
+
+#: src/grapheneos_security.md:251
+msgid "Auto Reboot"
+msgstr ""
+
+#: src/grapheneos_security.md:253
+msgid ""
+"**Purpose:** Returns device to \"at rest\" state, clearing encryption keys "
+"from memory"
+msgstr ""
+
+#: src/grapheneos_security.md:255
+msgid "Effect"
+msgstr ""
+
+#: src/grapheneos_security.md:257
+msgid "**10 minutes - 72 hours**"
+msgstr ""
+
+#: src/grapheneos_security.md:257
+msgid "Device reboots if not unlocked within this time"
+msgstr ""
+
+#: src/grapheneos_security.md:258 src/grapheneos_security.md:504
+msgid "**Off**"
+msgstr ""
+
+#: src/grapheneos_security.md:258
+msgid "Disabled (not recommended)"
+msgstr ""
+
+#: src/grapheneos_security.md:259
+msgid "**Default: 18 hours**"
+msgstr ""
+
+#: src/grapheneos_security.md:259
+msgid "Good balance for most users"
+msgstr ""
+
+#: src/grapheneos_security.md:261
+msgid ""
+"**Recommendation:** Set to **8-12 hours** for higher security, or keep "
+"default 18 hours"
+msgstr ""
+
+#: src/grapheneos_security.md:264
+msgid "Timer starts when device locks"
+msgstr ""
+
+#: src/grapheneos_security.md:265
+msgid "Unlocking any profile resets timer"
+msgstr ""
+
+#: src/grapheneos_security.md:266
+msgid "After timeout, device reboots to Before First Unlock (BFU) state"
+msgstr ""
+
+#: src/grapheneos_security.md:267
+msgid "All encryption keys cleared, data fully at rest"
+msgstr ""
+
+#: src/grapheneos_security.md:269
+msgid "USB-C Port"
+msgstr ""
+
+#: src/grapheneos_security.md:271
+msgid ""
+"See [Section 12](#12-usb-c-port--pogo-pins-control) for detailed "
+"configuration."
+msgstr ""
+
+#: src/grapheneos_security.md:273 src/grapheneos_security.md:538
+msgid "Wi-Fi Auto-Off"
+msgstr ""
+
+#: src/grapheneos_security.md:275
+msgid "**Purpose:** Disables Wi-Fi after disconnect to reduce attack surface"
+msgstr ""
+
+#: src/grapheneos_security.md:277
+msgid "**Options:** 10 minutes, 30 minutes, 1 hour, 2 hours, Off"
+msgstr ""
+
+#: src/grapheneos_security.md:278 src/grapheneos_security.md:285
+msgid "**Recommendation:** 10 minutes"
+msgstr ""
+
+#: src/grapheneos_security.md:280
+msgid "Bluetooth Auto-Off"
+msgstr ""
+
+#: src/grapheneos_security.md:282
+msgid "**Purpose:** Disables Bluetooth after disconnect to reduce attack surface"
+msgstr ""
+
+#: src/grapheneos_security.md:284
+msgid "**Options:** Same as Wi-Fi"
+msgstr ""
+
+#: src/grapheneos_security.md:287
+msgid "Secure App Spawning"
+msgstr ""
+
+#: src/grapheneos_security.md:289
+msgid "**Purpose:** Each app gets unique randomized memory layout (ASLR secrets)"
+msgstr ""
+
+#: src/grapheneos_security.md:291
+msgid "**Default:** Enabled"
+msgstr ""
+
+#: src/grapheneos_security.md:292
+msgid ""
+"**Effect:** Prevents cross-app identifier leaks, hardens exploit mitigations"
+msgstr ""
+
+#: src/grapheneos_security.md:293
+msgid "**Trade-off:** Slightly slower cold app starts, slightly higher memory"
+msgstr ""
+
+#: src/grapheneos_security.md:294
+msgid "**Recommendation:** Keep enabled"
+msgstr ""
+
+#: src/grapheneos_security.md:296
+msgid "Native Code Debugging"
+msgstr ""
+
+#: src/grapheneos_security.md:298
+msgid "**Purpose:** Controls ptrace access for debugging"
+msgstr ""
+
+#: src/grapheneos_security.md:300
+msgid "**Bundled apps:** Always blocked"
+msgstr ""
+
+#: src/grapheneos_security.md:301
+msgid "**User apps:** Allowed by default (for compatibility)"
+msgstr ""
+
+#: src/grapheneos_security.md:302
+msgid "**Recommendation:** Disable for all apps unless needed for development"
+msgstr ""
+
+#: src/grapheneos_security.md:304
+msgid "Dynamic Code Loading Toggles"
+msgstr ""
+
+#: src/grapheneos_security.md:306
+msgid "Control JIT compilation and dynamic code loading:"
+msgstr ""
+
+#: src/grapheneos_security.md:308
+msgid "Toggle"
+msgstr ""
+
+#: src/grapheneos_security.md:308
+msgid "Default"
+msgstr ""
+
+#: src/grapheneos_security.md:308 src/grapheneos_security.md:636
+msgid "Purpose"
+msgstr ""
+
+#: src/grapheneos_security.md:310
+msgid "Dynamic code loading from memory"
+msgstr ""
+
+#: src/grapheneos_security.md:310 src/grapheneos_security.md:311
+msgid "Varies"
+msgstr ""
+
+#: src/grapheneos_security.md:310
+msgid "Blocks in-memory code execution"
+msgstr ""
+
+#: src/grapheneos_security.md:311
+msgid "Dynamic code loading from storage"
+msgstr ""
+
+#: src/grapheneos_security.md:311
+msgid "Blocks loading code from files"
+msgstr ""
+
+#: src/grapheneos_security.md:312
+msgid "WebView JIT"
+msgstr ""
+
+#: src/grapheneos_security.md:312
+msgid "Enabled for user apps"
+msgstr ""
+
+#: src/grapheneos_security.md:312
+msgid "JavaScript JIT in WebView"
+msgstr ""
+
+#: src/grapheneos_security.md:314
+msgid "**Recommendation:** Disable all for apps that don't need them"
+msgstr ""
+
+#: src/grapheneos_security.md:318
+msgid "7. Network Permission"
+msgstr ""
+
+#: src/grapheneos_security.md:320
+msgid "**Location:** App info > Permissions > Network (per-app)"
+msgstr ""
+
+#: src/grapheneos_security.md:322
+msgid "GrapheneOS adds a **Network permission** not available in stock Android."
+msgstr ""
+
+#: src/grapheneos_security.md:326
+msgid "When disabled, app sees network as \"down\" (not permission denied)"
+msgstr ""
+
+#: src/grapheneos_security.md:327
+msgid ""
+"Blocks both direct network access and localhost (prevents cross-profile "
+"communication)"
+msgstr ""
+
+#: src/grapheneos_security.md:328
+msgid "Apps handle gracefully since they think network is unavailable"
+msgstr ""
+
+#: src/grapheneos_security.md:330 src/grapheneos_security.md:385
+#: src/grapheneos_security.md:417 src/grapheneos_security.md:632
+msgid "Configuration"
+msgstr ""
+
+#: src/grapheneos_security.md:332
+msgid "During app installation, toggle Network off if not needed"
+msgstr ""
+
+#: src/grapheneos_security.md:333
+msgid "Or go to Settings > Apps > \\[App\\] > Permissions > Network"
+msgstr ""
+
+#: src/grapheneos_security.md:335 src/grapheneos_security.md:396
+#: src/grapheneos_security.md:423
+msgid "Use Cases"
+msgstr ""
+
+#: src/grapheneos_security.md:337
+msgid "**Calculator apps:** Don't need network"
+msgstr ""
+
+#: src/grapheneos_security.md:338
+msgid "**Offline games:** Don't need network"
+msgstr ""
+
+#: src/grapheneos_security.md:339
+msgid "**Document editors:** May not need network"
+msgstr ""
+
+#: src/grapheneos_security.md:340
+msgid "**Privacy-sensitive apps:** Prevent data exfiltration"
+msgstr ""
+
+#: src/grapheneos_security.md:344
+msgid "8. Sensors Permission"
+msgstr ""
+
+#: src/grapheneos_security.md:346
+msgid "**Location:** Settings > Apps > \\[App\\] > Permissions > Sensors"
+msgstr ""
+
+#: src/grapheneos_security.md:348
+msgid "GrapheneOS adds a **Sensors permission** for:"
+msgstr ""
+
+#: src/grapheneos_security.md:349
+msgid "Accelerometer"
+msgstr ""
+
+#: src/grapheneos_security.md:350
+msgid "Gyroscope"
+msgstr ""
+
+#: src/grapheneos_security.md:351
+msgid "Compass/magnetometer"
+msgstr ""
+
+#: src/grapheneos_security.md:352
+msgid "Barometer"
+msgstr ""
+
+#: src/grapheneos_security.md:353
+msgid "Thermometer"
+msgstr ""
+
+#: src/grapheneos_security.md:354
+msgid "Other device sensors"
+msgstr ""
+
+#: src/grapheneos_security.md:358
+msgid "When denied, apps receive zeroed sensor data"
+msgstr ""
+
+#: src/grapheneos_security.md:359
+msgid "Notification appears when app tries to access blocked sensors"
+msgstr ""
+
+#: src/grapheneos_security.md:360
+msgid ""
+"Does NOT affect Camera, Microphone, or Body Sensors (separate permissions)"
+msgstr ""
+
+#: src/grapheneos_security.md:362
+msgid "Global Default"
+msgstr ""
+
+#: src/grapheneos_security.md:364 src/grapheneos_security.md:820
+msgid "**Location:** Settings > Security & privacy > More security & privacy"
+msgstr ""
+
+#: src/grapheneos_security.md:366
+msgid "Toggle: **Deny Sensors permission by default for newly installed apps**"
+msgstr ""
+
+#: src/grapheneos_security.md:368
+msgid "**Recommendation:** Enable, then grant to apps that need it"
+msgstr ""
+
+#: src/grapheneos_security.md:372
+msgid "9. Storage Scopes"
+msgstr ""
+
+#: src/grapheneos_security.md:374
+msgid "**Location:** Settings > Apps > \\[App\\] > Permissions > Storage Scopes"
+msgstr ""
+
+#: src/grapheneos_security.md:376
+msgid "A privacy-preserving alternative to granting full storage access."
+msgstr ""
+
+#: src/grapheneos_security.md:380
+msgid "Instead of granting storage permission, enable **Storage Scopes**"
+msgstr ""
+
+#: src/grapheneos_security.md:381
+msgid "App believes it has full storage access"
+msgstr ""
+
+#: src/grapheneos_security.md:382
+msgid "App can only see files it created"
+msgstr ""
+
+#: src/grapheneos_security.md:383
+msgid "Optionally add specific files/folders as \"scopes\" for app to access"
+msgstr ""
+
+#: src/grapheneos_security.md:387 src/grapheneos_security.md:419
+msgid "Go to app's permissions"
+msgstr ""
+
+#: src/grapheneos_security.md:388
+msgid "Instead of granting Files/Media, enable Storage Scopes"
+msgstr ""
+
+#: src/grapheneos_security.md:389
+msgid "Add specific files/folders if app needs access to existing files"
+msgstr ""
+
+#: src/grapheneos_security.md:391
+msgid "Limitations"
+msgstr ""
+
+#: src/grapheneos_security.md:393
+msgid ""
+"If app is uninstalled and reinstalled, it loses access to its previously "
+"created files"
+msgstr ""
+
+#: src/grapheneos_security.md:394
+msgid "Workaround: Grant access via SAF (Storage Access Framework) picker"
+msgstr ""
+
+#: src/grapheneos_security.md:398
+msgid "**Photo editors:** Give access only to specific folders"
+msgstr ""
+
+#: src/grapheneos_security.md:399
+msgid "**Music players:** Access only your music directory"
+msgstr ""
+
+#: src/grapheneos_security.md:400
+msgid "**Document apps:** Access only Documents folder"
+msgstr ""
+
+#: src/grapheneos_security.md:404
+msgid "10. Contact Scopes"
+msgstr ""
+
+#: src/grapheneos_security.md:406
+msgid "**Location:** Settings > Apps > \\[App\\] > Permissions > Contact Scopes"
+msgstr ""
+
+#: src/grapheneos_security.md:408
+msgid "Alternative to granting full contacts access."
+msgstr ""
+
+#: src/grapheneos_security.md:412
+msgid "Enable Contact Scopes instead of granting Contacts permission"
+msgstr ""
+
+#: src/grapheneos_security.md:413
+msgid "App believes it has contacts access"
+msgstr ""
+
+#: src/grapheneos_security.md:414
+msgid "By default, app sees empty contact list"
+msgstr ""
+
+#: src/grapheneos_security.md:415
+msgid "Selectively add specific contacts or groups"
+msgstr ""
+
+#: src/grapheneos_security.md:420
+msgid "Enable Contact Scopes (don't grant Contacts permission)"
+msgstr ""
+
+#: src/grapheneos_security.md:421
+msgid "Add specific contacts the app should see"
+msgstr ""
+
+#: src/grapheneos_security.md:425
+msgid "**Messaging apps:** Share only contacts you message"
+msgstr ""
+
+#: src/grapheneos_security.md:426
+msgid "**Social apps:** Share only relevant contacts"
+msgstr ""
+
+#: src/grapheneos_security.md:427
+msgid "**Business apps:** Share only work contacts"
+msgstr ""
+
+#: src/grapheneos_security.md:431
+msgid "11. User Profiles & Private Space"
+msgstr ""
+
+#: src/grapheneos_security.md:433
+msgid "GrapheneOS significantly enhances Android's profile system."
+msgstr ""
+
+#: src/grapheneos_security.md:435
+msgid "User Profiles"
+msgstr ""
+
+#: src/grapheneos_security.md:437
+msgid "**Location:** Settings > System > Multiple users"
+msgstr ""
+
+#: src/grapheneos_security.md:439
+msgid "GrapheneOS supports **32 profiles** (vs 4 on stock Android)."
+msgstr ""
+
+#: src/grapheneos_security.md:441
+msgid "**Key Features:**"
+msgstr ""
+
+#: src/grapheneos_security.md:442
+msgid "Each profile has completely separate apps, data, encryption keys"
+msgstr ""
+
+#: src/grapheneos_security.md:443
+msgid "Apps cannot communicate across profiles"
+msgstr ""
+
+#: src/grapheneos_security.md:444
+msgid "Separate VPN configurations per profile"
+msgstr ""
+
+#: src/grapheneos_security.md:446
+msgid "Creating a Profile"
+msgstr ""
+
+#: src/grapheneos_security.md:448
+msgid "Settings > System > Multiple users"
+msgstr ""
+
+#: src/grapheneos_security.md:449
+msgid "Tap \"Add user\""
+msgstr ""
+
+#: src/grapheneos_security.md:450
+msgid "Configure profile name and settings"
+msgstr ""
+
+#: src/grapheneos_security.md:452
+msgid "End Session"
+msgstr ""
+
+#: src/grapheneos_security.md:454
+msgid "Completely shuts down a profile:"
+msgstr ""
+
+#: src/grapheneos_security.md:455
+msgid "Removes encryption keys from memory"
+msgstr ""
+
+#: src/grapheneos_security.md:456
+msgid "Stops all background processes"
+msgstr ""
+
+#: src/grapheneos_security.md:457
+msgid "Returns profile to \"at rest\" state"
+msgstr ""
+
+#: src/grapheneos_security.md:459
+msgid "Private Space (Android 15+)"
+msgstr ""
+
+#: src/grapheneos_security.md:461
+msgid "**Location:** Settings > Security & privacy > Private Space"
+msgstr ""
+
+#: src/grapheneos_security.md:463
+msgid "An isolated workspace nested inside any user profile."
+msgstr ""
+
+#: src/grapheneos_security.md:465
+msgid "**Advantages over Work Profile:**"
+msgstr ""
+
+#: src/grapheneos_security.md:466
+msgid "Better OS integration"
+msgstr ""
+
+#: src/grapheneos_security.md:467
+msgid "Stronger isolation"
+msgstr ""
+
+#: src/grapheneos_security.md:468
+msgid "Lockable with separate authentication"
+msgstr ""
+
+#: src/grapheneos_security.md:469
+msgid "Hidden from app drawer when locked"
+msgstr ""
+
+#: src/grapheneos_security.md:471
+msgid "Setup"
+msgstr ""
+
+#: src/grapheneos_security.md:473
+msgid "Settings > Security & privacy > Private Space"
+msgstr ""
+
+#: src/grapheneos_security.md:474
+msgid "Enter current PIN/password"
+msgstr ""
+
+#: src/grapheneos_security.md:475
+msgid "Configure Private Space authentication"
+msgstr ""
+
+#: src/grapheneos_security.md:477
+msgid "Key Behaviors"
+msgstr ""
+
+#: src/grapheneos_security.md:479
+msgid "When locked: Apps don't run, no notifications"
+msgstr ""
+
+#: src/grapheneos_security.md:480
+msgid "Separate VPN configuration possible"
+msgstr ""
+
+#: src/grapheneos_security.md:481
+msgid "Apps show shield icon in launcher"
+msgstr ""
+
+#: src/grapheneos_security.md:482
+msgid ""
+"Can install apps directly or via Google Play (if installed in Private Space)"
+msgstr ""
+
+#: src/grapheneos_security.md:484
+msgid ""
+"**Recommendation:** Use Private Space instead of work profiles managed by "
+"third-party apps"
+msgstr ""
+
+#: src/grapheneos_security.md:486
+msgid "Notification Forwarding"
+msgstr ""
+
+#: src/grapheneos_security.md:488
+msgid "**Location:** Within each profile's settings"
+msgstr ""
+
+#: src/grapheneos_security.md:490
+msgid "Forward notifications from background profiles to active profile:"
+msgstr ""
+
+#: src/grapheneos_security.md:491
+msgid "Disabled by default"
+msgstr ""
+
+#: src/grapheneos_security.md:492
+msgid "Enable per-profile where needed"
+msgstr ""
+
+#: src/grapheneos_security.md:496
+msgid "12. USB-C Port & Pogo Pins Control"
+msgstr ""
+
+#: src/grapheneos_security.md:498
+msgid ""
+"**Location:** Settings > Security & privacy > Exploit protection > USB-C port"
+msgstr ""
+
+#: src/grapheneos_security.md:500
+msgid "Modes"
+msgstr ""
+
+#: src/grapheneos_security.md:502
+msgid "Mode"
+msgstr ""
+
+#: src/grapheneos_security.md:502
+msgid "Description"
+msgstr ""
+
+#: src/grapheneos_security.md:504
+msgid "USB fully disabled (including charging) - maximum security"
+msgstr ""
+
+#: src/grapheneos_security.md:505
+msgid "**Charging-only**"
+msgstr ""
+
+#: src/grapheneos_security.md:505
+msgid "Always data disabled, charging only"
+msgstr ""
+
+#: src/grapheneos_security.md:506
+msgid "**Charging-only when locked**"
+msgstr ""
+
+#: src/grapheneos_security.md:506
+msgid "Data works when unlocked, charging-only when locked (DEFAULT)"
+msgstr ""
+
+#: src/grapheneos_security.md:507
+msgid "**Charging-only when locked, except before first unlock**"
+msgstr ""
+
+#: src/grapheneos_security.md:507
+msgid "Same as above but allows data in BFU state"
+msgstr ""
+
+#: src/grapheneos_security.md:508
+msgid "**On**"
+msgstr ""
+
+#: src/grapheneos_security.md:508
+msgid "USB always enabled"
+msgstr ""
+
+#: src/grapheneos_security.md:510
+msgid "How It Differs from Stock Android"
+msgstr ""
+
+#: src/grapheneos_security.md:512
+msgid "Aspect"
+msgstr ""
+
+#: src/grapheneos_security.md:514
+msgid "Level"
+msgstr ""
+
+#: src/grapheneos_security.md:514
+msgid "Software only"
+msgstr ""
+
+#: src/grapheneos_security.md:514
+msgid "Hardware + software"
+msgstr ""
+
+#: src/grapheneos_security.md:515
+msgid "Data lines"
+msgstr ""
+
+#: src/grapheneos_security.md:515
+msgid "OS-level block"
+msgstr ""
+
+#: src/grapheneos_security.md:515
+msgid "Hardware disabled"
+msgstr ""
+
+#: src/grapheneos_security.md:516
+msgid "New connections"
+msgstr ""
+
+#: src/grapheneos_security.md:516
+msgid "Allowed until toggle"
+msgstr ""
+
+#: src/grapheneos_security.md:516
+msgid "Blocked immediately when locked"
+msgstr ""
+
+#: src/grapheneos_security.md:517
+msgid "Alternate modes (DisplayPort)"
+msgstr ""
+
+#: src/grapheneos_security.md:517
+msgid "Still work"
+msgstr ""
+
+#: src/grapheneos_security.md:517
+msgid "Disabled when locked"
+msgstr ""
+
+#: src/grapheneos_security.md:519 src/grapheneos_security.md:555
+msgid "Recommendation"
+msgstr ""
+
+#: src/grapheneos_security.md:521
+msgid "**Default (Charging-only when locked)** - Good for most users"
+msgstr ""
+
+#: src/grapheneos_security.md:522
+msgid "**Charging-only** - If you never use USB data"
+msgstr ""
+
+#: src/grapheneos_security.md:523
+msgid "**Off** - Maximum security, charge only when powered off"
+msgstr ""
+
+#: src/grapheneos_security.md:527
+msgid "13. Wi-Fi & Bluetooth Privacy"
+msgstr ""
+
+#: src/grapheneos_security.md:529
+msgid "Wi-Fi MAC Randomization"
+msgstr ""
+
+#: src/grapheneos_security.md:531
+msgid ""
+"**Location:** Settings > Network & internet > Wi-Fi > \\[Network\\] > Privacy"
+msgstr ""
+
+#: src/grapheneos_security.md:533
+msgid "GrapheneOS uses **per-connection MAC randomization** by default:"
+msgstr ""
+
+#: src/grapheneos_security.md:534
+msgid "New random MAC for each connection (not just per-network)"
+msgstr ""
+
+#: src/grapheneos_security.md:535
+msgid "DHCP state flushed before reconnecting"
+msgstr ""
+
+#: src/grapheneos_security.md:536
+msgid "Significantly harder to track across reconnections"
+msgstr ""
+
+#: src/grapheneos_security.md:542
+msgid "Automatically disables Wi-Fi after disconnection"
+msgstr ""
+
+#: src/grapheneos_security.md:543
+msgid "Reduces attack surface when not actively using Wi-Fi"
+msgstr ""
+
+#: src/grapheneos_security.md:545
+msgid "Bluetooth Privacy"
+msgstr ""
+
+#: src/grapheneos_security.md:547
+msgid "Set device name to something generic: Settings > Bluetooth > Device name"
+msgstr ""
+
+#: src/grapheneos_security.md:548
+msgid "Recommendation: Set to \"Device\" or similar"
+msgstr ""
+
+#: src/grapheneos_security.md:549
+msgid "Enable Bluetooth auto-off in Exploit protection"
+msgstr ""
+
+#: src/grapheneos_security.md:551
+msgid "Scanning Settings"
+msgstr ""
+
+#: src/grapheneos_security.md:553
+msgid "**Location:** Settings > Location > Location services"
+msgstr ""
+
+#: src/grapheneos_security.md:557
+msgid "Wi-Fi scanning"
+msgstr ""
+
+#: src/grapheneos_security.md:557 src/grapheneos_security.md:558
+msgid "OFF"
+msgstr ""
+
+#: src/grapheneos_security.md:558
+msgid "Bluetooth scanning"
+msgstr ""
+
+#: src/grapheneos_security.md:560
+msgid "These allow location tracking even when Wi-Fi/Bluetooth are \"off.\""
+msgstr ""
+
+#: src/grapheneos_security.md:564
+msgid "14. VPN Configuration"
+msgstr ""
+
+#: src/grapheneos_security.md:566
+msgid "Always-On VPN"
+msgstr ""
+
+#: src/grapheneos_security.md:568
+msgid ""
+"**Location:** Settings > Network & internet > VPN > \\[Your VPN\\] > gear "
+"icon"
+msgstr ""
+
+#: src/grapheneos_security.md:570
+msgid "GrapheneOS enables these toggles **by default**:"
+msgstr ""
+
+#: src/grapheneos_security.md:571
+msgid "Always-on VPN"
+msgstr ""
+
+#: src/grapheneos_security.md:572
+msgid "Block connections without VPN"
+msgstr ""
+
+#: src/grapheneos_security.md:574
+msgid "Improved Leak Protection"
+msgstr ""
+
+#: src/grapheneos_security.md:576
+msgid "GrapheneOS fixes multiple VPN leak vectors:"
+msgstr ""
+
+#: src/grapheneos_security.md:578
+msgid "Leak Type"
+msgstr ""
+
+#: src/grapheneos_security.md:580
+msgid "DNS before VPN up"
+msgstr ""
+
+#: src/grapheneos_security.md:580 src/grapheneos_security.md:581
+msgid "Can leak"
+msgstr ""
+
+#: src/grapheneos_security.md:580 src/grapheneos_security.md:581
+msgid "Fixed"
+msgstr ""
+
+#: src/grapheneos_security.md:581
+msgid "DNS to VPN server outside tunnel"
+msgstr ""
+
+#: src/grapheneos_security.md:582
+msgid "Multicast packets"
+msgstr ""
+
+#: src/grapheneos_security.md:582
+msgid "Can bypass"
+msgstr ""
+
+#: src/grapheneos_security.md:582 src/grapheneos_security.md:583
+#: src/grapheneos_security.md:584
+msgid "Blocked"
+msgstr ""
+
+#: src/grapheneos_security.md:583
+msgid "Cross-profile multicast"
+msgstr ""
+
+#: src/grapheneos_security.md:583 src/grapheneos_security.md:584
+msgid "Possible"
+msgstr ""
+
+#: src/grapheneos_security.md:584
+msgid "Interface bypass (setsockopt)"
+msgstr ""
+
+#: src/grapheneos_security.md:586
+msgid "Per-Profile VPN"
+msgstr ""
+
+#: src/grapheneos_security.md:588
+msgid ""
+"Each profile (user profile, Private Space) has **independent VPN "
+"configuration**:"
+msgstr ""
+
+#: src/grapheneos_security.md:589
+msgid "Can use different VPNs"
+msgstr ""
+
+#: src/grapheneos_security.md:590
+msgid "Can have different exit IPs/countries"
+msgstr ""
+
+#: src/grapheneos_security.md:591
+msgid "Complete isolation"
+msgstr ""
+
+#: src/grapheneos_security.md:593
+msgid "Private DNS"
+msgstr ""
+
+#: src/grapheneos_security.md:595
+msgid "**Location:** Settings > Network & internet > Private DNS"
+msgstr ""
+
+#: src/grapheneos_security.md:597
+msgid "**Recommendation:** Use a privacy-respecting DNS provider:"
+msgstr ""
+
+#: src/grapheneos_security.md:598
+msgid "`dns.quad9.net` (Quad9)"
+msgstr ""
+
+#: src/grapheneos_security.md:599
+msgid "Custom NextDNS configuration"
+msgstr ""
+
+#: src/grapheneos_security.md:600
+msgid "Or your VPN's DNS"
+msgstr ""
+
+#: src/grapheneos_security.md:602
+msgid "Internet Connectivity Checks"
+msgstr ""
+
+#: src/grapheneos_security.md:604 src/grapheneos_security.md:811
+msgid ""
+"**Location:** Settings > Network & internet > Internet connectivity checks"
+msgstr ""
+
+#: src/grapheneos_security.md:606
+msgid "Options:"
+msgstr ""
+
+#: src/grapheneos_security.md:607
+msgid "**GrapheneOS server** (default) - Privacy-preserving"
+msgstr ""
+
+#: src/grapheneos_security.md:608
+msgid "**Standard (Google)** - For blending in"
+msgstr ""
+
+#: src/grapheneos_security.md:609
+msgid "**Off** - May cause issues with captive portals"
+msgstr ""
+
+#: src/grapheneos_security.md:613
+msgid "15. Sandboxed Google Play"
+msgstr ""
+
+#: src/grapheneos_security.md:615
+msgid ""
+"GrapheneOS allows running Google Play as a **regular sandboxed app** with no "
+"special privileges."
+msgstr ""
+
+#: src/grapheneos_security.md:617
+msgid "Key Properties"
+msgstr ""
+
+#: src/grapheneos_security.md:619
+msgid "Google Play runs as normal app - no system-level access"
+msgstr ""
+
+#: src/grapheneos_security.md:620
+msgid "Cannot access device identifiers (IMEI, etc.)"
+msgstr ""
+
+#: src/grapheneos_security.md:621
+msgid "All permissions revocable"
+msgstr ""
+
+#: src/grapheneos_security.md:622
+msgid "Only available within the profile where installed"
+msgstr ""
+
+#: src/grapheneos_security.md:623
+msgid "Location requests rerouted to GrapheneOS implementation by default"
+msgstr ""
+
+#: src/grapheneos_security.md:625
+msgid "Installation"
+msgstr ""
+
+#: src/grapheneos_security.md:627
+msgid "Open **Apps** (GrapheneOS app store)"
+msgstr ""
+
+#: src/grapheneos_security.md:628
+msgid "Select **Google Play services**"
+msgstr ""
+
+#: src/grapheneos_security.md:629
+msgid "Install (automatically includes Play Store)"
+msgstr ""
+
+#: src/grapheneos_security.md:630
+msgid "Grant battery optimization exception for push notifications"
+msgstr ""
+
+#: src/grapheneos_security.md:634
+msgid "**Location:** Settings > Apps > Sandboxed Google Play"
+msgstr ""
+
+#: src/grapheneos_security.md:638
+msgid "Reroute location requests"
+msgstr ""
+
+#: src/grapheneos_security.md:638
+msgid "Uses GrapheneOS location instead of Google's (default: on)"
+msgstr ""
+
+#: src/grapheneos_security.md:640
+msgid "Profile Strategy"
+msgstr ""
+
+#: src/grapheneos_security.md:642
+msgid "**Option 1: Owner profile** - Simplest, all apps can use Play services"
+msgstr ""
+
+#: src/grapheneos_security.md:644
+msgid ""
+"**Option 2: Separate profile** - Install Play in secondary profile for "
+"isolation:"
+msgstr ""
+
+#: src/grapheneos_security.md:645
+msgid "Create secondary user"
+msgstr ""
+
+#: src/grapheneos_security.md:646
+msgid "Install sandboxed Google Play there"
+msgstr ""
+
+#: src/grapheneos_security.md:647
+msgid "Install apps needing Play services there"
+msgstr ""
+
+#: src/grapheneos_security.md:648
+msgid "Keep main profile Google-free"
+msgstr ""
+
+#: src/grapheneos_security.md:650
+msgid "What Works"
+msgstr ""
+
+#: src/grapheneos_security.md:652
+msgid "App installations and updates"
+msgstr ""
+
+#: src/grapheneos_security.md:653
+msgid "In-app purchases"
+msgstr ""
+
+#: src/grapheneos_security.md:654
+msgid "Push notifications (with battery exception)"
+msgstr ""
+
+#: src/grapheneos_security.md:655
+msgid "Play Games services"
+msgstr ""
+
+#: src/grapheneos_security.md:656
+msgid "Play Asset/Feature Delivery"
+msgstr ""
+
+#: src/grapheneos_security.md:657
+msgid "Most apps requiring Play services"
+msgstr ""
+
+#: src/grapheneos_security.md:659
+msgid "Revoking Permissions"
+msgstr ""
+
+#: src/grapheneos_security.md:661
+msgid "You can revoke ANY permission from Google Play services:"
+msgstr ""
+
+#: src/grapheneos_security.md:662
+msgid "Location, Contacts, Camera, etc."
+msgstr ""
+
+#: src/grapheneos_security.md:663
+msgid "May break specific functionality but app won't crash"
+msgstr ""
+
+#: src/grapheneos_security.md:667
+msgid "16. GrapheneOS Apps"
+msgstr ""
+
+#: src/grapheneos_security.md:669
+msgid ""
+"GrapheneOS includes privacy and security-focused alternatives to standard "
+"apps."
+msgstr ""
+
+#: src/grapheneos_security.md:671
+msgid "Apps (App Store)"
+msgstr ""
+
+#: src/grapheneos_security.md:673
+msgid "The GrapheneOS app repository:"
+msgstr ""
+
+#: src/grapheneos_security.md:674
+msgid "Updates GrapheneOS apps"
+msgstr ""
+
+#: src/grapheneos_security.md:675
+msgid "Provides sandboxed Google Play installation"
+msgstr ""
+
+#: src/grapheneos_security.md:676
+msgid "Will distribute hardened open-source apps in future"
+msgstr ""
+
+#: src/grapheneos_security.md:678
+msgid "Vanadium Browser"
+msgstr ""
+
+#: src/grapheneos_security.md:680
+msgid "Hardened Chromium-based browser with:"
+msgstr ""
+
+#: src/grapheneos_security.md:682
+msgid "**Security Features:**"
+msgstr ""
+
+#: src/grapheneos_security.md:683
+msgid "Hardware memory tagging (MTE)"
+msgstr ""
+
+#: src/grapheneos_security.md:684
+msgid "Type-based Control Flow Integrity (CFI)"
+msgstr ""
+
+#: src/grapheneos_security.md:685
+msgid "JavaScript JIT disabled by default (per-site toggle)"
+msgstr ""
+
+#: src/grapheneos_security.md:686
+msgid "Dynamic code execution blocked for non-JIT processes"
+msgstr ""
+
+#: src/grapheneos_security.md:687
+msgid "Strict site isolation"
+msgstr ""
+
+#: src/grapheneos_security.md:689
+msgid "**Privacy Features:**"
+msgstr ""
+
+#: src/grapheneos_security.md:690
+msgid "Built-in ad/tracker blocking (EasyList + EasyPrivacy)"
+msgstr ""
+
+#: src/grapheneos_security.md:691
+msgid "Third-party cookies disabled by default"
+msgstr ""
+
+#: src/grapheneos_security.md:692
+msgid "Enhanced state partitioning"
+msgstr ""
+
+#: src/grapheneos_security.md:693
+msgid "Reduced user agent / client hints"
+msgstr ""
+
+#: src/grapheneos_security.md:694
+msgid "DuckDuckGo default search"
+msgstr ""
+
+#: src/grapheneos_security.md:696
+msgid "**Configuration:**"
+msgstr ""
+
+#: src/grapheneos_security.md:697
+msgid "JIT: Disabled by default, enable per-site via address bar menu"
+msgstr ""
+
+#: src/grapheneos_security.md:698
+msgid "Content filtering: Enabled by default, toggle per-site"
+msgstr ""
+
+#: src/grapheneos_security.md:700
+msgid "Auditor"
+msgstr ""
+
+#: src/grapheneos_security.md:702
+msgid "Hardware-based attestation app:"
+msgstr ""
+
+#: src/grapheneos_security.md:704
+msgid "**Purpose:**"
+msgstr ""
+
+#: src/grapheneos_security.md:705
+msgid "Verify device authenticity and integrity"
+msgstr ""
+
+#: src/grapheneos_security.md:706
+msgid "Detect bootloader unlocking or OS tampering"
+msgstr ""
+
+#: src/grapheneos_security.md:707
+msgid "Monitor for security regressions"
+msgstr ""
+
+#: src/grapheneos_security.md:709 src/grapheneos_security.md:746
+msgid "**Setup:**"
+msgstr ""
+
+#: src/grapheneos_security.md:710
+msgid "Use another device as \"Auditor\""
+msgstr ""
+
+#: src/grapheneos_security.md:711
+msgid "On device to verify, open Auditor > Auditee"
+msgstr ""
+
+#: src/grapheneos_security.md:712
+msgid "Scan QR code with Auditor device"
+msgstr ""
+
+#: src/grapheneos_security.md:713
+msgid "Optionally set up remote attestation at attestation.app"
+msgstr ""
+
+#: src/grapheneos_security.md:715
+msgid "Secure Camera"
+msgstr ""
+
+#: src/grapheneos_security.md:717
+msgid "Privacy-focused camera app:"
+msgstr ""
+
+#: src/grapheneos_security.md:718
+msgid "EXIF metadata stripped by default"
+msgstr ""
+
+#: src/grapheneos_security.md:719
+msgid "Location tagging disabled by default"
+msgstr ""
+
+#: src/grapheneos_security.md:720
+msgid "No unnecessary permissions"
+msgstr ""
+
+#: src/grapheneos_security.md:721
+msgid "Open source"
+msgstr ""
+
+#: src/grapheneos_security.md:723
+msgid "Secure PDF Viewer"
+msgstr ""
+
+#: src/grapheneos_security.md:725
+msgid "Sandboxed PDF viewer:"
+msgstr ""
+
+#: src/grapheneos_security.md:726
+msgid "Isolated rendering"
+msgstr ""
+
+#: src/grapheneos_security.md:727
+msgid "Protection against malicious PDFs"
+msgstr ""
+
+#: src/grapheneos_security.md:728
+msgid "Pinch to zoom, text selection"
+msgstr ""
+
+#: src/grapheneos_security.md:729
+msgid "Encrypted PDF support"
+msgstr ""
+
+#: src/grapheneos_security.md:733
+msgid "17. Backup & Encryption"
+msgstr ""
+
+#: src/grapheneos_security.md:735
+msgid "Seedvault Encrypted Backup"
+msgstr ""
+
+#: src/grapheneos_security.md:737
+msgid "**Location:** Settings > System > Backup"
+msgstr ""
+
+#: src/grapheneos_security.md:739
+msgid "GrapheneOS includes Seedvault for encrypted backups."
+msgstr ""
+
+#: src/grapheneos_security.md:742
+msgid "End-to-end encryption"
+msgstr ""
+
+#: src/grapheneos_security.md:743
+msgid "Local backup support"
+msgstr ""
+
+#: src/grapheneos_security.md:744
+msgid "Cloud storage support (any provider with storage app)"
+msgstr ""
+
+#: src/grapheneos_security.md:747
+msgid "Settings > System > Backup"
+msgstr ""
+
+#: src/grapheneos_security.md:748
+msgid "Choose backup location"
+msgstr ""
+
+#: src/grapheneos_security.md:749
+msgid "Set encryption password"
+msgstr ""
+
+#: src/grapheneos_security.md:750
+msgid "Select apps to back up"
+msgstr ""
+
+#: src/grapheneos_security.md:752
+msgid "Full-Disk Encryption"
+msgstr ""
+
+#: src/grapheneos_security.md:754
+msgid "GrapheneOS uses Android's file-based encryption with enhancements:"
+msgstr ""
+
+#: src/grapheneos_security.md:755
+msgid "32-byte file name padding (vs 16 bytes)"
+msgstr ""
+
+#: src/grapheneos_security.md:756
+msgid "Per-profile encryption keys"
+msgstr ""
+
+#: src/grapheneos_security.md:757
+msgid "Hardware-backed key storage (Titan M2)"
+msgstr ""
+
+#: src/grapheneos_security.md:759
+msgid "Data at Rest"
+msgstr ""
+
+#: src/grapheneos_security.md:761
+msgid "**Before First Unlock (BFU):**"
+msgstr ""
+
+#: src/grapheneos_security.md:762
+msgid "Most data encrypted and inaccessible"
+msgstr ""
+
+#: src/grapheneos_security.md:763
+msgid "Only critical functions available"
+msgstr ""
+
+#: src/grapheneos_security.md:765
+msgid "**After First Unlock (AFU):**"
+msgstr ""
+
+#: src/grapheneos_security.md:766
+msgid "Credential-encrypted data accessible"
+msgstr ""
+
+#: src/grapheneos_security.md:767
+msgid "Auto-reboot returns device to BFU state"
+msgstr ""
+
+#: src/grapheneos_security.md:771
+msgid "18. System Updates"
+msgstr ""
+
+#: src/grapheneos_security.md:775
+msgid "**Location:** Settings > System > System update"
+msgstr ""
+
+#: src/grapheneos_security.md:777
+msgid "GrapheneOS provides seamless automatic updates:"
+msgstr ""
+
+#: src/grapheneos_security.md:778
+msgid "Downloads in background"
+msgstr ""
+
+#: src/grapheneos_security.md:779
+msgid "Installs without interrupting usage"
+msgstr ""
+
+#: src/grapheneos_security.md:780
+msgid "Automatic rollback if update fails"
+msgstr ""
+
+#: src/grapheneos_security.md:781
+msgid "A/B partition system for safety"
+msgstr ""
+
+#: src/grapheneos_security.md:783
+msgid "Security Preview Releases"
+msgstr ""
+
+#: src/grapheneos_security.md:785
+msgid ""
+"**Location:** Settings > System > System update > Receive security preview "
+"releases"
+msgstr ""
+
+#: src/grapheneos_security.md:788
+msgid "Get security patches **months before** public disclosure"
+msgstr ""
+
+#: src/grapheneos_security.md:789
+msgid "Currently includes patches through June 2026 ASB"
+msgstr ""
+
+#: src/grapheneos_security.md:790
+msgid "Same stability as regular releases"
+msgstr ""
+
+#: src/grapheneos_security.md:792
+msgid "**How It Works:**"
+msgstr ""
+
+#: src/grapheneos_security.md:793
+msgid "GrapheneOS participates in Android security embargo"
+msgstr ""
+
+#: src/grapheneos_security.md:794
+msgid "Can ship patches before disclosure (unlike stock OS)"
+msgstr ""
+
+#: src/grapheneos_security.md:795
+msgid "Preview releases increment build number by 1"
+msgstr ""
+
+#: src/grapheneos_security.md:797
+msgid "**Recommendation:** Enable for maximum security"
+msgstr ""
+
+#: src/grapheneos_security.md:799
+msgid "Update Frequency"
+msgstr ""
+
+#: src/grapheneos_security.md:801
+msgid "**Regular releases:** Within days of Android security bulletin"
+msgstr ""
+
+#: src/grapheneos_security.md:802
+msgid "**Preview releases:** Months ahead of disclosure"
+msgstr ""
+
+#: src/grapheneos_security.md:803
+msgid "**Feature updates:** As developed"
+msgstr ""
+
+#: src/grapheneos_security.md:807
+msgid "19. Advanced Settings"
+msgstr ""
+
+#: src/grapheneos_security.md:809
+msgid "Connectivity Checks"
+msgstr ""
+
+#: src/grapheneos_security.md:813
+msgid "Controls which server verifies internet connectivity:"
+msgstr ""
+
+#: src/grapheneos_security.md:814
+msgid "GrapheneOS (default, private)"
+msgstr ""
+
+#: src/grapheneos_security.md:815
+msgid "Standard Android (Google, for blending in)"
+msgstr ""
+
+#: src/grapheneos_security.md:816
+msgid "Disabled"
+msgstr ""
+
+#: src/grapheneos_security.md:818
+msgid "Attestation Provisioning"
+msgstr ""
+
+#: src/grapheneos_security.md:822
+msgid "Controls attestation key provisioning:"
+msgstr ""
+
+#: src/grapheneos_security.md:823
+msgid "GrapheneOS proxy (default, private)"
+msgstr ""
+
+#: src/grapheneos_security.md:824
+msgid "Direct (Google)"
+msgstr ""
+
+#: src/grapheneos_security.md:826
+msgid "GNSS / Location"
+msgstr ""
+
+#: src/grapheneos_security.md:828
+msgid "**Network Location:**"
+msgstr ""
+
+#: src/grapheneos_security.md:829
+msgid "GrapheneOS provides opt-in network location"
+msgstr ""
+
+#: src/grapheneos_security.md:830
+msgid "Uses proxy to Apple's service (or direct)"
+msgstr ""
+
+#: src/grapheneos_security.md:831
+msgid "Building own database for future offline support"
+msgstr ""
+
+#: src/grapheneos_security.md:833
+msgid "**SUPL (Assisted GPS):**"
+msgstr ""
+
+#: src/grapheneos_security.md:834
+msgid "Proxied through GrapheneOS by default"
+msgstr ""
+
+#: src/grapheneos_security.md:835
+msgid "Can switch to carrier default or disable"
+msgstr ""
+
+#: src/grapheneos_security.md:837
+msgid "Clipboard Privacy"
+msgstr ""
+
+#: src/grapheneos_security.md:839
+msgid ""
+"**Location:** Settings > Security & privacy > Privacy controls > Show "
+"clipboard access"
+msgstr ""
+
+#: src/grapheneos_security.md:841
+msgid "Shows notification when apps access clipboard content from other apps."
+msgstr ""
+
+#: src/grapheneos_security.md:843
+msgid "Privacy Indicators"
+msgstr ""
+
+#: src/grapheneos_security.md:845
+msgid "GrapheneOS enables location indicator (in addition to camera/mic):"
+msgstr ""
+
+#: src/grapheneos_security.md:846
+msgid "Green dot shows when any app accesses location"
+msgstr ""
+
+#: src/grapheneos_security.md:847
+msgid "Works for all location APIs (not just GNSS)"
+msgstr ""
+
+#: src/grapheneos_security.md:849
+msgid "Accessibility Warning"
+msgstr ""
+
+#: src/grapheneos_security.md:851
+msgid "**NEVER grant Accessibility permission** unless absolutely required:"
+msgstr ""
+
+#: src/grapheneos_security.md:852
+msgid "Extremely dangerous permission"
+msgstr ""
+
+#: src/grapheneos_security.md:853
+msgid "Can read all screen content"
+msgstr ""
+
+#: src/grapheneos_security.md:854
+msgid "Can perform actions on your behalf"
+msgstr ""
+
+#: src/grapheneos_security.md:858
+msgid "20. Quick Reference Checklist"
+msgstr ""
+
+#: src/grapheneos_security.md:860
+msgid "Essential Security Settings"
+msgstr ""
+
+#: src/grapheneos_security.md:862
+msgid "**Lock bootloader** after installation"
+msgstr ""
+
+#: src/grapheneos_security.md:863
+msgid "**Strong password/PIN** - 6+ digit PIN or 16+ char password"
+msgstr ""
+
+#: src/grapheneos_security.md:864
+msgid "**Enable Scramble PIN** - Settings > Security & privacy > Device unlock"
+msgstr ""
+
+#: src/grapheneos_security.md:865
+msgid "**Set Duress PIN/Password** - Both required"
+msgstr ""
+
+#: src/grapheneos_security.md:866
+msgid ""
+"**Auto-reboot: 8-18 hours** - Settings > Security & privacy > Exploit "
+"protection"
+msgstr ""
+
+#: src/grapheneos_security.md:867
+msgid "**USB-C: Charging-only when locked** (default)"
+msgstr ""
+
+#: src/grapheneos_security.md:868
+msgid "**Wi-Fi/Bluetooth auto-off: 10 minutes**"
+msgstr ""
+
+#: src/grapheneos_security.md:869
+msgid "**Enable VPN with lockdown** - Block connections without VPN"
+msgstr ""
+
+#: src/grapheneos_security.md:870
+msgid "**Enable Security Preview releases** - Get patches early"
+msgstr ""
+
+#: src/grapheneos_security.md:874
+msgid "**Disable Wi-Fi/Bluetooth scanning** - Settings > Location"
+msgstr ""
+
+#: src/grapheneos_security.md:875
+msgid "**Use per-connection MAC randomization** (default)"
+msgstr ""
+
+#: src/grapheneos_security.md:876
+msgid "**Set generic Bluetooth name** - \"Device\""
+msgstr ""
+
+#: src/grapheneos_security.md:877
+msgid "**Use Private DNS** - Quad9 or similar"
+msgstr ""
+
+#: src/grapheneos_security.md:878
+msgid "**GrapheneOS connectivity checks** (default)"
+msgstr ""
+
+#: src/grapheneos_security.md:879
+msgid "**Review app Network permissions** - Deny where not needed"
+msgstr ""
+
+#: src/grapheneos_security.md:880
+msgid "**Enable Sensors deny by default** - Settings > Security & privacy"
+msgstr ""
+
+#: src/grapheneos_security.md:882
+msgid "Per-App Best Practices"
+msgstr ""
+
+#: src/grapheneos_security.md:884
+msgid "**Deny Network** for apps that don't need internet"
+msgstr ""
+
+#: src/grapheneos_security.md:885
+msgid "**Deny Sensors** for apps that don't need motion data"
+msgstr ""
+
+#: src/grapheneos_security.md:886
+msgid "**Use Storage Scopes** instead of full storage access"
+msgstr ""
+
+#: src/grapheneos_security.md:887
+msgid "**Use Contact Scopes** instead of full contacts access"
+msgstr ""
+
+#: src/grapheneos_security.md:888
+msgid ""
+"**Disable native debugging** - Settings > Security & privacy > Exploit "
+"protection"
+msgstr ""
+
+#: src/grapheneos_security.md:889
+msgid "**Review all permissions** after installation"
+msgstr ""
+
+#: src/grapheneos_security.md:891
+msgid "Advanced Hardening"
+msgstr ""
+
+#: src/grapheneos_security.md:893
+msgid "**Separate profile for Google Play** - Isolate from main profile"
+msgstr ""
+
+#: src/grapheneos_security.md:894
+msgid "**Use Private Space** for sensitive apps"
+msgstr ""
+
+#: src/grapheneos_security.md:895
+msgid "**Enable Auditor remote attestation** - attestation.app"
+msgstr ""
+
+#: src/grapheneos_security.md:896
+msgid "**Disable all dynamic code loading** for apps that don't need it"
+msgstr ""
+
+#: src/grapheneos_security.md:897
+msgid "**Set auto-reboot to minimum tolerable** (4-8 hours for high security)"
+msgstr ""
+
+#: src/grapheneos_security.md:898
+msgid "**Consider Charging-only USB** if you never use data transfer"
+msgstr ""
+
+#: src/grapheneos_security.md:902
+msgid "Additional Resources"
+msgstr ""
+
+#: src/grapheneos_security.md:904
+msgid "**Official Documentation:** https://grapheneos.org"
+msgstr ""
+
+#: src/grapheneos_security.md:905
+msgid "**Features Overview:** https://grapheneos.org/features"
+msgstr ""
+
+#: src/grapheneos_security.md:906
+msgid "**Usage Guide:** https://grapheneos.org/usage"
+msgstr ""
+
+#: src/grapheneos_security.md:907
+msgid "**FAQ:** https://grapheneos.org/faq"
+msgstr ""
+
+#: src/grapheneos_security.md:908
+msgid "**Releases:** https://grapheneos.org/releases"
+msgstr ""
+
+#: src/grapheneos_security.md:909
+msgid "**Discussion Forum:** https://discuss.grapheneos.org"
+msgstr ""
+
+#: src/grapheneos_security.md:910
+msgid "**Community:**"
+msgstr ""
+
+#: src/grapheneos_security.md:911
+msgid "Matrix: #community:grapheneos.org"
+msgstr ""
+
+#: src/grapheneos_security.md:912
+msgid "Discord: discord.com/invite/grapheneos"
+msgstr ""
+
+#: src/grapheneos_security.md:913
+msgid "Reddit: r/GrapheneOS"
+msgstr ""
+
+#: src/grapheneos_security.md:914
+msgid "X/Twitter: @GrapheneOS"
+msgstr ""
+
+#: src/grapheneos_security.md:915
+msgid "Mastodon: @GrapheneOS@grapheneos.social"
+msgstr ""
+
+#: src/grapheneos_security.md:916
+msgid "Bluesky: @grapheneos.org"
+msgstr ""
+
+#: src/grapheneos_security.md:920
+msgid "**Document Information:**"
+msgstr ""
+
+#: src/grapheneos_security.md:921
+msgid "_Guide Version: 1.2_"
+msgstr ""
+
+#: src/grapheneos_security.md:922
+msgid "_Last Updated: January 31, 2026_"
+msgstr ""
+
+#: src/grapheneos_security.md:923
+msgid "_GrapheneOS Stable Release: 2026012100 (January 21, 2026)_"
+msgstr ""
+
+#: src/grapheneos_security.md:924
+msgid "_GrapheneOS Beta Release: 2026012800 (January 28, 2026)_"
+msgstr ""
+
+#: src/grapheneos_security.md:925
+msgid "_Android Base: Android 16 QPR2 (BP4A.251205.006)_"
+msgstr ""
+
+#: src/grapheneos_security.md:926
+msgid "_Vanadium Browser: 144.0.7559.109.0_"
+msgstr ""
+
+#: src/grapheneos_security.md:927
+msgid "_Supported Devices: Pixel 6 through Pixel 10 families_"
+msgstr ""
+
+#: src/grapheneos_security.md:929
+msgid ""
+"_GrapheneOS is under active development. Security preview releases provide "
+"patches months ahead of public disclosure (currently through June 2026). "
+"Check official documentation at grapheneos.org for the latest features and "
+"recommendations._"
 msgstr ""
 
