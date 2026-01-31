@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Security Guidebook\n"
-"POT-Creation-Date: 2026-01-30T12:03:58+01:00\n"
+"POT-Creation-Date: 2026-01-31T10:57:51+01:00\n"
 "PO-Revision-Date: 2026-01-29T20:45:10+01:00\n"
 "Last-Translator: Kushal Das <mail@kushaldas.in>\n"
 "Language-Team: sv\n"
@@ -26,6 +26,10 @@ msgstr "Säkerhets- och integritetsinställningar för iOS"
 #: src/SUMMARY.md:5
 msgid "Android Security and Privacy Settings"
 msgstr "Säkerhets- och integritetsinställningar för Android"
+
+#: src/SUMMARY.md:6
+msgid "GrapheneOS Security and Privacy Settings"
+msgstr "Säkerhets- och integritetsinställningar för GrapheneOS"
 
 #: src/chapter_1.md:1
 msgid "Security Guide book"
@@ -1181,7 +1185,7 @@ msgstr "iCloud Drive"
 msgid "Photos"
 msgstr "Foton"
 
-#: src/ios_security.md:388
+#: src/ios_security.md:388 src/grapheneos_security.md:193
 msgid "Notes"
 msgstr "Anteckningar"
 
@@ -1808,6 +1812,7 @@ msgid "iOS 26.2 introduces secure codes for sharing with unknown contacts:"
 msgstr "iOS 26.2 introducerar säkra koder för delning med okända kontakter:"
 
 #: src/ios_security.md:641 src/android_security.md:236
+#: src/grapheneos_security.md:263
 msgid "**How it works:**"
 msgstr "**Så fungerar det:**"
 
@@ -1950,6 +1955,8 @@ msgid "Quick Reference: Essential Settings Checklist"
 msgstr "Snabbreferens: Checklista för viktiga inställningar"
 
 #: src/ios_security.md:697 src/android_security.md:759
+#: src/grapheneos_security.md:255 src/grapheneos_security.md:555
+#: src/grapheneos_security.md:636
 msgid "Setting"
 msgstr "Inställning"
 
@@ -2046,7 +2053,7 @@ msgstr "Hitta"
 msgid "Settings > \\[Name\\] > Find My"
 msgstr "Inställningar > \\[Namn\\] > Hitta"
 
-#: src/ios_security.md:708
+#: src/ios_security.md:708 src/grapheneos_security.md:773
 msgid "Automatic Updates"
 msgstr "Automatiska uppdateringar"
 
@@ -2278,7 +2285,7 @@ msgstr ""
 "**Återställ autentiseringsuppgifter** – Sömlös nyckelmigrering till nya "
 "enheter"
 
-#: src/android_security.md:26
+#: src/android_security.md:26 src/grapheneos_security.md:115
 msgid "Device Requirements"
 msgstr "Enhetskrav"
 
@@ -2482,8 +2489,8 @@ msgid ""
 "device manufacturer app stores."
 msgstr ""
 "**Skydd mot skadliga nedladdningar** — Ingående kontroller före varje "
-"nedladdning. Endast appinstallationer från verifierade butiker, t.ex. "
-"Google Play Butik och enhetstillverkarens appbutik, tillåts."
+"nedladdning. Endast appinstallationer från verifierade butiker, t.ex. Google "
+"Play Butik och enhetstillverkarens appbutik, tillåts."
 
 #: src/android_security.md:93
 msgid ""
@@ -2537,16 +2544,17 @@ msgid ""
 "recovery is intentionally harder — if you lose your passkey or security key, "
 "regaining access will require additional verification steps."
 msgstr ""
-"Programmet Avancerat skydd tillämpar strikta begränsningar. Appar från tredje "
-"part som kräver åtkomst till Gmail- eller Drive-data kan sluta fungera. "
-"Kontoåterställning är avsiktligt svårare — om du tappar bort din nyckel eller "
-"säkerhetsnyckel krävs ytterligare verifieringssteg för att återfå åtkomst."
+"Programmet Avancerat skydd tillämpar strikta begränsningar. Appar från "
+"tredje part som kräver åtkomst till Gmail- eller Drive-data kan sluta "
+"fungera. Kontoåterställning är avsiktligt svårare — om du tappar bort din "
+"nyckel eller säkerhetsnyckel krävs ytterligare verifieringssteg för att "
+"återfå åtkomst."
 
 #: src/android_security.md:116
 msgid "2. Device Authentication"
 msgstr "2. Enhetsautentisering"
 
-#: src/android_security.md:118
+#: src/android_security.md:118 src/grapheneos_security.md:189
 msgid "Screen Lock Options"
 msgstr "Skärmlåsalternativ"
 
@@ -2669,8 +2677,8 @@ msgid ""
 "A FIDO2-compliant security key (e.g., Google Titan Security Key, YubiKey 5 "
 "series)"
 msgstr ""
-"En säkerhetsnyckel som är kompatibel med FIDO2 (t.ex. Googles "
-"Titan-säkerhetsnyckel, YubiKey 5-serien)"
+"En säkerhetsnyckel som är kompatibel med FIDO2 (t.ex. Googles Titan-"
+"säkerhetsnyckel, YubiKey 5-serien)"
 
 #: src/android_security.md:154
 msgid "Google Account with 2-Step Verification enabled"
@@ -2722,11 +2730,13 @@ msgstr "**Så här använder du säkerhetsnyckeln på Android:**"
 
 #: src/android_security.md:175
 msgid "**NFC keys:** When prompted, tap the key against the back of your phone"
-msgstr "**NFC-nycklar:** Håll nyckeln mot baksidan av telefonen när du uppmanas"
+msgstr ""
+"**NFC-nycklar:** Håll nyckeln mot baksidan av telefonen när du uppmanas"
 
 #: src/android_security.md:176
 msgid "**USB keys:** Plug the key into your phone's USB-C port when prompted"
-msgstr "**USB-nycklar:** Anslut nyckeln till telefonens USB-C-port när du uppmanas"
+msgstr ""
+"**USB-nycklar:** Anslut nyckeln till telefonens USB-C-port när du uppmanas"
 
 #: src/android_security.md:177
 msgid ""
@@ -2741,9 +2751,9 @@ msgid ""
 "you lose all your security keys and have no other recovery method, you could "
 "be locked out of your Google Account."
 msgstr ""
-"Registrera minst två säkerhetsnycklar och förvara reservnyckeln på ett säkert "
-"ställe. Om du tappar bort alla dina säkerhetsnycklar och inte har någon annan "
-"återställningsmetod kan du bli utestängd från ditt Google-konto."
+"Registrera minst två säkerhetsnycklar och förvara reservnyckeln på ett "
+"säkert ställe. Om du tappar bort alla dina säkerhetsnycklar och inte har "
+"någon annan återställningsmetod kan du bli utestängd från ditt Google-konto."
 
 #: src/android_security.md:190
 msgid "3. Identity Check"
@@ -3368,7 +3378,7 @@ msgstr "Sök efter **Lösenordshanterare**"
 msgid "Or open the **Passwords** app"
 msgstr "Eller öppna appen **Lösenord**"
 
-#: src/android_security.md:439
+#: src/android_security.md:439 src/grapheneos_security.md:741
 msgid "**Features:**"
 msgstr "**Funktioner:**"
 
@@ -3397,7 +3407,8 @@ msgstr "Nycklar"
 msgid "Passkeys are phishing-resistant replacements for passwords."
 msgstr "Nycklar är nätfiskeresistenta ersättningar för lösenord."
 
-#: src/android_security.md:449
+#: src/android_security.md:449 src/grapheneos_security.md:216
+#: src/grapheneos_security.md:787
 msgid "**Benefits:**"
 msgstr "**Fördelar:**"
 
@@ -3714,7 +3725,9 @@ msgstr "Skyddar mot \"juice jacking\"-attacker vid offentliga laddstationer"
 msgid "Blocks physical data extraction attempts"
 msgstr "Blockerar försök till fysisk dataextrahering"
 
-#: src/android_security.md:568
+#: src/android_security.md:568 src/grapheneos_security.md:324
+#: src/grapheneos_security.md:356 src/grapheneos_security.md:378
+#: src/grapheneos_security.md:410
 msgid "How It Works"
 msgstr "Så fungerar det"
 
@@ -3987,7 +4000,7 @@ msgstr ""
 msgid "Select **Enhanced protection**"
 msgstr "Välj **Förbättrat skydd**"
 
-#: src/android_security.md:679
+#: src/android_security.md:679 src/grapheneos_security.md:872
 msgid "Privacy Settings"
 msgstr "Integritetsinställningar"
 
@@ -4362,11 +4375,2893 @@ msgstr ""
 "Inställningar kan variera något beroende på enhetstillverkare (Pixel, "
 "Samsung, etc.)_"
 
+#: src/grapheneos_security.md:1
+msgid "GrapheneOS Security & Privacy Settings Guide"
+msgstr "Guide för GrapheneOS säkerhets- och integritetsinställningar"
+
+#: src/grapheneos_security.md:2
+msgid "Latest Stable Release: 2026012100 (January 21, 2026)"
+msgstr "Senaste stabila utgåva: 2026012100 (21 januari 2026)"
+
+#: src/grapheneos_security.md:3
+msgid "Latest Beta/Alpha Release: 2026012800 (January 28, 2026)"
+msgstr "Senaste beta/alfa-utgåva: 2026012800 (28 januari 2026)"
+
+#: src/grapheneos_security.md:4
+msgid "Based on Android 16 QPR2"
+msgstr "Baserad på Android 16 QPR2"
+
+#: src/grapheneos_security.md:8
+msgid "**Current Version Information:**"
+msgstr "**Aktuell versionsinformation:**"
+
+#: src/grapheneos_security.md:9
+msgid "**Stable Release:** 2026012100 (January 21, 2026)"
+msgstr "**Stabil utgåva:** 2026012100 (21 januari 2026)"
+
+#: src/grapheneos_security.md:10
+msgid "**Beta/Alpha Release:** 2026012800 (January 28, 2026)"
+msgstr "**Beta/alfa-utgåva:** 2026012800 (28 januari 2026)"
+
+#: src/grapheneos_security.md:11
+msgid ""
+"**Security Preview:** 2026012801 (includes patches through June 2026 ASB)"
+msgstr "**Förhandstitt på säkerhet:** 2026012801 (inkluderar korrigeringar till juni 2026 ASB)"
+
+#: src/grapheneos_security.md:12
+msgid "**Android Base:** Android 16 QPR2 (BP4A.251205.006)"
+msgstr "**Android-bas:** Android 16 QPR2 (BP4A.251205.006)"
+
+#: src/grapheneos_security.md:13
+msgid "**Kernel Versions:** 6.1.161 (GKI LTS), 6.6 LTS, 6.12.67 LTS"
+msgstr "**Kärnversioner:** 6.1.161 (GKI LTS), 6.6 LTS, 6.12.67 LTS"
+
+#: src/grapheneos_security.md:14
+msgid "**Vanadium Browser:** 144.0.7559.109.0"
+msgstr "**Vanadium-webbläsare:** 144.0.7559.109.0"
+
+#: src/grapheneos_security.md:18
+msgid "1. Overview"
+msgstr "1. Översikt"
+
+#: src/grapheneos_security.md:20
+msgid ""
+"GrapheneOS is a privacy and security-focused mobile operating system based "
+"on the Android Open Source Project (AOSP). It is designed for users who "
+"require the highest level of mobile security, including journalists, "
+"activists, security researchers, and privacy-conscious individuals. Notably, "
+"Edward Snowden has publicly endorsed GrapheneOS as his mobile OS of choice."
+msgstr ""
+"GrapheneOS är ett integritet- och säkerhetsfokuserat mobilt operativsystem "
+"baserat på Android Open Source Project (AOSP). Det är utformat för "
+"användare som kräver den högsta nivån av mobil säkerhet, inklusive "
+"journalister, aktivister, säkerhetsforskare och integritetsfokuserade "
+"personer. Edward Snowden har offentligt rekommenderat GrapheneOS som sitt "
+"föredragna mobila operativsystem."
+
+#: src/grapheneos_security.md:27
+msgid ""
+"I personally did not verify all details as I am running an older version of "
+"GrapheneOS."
+msgstr ""
+"Jag har personligen inte verifierat alla detaljer eftersom jag kör en äldre "
+"version av GrapheneOS."
+
+#: src/grapheneos_security.md:31
+msgid "What's New in 2025-2026"
+msgstr "Nyheter 2025–2026"
+
+#: src/grapheneos_security.md:33
+msgid "**Latest Beta Release (2026012800 - January 28, 2026):**"
+msgstr "**Senaste betautgåva (2026012800 - 28 januari 2026):**"
+
+#: src/grapheneos_security.md:34
+msgid ""
+"FusedLocationProvider: Restored pre-16-QPR1 GNSS usage policy (uses GNSS for "
+"both balanced and high power requests)"
+msgstr ""
+"FusedLocationProvider: Återställd GNSS-användningspolicy från före 16-QPR1 "
+"(använder GNSS för både balanserade och högeffektförfrågningar)"
+
+#: src/grapheneos_security.md:35
+msgid ""
+"Sandboxed Google Play: Added special case for SMS permission to enable SMS-"
+"based authentication for apps using Google Play services"
+msgstr ""
+"Sandboxat Google Play: Lade till specialfall för SMS-behörighet för att "
+"aktivera SMS-baserad autentisering för appar som använder Google Play-tjänster"
+
+#: src/grapheneos_security.md:36
+msgid ""
+"Sandboxed Google Play: Prevented Play Store from attempting to install "
+"unnecessary \"Device configuration\" package"
+msgstr ""
+"Sandboxat Google Play: Förhindrade Play Butik från att försöka installera "
+"onödigt paket \"Enhetskonfiguration\""
+
+#: src/grapheneos_security.md:37
+msgid ""
+"Improved secure app spawning compatibility with anti-tampering checks in "
+"certain apps"
+msgstr ""
+"Förbättrad kompatibilitet för säker appstart med anti-manipuleringskontroller "
+"i vissa appar"
+
+#: src/grapheneos_security.md:38
+msgid ""
+"Settings: Now requires device restart after changing secure app spawning "
+"setting"
+msgstr ""
+"Inställningar: Kräver nu omstart av enheten efter ändring av inställning för "
+"säker appstart"
+
+#: src/grapheneos_security.md:39
+msgid ""
+"Network Location: Renamed \"GrapheneOS proxy\" to \"GrapheneOS Apple proxy\" "
+"for clarity"
+msgstr ""
+"Nätverksplats: Döpte om \"GrapheneOS-proxy\" till \"GrapheneOS Apple-proxy\" "
+"för tydlighet"
+
+#: src/grapheneos_security.md:40
+msgid ""
+"Network Location: Added \"Apple China\" server choice for China data "
+"compliance"
+msgstr ""
+"Nätverksplats: Lade till serverval \"Apple Kina\" för Kinas dataefterlevnad"
+
+#: src/grapheneos_security.md:41
+msgid "Pixel 8a, 9th/10th gen: Disabled NTP usage in Samsung gnssd"
+msgstr "Pixel 8a, 9:e/10:e gen: Inaktiverade NTP-användning i Samsung gnssd"
+
+#: src/grapheneos_security.md:42
+msgid "Improved UI for Network/Sensors permissions in permission manager"
+msgstr "Förbättrat gränssnitt för nätverks-/sensorbehörigheter i behörighetshanteraren"
+
+#: src/grapheneos_security.md:43
+msgid "Fixed Material 3 Expressive styling for Contact/Storage Scopes UI"
+msgstr "Åtgärdade Material 3 Expressive-styling för gränssnitt för kontakt-/lagringsomfång"
+
+#: src/grapheneos_security.md:44
+msgid "Kernel 6.12 updated to 6.12.67"
+msgstr "Kärna 6.12 uppdaterad till 6.12.67"
+
+#: src/grapheneos_security.md:45
+msgid "Vanadium updated to 144.0.7559.109.0"
+msgstr "Vanadium uppdaterad till 144.0.7559.109.0"
+
+#: src/grapheneos_security.md:47
+msgid "**Current Stable Release (2026012100 - January 21, 2026):**"
+msgstr "**Aktuell stabil utgåva (2026012100 - 21 januari 2026):**"
+
+#: src/grapheneos_security.md:48
+msgid ""
+"Fixed upstream infinite loop bug in ProtoFieldFilter.skipBytes() causing "
+"system unusability in early boot"
+msgstr ""
+"Åtgärdade uppströms oändlig loop-bugg i ProtoFieldFilter.skipBytes() som "
+"orsakade systemoanvändbarhet vid tidig uppstart"
+
+#: src/grapheneos_security.md:49
+msgid "libpng: Backported security patches"
+msgstr "libpng: Bakporterade säkerhetskorrigeringar"
+
+#: src/grapheneos_security.md:50
+msgid "Removed unused INTERNET permission from Pixel Camera Services"
+msgstr "Tog bort oanvänd INTERNET-behörighet från Pixel Camera Services"
+
+#: src/grapheneos_security.md:51
+msgid "Kernel 6.1 updated to 6.1.161, Kernel 6.12 updated to 6.12.66"
+msgstr "Kärna 6.1 uppdaterad till 6.1.161, kärna 6.12 uppdaterad till 6.12.66"
+
+#: src/grapheneos_security.md:52
+msgid "Vanadium updated through version 144.0.7559.90.0"
+msgstr "Vanadium uppdaterad till version 144.0.7559.90.0"
+
+#: src/grapheneos_security.md:54
+msgid "**Security Preview Release (2026012801):**"
+msgstr "**Förhandstitt på säkerhet (2026012801):**"
+
+#: src/grapheneos_security.md:55
+msgid "Includes patches through June 2026 Android Security Bulletin"
+msgstr "Inkluderar korrigeringar till juni 2026 Android Security Bulletin"
+
+#: src/grapheneos_security.md:56
+msgid "8 Critical CVEs patched (CVE-2026-0039 through CVE-2026-0049)"
+msgstr "8 kritiska CVE:er korrigerade (CVE-2026-0039 till CVE-2026-0049)"
+
+#: src/grapheneos_security.md:57
+msgid "38+ High-severity CVEs patched ahead of public disclosure"
+msgstr "38+ CVE:er med hög allvarlighetsgrad korrigerade innan offentliggörande"
+
+#: src/grapheneos_security.md:58
+msgid ""
+"Enable via Settings > System > System update > Receive security preview "
+"releases"
+msgstr ""
+"Aktivera via Inställningar > System > Systemuppdatering > Ta emot "
+"förhandsutgåvor för säkerhet"
+
+#: src/grapheneos_security.md:60
+msgid "**Recent Major Features:**"
+msgstr "**Senaste stora funktioner:**"
+
+#: src/grapheneos_security.md:61
+msgid "**Android 16 QPR2 base** - Latest security patches and features"
+msgstr "**Android 16 QPR2-bas** – Senaste säkerhetskorrigeringar och funktioner"
+
+#: src/grapheneos_security.md:62
+msgid ""
+"**Security Preview Releases** - Get security patches months ahead of public "
+"disclosure"
+msgstr ""
+"**Förhandsutgåvor för säkerhet** – Få säkerhetskorrigeringar månader före "
+"offentliggörande"
+
+#: src/grapheneos_security.md:63
+msgid ""
+"**Pixel 10 support** - Full support for Pixel 10 family (no longer "
+"experimental as of January 2026)"
+msgstr ""
+"**Pixel 10-stöd** – Fullt stöd för Pixel 10-familjen (inte längre "
+"experimentellt sedan januari 2026)"
+
+#: src/grapheneos_security.md:64
+msgid ""
+"**Private Space integration** - Android 15+ feature fully supported as "
+"replacement for work profiles"
+msgstr ""
+"**Privat utrymme-integrering** – Android 15+-funktion fullt stödd som "
+"ersättning för arbetsprofiler"
+
+#: src/grapheneos_security.md:65
+msgid ""
+"**Enhanced memory tagging** - Expanded MTE support for hardware-level memory "
+"safety"
+msgstr ""
+"**Förbättrad minnes-taggning** – Utökat MTE-stöd för minnessäkerhet på "
+"hårdvarunivå"
+
+#: src/grapheneos_security.md:66
+msgid "**Post-quantum cryptography** - Hybrid key exchange in Vanadium browser"
+msgstr "**Postkvantkryptografi** – Hybridnyckelutbyte i Vanadium-webbläsaren"
+
+#: src/grapheneos_security.md:67
+msgid ""
+"**Improved VPN leak protection** - Comprehensive protection against all "
+"forms of VPN bypasses"
+msgstr ""
+"**Förbättrat VPN-läckageskydd** – Omfattande skydd mot alla former av VPN-"
+"förbigång"
+
+#: src/grapheneos_security.md:68
+msgid ""
+"**OEM partnership announced** - Non-Pixel devices expected Q4 2026 or Q1 2027"
+msgstr ""
+"**OEM-partnerskap tillkännagivet** – Icke-Pixel-enheter förväntas Q4 2026 "
+"eller Q1 2027"
+
+#: src/grapheneos_security.md:69
+msgid "**Lockscreen widget support** - Enabled in December 2025 release"
+msgstr "**Låsskärmswidgetar** – Aktiverat i december 2025-utgåvan"
+
+#: src/grapheneos_security.md:71
+msgid "Key Differentiators from Stock Android"
+msgstr "Viktiga skillnader från vanlig Android"
+
+#: src/grapheneos_security.md:73
+msgid "Feature"
+msgstr "Funktion"
+
+#: src/grapheneos_security.md:73 src/grapheneos_security.md:512
+#: src/grapheneos_security.md:578
+msgid "Stock Android"
+msgstr "Vanlig Android"
+
+#: src/grapheneos_security.md:73 src/grapheneos_security.md:512
+#: src/grapheneos_security.md:578
+msgid "GrapheneOS"
+msgstr "GrapheneOS"
+
+#: src/grapheneos_security.md:75
+msgid "Google Services"
+msgstr "Google-tjänster"
+
+#: src/grapheneos_security.md:75
+msgid "Deeply integrated with privileged access"
+msgstr "Djupt integrerat med privilegierad åtkomst"
+
+#: src/grapheneos_security.md:75
+msgid "Optional, fully sandboxed, no special privileges"
+msgstr "Valfritt, helt sandboxat, inga speciella privilegier"
+
+#: src/grapheneos_security.md:76
+msgid "Network Permission"
+msgstr "Nätverksbehörighet"
+
+#: src/grapheneos_security.md:76 src/grapheneos_security.md:78
+#: src/grapheneos_security.md:79
+msgid "Not available"
+msgstr "Inte tillgängligt"
+
+#: src/grapheneos_security.md:76
+msgid "Per-app toggle to completely block network"
+msgstr "Per app-växling för att helt blockera nätverk"
+
+#: src/grapheneos_security.md:77
+msgid "Sensors Permission"
+msgstr "Sensorbehörighet"
+
+#: src/grapheneos_security.md:77
+msgid "Limited"
+msgstr "Begränsat"
+
+#: src/grapheneos_security.md:77
+msgid "Per-app toggle for accelerometer, gyroscope, etc."
+msgstr "Per app-växling för accelerometer, gyroskop, etc."
+
+#: src/grapheneos_security.md:78
+msgid "Auto-Reboot"
+msgstr "Automatisk omstart"
+
+#: src/grapheneos_security.md:78
+msgid "Configurable 10 min to 72 hours (default: 18 hours)"
+msgstr "Konfigurerbar 10 min till 72 timmar (standard: 18 timmar)"
+
+#: src/grapheneos_security.md:79
+msgid "Duress PIN"
+msgstr "Nöd-PIN"
+
+#: src/grapheneos_security.md:79
+msgid "Instantly wipes device when entered"
+msgstr "Raderar omedelbart enheten när den anges"
+
+#: src/grapheneos_security.md:80
+msgid "USB Protection"
+msgstr "USB-skydd"
+
+#: src/grapheneos_security.md:80
+msgid "Software-only"
+msgstr "Endast programvara"
+
+#: src/grapheneos_security.md:80
+msgid "Hardware + software, blocks data lines"
+msgstr "Hårdvara + programvara, blockerar datalinjer"
+
+#: src/grapheneos_security.md:81
+msgid "Exploit Mitigations"
+msgstr "Skydd mot exploatering"
+
+#: src/grapheneos_security.md:81
+msgid "Standard"
+msgstr "Standard"
+
+#: src/grapheneos_security.md:81
+msgid "Hardened malloc, kernel hardening, MTE"
+msgstr "Härdad malloc, kärnhärdning, MTE"
+
+#: src/grapheneos_security.md:82
+msgid "Update Speed"
+msgstr "Uppdateringshastighet"
+
+#: src/grapheneos_security.md:82
+msgid "Monthly patches"
+msgstr "Månatliga korrigeringar"
+
+#: src/grapheneos_security.md:82
+msgid "Security patches months ahead via preview releases"
+msgstr "Säkerhetskorrigeringar månader i förväg via förhandsutgåvor"
+
+#: src/grapheneos_security.md:86
+msgid "2. Supported Devices"
+msgstr "2. Enheter som stöds"
+
+#: src/grapheneos_security.md:88
+msgid ""
+"GrapheneOS exclusively supports Google Pixel devices due to their hardware "
+"security features, including the Titan M2 security chip and hardware-backed "
+"attestation."
+msgstr ""
+"GrapheneOS stöder exklusivt Google Pixel-enheter på grund av deras "
+"hårdvarubasäkerhetsfunktioner, inklusive Titan M2-säkerhetschip och "
+"hårdvarubackad attestering."
+
+#: src/grapheneos_security.md:90
+msgid "Currently Supported (Full Support)"
+msgstr "Stöds för närvarande (fullt stöd)"
+
+#: src/grapheneos_security.md:92
+msgid "Device"
+msgstr "Enhet"
+
+#: src/grapheneos_security.md:92
+msgid "Codename"
+msgstr "Kodnamn"
+
+#: src/grapheneos_security.md:92
+msgid "Support Until"
+msgstr "Stöds till"
+
+#: src/grapheneos_security.md:94
+msgid "Pixel 10 Pro Fold"
+msgstr "Pixel 10 Pro Fold"
+
+#: src/grapheneos_security.md:94
+msgid "rango"
+msgstr "rango"
+
+#: src/grapheneos_security.md:94 src/grapheneos_security.md:95
+#: src/grapheneos_security.md:96 src/grapheneos_security.md:97
+msgid "~2032"
+msgstr "~2032"
+
+#: src/grapheneos_security.md:95
+msgid "Pixel 10 Pro XL"
+msgstr "Pixel 10 Pro XL"
+
+#: src/grapheneos_security.md:95
+msgid "mustang"
+msgstr "mustang"
+
+#: src/grapheneos_security.md:96
+msgid "Pixel 10 Pro"
+msgstr "Pixel 10 Pro"
+
+#: src/grapheneos_security.md:96
+msgid "blazer"
+msgstr "blazer"
+
+#: src/grapheneos_security.md:97
+msgid "Pixel 10"
+msgstr "Pixel 10"
+
+#: src/grapheneos_security.md:97
+msgid "frankel"
+msgstr "frankel"
+
+#: src/grapheneos_security.md:98
+msgid "Pixel 9a"
+msgstr "Pixel 9a"
+
+#: src/grapheneos_security.md:98
+msgid "toki"
+msgstr "toki"
+
+#: src/grapheneos_security.md:98 src/grapheneos_security.md:99
+#: src/grapheneos_security.md:100 src/grapheneos_security.md:101
+#: src/grapheneos_security.md:102 src/grapheneos_security.md:103
+msgid "~2031"
+msgstr "~2031"
+
+#: src/grapheneos_security.md:99
+msgid "Pixel 9 Pro Fold"
+msgstr "Pixel 9 Pro Fold"
+
+#: src/grapheneos_security.md:99
+msgid "comet"
+msgstr "comet"
+
+#: src/grapheneos_security.md:100
+msgid "Pixel 9 Pro XL"
+msgstr "Pixel 9 Pro XL"
+
+#: src/grapheneos_security.md:100
+msgid "komodo"
+msgstr "komodo"
+
+#: src/grapheneos_security.md:101
+msgid "Pixel 9 Pro"
+msgstr "Pixel 9 Pro"
+
+#: src/grapheneos_security.md:101
+msgid "caiman"
+msgstr "caiman"
+
+#: src/grapheneos_security.md:102
+msgid "Pixel 9"
+msgstr "Pixel 9"
+
+#: src/grapheneos_security.md:102
+msgid "tokay"
+msgstr "tokay"
+
+#: src/grapheneos_security.md:103
+msgid "Pixel 8a"
+msgstr "Pixel 8a"
+
+#: src/grapheneos_security.md:103
+msgid "akita"
+msgstr "akita"
+
+#: src/grapheneos_security.md:104
+msgid "Pixel 8 Pro"
+msgstr "Pixel 8 Pro"
+
+#: src/grapheneos_security.md:104
+msgid "husky"
+msgstr "husky"
+
+#: src/grapheneos_security.md:104 src/grapheneos_security.md:105
+msgid "~2030"
+msgstr "~2030"
+
+#: src/grapheneos_security.md:105
+msgid "Pixel 8"
+msgstr "Pixel 8"
+
+#: src/grapheneos_security.md:105
+msgid "shiba"
+msgstr "shiba"
+
+#: src/grapheneos_security.md:106
+msgid "Pixel Fold"
+msgstr "Pixel Fold"
+
+#: src/grapheneos_security.md:106
+msgid "felix"
+msgstr "felix"
+
+#: src/grapheneos_security.md:106 src/grapheneos_security.md:107
+#: src/grapheneos_security.md:108
+msgid "~2028"
+msgstr "~2028"
+
+#: src/grapheneos_security.md:107
+msgid "Pixel Tablet"
+msgstr "Pixel Tablet"
+
+#: src/grapheneos_security.md:107
+msgid "tangorpro"
+msgstr "tangorpro"
+
+#: src/grapheneos_security.md:108
+msgid "Pixel 7a"
+msgstr "Pixel 7a"
+
+#: src/grapheneos_security.md:108
+msgid "lynx"
+msgstr "lynx"
+
+#: src/grapheneos_security.md:109
+msgid "Pixel 7 Pro"
+msgstr "Pixel 7 Pro"
+
+#: src/grapheneos_security.md:109
+msgid "cheetah"
+msgstr "cheetah"
+
+#: src/grapheneos_security.md:109 src/grapheneos_security.md:110
+#: src/grapheneos_security.md:111
+msgid "~2027"
+msgstr "~2027"
+
+#: src/grapheneos_security.md:110
+msgid "Pixel 7"
+msgstr "Pixel 7"
+
+#: src/grapheneos_security.md:110
+msgid "panther"
+msgstr "panther"
+
+#: src/grapheneos_security.md:111
+msgid "Pixel 6a"
+msgstr "Pixel 6a"
+
+#: src/grapheneos_security.md:111
+msgid "bluejay"
+msgstr "bluejay"
+
+#: src/grapheneos_security.md:112
+msgid "Pixel 6 Pro"
+msgstr "Pixel 6 Pro"
+
+#: src/grapheneos_security.md:112
+msgid "raven"
+msgstr "raven"
+
+#: src/grapheneos_security.md:112 src/grapheneos_security.md:113
+msgid "~2026"
+msgstr "~2026"
+
+#: src/grapheneos_security.md:113
+msgid "Pixel 6"
+msgstr "Pixel 6"
+
+#: src/grapheneos_security.md:113
+msgid "oriole"
+msgstr "oriole"
+
+#: src/grapheneos_security.md:117
+msgid ""
+"**OEM-unlockable bootloader** - Carrier-locked devices (e.g., Verizon) are "
+"NOT supported"
+msgstr ""
+"**OEM-upplåsbar bootloader** – Operatörslåsta enheter (t.ex. Verizon) stöds "
+"INTE"
+
+#: src/grapheneos_security.md:118
+msgid ""
+"**Titan M/M2 security chip** - Required for hardware-based security features"
+msgstr ""
+"**Titan M/M2-säkerhetschip** – Krävs för hårdvarubaserade säkerhetsfunktioner"
+
+#: src/grapheneos_security.md:119
+msgid ""
+"**Google hardware** - Only official Pixel devices meet security requirements"
+msgstr ""
+"**Google-hårdvara** – Endast officiella Pixel-enheter uppfyller säkerhetskraven"
+
+#: src/grapheneos_security.md:121
+msgid "Future Support"
+msgstr "Framtida stöd"
+
+#: src/grapheneos_security.md:123
+msgid ""
+"GrapheneOS announced in October 2025 a partnership with a \"major Android "
+"OEM\" to support Snapdragon-powered flagship devices, expected Q4 2026 or Q1 "
+"2027."
+msgstr ""
+"GrapheneOS tillkännagav i oktober 2025 ett partnerskap med en \"stor Android-"
+"OEM\" för att stödja Snapdragon-drivna flaggskeppsenheter, förväntas Q4 2026 "
+"eller Q1 2027."
+
+#: src/grapheneos_security.md:127
+msgid "3. Installation"
+msgstr "3. Installation"
+
+#: src/grapheneos_security.md:129
+msgid "Prerequisites"
+msgstr "Förutsättningar"
+
+#: src/grapheneos_security.md:131
+msgid "Unlocked Pixel device (not carrier-locked)"
+msgstr "Upplåst Pixel-enhet (inte operatörslåst)"
+
+#: src/grapheneos_security.md:132
+msgid "Computer with Chrome/Chromium browser (for web installer)"
+msgstr "Dator med Chrome/Chromium-webbläsare (för webbinstallatören)"
+
+#: src/grapheneos_security.md:133
+msgid "USB cable"
+msgstr "USB-kabel"
+
+#: src/grapheneos_security.md:135
+msgid "Web Installer (Recommended)"
+msgstr "Webbinstallatör (rekommenderas)"
+
+#: src/grapheneos_security.md:137
+msgid "Go to **https://grapheneos.org/install/web**"
+msgstr "Gå till **https://grapheneos.org/install/web**"
+
+#: src/grapheneos_security.md:138
+msgid "Connect your Pixel via USB"
+msgstr "Anslut din Pixel via USB"
+
+#: src/grapheneos_security.md:139
+msgid "Follow on-screen instructions to:"
+msgstr "Följ instruktionerna på skärmen för att:"
+
+#: src/grapheneos_security.md:140
+msgid "Enable OEM unlocking in Developer Options"
+msgstr "Aktivera OEM-upplåsning i Utvecklaralternativ"
+
+#: src/grapheneos_security.md:141
+msgid "Unlock the bootloader"
+msgstr "Lås upp bootloadern"
+
+#: src/grapheneos_security.md:142
+msgid "Flash GrapheneOS"
+msgstr "Flasha GrapheneOS"
+
+#: src/grapheneos_security.md:143
+msgid "Lock the bootloader (critical for security)"
+msgstr "Lås bootloadern (kritiskt för säkerheten)"
+
+#: src/grapheneos_security.md:145
+msgid "Important Notes"
+msgstr "Viktiga noteringar"
+
+#: src/grapheneos_security.md:147
+msgid ""
+"**Always lock the bootloader after installation** - An unlocked bootloader "
+"defeats security"
+msgstr ""
+"**Lås alltid bootloadern efter installation** – En olåst bootloader "
+"underminerar säkerheten"
+
+#: src/grapheneos_security.md:148
+msgid "Installation takes approximately 10-15 minutes"
+msgstr "Installationen tar cirka 10–15 minuter"
+
+#: src/grapheneos_security.md:149
+msgid "All data will be erased during installation"
+msgstr "All data kommer att raderas under installationen"
+
+#: src/grapheneos_security.md:150
+msgid "The web installer prevents bricking - it's very safe"
+msgstr "Webbinstallatören förhindrar brickande – det är mycket säkert"
+
+#: src/grapheneos_security.md:154
+msgid "4. Initial Setup"
+msgstr "4. Första konfiguration"
+
+#: src/grapheneos_security.md:156
+msgid "Setup Wizard Security Features"
+msgstr "Konfigurationsguidens säkerhetsfunktioner"
+
+#: src/grapheneos_security.md:158
+msgid "GrapheneOS's Setup Wizard includes enhanced security checks:"
+msgstr "GrapheneOS konfigurationsguide inkluderar förbättrade säkerhetskontroller:"
+
+#: src/grapheneos_security.md:160
+msgid ""
+"**Bootloader Warning** - Alerts if bootloader is unlocked with option to "
+"reboot to fastboot"
+msgstr ""
+"**Bootloader-varning** – Varnar om bootloadern är olåst med alternativ att "
+"starta om till fastboot"
+
+#: src/grapheneos_security.md:161
+msgid ""
+"**OEM Unlocking Auto-Disable** - Disables OEM unlocking at end of setup "
+"(toggle to opt-out)"
+msgstr ""
+"**Automatisk inaktivering av OEM-upplåsning** – Inaktiverar OEM-upplåsning i "
+"slutet av konfigurationen (växla för att avstå)"
+
+#: src/grapheneos_security.md:163
+msgid "Recommended Initial Configuration"
+msgstr "Rekommenderad första konfiguration"
+
+#: src/grapheneos_security.md:165
+msgid "After completing basic setup:"
+msgstr "Efter att ha slutfört grundläggande konfiguration:"
+
+#: src/grapheneos_security.md:167
+msgid "**Set a strong lock method**"
+msgstr "**Ställ in en stark låsmetod**"
+
+#: src/grapheneos_security.md:168
+msgid "Settings > Security & privacy > Device unlock > Screen lock"
+msgstr "Inställningar > Säkerhet och integritet > Enhetslås > Skärmlås"
+
+#: src/grapheneos_security.md:169
+msgid "Use a strong password (16+ characters) or secure PIN (6+ digits)"
+msgstr "Använd ett starkt lösenord (16+ tecken) eller säker PIN-kod (6+ siffror)"
+
+#: src/grapheneos_security.md:170
+msgid "Consider enabling **Scramble PIN input layout**"
+msgstr "Överväg att aktivera **Blanda om PIN-inmatningslayout**"
+
+#: src/grapheneos_security.md:172
+msgid "**Configure fingerprint with 2FA PIN** (optional)"
+msgstr "**Konfigurera fingeravtryck med 2FA-PIN** (valfritt)"
+
+#: src/grapheneos_security.md:173
+msgid "Adds requirement to enter short PIN after fingerprint"
+msgstr "Lägger till krav på att ange kort PIN efter fingeravtryck"
+
+#: src/grapheneos_security.md:174
+msgid "Provides strong passphrase security with fingerprint convenience"
+msgstr "Ger stark lösenfras-säkerhet med fingeravtryckets bekvämlighet"
+
+#: src/grapheneos_security.md:176
+msgid "**Enable Duress PIN/Password**"
+msgstr "**Aktivera nöd-PIN/lösenord**"
+
+#: src/grapheneos_security.md:177
+msgid "Settings > Security & privacy > Device unlock > Duress Password"
+msgstr "Inställningar > Säkerhet och integritet > Enhetslås > Nödlösenord"
+
+#: src/grapheneos_security.md:178
+msgid "Set BOTH a duress PIN and password"
+msgstr "Ställ in BÅDE en nöd-PIN och ett nödlösenord"
+
+#: src/grapheneos_security.md:179
+msgid "This will wipe the device instantly when entered"
+msgstr "Detta kommer att radera enheten omedelbart när det anges"
+
+#: src/grapheneos_security.md:181
+msgid "**Review exploit protection defaults**"
+msgstr "**Granska standardinställningar för exploateringsskydd**"
+
+#: src/grapheneos_security.md:182
+msgid "Settings > Security & privacy > Exploit protection"
+msgstr "Inställningar > Säkerhet och integritet > Exploateringsskydd"
+
+#: src/grapheneos_security.md:183
+msgid "Default settings are secure; customize as needed"
+msgstr "Standardinställningarna är säkra; anpassa efter behov"
+
+#: src/grapheneos_security.md:187
+msgid "5. Device Unlock & Authentication"
+msgstr "5. Enhetslås och autentisering"
+
+#: src/grapheneos_security.md:191
+msgid ""
+"**Location:** Settings > Security & privacy > Device unlock > Screen lock"
+msgstr ""
+"**Plats:** Inställningar > Säkerhet och integritet > Enhetslås > Skärmlås"
+
+#: src/grapheneos_security.md:193
+msgid "Method"
+msgstr "Metod"
+
+#: src/grapheneos_security.md:193
+msgid "Security Level"
+msgstr "Säkerhetsnivå"
+
+#: src/grapheneos_security.md:195
+msgid "Password"
+msgstr "Lösenord"
+
+#: src/grapheneos_security.md:195
+msgid "Highest"
+msgstr "Högst"
+
+#: src/grapheneos_security.md:195
+msgid "Up to 128 characters (vs 16 on stock Android)"
+msgstr "Upp till 128 tecken (mot 16 på vanlig Android)"
+
+#: src/grapheneos_security.md:196
+msgid "PIN"
+msgstr "PIN"
+
+#: src/grapheneos_security.md:196
+msgid "High"
+msgstr "Hög"
+
+#: src/grapheneos_security.md:196
+msgid "Use 6+ random digits"
+msgstr "Använd 6+ slumpmässiga siffror"
+
+#: src/grapheneos_security.md:197
+msgid "Pattern"
+msgstr "Mönster"
+
+#: src/grapheneos_security.md:197
+msgid "Medium"
+msgstr "Medel"
+
+#: src/grapheneos_security.md:197
+msgid "Not recommended"
+msgstr "Rekommenderas inte"
+
+#: src/grapheneos_security.md:198
+msgid "None"
+msgstr "Ingen"
+
+#: src/grapheneos_security.md:198
+msgid "Never use"
+msgstr "Använd aldrig"
+
+#: src/grapheneos_security.md:200
+msgid "PIN Scrambling"
+msgstr "PIN-blandning"
+
+#: src/grapheneos_security.md:202
+msgid ""
+"**Location:** Settings > Security & privacy > Device unlock > Scramble PIN "
+"input layout"
+msgstr ""
+"**Plats:** Inställningar > Säkerhet och integritet > Enhetslås > Blanda om "
+"PIN-inmatningslayout"
+
+#: src/grapheneos_security.md:204
+msgid "Randomizes keypad layout each time"
+msgstr "Slätar om knappsatslayouten varje gång"
+
+#: src/grapheneos_security.md:205
+msgid "Prevents shoulder-surfing and smudge attacks"
+msgstr "Förhindrar axelkikande och fläckattacker"
+
+#: src/grapheneos_security.md:206
+msgid "Recommended: **Enable**"
+msgstr "Rekommenderat: **Aktivera**"
+
+#: src/grapheneos_security.md:208
+msgid "Two-Factor Fingerprint Unlock"
+msgstr "Tvåfaktors-fingeravtrycksupplåsning"
+
+#: src/grapheneos_security.md:210
+msgid "**Location:** Settings > Security & privacy > Device unlock"
+msgstr "**Plats:** Inställningar > Säkerhet och integritet > Enhetslås"
+
+#: src/grapheneos_security.md:212
+msgid "When enabled:"
+msgstr "När aktiverat:"
+
+#: src/grapheneos_security.md:213
+msgid "Authenticate with fingerprint"
+msgstr "Autentisera med fingeravtryck"
+
+#: src/grapheneos_security.md:214
+msgid "Then enter a short PIN to complete unlock"
+msgstr "Ange sedan en kort PIN för att slutföra upplåsningen"
+
+#: src/grapheneos_security.md:217
+msgid "Use a strong passphrase as primary unlock"
+msgstr "Använd en stark lösenfras som primär upplåsning"
+
+#: src/grapheneos_security.md:218
+msgid "Convenience of fingerprint + short PIN for daily use"
+msgstr "Bekvämligheten med fingeravtryck + kort PIN för daglig användning"
+
+#: src/grapheneos_security.md:219
+msgid "Failed PIN attempts count toward lockout limit"
+msgstr "Misslyckade PIN-försök räknas mot utlåsningsgränsen"
+
+#: src/grapheneos_security.md:221
+msgid "Duress PIN/Password"
+msgstr "Nöd-PIN/lösenord"
+
+#: src/grapheneos_security.md:223
+msgid ""
+"**Location:** Settings > Security & privacy > Device unlock > Duress Password"
+msgstr ""
+"**Plats:** Inställningar > Säkerhet och integritet > Enhetslås > Nödlösenord"
+
+#: src/grapheneos_security.md:225
+msgid "**Both** a duress PIN and password are required"
+msgstr "**Både** en nöd-PIN och ett lösenord krävs"
+
+#: src/grapheneos_security.md:226
+msgid ""
+"When entered **anywhere** credentials are requested (lockscreen, settings "
+"prompts):"
+msgstr ""
+"När det anges **var som helst** där inloggningsuppgifter begärs (låsskärm, "
+"inställningsdialoger):"
+
+#: src/grapheneos_security.md:227
+msgid "Device is **immediately and irreversibly wiped**"
+msgstr "Enheten **raderas omedelbart och oåterkalleligt**"
+
+#: src/grapheneos_security.md:228
+msgid "All installed eSIMs are wiped"
+msgstr "Alla installerade eSIM raderas"
+
+#: src/grapheneos_security.md:229
+msgid "Wipe cannot be interrupted"
+msgstr "Raderingen kan inte avbrytas"
+
+#: src/grapheneos_security.md:230
+msgid "Device is NOT bricked - can reinstall GrapheneOS"
+msgstr "Enheten är INTE brickad – kan ominstallera GrapheneOS"
+
+#: src/grapheneos_security.md:232
+msgid "**Critical Rules:**"
+msgstr "**Kritiska regler:**"
+
+#: src/grapheneos_security.md:233
+msgid ""
+"If duress PIN equals your real PIN, the real PIN takes precedence (no wipe)"
+msgstr ""
+"Om nöd-PIN är samma som din riktiga PIN har den riktiga PIN företräde (ingen "
+"radering)"
+
+#: src/grapheneos_security.md:234
+msgid "Check local laws regarding evidence destruction before using"
+msgstr "Kontrollera lokala lagar gällande bevismaterials förstöring innan användning"
+
+#: src/grapheneos_security.md:235
+msgid "Do NOT use simple sequences like 1234 that others might guess"
+msgstr "Använd INTE enkla sekvenser som 1234 som andra kan gissa"
+
+#: src/grapheneos_security.md:237
+msgid "Fingerprint Security Improvements"
+msgstr "Förbättringar av fingeravtryckssäkerhet"
+
+#: src/grapheneos_security.md:239
+msgid ""
+"GrapheneOS limits fingerprint attempts to **5 total** (vs 20 on stock "
+"Android with delays):"
+msgstr ""
+"GrapheneOS begränsar fingeravtrycksförsök till **5 totalt** (mot 20 på vanlig "
+"Android med fördröjningar):"
+
+#: src/grapheneos_security.md:240
+msgid "Makes intentional lockout easy (use wrong finger 5 times)"
+msgstr "Gör avsiktlig utlåsning enkel (använd fel finger 5 gånger)"
+
+#: src/grapheneos_security.md:241
+msgid "Significantly reduces brute-force risk"
+msgstr "Minskar betydligt risken för brute-force"
+
+#: src/grapheneos_security.md:245
+msgid "6. Exploit Protection"
+msgstr "6. Exploateringsskydd"
+
+#: src/grapheneos_security.md:247 src/grapheneos_security.md:540
+msgid "**Location:** Settings > Security & privacy > Exploit protection"
+msgstr "**Plats:** Inställningar > Säkerhet och integritet > Exploateringsskydd"
+
+#: src/grapheneos_security.md:249
+msgid ""
+"GrapheneOS includes extensive hardening against memory corruption and other "
+"exploits."
+msgstr ""
+"GrapheneOS inkluderar omfattande härdning mot minneskorruption och andra "
+"exploateringar."
+
+#: src/grapheneos_security.md:251
+msgid "Auto Reboot"
+msgstr "Automatisk omstart"
+
+#: src/grapheneos_security.md:253
+msgid ""
+"**Purpose:** Returns device to \"at rest\" state, clearing encryption keys "
+"from memory"
+msgstr ""
+"**Syfte:** Återställer enheten till \"viloläge\" och rensar krypteringsnycklar "
+"från minnet"
+
+#: src/grapheneos_security.md:255
+msgid "Effect"
+msgstr "Effekt"
+
+#: src/grapheneos_security.md:257
+msgid "**10 minutes - 72 hours**"
+msgstr "**10 minuter - 72 timmar**"
+
+#: src/grapheneos_security.md:257
+msgid "Device reboots if not unlocked within this time"
+msgstr "Enheten startar om om den inte låses upp inom denna tid"
+
+#: src/grapheneos_security.md:258 src/grapheneos_security.md:504
+msgid "**Off**"
+msgstr "**Av**"
+
+#: src/grapheneos_security.md:258
+msgid "Disabled (not recommended)"
+msgstr "Inaktiverat (rekommenderas inte)"
+
+#: src/grapheneos_security.md:259
+msgid "**Default: 18 hours**"
+msgstr "**Standard: 18 timmar**"
+
+#: src/grapheneos_security.md:259
+msgid "Good balance for most users"
+msgstr "Bra balans för de flesta användare"
+
+#: src/grapheneos_security.md:261
+msgid ""
+"**Recommendation:** Set to **8-12 hours** for higher security, or keep "
+"default 18 hours"
+msgstr ""
+"**Rekommendation:** Ställ in på **8–12 timmar** för högre säkerhet, eller "
+"behåll standard 18 timmar"
+
+#: src/grapheneos_security.md:264
+msgid "Timer starts when device locks"
+msgstr "Timern startar när enheten låses"
+
+#: src/grapheneos_security.md:265
+msgid "Unlocking any profile resets timer"
+msgstr "Upplåsning av vilken profil som helst återställer timern"
+
+#: src/grapheneos_security.md:266
+msgid "After timeout, device reboots to Before First Unlock (BFU) state"
+msgstr "Efter timeout startar enheten om till Before First Unlock (BFU)-tillstånd"
+
+#: src/grapheneos_security.md:267
+msgid "All encryption keys cleared, data fully at rest"
+msgstr "Alla krypteringsnycklar rensade, data helt i vila"
+
+#: src/grapheneos_security.md:269
+msgid "USB-C Port"
+msgstr "USB-C-port"
+
+#: src/grapheneos_security.md:271
+msgid ""
+"See [Section 12](#12-usb-c-port--pogo-pins-control) for detailed "
+"configuration."
+msgstr ""
+"Se [avsnitt 12](#12-usb-c-port--pogo-pins-control) för detaljerad "
+"konfiguration."
+
+#: src/grapheneos_security.md:273 src/grapheneos_security.md:538
+msgid "Wi-Fi Auto-Off"
+msgstr "Automatisk av Wi-Fi"
+
+#: src/grapheneos_security.md:275
+msgid "**Purpose:** Disables Wi-Fi after disconnect to reduce attack surface"
+msgstr "**Syfte:** Inaktiverar Wi-Fi efter frånkoppling för att minska attackytan"
+
+#: src/grapheneos_security.md:277
+msgid "**Options:** 10 minutes, 30 minutes, 1 hour, 2 hours, Off"
+msgstr "**Alternativ:** 10 minuter, 30 minuter, 1 timme, 2 timmar, Av"
+
+#: src/grapheneos_security.md:278 src/grapheneos_security.md:285
+msgid "**Recommendation:** 10 minutes"
+msgstr "**Rekommendation:** 10 minuter"
+
+#: src/grapheneos_security.md:280
+msgid "Bluetooth Auto-Off"
+msgstr "Automatisk av Bluetooth"
+
+#: src/grapheneos_security.md:282
+msgid ""
+"**Purpose:** Disables Bluetooth after disconnect to reduce attack surface"
+msgstr ""
+"**Syfte:** Inaktiverar Bluetooth efter frånkoppling för att minska attackytan"
+
+#: src/grapheneos_security.md:284
+msgid "**Options:** Same as Wi-Fi"
+msgstr "**Alternativ:** Samma som Wi-Fi"
+
+#: src/grapheneos_security.md:287
+msgid "Secure App Spawning"
+msgstr "Säker appstart"
+
+#: src/grapheneos_security.md:289
+msgid ""
+"**Purpose:** Each app gets unique randomized memory layout (ASLR secrets)"
+msgstr ""
+"**Syfte:** Varje app får unik slumpmässig minneslayout (ASLR-hemligheter)"
+
+#: src/grapheneos_security.md:291
+msgid "**Default:** Enabled"
+msgstr "**Standard:** Aktiverad"
+
+#: src/grapheneos_security.md:292
+msgid ""
+"**Effect:** Prevents cross-app identifier leaks, hardens exploit mitigations"
+msgstr ""
+"**Effekt:** Förhindrar läckage av identifierare mellan appar, härdar skydd mot "
+"exploatering"
+
+#: src/grapheneos_security.md:293
+msgid "**Trade-off:** Slightly slower cold app starts, slightly higher memory"
+msgstr "**Avvägning:** Något långsammare kallstarter, något högre minnesanvändning"
+
+#: src/grapheneos_security.md:294
+msgid "**Recommendation:** Keep enabled"
+msgstr "**Rekommendation:** Behåll aktiverad"
+
+#: src/grapheneos_security.md:296
+msgid "Native Code Debugging"
+msgstr "Nativ koddebuggning"
+
+#: src/grapheneos_security.md:298
+msgid "**Purpose:** Controls ptrace access for debugging"
+msgstr "**Syfte:** Kontrollerar ptrace-åtkomst för debuggning"
+
+#: src/grapheneos_security.md:300
+msgid "**Bundled apps:** Always blocked"
+msgstr "**Medpaketerade appar:** Alltid blockerade"
+
+#: src/grapheneos_security.md:301
+msgid "**User apps:** Allowed by default (for compatibility)"
+msgstr "**Användarappar:** Tillåtna som standard (för kompatibilitet)"
+
+#: src/grapheneos_security.md:302
+msgid "**Recommendation:** Disable for all apps unless needed for development"
+msgstr "**Rekommendation:** Inaktivera för alla appar om det inte behövs för utveckling"
+
+#: src/grapheneos_security.md:304
+msgid "Dynamic Code Loading Toggles"
+msgstr "Växlare för dynamisk kodladdning"
+
+#: src/grapheneos_security.md:306
+msgid "Control JIT compilation and dynamic code loading:"
+msgstr "Kontrollera JIT-kompilering och dynamisk kodladdning:"
+
+#: src/grapheneos_security.md:308
+msgid "Toggle"
+msgstr "Växlare"
+
+#: src/grapheneos_security.md:308
+msgid "Default"
+msgstr "Standard"
+
+#: src/grapheneos_security.md:308 src/grapheneos_security.md:636
+msgid "Purpose"
+msgstr "Syfte"
+
+#: src/grapheneos_security.md:310
+msgid "Dynamic code loading from memory"
+msgstr "Dynamisk kodladdning från minne"
+
+#: src/grapheneos_security.md:310 src/grapheneos_security.md:311
+msgid "Varies"
+msgstr "Varierar"
+
+#: src/grapheneos_security.md:310
+msgid "Blocks in-memory code execution"
+msgstr "Blockerar kodexekvering i minnet"
+
+#: src/grapheneos_security.md:311
+msgid "Dynamic code loading from storage"
+msgstr "Dynamisk kodladdning från lagring"
+
+#: src/grapheneos_security.md:311
+msgid "Blocks loading code from files"
+msgstr "Blockerar laddning av kod från filer"
+
+#: src/grapheneos_security.md:312
+msgid "WebView JIT"
+msgstr "WebView JIT"
+
+#: src/grapheneos_security.md:312
+msgid "Enabled for user apps"
+msgstr "Aktiverat för användarappar"
+
+#: src/grapheneos_security.md:312
+msgid "JavaScript JIT in WebView"
+msgstr "JavaScript JIT i WebView"
+
+#: src/grapheneos_security.md:314
+msgid "**Recommendation:** Disable all for apps that don't need them"
+msgstr "**Rekommendation:** Inaktivera alla för appar som inte behöver dem"
+
+#: src/grapheneos_security.md:318
+msgid "7. Network Permission"
+msgstr "7. Nätverksbehörighet"
+
+#: src/grapheneos_security.md:320
+msgid "**Location:** App info > Permissions > Network (per-app)"
+msgstr "**Plats:** Appinfo > Behörigheter > Nätverk (per app)"
+
+#: src/grapheneos_security.md:322
+msgid ""
+"GrapheneOS adds a **Network permission** not available in stock Android."
+msgstr ""
+"GrapheneOS lägger till en **nätverksbehörighet** som inte finns i vanlig Android."
+
+#: src/grapheneos_security.md:326
+msgid "When disabled, app sees network as \"down\" (not permission denied)"
+msgstr "När inaktiverat ser appen nätverket som \"nere\" (inte nekad behörighet)"
+
+#: src/grapheneos_security.md:327
+msgid ""
+"Blocks both direct network access and localhost (prevents cross-profile "
+"communication)"
+msgstr ""
+"Blockerar både direkt nätverksåtkomst och localhost (förhindrar "
+"korsprofilkommunikation)"
+
+#: src/grapheneos_security.md:328
+msgid "Apps handle gracefully since they think network is unavailable"
+msgstr "Appar hanterar det smidigt eftersom de tror nätverket är otillgängligt"
+
+#: src/grapheneos_security.md:330 src/grapheneos_security.md:385
+#: src/grapheneos_security.md:417 src/grapheneos_security.md:632
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: src/grapheneos_security.md:332
+msgid "During app installation, toggle Network off if not needed"
+msgstr "Under appinstallation, växla av Nätverk om det inte behövs"
+
+#: src/grapheneos_security.md:333
+msgid "Or go to Settings > Apps > \\[App\\] > Permissions > Network"
+msgstr "Eller gå till Inställningar > Appar > \\[App\\] > Behörigheter > Nätverk"
+
+#: src/grapheneos_security.md:335 src/grapheneos_security.md:396
+#: src/grapheneos_security.md:423
+msgid "Use Cases"
+msgstr "Användningsfall"
+
+#: src/grapheneos_security.md:337
+msgid "**Calculator apps:** Don't need network"
+msgstr "**Kalkylatorappar:** Behöver inte nätverk"
+
+#: src/grapheneos_security.md:338
+msgid "**Offline games:** Don't need network"
+msgstr "**Offlinespel:** Behöver inte nätverk"
+
+#: src/grapheneos_security.md:339
+msgid "**Document editors:** May not need network"
+msgstr "**Dokumentredigerare:** Behöver kanske inte nätverk"
+
+#: src/grapheneos_security.md:340
+msgid "**Privacy-sensitive apps:** Prevent data exfiltration"
+msgstr "**Integritetskänsliga appar:** Förhindra dataexfiltration"
+
+#: src/grapheneos_security.md:344
+msgid "8. Sensors Permission"
+msgstr "8. Sensorbehörighet"
+
+#: src/grapheneos_security.md:346
+msgid "**Location:** Settings > Apps > \\[App\\] > Permissions > Sensors"
+msgstr "**Plats:** Inställningar > Appar > \\[App\\] > Behörigheter > Sensorer"
+
+#: src/grapheneos_security.md:348
+msgid "GrapheneOS adds a **Sensors permission** for:"
+msgstr "GrapheneOS lägger till en **sensorbehörighet** för:"
+
+#: src/grapheneos_security.md:349
+msgid "Accelerometer"
+msgstr "Accelerometer"
+
+#: src/grapheneos_security.md:350
+msgid "Gyroscope"
+msgstr "Gyroskop"
+
+#: src/grapheneos_security.md:351
+msgid "Compass/magnetometer"
+msgstr "Kompass/magnetometer"
+
+#: src/grapheneos_security.md:352
+msgid "Barometer"
+msgstr "Barometer"
+
+#: src/grapheneos_security.md:353
+msgid "Thermometer"
+msgstr "Termometer"
+
+#: src/grapheneos_security.md:354
+msgid "Other device sensors"
+msgstr "Andra enhetssensorer"
+
+#: src/grapheneos_security.md:358
+msgid "When denied, apps receive zeroed sensor data"
+msgstr "När nekad får appar nollad sensordata"
+
+#: src/grapheneos_security.md:359
+msgid "Notification appears when app tries to access blocked sensors"
+msgstr "Notifiering visas när app försöker åtkomma blockerade sensorer"
+
+#: src/grapheneos_security.md:360
+msgid ""
+"Does NOT affect Camera, Microphone, or Body Sensors (separate permissions)"
+msgstr ""
+"Påverkar INTE kamera, mikrofon eller kroppssensorer (separata behörigheter)"
+
+#: src/grapheneos_security.md:362
+msgid "Global Default"
+msgstr "Global standard"
+
+#: src/grapheneos_security.md:364 src/grapheneos_security.md:820
+msgid "**Location:** Settings > Security & privacy > More security & privacy"
+msgstr "**Plats:** Inställningar > Säkerhet och integritet > Mer säkerhet och integritet"
+
+#: src/grapheneos_security.md:366
+msgid "Toggle: **Deny Sensors permission by default for newly installed apps**"
+msgstr "Växla: **Neka sensorbehörighet som standard för nyinstallerade appar**"
+
+#: src/grapheneos_security.md:368
+msgid "**Recommendation:** Enable, then grant to apps that need it"
+msgstr "**Rekommendation:** Aktivera, bevilja sedan till appar som behöver det"
+
+#: src/grapheneos_security.md:372
+msgid "9. Storage Scopes"
+msgstr "9. Lagringsomfång"
+
+#: src/grapheneos_security.md:374
+msgid ""
+"**Location:** Settings > Apps > \\[App\\] > Permissions > Storage Scopes"
+msgstr ""
+"**Plats:** Inställningar > Appar > \\[App\\] > Behörigheter > Lagringsomfång"
+
+#: src/grapheneos_security.md:376
+msgid "A privacy-preserving alternative to granting full storage access."
+msgstr "Ett integritetsbevarande alternativ till att bevilja full lagringsåtkomst."
+
+#: src/grapheneos_security.md:380
+msgid "Instead of granting storage permission, enable **Storage Scopes**"
+msgstr "Istället för att bevilja lagringsbehörighet, aktivera **Lagringsomfång**"
+
+#: src/grapheneos_security.md:381
+msgid "App believes it has full storage access"
+msgstr "Appen tror att den har full lagråtkomst"
+
+#: src/grapheneos_security.md:382
+msgid "App can only see files it created"
+msgstr "Appen kan endast se filer den skapat"
+
+#: src/grapheneos_security.md:383
+msgid "Optionally add specific files/folders as \"scopes\" for app to access"
+msgstr "Lägg valfritt till specifika filer/mappar som \"omfång\" för appen att komma åt"
+
+#: src/grapheneos_security.md:387 src/grapheneos_security.md:419
+msgid "Go to app's permissions"
+msgstr "Gå till appens behörigheter"
+
+#: src/grapheneos_security.md:388
+msgid "Instead of granting Files/Media, enable Storage Scopes"
+msgstr "Istället för att bevilja Filer/Media, aktivera Lagringsomfång"
+
+#: src/grapheneos_security.md:389
+msgid "Add specific files/folders if app needs access to existing files"
+msgstr "Lägg till specifika filer/mappar om appen behöver åtkomst till befintliga filer"
+
+#: src/grapheneos_security.md:391
+msgid "Limitations"
+msgstr "Begränsningar"
+
+#: src/grapheneos_security.md:393
+msgid ""
+"If app is uninstalled and reinstalled, it loses access to its previously "
+"created files"
+msgstr ""
+"Om appen avinstalleras och ominstalleras förlorar den åtkomst till sina "
+"tidigare skapade filer"
+
+#: src/grapheneos_security.md:394
+msgid "Workaround: Grant access via SAF (Storage Access Framework) picker"
+msgstr "Lösning: Bevilja åtkomst via SAF-väljare (Storage Access Framework)"
+
+#: src/grapheneos_security.md:398
+msgid "**Photo editors:** Give access only to specific folders"
+msgstr "**Fotoredigerare:** Ge endast åtkomst till specifika mappar"
+
+#: src/grapheneos_security.md:399
+msgid "**Music players:** Access only your music directory"
+msgstr "**Musikspelare:** Åtkomst endast till din musikkatalog"
+
+#: src/grapheneos_security.md:400
+msgid "**Document apps:** Access only Documents folder"
+msgstr "**Dokumentappar:** Åtkomst endast till Dokument-mappen"
+
+#: src/grapheneos_security.md:404
+msgid "10. Contact Scopes"
+msgstr "10. Kontaktomfång"
+
+#: src/grapheneos_security.md:406
+msgid ""
+"**Location:** Settings > Apps > \\[App\\] > Permissions > Contact Scopes"
+msgstr ""
+"**Plats:** Inställningar > Appar > \\[App\\] > Behörigheter > Kontaktomfång"
+
+#: src/grapheneos_security.md:408
+msgid "Alternative to granting full contacts access."
+msgstr "Alternativ till att bevilja full kontaktåtkomst."
+
+#: src/grapheneos_security.md:412
+msgid "Enable Contact Scopes instead of granting Contacts permission"
+msgstr "Aktivera Kontaktomfång istället för att bevilja Kontakter-behörighet"
+
+#: src/grapheneos_security.md:413
+msgid "App believes it has contacts access"
+msgstr "Appen tror att den har kontaktåtkomst"
+
+#: src/grapheneos_security.md:414
+msgid "By default, app sees empty contact list"
+msgstr "Som standard ser appen en tom kontaktlista"
+
+#: src/grapheneos_security.md:415
+msgid "Selectively add specific contacts or groups"
+msgstr "Lägg selektivt till specifika kontakter eller grupper"
+
+#: src/grapheneos_security.md:420
+msgid "Enable Contact Scopes (don't grant Contacts permission)"
+msgstr "Aktivera Kontaktomfång (bevilja inte Kontakter-behörighet)"
+
+#: src/grapheneos_security.md:421
+msgid "Add specific contacts the app should see"
+msgstr "Lägg till specifika kontakter som appen ska se"
+
+#: src/grapheneos_security.md:425
+msgid "**Messaging apps:** Share only contacts you message"
+msgstr "**Meddelandeappar:** Dela endast kontakter du meddelar"
+
+#: src/grapheneos_security.md:426
+msgid "**Social apps:** Share only relevant contacts"
+msgstr "**Sociala appar:** Dela endast relevanta kontakter"
+
+#: src/grapheneos_security.md:427
+msgid "**Business apps:** Share only work contacts"
+msgstr "**Affärsappar:** Dela endast arbetskontakter"
+
+#: src/grapheneos_security.md:431
+msgid "11. User Profiles & Private Space"
+msgstr "11. Användarprofiler och Privat utrymme"
+
+#: src/grapheneos_security.md:433
+msgid "GrapheneOS significantly enhances Android's profile system."
+msgstr "GrapheneOS förbättrar avsevärt Androids profilsystem."
+
+#: src/grapheneos_security.md:435
+msgid "User Profiles"
+msgstr "Användarprofiler"
+
+#: src/grapheneos_security.md:437
+msgid "**Location:** Settings > System > Multiple users"
+msgstr "**Plats:** Inställningar > System > Flera användare"
+
+#: src/grapheneos_security.md:439
+msgid "GrapheneOS supports **32 profiles** (vs 4 on stock Android)."
+msgstr "GrapheneOS stöder **32 profiler** (mot 4 på vanlig Android)."
+
+#: src/grapheneos_security.md:441
+msgid "**Key Features:**"
+msgstr "**Nyckelfunktioner:**"
+
+#: src/grapheneos_security.md:442
+msgid "Each profile has completely separate apps, data, encryption keys"
+msgstr "Varje profil har helt separata appar, data, krypteringsnycklar"
+
+#: src/grapheneos_security.md:443
+msgid "Apps cannot communicate across profiles"
+msgstr "Appar kan inte kommunicera mellan profiler"
+
+#: src/grapheneos_security.md:444
+msgid "Separate VPN configurations per profile"
+msgstr "Separata VPN-konfigurationer per profil"
+
+#: src/grapheneos_security.md:446
+msgid "Creating a Profile"
+msgstr "Skapa en profil"
+
+#: src/grapheneos_security.md:448
+msgid "Settings > System > Multiple users"
+msgstr "Inställningar > System > Flera användare"
+
+#: src/grapheneos_security.md:449
+msgid "Tap \"Add user\""
+msgstr "Tryck på \"Lägg till användare\""
+
+#: src/grapheneos_security.md:450
+msgid "Configure profile name and settings"
+msgstr "Konfigurera profilnamn och inställningar"
+
+#: src/grapheneos_security.md:452
+msgid "End Session"
+msgstr "Avsluta session"
+
+#: src/grapheneos_security.md:454
+msgid "Completely shuts down a profile:"
+msgstr "Stänger helt av en profil:"
+
+#: src/grapheneos_security.md:455
+msgid "Removes encryption keys from memory"
+msgstr "Tar bort krypteringsnycklar från minnet"
+
+#: src/grapheneos_security.md:456
+msgid "Stops all background processes"
+msgstr "Stoppar alla bakgrundsprocesser"
+
+#: src/grapheneos_security.md:457
+msgid "Returns profile to \"at rest\" state"
+msgstr "Återställer profilen till \"viloläge\""
+
+#: src/grapheneos_security.md:459
+msgid "Private Space (Android 15+)"
+msgstr "Privat utrymme (Android 15+)"
+
+#: src/grapheneos_security.md:461
+msgid "**Location:** Settings > Security & privacy > Private Space"
+msgstr "**Plats:** Inställningar > Säkerhet och integritet > Privat utrymme"
+
+#: src/grapheneos_security.md:463
+msgid "An isolated workspace nested inside any user profile."
+msgstr "En isolerad arbetsyta nestlad inuti valfri användarprofil."
+
+#: src/grapheneos_security.md:465
+msgid "**Advantages over Work Profile:**"
+msgstr "**Fördelar jämfört med arbetsprofil:**"
+
+#: src/grapheneos_security.md:466
+msgid "Better OS integration"
+msgstr "Bättre OS-integrering"
+
+#: src/grapheneos_security.md:467
+msgid "Stronger isolation"
+msgstr "Stärkare isolering"
+
+#: src/grapheneos_security.md:468
+msgid "Lockable with separate authentication"
+msgstr "Låsbar med separat autentisering"
+
+#: src/grapheneos_security.md:469
+msgid "Hidden from app drawer when locked"
+msgstr "Dold från applådan när låst"
+
+#: src/grapheneos_security.md:471
+msgid "Setup"
+msgstr "Konfiguration"
+
+#: src/grapheneos_security.md:473
+msgid "Settings > Security & privacy > Private Space"
+msgstr "Inställningar > Säkerhet och integritet > Privat utrymme"
+
+#: src/grapheneos_security.md:474
+msgid "Enter current PIN/password"
+msgstr "Ange aktuell PIN/lösenord"
+
+#: src/grapheneos_security.md:475
+msgid "Configure Private Space authentication"
+msgstr "Konfigurera Privat utrymme-autentisering"
+
+#: src/grapheneos_security.md:477
+msgid "Key Behaviors"
+msgstr "Nyckelbeteenden"
+
+#: src/grapheneos_security.md:479
+msgid "When locked: Apps don't run, no notifications"
+msgstr "När låst: Appar körs inte, inga notifikationer"
+
+#: src/grapheneos_security.md:480
+msgid "Separate VPN configuration possible"
+msgstr "Separat VPN-konfiguration möjlig"
+
+#: src/grapheneos_security.md:481
+msgid "Apps show shield icon in launcher"
+msgstr "Appar visar sköldikon i startprogrammet"
+
+#: src/grapheneos_security.md:482
+msgid ""
+"Can install apps directly or via Google Play (if installed in Private Space)"
+msgstr ""
+"Kan installera appar direkt eller via Google Play (om installerad i Privat "
+"utrymme)"
+"Kan installera appar direkt eller via Google Play (om installerad i Privat "
+"utrymme)"
+
+#: src/grapheneos_security.md:484
+msgid ""
+"**Recommendation:** Use Private Space instead of work profiles managed by "
+"third-party apps"
+msgstr ""
+"**Rekommendation:** Använd Privat utrymme istället för arbetsprofiler som hanteras "
+"av tredjepartsappar"
+
+#: src/grapheneos_security.md:486
+msgid "Notification Forwarding"
+msgstr "Notifikationsvidarebefordran"
+
+#: src/grapheneos_security.md:488
+msgid "**Location:** Within each profile's settings"
+msgstr "**Plats:** I varje profils inställningar"
+
+#: src/grapheneos_security.md:490
+msgid "Forward notifications from background profiles to active profile:"
+msgstr "Vidarebefordra notifikationer från bakgrundsprofiler till aktiv profil:"
+
+#: src/grapheneos_security.md:491
+msgid "Disabled by default"
+msgstr "Inaktiverat som standard"
+
+#: src/grapheneos_security.md:492
+msgid "Enable per-profile where needed"
+msgstr "Aktivera per profil där det behövs"
+
+#: src/grapheneos_security.md:496
+msgid "12. USB-C Port & Pogo Pins Control"
+msgstr "12. USB-C-port och Pogo-stiftkontroll"
+
+#: src/grapheneos_security.md:498
+msgid ""
+"**Location:** Settings > Security & privacy > Exploit protection > USB-C port"
+msgstr ""
+"**Plats:** Inställningar > Säkerhet och integritet > Exploateringsskydd > USB-C-port"
+
+#: src/grapheneos_security.md:500
+msgid "Modes"
+msgstr "Lägen"
+
+#: src/grapheneos_security.md:502
+msgid "Mode"
+msgstr "Läge"
+
+#: src/grapheneos_security.md:502
+msgid "Description"
+msgstr "Beskrivning"
+
+#: src/grapheneos_security.md:504
+msgid "USB fully disabled (including charging) - maximum security"
+msgstr "USB helt inaktiverat (inklusive laddning) – maximal säkerhet"
+
+#: src/grapheneos_security.md:505
+msgid "**Charging-only**"
+msgstr "**Endast laddning**"
+
+#: src/grapheneos_security.md:505
+msgid "Always data disabled, charging only"
+msgstr "Data alltid inaktiverat, endast laddning"
+
+#: src/grapheneos_security.md:506
+msgid "**Charging-only when locked**"
+msgstr "**Endast laddning när låst**"
+
+#: src/grapheneos_security.md:506
+msgid "Data works when unlocked, charging-only when locked (DEFAULT)"
+msgstr "Data fungerar när upplåst, endast laddning när låst (STANDARD)"
+
+#: src/grapheneos_security.md:507
+msgid "**Charging-only when locked, except before first unlock**"
+msgstr "**Endast laddning när låst, förutom före första upplåsning**"
+
+#: src/grapheneos_security.md:507
+msgid "Same as above but allows data in BFU state"
+msgstr "Samma som ovan men tillåter data i BFU-tillstånd"
+
+#: src/grapheneos_security.md:508
+msgid "**On**"
+msgstr "**På**"
+
+#: src/grapheneos_security.md:508
+msgid "USB always enabled"
+msgstr "USB alltid aktiverat"
+
+#: src/grapheneos_security.md:510
+msgid "How It Differs from Stock Android"
+msgstr "Hur det skiljer sig från standard-Android"
+
+#: src/grapheneos_security.md:512
+msgid "Aspect"
+msgstr "Aspekt"
+
+#: src/grapheneos_security.md:514
+msgid "Level"
+msgstr "Nivå"
+
+#: src/grapheneos_security.md:514
+msgid "Software only"
+msgstr "Endast programvara"
+
+#: src/grapheneos_security.md:514
+msgid "Hardware + software"
+msgstr "Hårdvara + programvara"
+
+#: src/grapheneos_security.md:515
+msgid "Data lines"
+msgstr "Datalinjer"
+
+#: src/grapheneos_security.md:515
+msgid "OS-level block"
+msgstr "OS-nivåblockering"
+
+#: src/grapheneos_security.md:515
+msgid "Hardware disabled"
+msgstr "Hårdvaruinaktiverad"
+
+#: src/grapheneos_security.md:516
+msgid "New connections"
+msgstr "Nya anslutningar"
+
+#: src/grapheneos_security.md:516
+msgid "Allowed until toggle"
+msgstr "Tillåtet tills omkoppling"
+
+#: src/grapheneos_security.md:516
+msgid "Blocked immediately when locked"
+msgstr "Blockeras omedelbart när låst"
+
+#: src/grapheneos_security.md:517
+msgid "Alternate modes (DisplayPort)"
+msgstr "Alternativa lägen (DisplayPort)"
+
+#: src/grapheneos_security.md:517
+msgid "Still work"
+msgstr "Fungerar fortfarande"
+
+#: src/grapheneos_security.md:517
+msgid "Disabled when locked"
+msgstr "Inaktiverat när låst"
+
+#: src/grapheneos_security.md:519 src/grapheneos_security.md:555
+msgid "Recommendation"
+msgstr "Rekommendation"
+
+#: src/grapheneos_security.md:521
+msgid "**Default (Charging-only when locked)** - Good for most users"
+msgstr "**Standard (Endast laddning när låst)** – Bra för de flesta användare"
+
+#: src/grapheneos_security.md:522
+msgid "**Charging-only** - If you never use USB data"
+msgstr "**Endast laddning** – Om du aldrig använder USB-data"
+
+#: src/grapheneos_security.md:523
+msgid "**Off** - Maximum security, charge only when powered off"
+msgstr "**Av** – Maximal säkerhet, ladda endast när avstängd"
+
+#: src/grapheneos_security.md:527
+msgid "13. Wi-Fi & Bluetooth Privacy"
+msgstr "13. Wi-Fi- och Bluetooth-integritet"
+
+#: src/grapheneos_security.md:529
+msgid "Wi-Fi MAC Randomization"
+msgstr "Wi-Fi MAC-randomisering"
+
+#: src/grapheneos_security.md:531
+msgid ""
+"**Location:** Settings > Network & internet > Wi-Fi > \\[Network\\] > Privacy"
+msgstr ""
+"**Plats:** Inställningar > Nätverk och internet > Wi-Fi > \\[Nätverk\\] > "
+"Integritet"
+
+#: src/grapheneos_security.md:533
+msgid "GrapheneOS uses **per-connection MAC randomization** by default:"
+msgstr "GrapheneOS använder **MAC-randomisering per anslutning** som standard:"
+
+#: src/grapheneos_security.md:534
+msgid "New random MAC for each connection (not just per-network)"
+msgstr "Ny slumpmässig MAC för varje anslutning (inte bara per nätverk)"
+
+#: src/grapheneos_security.md:535
+msgid "DHCP state flushed before reconnecting"
+msgstr "DHCP-tillstånd rensas innan återanslutning"
+
+#: src/grapheneos_security.md:536
+msgid "Significantly harder to track across reconnections"
+msgstr "Betydligt svårare att spåra över återanslutningar"
+
+#: src/grapheneos_security.md:542
+msgid "Automatically disables Wi-Fi after disconnection"
+msgstr "Inaktiverar Wi-Fi automatiskt efter frånkoppling"
+
+#: src/grapheneos_security.md:543
+msgid "Reduces attack surface when not actively using Wi-Fi"
+msgstr "Minskar attackytan när Wi-Fi inte aktivt används"
+
+#: src/grapheneos_security.md:545
+msgid "Bluetooth Privacy"
+msgstr "Bluetooth-integritet"
+
+#: src/grapheneos_security.md:547
+msgid ""
+"Set device name to something generic: Settings > Bluetooth > Device name"
+msgstr ""
+"Sätt enhetsnamn till något generiskt: Inställningar > Bluetooth > Enhetsnamn"
+
+#: src/grapheneos_security.md:548
+msgid "Recommendation: Set to \"Device\" or similar"
+msgstr "Rekommendation: Sätt till \"Enhet\" eller liknande"
+
+#: src/grapheneos_security.md:549
+msgid "Enable Bluetooth auto-off in Exploit protection"
+msgstr "Aktivera automatisk avstängning av Bluetooth i Exploateringsskydd"
+
+#: src/grapheneos_security.md:551
+msgid "Scanning Settings"
+msgstr "Skanningsinställningar"
+
+#: src/grapheneos_security.md:553
+msgid "**Location:** Settings > Location > Location services"
+msgstr "**Plats:** Inställningar > Plats > Platstjänster"
+
+#: src/grapheneos_security.md:557
+msgid "Wi-Fi scanning"
+msgstr "Wi-Fi-skanning"
+
+#: src/grapheneos_security.md:557 src/grapheneos_security.md:558
+msgid "OFF"
+msgstr "AV"
+
+#: src/grapheneos_security.md:558
+msgid "Bluetooth scanning"
+msgstr "Bluetooth-skanning"
+
+#: src/grapheneos_security.md:560
+msgid "These allow location tracking even when Wi-Fi/Bluetooth are \"off.\""
+msgstr "Dessa tillåter platsspårning även när Wi-Fi/Bluetooth är \"av.\""
+
+#: src/grapheneos_security.md:564
+msgid "14. VPN Configuration"
+msgstr "14. VPN-konfiguration"
+
+#: src/grapheneos_security.md:566
+msgid "Always-On VPN"
+msgstr "Alltid-på VPN"
+
+#: src/grapheneos_security.md:568
+msgid ""
+"**Location:** Settings > Network & internet > VPN > \\[Your VPN\\] > gear "
+"icon"
+msgstr ""
+"**Plats:** Inställningar > Nätverk och internet > VPN > \\[Din VPN\\] > "
+"kugghjulsikon"
+
+#: src/grapheneos_security.md:570
+msgid "GrapheneOS enables these toggles **by default**:"
+msgstr "GrapheneOS aktiverar dessa växlar **som standard**:"
+
+#: src/grapheneos_security.md:571
+msgid "Always-on VPN"
+msgstr "Alltid-på VPN"
+
+#: src/grapheneos_security.md:572
+msgid "Block connections without VPN"
+msgstr "Blockera anslutningar utan VPN"
+
+#: src/grapheneos_security.md:574
+msgid "Improved Leak Protection"
+msgstr "Förbättrat läckageskydd"
+
+#: src/grapheneos_security.md:576
+msgid "GrapheneOS fixes multiple VPN leak vectors:"
+msgstr "Åtgärdar flera VPN-läckageproblem:"
+
+#: src/grapheneos_security.md:578
+msgid "Leak Type"
+msgstr "Läckagetyp"
+
+#: src/grapheneos_security.md:580
+msgid "DNS before VPN up"
+msgstr "DNS innan VPN är uppe"
+
+#: src/grapheneos_security.md:580 src/grapheneos_security.md:581
+msgid "Can leak"
+msgstr "Kan läcka"
+
+#: src/grapheneos_security.md:580 src/grapheneos_security.md:581
+msgid "Fixed"
+msgstr "Åtgärdat"
+
+#: src/grapheneos_security.md:581
+msgid "DNS to VPN server outside tunnel"
+msgstr "DNS till VPN-server utanför tunneln"
+
+#: src/grapheneos_security.md:582
+msgid "Multicast packets"
+msgstr "Multicast-paket"
+
+#: src/grapheneos_security.md:582
+msgid "Can bypass"
+msgstr "Kan förbigå"
+
+#: src/grapheneos_security.md:582 src/grapheneos_security.md:583
+#: src/grapheneos_security.md:584
+msgid "Blocked"
+msgstr "Blockerad"
+
+#: src/grapheneos_security.md:583
+msgid "Cross-profile multicast"
+msgstr "Multicast mellan profiler"
+
+#: src/grapheneos_security.md:583 src/grapheneos_security.md:584
+msgid "Possible"
+msgstr "Möjligt"
+
+#: src/grapheneos_security.md:584
+msgid "Interface bypass (setsockopt)"
+msgstr "Gränssnittsförbigång (setsockopt)"
+
+#: src/grapheneos_security.md:586
+msgid "Per-Profile VPN"
+msgstr "VPN per profil"
+
+#: src/grapheneos_security.md:588
+msgid ""
+"Each profile (user profile, Private Space) has **independent VPN "
+"configuration**:"
+msgstr ""
+"Varje profil (användarprofil, Privat utrymme) har **oberoende VPN-"
+"konfiguration**:"
+
+#: src/grapheneos_security.md:589
+msgid "Can use different VPNs"
+msgstr "Kan använda olika VPN"
+
+#: src/grapheneos_security.md:590
+msgid "Can have different exit IPs/countries"
+msgstr "Kan ha olika utgångs-IP/länder"
+
+#: src/grapheneos_security.md:591
+msgid "Complete isolation"
+msgstr "Fullständig isolering"
+
+#: src/grapheneos_security.md:593
+msgid "Private DNS"
+msgstr "Privat DNS"
+
+#: src/grapheneos_security.md:595
+msgid "**Location:** Settings > Network & internet > Private DNS"
+msgstr "**Plats:** Inställningar > Nätverk och internet > Privat DNS"
+
+#: src/grapheneos_security.md:597
+msgid "**Recommendation:** Use a privacy-respecting DNS provider:"
+msgstr "**Rekommendation:** Använd en integritetsrespekterande DNS-leverantör:"
+
+#: src/grapheneos_security.md:598
+msgid "`dns.quad9.net` (Quad9)"
+msgstr "`dns.quad9.net` (Quad9)"
+
+#: src/grapheneos_security.md:599
+msgid "Custom NextDNS configuration"
+msgstr "Anpassad NextDNS-konfiguration"
+
+#: src/grapheneos_security.md:600
+msgid "Or your VPN's DNS"
+msgstr "Eller din VPN:s DNS"
+
+#: src/grapheneos_security.md:602
+msgid "Internet Connectivity Checks"
+msgstr "Internetanslutningskontroller"
+
+#: src/grapheneos_security.md:604 src/grapheneos_security.md:811
+msgid ""
+"**Location:** Settings > Network & internet > Internet connectivity checks"
+msgstr ""
+"**Plats:** Inställningar > Nätverk och internet > Internetanslutningskontroller"
+
+#: src/grapheneos_security.md:606
+msgid "Options:"
+msgstr "Alternativ:"
+
+#: src/grapheneos_security.md:607
+msgid "**GrapheneOS server** (default) - Privacy-preserving"
+msgstr "**GrapheneOS-server** (standard) – Integritetsskyddande"
+
+#: src/grapheneos_security.md:608
+msgid "**Standard (Google)** - For blending in"
+msgstr "**Standard (Google)** – För att smala in"
+
+#: src/grapheneos_security.md:609
+msgid "**Off** - May cause issues with captive portals"
+msgstr "**Av** – Kan orsaka problem med captive portals"
+
+#: src/grapheneos_security.md:613
+msgid "15. Sandboxed Google Play"
+msgstr "15. Sandlåde-Google Play"
+
+#: src/grapheneos_security.md:615
+msgid ""
+"GrapheneOS allows running Google Play as a **regular sandboxed app** with no "
+"special privileges."
+msgstr ""
+"GrapheneOS tillåter körning av Google Play som en **vanlig sandlådeapp** utan "
+"speciella privilegier."
+
+#: src/grapheneos_security.md:617
+msgid "Key Properties"
+msgstr "Nyckelegenskaper"
+
+#: src/grapheneos_security.md:619
+msgid "Google Play runs as normal app - no system-level access"
+msgstr "Google Play körs som vanlig app – ingen systemnivååtkomst"
+
+#: src/grapheneos_security.md:620
+msgid "Cannot access device identifiers (IMEI, etc.)"
+msgstr "Kan inte komma åt enhetsidentifierare (IMEI, etc.)"
+
+#: src/grapheneos_security.md:621
+msgid "All permissions revocable"
+msgstr "Alla behörigheter återkallbara"
+
+#: src/grapheneos_security.md:622
+msgid "Only available within the profile where installed"
+msgstr "Endast tillgänglig inom profilen där den är installerad"
+
+#: src/grapheneos_security.md:623
+msgid "Location requests rerouted to GrapheneOS implementation by default"
+msgstr "Platsförfrågningar omdirigeras till GrapheneOS-implementering som standard"
+
+#: src/grapheneos_security.md:625
+msgid "Installation"
+msgstr "Installation"
+
+#: src/grapheneos_security.md:627
+msgid "Open **Apps** (GrapheneOS app store)"
+msgstr "Öppna **Appar** (GrapheneOS appbutik)"
+
+#: src/grapheneos_security.md:628
+msgid "Select **Google Play services**"
+msgstr "Välj **Google Play-tjänster**"
+
+#: src/grapheneos_security.md:629
+msgid "Install (automatically includes Play Store)"
+msgstr "Installera (inkluderar automatiskt Play Butik)"
+
+#: src/grapheneos_security.md:630
+msgid "Grant battery optimization exception for push notifications"
+msgstr "Bevilja undantag från batterioptimering för push-aviseringar"
+
+#: src/grapheneos_security.md:634
+msgid "**Location:** Settings > Apps > Sandboxed Google Play"
+msgstr "**Plats:** Inställningar > Appar > Sandlåde-Google Play"
+
+#: src/grapheneos_security.md:638
+msgid "Reroute location requests"
+msgstr "Omdirigera platsförfrågningar"
+
+#: src/grapheneos_security.md:638
+msgid "Uses GrapheneOS location instead of Google's (default: on)"
+msgstr "Använder GrapheneOS plats istället för Googles (standard: på)"
+
+#: src/grapheneos_security.md:640
+msgid "Profile Strategy"
+msgstr "Profilstrategi"
+
+#: src/grapheneos_security.md:642
+msgid "**Option 1: Owner profile** - Simplest, all apps can use Play services"
+msgstr "**Alternativ 1: Ägarprofil** – Enklast, alla appar kan använda Play-tjänster"
+
+#: src/grapheneos_security.md:644
+msgid ""
+"**Option 2: Separate profile** - Install Play in secondary profile for "
+"isolation:"
+msgstr ""
+"**Alternativ 2: Separat profil** – Installera Play i sekundär profil för "
+"isolering:"
+
+#: src/grapheneos_security.md:645
+msgid "Create secondary user"
+msgstr "Skapa sekundär användare"
+
+#: src/grapheneos_security.md:646
+msgid "Install sandboxed Google Play there"
+msgstr "Installera sandlåde-Google Play där"
+
+#: src/grapheneos_security.md:647
+msgid "Install apps needing Play services there"
+msgstr "Installera appar som behöver Play-tjänster där"
+
+#: src/grapheneos_security.md:648
+msgid "Keep main profile Google-free"
+msgstr "Håll huvudprofilen Google-fri"
+
+#: src/grapheneos_security.md:650
+msgid "What Works"
+msgstr "Vad som fungerar"
+
+#: src/grapheneos_security.md:652
+msgid "App installations and updates"
+msgstr "Appinstallationer och uppdateringar"
+
+#: src/grapheneos_security.md:653
+msgid "In-app purchases"
+msgstr "Köp i appen"
+
+#: src/grapheneos_security.md:654
+msgid "Push notifications (with battery exception)"
+msgstr "Push-aviseringar (med batteriundantag)"
+
+#: src/grapheneos_security.md:655
+msgid "Play Games services"
+msgstr "Play Games-tjänster"
+
+#: src/grapheneos_security.md:656
+msgid "Play Asset/Feature Delivery"
+msgstr "Play Asset/Feature Delivery"
+
+#: src/grapheneos_security.md:657
+msgid "Most apps requiring Play services"
+msgstr "De flesta appar som kräver Play-tjänster"
+
+#: src/grapheneos_security.md:659
+msgid "Revoking Permissions"
+msgstr "Återkalla behörigheter"
+
+#: src/grapheneos_security.md:661
+msgid "You can revoke ANY permission from Google Play services:"
+msgstr "Du kan återkalla VILKEN behörighet som helst från Google Play-tjänster:"
+
+#: src/grapheneos_security.md:662
+msgid "Location, Contacts, Camera, etc."
+msgstr "Plats, Kontakter, Kamera, etc."
+
+#: src/grapheneos_security.md:663
+msgid "May break specific functionality but app won't crash"
+msgstr "Kan bryta specifik funktionalitet men appen kraschar inte"
+
+#: src/grapheneos_security.md:667
+msgid "16. GrapheneOS Apps"
+msgstr "16. GrapheneOS-appar"
+
+#: src/grapheneos_security.md:669
+msgid ""
+"GrapheneOS includes privacy and security-focused alternatives to standard "
+"apps."
+msgstr ""
+"GrapheneOS inkluderar integritets- och säkerhetsfokuserade alternativ till "
+"standardappar."
+
+#: src/grapheneos_security.md:671
+msgid "Apps (App Store)"
+msgstr "Appar (Appbutik)"
+
+#: src/grapheneos_security.md:673
+msgid "The GrapheneOS app repository:"
+msgstr "GrapheneOS appförråd:"
+
+#: src/grapheneos_security.md:674
+msgid "Updates GrapheneOS apps"
+msgstr "Uppdaterar GrapheneOS-appar"
+
+#: src/grapheneos_security.md:675
+msgid "Provides sandboxed Google Play installation"
+msgstr "Tillhandahåller sandlåde-Google Play-installation"
+
+#: src/grapheneos_security.md:676
+msgid "Will distribute hardened open-source apps in future"
+msgstr "Kommer distribuera härdade öppen källkod-appar i framtiden"
+
+#: src/grapheneos_security.md:678
+msgid "Vanadium Browser"
+msgstr "Vanadium-webbläsare"
+
+#: src/grapheneos_security.md:680
+msgid "Hardened Chromium-based browser with:"
+msgstr "Härdad Chromium-baserad webbläsare med:"
+
+#: src/grapheneos_security.md:682
+msgid "**Security Features:**"
+msgstr "**Säkerhetsfunktioner:**"
+
+#: src/grapheneos_security.md:683
+msgid "Hardware memory tagging (MTE)"
+msgstr "Hårdvaruminnesmtaggning (MTE)"
+
+#: src/grapheneos_security.md:684
+msgid "Type-based Control Flow Integrity (CFI)"
+msgstr "Typbaserad kontrollflödesintegritet (CFI)"
+
+#: src/grapheneos_security.md:685
+msgid "JavaScript JIT disabled by default (per-site toggle)"
+msgstr "JavaScript JIT inaktiverat som standard (per-webbplats växling)"
+
+#: src/grapheneos_security.md:686
+msgid "Dynamic code execution blocked for non-JIT processes"
+msgstr "Dynamisk kodkörning blockerad för icke-JIT-processer"
+
+#: src/grapheneos_security.md:687
+msgid "Strict site isolation"
+msgstr "Strikt webbplatsisolering"
+
+#: src/grapheneos_security.md:689
+msgid "**Privacy Features:**"
+msgstr "**Integritetsfunktioner:**"
+
+#: src/grapheneos_security.md:690
+msgid "Built-in ad/tracker blocking (EasyList + EasyPrivacy)"
+msgstr "Inbyggd annons/spårningsblockering (EasyList + EasyPrivacy)"
+
+#: src/grapheneos_security.md:691
+msgid "Third-party cookies disabled by default"
+msgstr "Tredjepartskakor inaktiverade som standard"
+
+#: src/grapheneos_security.md:692
+msgid "Enhanced state partitioning"
+msgstr "Förbättrad tillståndspartitionering"
+
+#: src/grapheneos_security.md:693
+msgid "Reduced user agent / client hints"
+msgstr "Reducerad user agent / klientledtrådar"
+
+#: src/grapheneos_security.md:694
+msgid "DuckDuckGo default search"
+msgstr "DuckDuckGo som standardsökmotor"
+
+#: src/grapheneos_security.md:696
+msgid "**Configuration:**"
+msgstr "**Konfiguration:**"
+
+#: src/grapheneos_security.md:697
+msgid "JIT: Disabled by default, enable per-site via address bar menu"
+msgstr "JIT: Inaktiverat som standard, aktivera per webbplats via adressfältsmeny"
+
+#: src/grapheneos_security.md:698
+msgid "Content filtering: Enabled by default, toggle per-site"
+msgstr "Innehållsfiltrering: Aktiverat som standard, växla per webbplats"
+
+#: src/grapheneos_security.md:700
+msgid "Auditor"
+msgstr "Auditor"
+
+#: src/grapheneos_security.md:702
+msgid "Hardware-based attestation app:"
+msgstr "Hårdvarubaserad attesteringsapp:"
+
+#: src/grapheneos_security.md:704
+msgid "**Purpose:**"
+msgstr "**Syfte:**"
+
+#: src/grapheneos_security.md:705
+msgid "Verify device authenticity and integrity"
+msgstr "Verifiera enhetens äkthet och integritet"
+
+#: src/grapheneos_security.md:706
+msgid "Detect bootloader unlocking or OS tampering"
+msgstr "Upptäck upplåsning av bootloader eller OS-manipulering"
+
+#: src/grapheneos_security.md:707
+msgid "Monitor for security regressions"
+msgstr "Övervaka för säkerhetsregressioner"
+
+#: src/grapheneos_security.md:709 src/grapheneos_security.md:746
+msgid "**Setup:**"
+msgstr "**Konfiguration:**"
+
+#: src/grapheneos_security.md:710
+msgid "Use another device as \"Auditor\""
+msgstr "Använd en annan enhet som \"Auditor\""
+
+#: src/grapheneos_security.md:711
+msgid "On device to verify, open Auditor > Auditee"
+msgstr "På enheten som ska verifieras, öppna Auditor > Auditee"
+
+#: src/grapheneos_security.md:712
+msgid "Scan QR code with Auditor device"
+msgstr "Skanna QR-kod med Auditor-enheten"
+
+#: src/grapheneos_security.md:713
+msgid "Optionally set up remote attestation at attestation.app"
+msgstr "Konfigurera valfritt fjärrattestering på attestation.app"
+
+#: src/grapheneos_security.md:715
+msgid "Secure Camera"
+msgstr "Säker kamera"
+
+#: src/grapheneos_security.md:717
+msgid "Privacy-focused camera app:"
+msgstr "Integritetsfokuserad kameraapp:"
+
+#: src/grapheneos_security.md:718
+msgid "EXIF metadata stripped by default"
+msgstr "EXIF-metadata borttaget som standard"
+
+#: src/grapheneos_security.md:719
+msgid "Location tagging disabled by default"
+msgstr "Platstaggar inaktiverat som standard"
+
+#: src/grapheneos_security.md:720
+msgid "No unnecessary permissions"
+msgstr "Inga onödiga behörigheter"
+
+#: src/grapheneos_security.md:721
+msgid "Open source"
+msgstr "Öppen källkod"
+
+#: src/grapheneos_security.md:723
+msgid "Secure PDF Viewer"
+msgstr "Säker PDF-visare"
+
+#: src/grapheneos_security.md:725
+msgid "Sandboxed PDF viewer:"
+msgstr "Sandlåde-PDF-visare:"
+
+#: src/grapheneos_security.md:726
+msgid "Isolated rendering"
+msgstr "Isolerad rendering"
+
+#: src/grapheneos_security.md:727
+msgid "Protection against malicious PDFs"
+msgstr "Skydd mot skadliga PDF:er"
+
+#: src/grapheneos_security.md:728
+msgid "Pinch to zoom, text selection"
+msgstr "Nyp för att zooma, textmarkering"
+
+#: src/grapheneos_security.md:729
+msgid "Encrypted PDF support"
+msgstr "Stöd för krypterade PDF:er"
+
+#: src/grapheneos_security.md:733
+msgid "17. Backup & Encryption"
+msgstr "17. Säkerhetskopiering och kryptering"
+
+#: src/grapheneos_security.md:735
+msgid "Seedvault Encrypted Backup"
+msgstr "Seedvault krypterad säkerhetskopiering"
+
+#: src/grapheneos_security.md:737
+msgid "**Location:** Settings > System > Backup"
+msgstr "**Plats:** Inställningar > System > Säkerhetskopiering"
+
+#: src/grapheneos_security.md:739
+msgid "GrapheneOS includes Seedvault for encrypted backups."
+msgstr "GrapheneOS inkluderar Seedvault för krypterade säkerhetskopior."
+
+#: src/grapheneos_security.md:742
+msgid "End-to-end encryption"
+msgstr "Änd-till-änd-kryptering"
+
+#: src/grapheneos_security.md:743
+msgid "Local backup support"
+msgstr "Lokalt säkerhetskopieringsstöd"
+
+#: src/grapheneos_security.md:744
+msgid "Cloud storage support (any provider with storage app)"
+msgstr "Molnlagringsstöd (vilken leverantör som helst med lagringsapp)"
+
+#: src/grapheneos_security.md:747
+msgid "Settings > System > Backup"
+msgstr "Inställningar > System > Säkerhetskopiering"
+
+#: src/grapheneos_security.md:748
+msgid "Choose backup location"
+msgstr "Välj säkerhetskopieringsplats"
+
+#: src/grapheneos_security.md:749
+msgid "Set encryption password"
+msgstr "Ställ in krypteringslösenord"
+
+#: src/grapheneos_security.md:750
+msgid "Select apps to back up"
+msgstr "Välj appar att säkerhetskopiera"
+
+#: src/grapheneos_security.md:752
+msgid "Full-Disk Encryption"
+msgstr "Full diskkryptering"
+
+#: src/grapheneos_security.md:754
+msgid "GrapheneOS uses Android's file-based encryption with enhancements:"
+msgstr "GrapheneOS använder Androids filbaserade kryptering med förbättringar:"
+
+#: src/grapheneos_security.md:755
+msgid "32-byte file name padding (vs 16 bytes)"
+msgstr "32-byte filnamnsutfyllnad (jämfört med 16 bytes)"
+
+#: src/grapheneos_security.md:756
+msgid "Per-profile encryption keys"
+msgstr "Krypteringsnycklar per profil"
+
+#: src/grapheneos_security.md:757
+msgid "Hardware-backed key storage (Titan M2)"
+msgstr "Hårdvarustödd nyckellagring (Titan M2)"
+
+#: src/grapheneos_security.md:759
+msgid "Data at Rest"
+msgstr "Data i vila"
+
+#: src/grapheneos_security.md:761
+msgid "**Before First Unlock (BFU):**"
+msgstr "**Före första upplåsning (BFU):**"
+
+#: src/grapheneos_security.md:762
+msgid "Most data encrypted and inaccessible"
+msgstr "Mesta data krypterad och otillgänglig"
+
+#: src/grapheneos_security.md:763
+msgid "Only critical functions available"
+msgstr "Endast kritiska funktioner tillgängliga"
+
+#: src/grapheneos_security.md:765
+msgid "**After First Unlock (AFU):**"
+msgstr "**Efter första upplåsning (AFU):**"
+
+#: src/grapheneos_security.md:766
+msgid "Credential-encrypted data accessible"
+msgstr "Inloggningsuppgiftskrypterad data tillgänglig"
+
+#: src/grapheneos_security.md:767
+msgid "Auto-reboot returns device to BFU state"
+msgstr "Automatisk omstart återställer enheten till BFU-tillstånd"
+
+#: src/grapheneos_security.md:771
+msgid "18. System Updates"
+msgstr "18. Systemuppdateringar"
+
+#: src/grapheneos_security.md:775
+msgid "**Location:** Settings > System > System update"
+msgstr "**Plats:** Inställningar > System > Systemuppdatering"
+
+#: src/grapheneos_security.md:777
+msgid "GrapheneOS provides seamless automatic updates:"
+msgstr "GrapheneOS tillhandahåller sömlösa automatiska uppdateringar:"
+
+#: src/grapheneos_security.md:778
+msgid "Downloads in background"
+msgstr "Laddar ner i bakgrunden"
+
+#: src/grapheneos_security.md:779
+msgid "Installs without interrupting usage"
+msgstr "Installerar utan att avbryta användning"
+
+#: src/grapheneos_security.md:780
+msgid "Automatic rollback if update fails"
+msgstr "Automatisk återställning om uppdatering misslyckas"
+
+#: src/grapheneos_security.md:781
+msgid "A/B partition system for safety"
+msgstr "A/B-partitionssystem för säkerhet"
+
+#: src/grapheneos_security.md:783
+msgid "Security Preview Releases"
+msgstr "Säkerhetsförhandsversioner"
+
+#: src/grapheneos_security.md:785
+msgid ""
+"**Location:** Settings > System > System update > Receive security preview "
+"releases"
+msgstr ""
+"**Plats:** Inställningar > System > Systemuppdatering > Ta emot "
+"säkerhetsförhandsversioner"
+
+#: src/grapheneos_security.md:788
+msgid "Get security patches **months before** public disclosure"
+msgstr "Få säkerhetskorrigeringar **månader före** offentlig publicering"
+
+#: src/grapheneos_security.md:789
+msgid "Currently includes patches through June 2026 ASB"
+msgstr "Inkluderar för närvarande korrigeringar till och med juni 2026 ASB"
+
+#: src/grapheneos_security.md:790
+msgid "Same stability as regular releases"
+msgstr "Samma stabilitet som vanliga versioner"
+
+#: src/grapheneos_security.md:792
+msgid "**How It Works:**"
+msgstr "**Så fungerar det:**"
+
+#: src/grapheneos_security.md:793
+msgid "GrapheneOS participates in Android security embargo"
+msgstr "GrapheneOS deltar i Androids säkerhetsembargo"
+
+#: src/grapheneos_security.md:794
+msgid "Can ship patches before disclosure (unlike stock OS)"
+msgstr "Kan leverera korrigeringar före publicering (till skillnad från standard-OS)"
+
+#: src/grapheneos_security.md:795
+msgid "Preview releases increment build number by 1"
+msgstr "Förhandsversioner ökar buildnummer med 1"
+
+#: src/grapheneos_security.md:797
+msgid "**Recommendation:** Enable for maximum security"
+msgstr "**Rekommendation:** Aktivera för maximal säkerhet"
+
+#: src/grapheneos_security.md:799
+msgid "Update Frequency"
+msgstr "Uppdateringsfrekvens"
+
+#: src/grapheneos_security.md:801
+msgid "**Regular releases:** Within days of Android security bulletin"
+msgstr "**Vanliga versioner:** Inom dagar från Android-säkerhetsbuletinen"
+
+#: src/grapheneos_security.md:802
+msgid "**Preview releases:** Months ahead of disclosure"
+msgstr "**Förhandsversioner:** Månader före publicering"
+
+#: src/grapheneos_security.md:803
+msgid "**Feature updates:** As developed"
+msgstr "**Funktionsuppdateringar:** Efter utveckling"
+
+#: src/grapheneos_security.md:807
+msgid "19. Advanced Settings"
+msgstr "19. Avancerade inställningar"
+
+#: src/grapheneos_security.md:809
+msgid "Connectivity Checks"
+msgstr "Anslutningskontroller"
+
+#: src/grapheneos_security.md:813
+msgid "Controls which server verifies internet connectivity:"
+msgstr "Styr vilken server som verifierar internetanslutning:"
+
+#: src/grapheneos_security.md:814
+msgid "GrapheneOS (default, private)"
+msgstr "GrapheneOS (standard, privat)"
+
+#: src/grapheneos_security.md:815
+msgid "Standard Android (Google, for blending in)"
+msgstr "Standard-Android (Google, för att smala in)"
+
+#: src/grapheneos_security.md:816
+msgid "Disabled"
+msgstr "Inaktiverad"
+
+#: src/grapheneos_security.md:818
+msgid "Attestation Provisioning"
+msgstr "Attesteringsprovisionering"
+
+#: src/grapheneos_security.md:822
+msgid "Controls attestation key provisioning:"
+msgstr "Styr attesteringsnyckel-provisionering:"
+
+#: src/grapheneos_security.md:823
+msgid "GrapheneOS proxy (default, private)"
+msgstr "GrapheneOS-proxy (standard, privat)"
+
+#: src/grapheneos_security.md:824
+msgid "Direct (Google)"
+msgstr "Direkt (Google)"
+
+#: src/grapheneos_security.md:826
+msgid "GNSS / Location"
+msgstr "GNSS / Plats"
+
+#: src/grapheneos_security.md:828
+msgid "**Network Location:**"
+msgstr "**Nätverksplats:**"
+
+#: src/grapheneos_security.md:829
+msgid "GrapheneOS provides opt-in network location"
+msgstr "GrapheneOS tillhandahåller opt-in nätverksplats"
+
+#: src/grapheneos_security.md:830
+msgid "Uses proxy to Apple's service (or direct)"
+msgstr "Använder proxy till Apples tjänst (eller direkt)"
+
+#: src/grapheneos_security.md:831
+msgid "Building own database for future offline support"
+msgstr "Bygger egen databas för framtida offline-stöd"
+
+#: src/grapheneos_security.md:833
+msgid "**SUPL (Assisted GPS):**"
+msgstr "**SUPL (Assisterad GPS):**"
+
+#: src/grapheneos_security.md:834
+msgid "Proxied through GrapheneOS by default"
+msgstr "Proxad genom GrapheneOS som standard"
+
+#: src/grapheneos_security.md:835
+msgid "Can switch to carrier default or disable"
+msgstr "Kan växla till operatörsstandard eller inaktivera"
+
+#: src/grapheneos_security.md:837
+msgid "Clipboard Privacy"
+msgstr "Urklippsintegritet"
+
+#: src/grapheneos_security.md:839
+msgid ""
+"**Location:** Settings > Security & privacy > Privacy controls > Show "
+"clipboard access"
+msgstr ""
+"**Plats:** Inställningar > Säkerhet och integritet > Integritetskontroller > "
+"Visa urklippsåtkomst"
+
+#: src/grapheneos_security.md:841
+msgid "Shows notification when apps access clipboard content from other apps."
+msgstr "Visar avisering när appar kommer åt urklippsinnehåll från andra appar."
+
+#: src/grapheneos_security.md:843
+msgid "Privacy Indicators"
+msgstr "Integritetsindikatorer"
+
+#: src/grapheneos_security.md:845
+msgid "GrapheneOS enables location indicator (in addition to camera/mic):"
+msgstr "GrapheneOS aktiverar platsindikator (utöver kamera/mikrofon):"
+
+#: src/grapheneos_security.md:846
+msgid "Green dot shows when any app accesses location"
+msgstr "Grön prick visas när någon app kommer åt plats"
+
+#: src/grapheneos_security.md:847
+msgid "Works for all location APIs (not just GNSS)"
+msgstr "Fungerar för alla plats-API:er (inte bara GNSS)"
+
+#: src/grapheneos_security.md:849
+msgid "Accessibility Warning"
+msgstr "Varning för tillgänglighet"
+
+#: src/grapheneos_security.md:851
+msgid "**NEVER grant Accessibility permission** unless absolutely required:"
+msgstr "**GE ALDRIG tillgänglighetsbehörighet** om det inte är absolut nödvändigt:"
+
+#: src/grapheneos_security.md:852
+msgid "Extremely dangerous permission"
+msgstr "Extremt farlig behörighet"
+
+#: src/grapheneos_security.md:853
+msgid "Can read all screen content"
+msgstr "Kan läsa allt skärminnehåll"
+
+#: src/grapheneos_security.md:854
+msgid "Can perform actions on your behalf"
+msgstr "Kan utföra åtgärder på dina vägnar"
+
+#: src/grapheneos_security.md:858
+msgid "20. Quick Reference Checklist"
+msgstr "20. Snabbreferens-checklista"
+
+#: src/grapheneos_security.md:860
+msgid "Essential Security Settings"
+msgstr "Väsentliga säkerhetsinställningar"
+
+#: src/grapheneos_security.md:862
+msgid "**Lock bootloader** after installation"
+msgstr "**Lås bootloader** efter installation"
+
+#: src/grapheneos_security.md:863
+msgid "**Strong password/PIN** - 6+ digit PIN or 16+ char password"
+msgstr "**Starkt lösenord/PIN** – 6+ siffrig PIN eller 16+ tecken lösenord"
+
+#: src/grapheneos_security.md:864
+msgid "**Enable Scramble PIN** - Settings > Security & privacy > Device unlock"
+msgstr "**Aktivera Blanda PIN** – Inställningar > Säkerhet och integritet > Enhetslås"
+
+#: src/grapheneos_security.md:865
+msgid "**Set Duress PIN/Password** - Both required"
+msgstr "**Ange Tvungs-PIN/lösenord** – Båda krävs"
+
+#: src/grapheneos_security.md:866
+msgid ""
+"**Auto-reboot: 8-18 hours** - Settings > Security & privacy > Exploit "
+"protection"
+msgstr ""
+"**Automatisk omstart: 8–18 timmar** – Inställningar > Säkerhet och "
+"integritet > Exploateringsskydd"
+
+#: src/grapheneos_security.md:867
+msgid "**USB-C: Charging-only when locked** (default)"
+msgstr "**USB-C: Endast laddning när låst** (standard)"
+
+#: src/grapheneos_security.md:868
+msgid "**Wi-Fi/Bluetooth auto-off: 10 minutes**"
+msgstr "**Wi-Fi/Bluetooth auto-av: 10 minuter**"
+
+#: src/grapheneos_security.md:869
+msgid "**Enable VPN with lockdown** - Block connections without VPN"
+msgstr "**Aktivera VPN med låsning** – Blockera anslutningar utan VPN"
+
+#: src/grapheneos_security.md:870
+msgid "**Enable Security Preview releases** - Get patches early"
+msgstr "**Aktivera Säkerhetsförhandsversioner** – Få korrigeringar tidigt"
+
+#: src/grapheneos_security.md:874
+msgid "**Disable Wi-Fi/Bluetooth scanning** - Settings > Location"
+msgstr "**Inaktivera Wi-Fi/Bluetooth-skanning** – Inställningar > Plats"
+
+#: src/grapheneos_security.md:875
+msgid "**Use per-connection MAC randomization** (default)"
+msgstr "**Använd MAC-randomisering per anslutning** (standard)"
+
+#: src/grapheneos_security.md:876
+msgid "**Set generic Bluetooth name** - \"Device\""
+msgstr "**Sätt generiskt Bluetooth-namn** – \"Enhet\""
+
+#: src/grapheneos_security.md:877
+msgid "**Use Private DNS** - Quad9 or similar"
+msgstr "**Använd Privat DNS** – Quad9 eller liknande"
+
+#: src/grapheneos_security.md:878
+msgid "**GrapheneOS connectivity checks** (default)"
+msgstr "**GrapheneOS anslutningskontroller** (standard)"
+
+#: src/grapheneos_security.md:879
+msgid "**Review app Network permissions** - Deny where not needed"
+msgstr "**Granska appars nätverksbehörigheter** – Neka där det inte behövs"
+
+#: src/grapheneos_security.md:880
+msgid "**Enable Sensors deny by default** - Settings > Security & privacy"
+msgstr "**Aktivera Sensorer neka som standard** – Inställningar > Säkerhet och integritet"
+
+#: src/grapheneos_security.md:882
+msgid "Per-App Best Practices"
+msgstr "Bästa praxis per app"
+
+#: src/grapheneos_security.md:884
+msgid "**Deny Network** for apps that don't need internet"
+msgstr "**Neka nätverk** för appar som inte behöver internet"
+
+#: src/grapheneos_security.md:885
+msgid "**Deny Sensors** for apps that don't need motion data"
+msgstr "**Neka sensorer** för appar som inte behöver rörelsedata"
+
+#: src/grapheneos_security.md:886
+msgid "**Use Storage Scopes** instead of full storage access"
+msgstr "**Använd Lagringsomfång** istället för full lagråtkomst"
+
+#: src/grapheneos_security.md:887
+msgid "**Use Contact Scopes** instead of full contacts access"
+msgstr "**Använd Kontaktomfång** istället för full kontaktåtkomst"
+
+#: src/grapheneos_security.md:888
+msgid ""
+"**Disable native debugging** - Settings > Security & privacy > Exploit "
+"protection"
+msgstr ""
+"**Inaktivera nativ felsökning** – Inställningar > Säkerhet och integritet > "
+"Exploateringsskydd"
+
+#: src/grapheneos_security.md:889
+msgid "**Review all permissions** after installation"
+msgstr "**Granska alla behörigheter** efter installation"
+
+#: src/grapheneos_security.md:891
+msgid "Advanced Hardening"
+msgstr "Avancerad härdning"
+
+#: src/grapheneos_security.md:893
+msgid "**Separate profile for Google Play** - Isolate from main profile"
+msgstr "**Separat profil för Google Play** – Isolera från huvudprofil"
+
+#: src/grapheneos_security.md:894
+msgid "**Use Private Space** for sensitive apps"
+msgstr "**Använd Privat utrymme** för känsliga appar"
+
+#: src/grapheneos_security.md:895
+msgid "**Enable Auditor remote attestation** - attestation.app"
+msgstr "**Aktivera Auditor fjärrattestering** – attestation.app"
+
+#: src/grapheneos_security.md:896
+msgid "**Disable all dynamic code loading** for apps that don't need it"
+msgstr "**Inaktivera all dynamisk kodladdning** för appar som inte behöver det"
+
+#: src/grapheneos_security.md:897
+msgid "**Set auto-reboot to minimum tolerable** (4-8 hours for high security)"
+msgstr "**Ställ in automatisk omstart till minimum tolererbar** (4–8 timmar för hög säkerhet)"
+
+#: src/grapheneos_security.md:898
+msgid "**Consider Charging-only USB** if you never use data transfer"
+msgstr "Överväg **USB endast laddning** om du aldrig använder dataöverföring"
+
+#: src/grapheneos_security.md:902
+msgid "Additional Resources"
+msgstr "Ytterligare resurser"
+
+#: src/grapheneos_security.md:904
+msgid "**Official Documentation:** https://grapheneos.org"
+msgstr "**Officiell dokumentation:** https://grapheneos.org"
+
+#: src/grapheneos_security.md:905
+msgid "**Features Overview:** https://grapheneos.org/features"
+msgstr "**Funktionsöversikt:** https://grapheneos.org/features"
+
+#: src/grapheneos_security.md:906
+msgid "**Usage Guide:** https://grapheneos.org/usage"
+msgstr "**Användarguide:** https://grapheneos.org/usage"
+
+#: src/grapheneos_security.md:907
+msgid "**FAQ:** https://grapheneos.org/faq"
+msgstr "**Vanliga frågor:** https://grapheneos.org/faq"
+
+#: src/grapheneos_security.md:908
+msgid "**Releases:** https://grapheneos.org/releases"
+msgstr "**Versioner:** https://grapheneos.org/releases"
+
+#: src/grapheneos_security.md:909
+msgid "**Discussion Forum:** https://discuss.grapheneos.org"
+msgstr "**Diskussionsforum:** https://discuss.grapheneos.org"
+
+#: src/grapheneos_security.md:910
+msgid "**Community:**"
+msgstr "**Community:**"
+
+#: src/grapheneos_security.md:911
+msgid "Matrix: #community:grapheneos.org"
+msgstr "Matrix: #community:grapheneos.org"
+
+#: src/grapheneos_security.md:912
+msgid "Discord: discord.com/invite/grapheneos"
+msgstr "Discord: discord.com/invite/grapheneos"
+
+#: src/grapheneos_security.md:913
+msgid "Reddit: r/GrapheneOS"
+msgstr "Reddit: r/GrapheneOS"
+
+#: src/grapheneos_security.md:914
+msgid "X/Twitter: @GrapheneOS"
+msgstr "X/Twitter: @GrapheneOS"
+
+#: src/grapheneos_security.md:915
+msgid "Mastodon: @GrapheneOS@grapheneos.social"
+msgstr "Mastodon: @GrapheneOS@grapheneos.social"
+
+#: src/grapheneos_security.md:916
+msgid "Bluesky: @grapheneos.org"
+msgstr "Bluesky: @grapheneos.org"
+
+#: src/grapheneos_security.md:920
+msgid "**Document Information:**"
+msgstr "**Dokumentinformation:**"
+
+#: src/grapheneos_security.md:921
+msgid "_Guide Version: 1.2_"
+msgstr "_Guideversion: 1.2_"
+
+#: src/grapheneos_security.md:922
+msgid "_Last Updated: January 31, 2026_"
+msgstr "_Senast uppdaterad: 31 januari 2026_"
+
+#: src/grapheneos_security.md:923
+msgid "_GrapheneOS Stable Release: 2026012100 (January 21, 2026)_"
+msgstr "_GrapheneOS stabil version: 2026012100 (21 januari 2026)_"
+
+#: src/grapheneos_security.md:924
+msgid "_GrapheneOS Beta Release: 2026012800 (January 28, 2026)_"
+msgstr "_GrapheneOS betaversion: 2026012800 (28 januari 2026)_"
+
+#: src/grapheneos_security.md:925
+msgid "_Android Base: Android 16 QPR2 (BP4A.251205.006)_"
+msgstr "_Android-bas: Android 16 QPR2 (BP4A.251205.006)_"
+
+#: src/grapheneos_security.md:926
+msgid "_Vanadium Browser: 144.0.7559.109.0_"
+msgstr "_Vanadium-webbläsare: 144.0.7559.109.0_"
+
+#: src/grapheneos_security.md:927
+msgid "_Supported Devices: Pixel 6 through Pixel 10 families_"
+msgstr "_Enheter som stöds: Pixel 6 till Pixel 10-familjerna_"
+
+#: src/grapheneos_security.md:929
+msgid ""
+"_GrapheneOS is under active development. Security preview releases provide "
+"patches months ahead of public disclosure (currently through June 2026). "
+"Check official documentation at grapheneos.org for the latest features and "
+"recommendations._"
+msgstr ""
+"_GrapheneOS är under aktiv utveckling. Säkerhetsförhandsversioner "
+"tillhandahåller korrigeringar månader före offentlig publicering (för "
+"närvarande till och med juni 2026). Kontrollera officiell dokumentation på "
+"grapheneos.org för de senaste funktionerna och rekommendationerna._"
+
 #~ msgid "**Important:**"
 #~ msgstr "**Viktigt:**"
-
-#~ msgid "Important"
-#~ msgstr "Viktigt"
 
 #~ msgid "Table of Contents"
 #~ msgstr "Innehållsförteckning"
