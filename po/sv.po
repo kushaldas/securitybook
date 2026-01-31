@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Security Guidebook\n"
-"POT-Creation-Date: 2026-01-31T10:57:51+01:00\n"
+"POT-Creation-Date: 2026-01-31T11:31:44+01:00\n"
 "PO-Revision-Date: 2026-01-29T20:45:10+01:00\n"
 "Last-Translator: Kushal Das <mail@kushaldas.in>\n"
 "Language-Team: sv\n"
@@ -42,6 +42,14 @@ msgid ""
 msgstr ""
 "I den här boken försöker vi hålla oss uppdaterade med de senaste "
 "säkerhetsfunktionerna och bästa praxis."
+
+#: src/chapter_1.md:5
+msgid ""
+"We have 3 chapters so far, for iOS, Android and GrapheneOS. You can access "
+"them from the left sidebar."
+msgstr ""
+"Vi har 3 kapitel hittills, för iOS, Android och GrapheneOS. Du kan komma åt "
+"dem från vänster sidofält."
 
 #: src/ios_security.md:1
 msgid "iOS 26.2.1 Security and Privacy Settings Guide"
@@ -4406,7 +4414,9 @@ msgstr "**Beta/alfa-utgåva:** 2026012800 (28 januari 2026)"
 #: src/grapheneos_security.md:11
 msgid ""
 "**Security Preview:** 2026012801 (includes patches through June 2026 ASB)"
-msgstr "**Förhandstitt på säkerhet:** 2026012801 (inkluderar korrigeringar till juni 2026 ASB)"
+msgstr ""
+"**Förhandstitt på säkerhet:** 2026012801 (inkluderar korrigeringar till juni "
+"2026 ASB)"
 
 #: src/grapheneos_security.md:12
 msgid "**Android Base:** Android 16 QPR2 (BP4A.251205.006)"
@@ -4433,11 +4443,11 @@ msgid ""
 "Edward Snowden has publicly endorsed GrapheneOS as his mobile OS of choice."
 msgstr ""
 "GrapheneOS är ett integritet- och säkerhetsfokuserat mobilt operativsystem "
-"baserat på Android Open Source Project (AOSP). Det är utformat för "
-"användare som kräver den högsta nivån av mobil säkerhet, inklusive "
-"journalister, aktivister, säkerhetsforskare och integritetsfokuserade "
-"personer. Edward Snowden har offentligt rekommenderat GrapheneOS som sitt "
-"föredragna mobila operativsystem."
+"baserat på Android Open Source Project (AOSP). Det är utformat för användare "
+"som kräver den högsta nivån av mobil säkerhet, inklusive journalister, "
+"aktivister, säkerhetsforskare och integritetsfokuserade personer. Edward "
+"Snowden har offentligt rekommenderat GrapheneOS som sitt föredragna mobila "
+"operativsystem."
 
 #: src/grapheneos_security.md:27
 msgid ""
@@ -4469,7 +4479,8 @@ msgid ""
 "based authentication for apps using Google Play services"
 msgstr ""
 "Sandboxat Google Play: Lade till specialfall för SMS-behörighet för att "
-"aktivera SMS-baserad autentisering för appar som använder Google Play-tjänster"
+"aktivera SMS-baserad autentisering för appar som använder Google Play-"
+"tjänster"
 
 #: src/grapheneos_security.md:36
 msgid ""
@@ -4484,8 +4495,8 @@ msgid ""
 "Improved secure app spawning compatibility with anti-tampering checks in "
 "certain apps"
 msgstr ""
-"Förbättrad kompatibilitet för säker appstart med anti-manipuleringskontroller "
-"i vissa appar"
+"Förbättrad kompatibilitet för säker appstart med anti-"
+"manipuleringskontroller i vissa appar"
 
 #: src/grapheneos_security.md:38
 msgid ""
@@ -4516,11 +4527,15 @@ msgstr "Pixel 8a, 9:e/10:e gen: Inaktiverade NTP-användning i Samsung gnssd"
 
 #: src/grapheneos_security.md:42
 msgid "Improved UI for Network/Sensors permissions in permission manager"
-msgstr "Förbättrat gränssnitt för nätverks-/sensorbehörigheter i behörighetshanteraren"
+msgstr ""
+"Förbättrat gränssnitt för nätverks-/sensorbehörigheter i "
+"behörighetshanteraren"
 
 #: src/grapheneos_security.md:43
 msgid "Fixed Material 3 Expressive styling for Contact/Storage Scopes UI"
-msgstr "Åtgärdade Material 3 Expressive-styling för gränssnitt för kontakt-/lagringsomfång"
+msgstr ""
+"Åtgärdade Material 3 Expressive-styling för gränssnitt för kontakt-/"
+"lagringsomfång"
 
 #: src/grapheneos_security.md:44
 msgid "Kernel 6.12 updated to 6.12.67"
@@ -4572,7 +4587,8 @@ msgstr "8 kritiska CVE:er korrigerade (CVE-2026-0039 till CVE-2026-0049)"
 
 #: src/grapheneos_security.md:57
 msgid "38+ High-severity CVEs patched ahead of public disclosure"
-msgstr "38+ CVE:er med hög allvarlighetsgrad korrigerade innan offentliggörande"
+msgstr ""
+"38+ CVE:er med hög allvarlighetsgrad korrigerade innan offentliggörande"
 
 #: src/grapheneos_security.md:58
 msgid ""
@@ -4588,7 +4604,8 @@ msgstr "**Senaste stora funktioner:**"
 
 #: src/grapheneos_security.md:61
 msgid "**Android 16 QPR2 base** - Latest security patches and features"
-msgstr "**Android 16 QPR2-bas** – Senaste säkerhetskorrigeringar och funktioner"
+msgstr ""
+"**Android 16 QPR2-bas** – Senaste säkerhetskorrigeringar och funktioner"
 
 #: src/grapheneos_security.md:62
 msgid ""
@@ -4989,7 +5006,8 @@ msgstr ""
 msgid ""
 "**Google hardware** - Only official Pixel devices meet security requirements"
 msgstr ""
-"**Google-hårdvara** – Endast officiella Pixel-enheter uppfyller säkerhetskraven"
+"**Google-hårdvara** – Endast officiella Pixel-enheter uppfyller "
+"säkerhetskraven"
 
 #: src/grapheneos_security.md:121
 msgid "Future Support"
@@ -5091,7 +5109,8 @@ msgstr "Konfigurationsguidens säkerhetsfunktioner"
 
 #: src/grapheneos_security.md:158
 msgid "GrapheneOS's Setup Wizard includes enhanced security checks:"
-msgstr "GrapheneOS konfigurationsguide inkluderar förbättrade säkerhetskontroller:"
+msgstr ""
+"GrapheneOS konfigurationsguide inkluderar förbättrade säkerhetskontroller:"
 
 #: src/grapheneos_security.md:160
 msgid ""
@@ -5127,7 +5146,8 @@ msgstr "Inställningar > Säkerhet och integritet > Enhetslås > Skärmlås"
 
 #: src/grapheneos_security.md:169
 msgid "Use a strong password (16+ characters) or secure PIN (6+ digits)"
-msgstr "Använd ett starkt lösenord (16+ tecken) eller säker PIN-kod (6+ siffror)"
+msgstr ""
+"Använd ett starkt lösenord (16+ tecken) eller säker PIN-kod (6+ siffror)"
 
 #: src/grapheneos_security.md:170
 msgid "Consider enabling **Scramble PIN input layout**"
@@ -5342,7 +5362,8 @@ msgstr ""
 
 #: src/grapheneos_security.md:234
 msgid "Check local laws regarding evidence destruction before using"
-msgstr "Kontrollera lokala lagar gällande bevismaterials förstöring innan användning"
+msgstr ""
+"Kontrollera lokala lagar gällande bevismaterials förstöring innan användning"
 
 #: src/grapheneos_security.md:235
 msgid "Do NOT use simple sequences like 1234 that others might guess"
@@ -5357,8 +5378,8 @@ msgid ""
 "GrapheneOS limits fingerprint attempts to **5 total** (vs 20 on stock "
 "Android with delays):"
 msgstr ""
-"GrapheneOS begränsar fingeravtrycksförsök till **5 totalt** (mot 20 på vanlig "
-"Android med fördröjningar):"
+"GrapheneOS begränsar fingeravtrycksförsök till **5 totalt** (mot 20 på "
+"vanlig Android med fördröjningar):"
 
 #: src/grapheneos_security.md:240
 msgid "Makes intentional lockout easy (use wrong finger 5 times)"
@@ -5374,7 +5395,8 @@ msgstr "6. Exploateringsskydd"
 
 #: src/grapheneos_security.md:247 src/grapheneos_security.md:540
 msgid "**Location:** Settings > Security & privacy > Exploit protection"
-msgstr "**Plats:** Inställningar > Säkerhet och integritet > Exploateringsskydd"
+msgstr ""
+"**Plats:** Inställningar > Säkerhet och integritet > Exploateringsskydd"
 
 #: src/grapheneos_security.md:249
 msgid ""
@@ -5393,8 +5415,8 @@ msgid ""
 "**Purpose:** Returns device to \"at rest\" state, clearing encryption keys "
 "from memory"
 msgstr ""
-"**Syfte:** Återställer enheten till \"viloläge\" och rensar krypteringsnycklar "
-"från minnet"
+"**Syfte:** Återställer enheten till \"viloläge\" och rensar "
+"krypteringsnycklar från minnet"
 
 #: src/grapheneos_security.md:255
 msgid "Effect"
@@ -5442,7 +5464,8 @@ msgstr "Upplåsning av vilken profil som helst återställer timern"
 
 #: src/grapheneos_security.md:266
 msgid "After timeout, device reboots to Before First Unlock (BFU) state"
-msgstr "Efter timeout startar enheten om till Before First Unlock (BFU)-tillstånd"
+msgstr ""
+"Efter timeout startar enheten om till Before First Unlock (BFU)-tillstånd"
 
 #: src/grapheneos_security.md:267
 msgid "All encryption keys cleared, data fully at rest"
@@ -5466,7 +5489,8 @@ msgstr "Automatisk av Wi-Fi"
 
 #: src/grapheneos_security.md:275
 msgid "**Purpose:** Disables Wi-Fi after disconnect to reduce attack surface"
-msgstr "**Syfte:** Inaktiverar Wi-Fi efter frånkoppling för att minska attackytan"
+msgstr ""
+"**Syfte:** Inaktiverar Wi-Fi efter frånkoppling för att minska attackytan"
 
 #: src/grapheneos_security.md:277
 msgid "**Options:** 10 minutes, 30 minutes, 1 hour, 2 hours, Off"
@@ -5508,12 +5532,13 @@ msgstr "**Standard:** Aktiverad"
 msgid ""
 "**Effect:** Prevents cross-app identifier leaks, hardens exploit mitigations"
 msgstr ""
-"**Effekt:** Förhindrar läckage av identifierare mellan appar, härdar skydd mot "
-"exploatering"
+"**Effekt:** Förhindrar läckage av identifierare mellan appar, härdar skydd "
+"mot exploatering"
 
 #: src/grapheneos_security.md:293
 msgid "**Trade-off:** Slightly slower cold app starts, slightly higher memory"
-msgstr "**Avvägning:** Något långsammare kallstarter, något högre minnesanvändning"
+msgstr ""
+"**Avvägning:** Något långsammare kallstarter, något högre minnesanvändning"
 
 #: src/grapheneos_security.md:294
 msgid "**Recommendation:** Keep enabled"
@@ -5537,7 +5562,9 @@ msgstr "**Användarappar:** Tillåtna som standard (för kompatibilitet)"
 
 #: src/grapheneos_security.md:302
 msgid "**Recommendation:** Disable for all apps unless needed for development"
-msgstr "**Rekommendation:** Inaktivera för alla appar om det inte behövs för utveckling"
+msgstr ""
+"**Rekommendation:** Inaktivera för alla appar om det inte behövs för "
+"utveckling"
 
 #: src/grapheneos_security.md:304
 msgid "Dynamic Code Loading Toggles"
@@ -5607,11 +5634,13 @@ msgstr "**Plats:** Appinfo > Behörigheter > Nätverk (per app)"
 msgid ""
 "GrapheneOS adds a **Network permission** not available in stock Android."
 msgstr ""
-"GrapheneOS lägger till en **nätverksbehörighet** som inte finns i vanlig Android."
+"GrapheneOS lägger till en **nätverksbehörighet** som inte finns i vanlig "
+"Android."
 
 #: src/grapheneos_security.md:326
 msgid "When disabled, app sees network as \"down\" (not permission denied)"
-msgstr "När inaktiverat ser appen nätverket som \"nere\" (inte nekad behörighet)"
+msgstr ""
+"När inaktiverat ser appen nätverket som \"nere\" (inte nekad behörighet)"
 
 #: src/grapheneos_security.md:327
 msgid ""
@@ -5636,7 +5665,8 @@ msgstr "Under appinstallation, växla av Nätverk om det inte behövs"
 
 #: src/grapheneos_security.md:333
 msgid "Or go to Settings > Apps > \\[App\\] > Permissions > Network"
-msgstr "Eller gå till Inställningar > Appar > \\[App\\] > Behörigheter > Nätverk"
+msgstr ""
+"Eller gå till Inställningar > Appar > \\[App\\] > Behörigheter > Nätverk"
 
 #: src/grapheneos_security.md:335 src/grapheneos_security.md:396
 #: src/grapheneos_security.md:423
@@ -5715,7 +5745,9 @@ msgstr "Global standard"
 
 #: src/grapheneos_security.md:364 src/grapheneos_security.md:820
 msgid "**Location:** Settings > Security & privacy > More security & privacy"
-msgstr "**Plats:** Inställningar > Säkerhet och integritet > Mer säkerhet och integritet"
+msgstr ""
+"**Plats:** Inställningar > Säkerhet och integritet > Mer säkerhet och "
+"integritet"
 
 #: src/grapheneos_security.md:366
 msgid "Toggle: **Deny Sensors permission by default for newly installed apps**"
@@ -5737,11 +5769,13 @@ msgstr ""
 
 #: src/grapheneos_security.md:376
 msgid "A privacy-preserving alternative to granting full storage access."
-msgstr "Ett integritetsbevarande alternativ till att bevilja full lagringsåtkomst."
+msgstr ""
+"Ett integritetsbevarande alternativ till att bevilja full lagringsåtkomst."
 
 #: src/grapheneos_security.md:380
 msgid "Instead of granting storage permission, enable **Storage Scopes**"
-msgstr "Istället för att bevilja lagringsbehörighet, aktivera **Lagringsomfång**"
+msgstr ""
+"Istället för att bevilja lagringsbehörighet, aktivera **Lagringsomfång**"
 
 #: src/grapheneos_security.md:381
 msgid "App believes it has full storage access"
@@ -5753,7 +5787,9 @@ msgstr "Appen kan endast se filer den skapat"
 
 #: src/grapheneos_security.md:383
 msgid "Optionally add specific files/folders as \"scopes\" for app to access"
-msgstr "Lägg valfritt till specifika filer/mappar som \"omfång\" för appen att komma åt"
+msgstr ""
+"Lägg valfritt till specifika filer/mappar som \"omfång\" för appen att komma "
+"åt"
 
 #: src/grapheneos_security.md:387 src/grapheneos_security.md:419
 msgid "Go to app's permissions"
@@ -5765,7 +5801,9 @@ msgstr "Istället för att bevilja Filer/Media, aktivera Lagringsomfång"
 
 #: src/grapheneos_security.md:389
 msgid "Add specific files/folders if app needs access to existing files"
-msgstr "Lägg till specifika filer/mappar om appen behöver åtkomst till befintliga filer"
+msgstr ""
+"Lägg till specifika filer/mappar om appen behöver åtkomst till befintliga "
+"filer"
 
 #: src/grapheneos_security.md:391
 msgid "Limitations"
@@ -5986,17 +6024,16 @@ msgid ""
 "Can install apps directly or via Google Play (if installed in Private Space)"
 msgstr ""
 "Kan installera appar direkt eller via Google Play (om installerad i Privat "
-"utrymme)"
-"Kan installera appar direkt eller via Google Play (om installerad i Privat "
-"utrymme)"
+"utrymme)Kan installera appar direkt eller via Google Play (om installerad i "
+"Privat utrymme)"
 
 #: src/grapheneos_security.md:484
 msgid ""
 "**Recommendation:** Use Private Space instead of work profiles managed by "
 "third-party apps"
 msgstr ""
-"**Rekommendation:** Använd Privat utrymme istället för arbetsprofiler som hanteras "
-"av tredjepartsappar"
+"**Rekommendation:** Använd Privat utrymme istället för arbetsprofiler som "
+"hanteras av tredjepartsappar"
 
 #: src/grapheneos_security.md:486
 msgid "Notification Forwarding"
@@ -6008,7 +6045,8 @@ msgstr "**Plats:** I varje profils inställningar"
 
 #: src/grapheneos_security.md:490
 msgid "Forward notifications from background profiles to active profile:"
-msgstr "Vidarebefordra notifikationer från bakgrundsprofiler till aktiv profil:"
+msgstr ""
+"Vidarebefordra notifikationer från bakgrundsprofiler till aktiv profil:"
 
 #: src/grapheneos_security.md:491
 msgid "Disabled by default"
@@ -6026,7 +6064,8 @@ msgstr "12. USB-C-port och Pogo-stiftkontroll"
 msgid ""
 "**Location:** Settings > Security & privacy > Exploit protection > USB-C port"
 msgstr ""
-"**Plats:** Inställningar > Säkerhet och integritet > Exploateringsskydd > USB-C-port"
+"**Plats:** Inställningar > Säkerhet och integritet > Exploateringsskydd > "
+"USB-C-port"
 
 #: src/grapheneos_security.md:500
 msgid "Modes"
@@ -6366,7 +6405,8 @@ msgstr "Internetanslutningskontroller"
 msgid ""
 "**Location:** Settings > Network & internet > Internet connectivity checks"
 msgstr ""
-"**Plats:** Inställningar > Nätverk och internet > Internetanslutningskontroller"
+"**Plats:** Inställningar > Nätverk och internet > "
+"Internetanslutningskontroller"
 
 #: src/grapheneos_security.md:606
 msgid "Options:"
@@ -6393,8 +6433,8 @@ msgid ""
 "GrapheneOS allows running Google Play as a **regular sandboxed app** with no "
 "special privileges."
 msgstr ""
-"GrapheneOS tillåter körning av Google Play som en **vanlig sandlådeapp** utan "
-"speciella privilegier."
+"GrapheneOS tillåter körning av Google Play som en **vanlig sandlådeapp** "
+"utan speciella privilegier."
 
 #: src/grapheneos_security.md:617
 msgid "Key Properties"
@@ -6418,7 +6458,8 @@ msgstr "Endast tillgänglig inom profilen där den är installerad"
 
 #: src/grapheneos_security.md:623
 msgid "Location requests rerouted to GrapheneOS implementation by default"
-msgstr "Platsförfrågningar omdirigeras till GrapheneOS-implementering som standard"
+msgstr ""
+"Platsförfrågningar omdirigeras till GrapheneOS-implementering som standard"
 
 #: src/grapheneos_security.md:625
 msgid "Installation"
@@ -6458,7 +6499,8 @@ msgstr "Profilstrategi"
 
 #: src/grapheneos_security.md:642
 msgid "**Option 1: Owner profile** - Simplest, all apps can use Play services"
-msgstr "**Alternativ 1: Ägarprofil** – Enklast, alla appar kan använda Play-tjänster"
+msgstr ""
+"**Alternativ 1: Ägarprofil** – Enklast, alla appar kan använda Play-tjänster"
 
 #: src/grapheneos_security.md:644
 msgid ""
@@ -6518,7 +6560,8 @@ msgstr "Återkalla behörigheter"
 
 #: src/grapheneos_security.md:661
 msgid "You can revoke ANY permission from Google Play services:"
-msgstr "Du kan återkalla VILKEN behörighet som helst från Google Play-tjänster:"
+msgstr ""
+"Du kan återkalla VILKEN behörighet som helst från Google Play-tjänster:"
 
 #: src/grapheneos_security.md:662
 msgid "Location, Contacts, Camera, etc."
@@ -6622,7 +6665,8 @@ msgstr "**Konfiguration:**"
 
 #: src/grapheneos_security.md:697
 msgid "JIT: Disabled by default, enable per-site via address bar menu"
-msgstr "JIT: Inaktiverat som standard, aktivera per webbplats via adressfältsmeny"
+msgstr ""
+"JIT: Inaktiverat som standard, aktivera per webbplats via adressfältsmeny"
 
 #: src/grapheneos_security.md:698
 msgid "Content filtering: Enabled by default, toggle per-site"
@@ -6874,7 +6918,8 @@ msgstr "GrapheneOS deltar i Androids säkerhetsembargo"
 
 #: src/grapheneos_security.md:794
 msgid "Can ship patches before disclosure (unlike stock OS)"
-msgstr "Kan leverera korrigeringar före publicering (till skillnad från standard-OS)"
+msgstr ""
+"Kan leverera korrigeringar före publicering (till skillnad från standard-OS)"
 
 #: src/grapheneos_security.md:795
 msgid "Preview releases increment build number by 1"
@@ -7010,7 +7055,8 @@ msgstr "Varning för tillgänglighet"
 
 #: src/grapheneos_security.md:851
 msgid "**NEVER grant Accessibility permission** unless absolutely required:"
-msgstr "**GE ALDRIG tillgänglighetsbehörighet** om det inte är absolut nödvändigt:"
+msgstr ""
+"**GE ALDRIG tillgänglighetsbehörighet** om det inte är absolut nödvändigt:"
 
 #: src/grapheneos_security.md:852
 msgid "Extremely dangerous permission"
@@ -7042,7 +7088,8 @@ msgstr "**Starkt lösenord/PIN** – 6+ siffrig PIN eller 16+ tecken lösenord"
 
 #: src/grapheneos_security.md:864
 msgid "**Enable Scramble PIN** - Settings > Security & privacy > Device unlock"
-msgstr "**Aktivera Blanda PIN** – Inställningar > Säkerhet och integritet > Enhetslås"
+msgstr ""
+"**Aktivera Blanda PIN** – Inställningar > Säkerhet och integritet > Enhetslås"
 
 #: src/grapheneos_security.md:865
 msgid "**Set Duress PIN/Password** - Both required"
@@ -7098,7 +7145,9 @@ msgstr "**Granska appars nätverksbehörigheter** – Neka där det inte behövs
 
 #: src/grapheneos_security.md:880
 msgid "**Enable Sensors deny by default** - Settings > Security & privacy"
-msgstr "**Aktivera Sensorer neka som standard** – Inställningar > Säkerhet och integritet"
+msgstr ""
+"**Aktivera Sensorer neka som standard** – Inställningar > Säkerhet och "
+"integritet"
 
 #: src/grapheneos_security.md:882
 msgid "Per-App Best Practices"
@@ -7154,7 +7203,9 @@ msgstr "**Inaktivera all dynamisk kodladdning** för appar som inte behöver det
 
 #: src/grapheneos_security.md:897
 msgid "**Set auto-reboot to minimum tolerable** (4-8 hours for high security)"
-msgstr "**Ställ in automatisk omstart till minimum tolererbar** (4–8 timmar för hög säkerhet)"
+msgstr ""
+"**Ställ in automatisk omstart till minimum tolererbar** (4–8 timmar för hög "
+"säkerhet)"
 
 #: src/grapheneos_security.md:898
 msgid "**Consider Charging-only USB** if you never use data transfer"

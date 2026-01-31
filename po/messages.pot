@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Security Guidebook\n"
-"POT-Creation-Date: 2026-01-31T10:57:51+01:00\n"
+"POT-Creation-Date: 2026-01-31T11:31:44+01:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -40,6 +40,12 @@ msgstr ""
 msgid ""
 "In this book we will try to keep up with the latest security features and "
 "best practices."
+msgstr ""
+
+#: src/chapter_1.md:5
+msgid ""
+"We have 3 chapters so far, for iOS, Android and GrapheneOS. You can access "
+"them from the left sidebar."
 msgstr ""
 
 #: src/ios_security.md:1
