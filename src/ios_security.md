@@ -1,6 +1,6 @@
-# iOS 26.2.1 Security and Privacy Settings Guide
+# iOS 26.3 Security and Privacy Settings Guide
 
-A comprehensive guide to configuring security and privacy settings on iOS 26.2.1 (the latest version as of January 29, 2026) to protect your personal data and secure your iPhone.
+A comprehensive guide to configuring security and privacy settings on iOS 26.3 (the latest version as of February 11, 2026) to protect your personal data and secure your iPhone.
 
 ---
 
@@ -59,6 +59,40 @@ iOS 26.2.1 is a minor update focused on new hardware support and bug fixes.
 iOS 26.2.1 is required for AirTag (2nd Generation). Update via **Settings > General > Software Update**.
 
 </div></div>
+
+### iOS 26.3 (February 11, 2026)
+
+iOS 26.3 addresses **37 security vulnerabilities** including one actively exploited zero-day, adds new privacy controls, and introduces a data transfer tool for users switching to Android.
+
+**Security Fixes:**
+
+- **Actively exploited zero-day (CVE-2026-20700)** – A memory corruption flaw in the `dyld` dynamic link editor that allowed arbitrary code execution. Apple says it "may have been exploited in an extremely sophisticated attack against specific targeted individuals" on versions before iOS 26.
+- **3 kernel/privilege escalation flaws** – Including CVE-2026-20617 and CVE-2026-20615 (CoreServices race condition and path handling bugs allowing root privileges) and CVE-2026-20626 (kernel root privilege escalation)
+- **Sandbox escape (CVE-2026-20667)** – A logic flaw in `libxpc` allowing apps to break out of the sandbox
+- **Remote file write (CVE-2026-20660)** – A CFNetwork path handling vulnerability allowing remote attackers to write arbitrary files
+- **Lock screen photo access (CVE-2026-20642)** – A bug in Photos allowing someone with physical access to view photos from the lock screen
+- **Accessibility data leaks (CVE-2026-20674)** – Sensitive user information viewable on a locked device
+- Additional fixes in WebKit, ImageIO, CoreAudio, Game Center, Messages, Shortcuts, and StoreKit
+
+<div class="danger-block">
+<svg class="admon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#c62828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+<div class="admon-body">
+<div class="admon-title">Critical</div>
+
+The dyld zero-day (CVE-2026-20700) was actively exploited in targeted attacks. Update to iOS 26.3 immediately via **Settings > General > Software Update**.
+
+</div></div>
+
+**New Features:**
+
+- **Limit Precise Location** – Reduces what cellular carriers can infer about your location to neighborhood-level instead of street-level precision. Requires iPhone 16e or iPhone Air (C1/C1X modem). Currently supported by Boost Mobile (US), EE/BT (UK), Telekom (Germany), and AIS/True (Thailand).
+- **Transfer to Android** – A new proximity-based tool for migrating photos, messages, notes, apps, passwords, and phone number to an Android device. Health data and locked notes remain on iPhone.
+- **Encrypted RCS messaging support** – System-level support for encrypted Rich Communication Services messaging is now present in the OS code, pending carrier activation.
+
+**EU-Only Features (Digital Markets Act compliance):**
+
+- **Notification forwarding** – Forward iPhone notifications to third-party wearables (not just Apple Watch)
+- **Proximity pairing** – One-tap pairing for third-party headphones and smartwatches, similar to AirPods
 
 ---
 
@@ -603,6 +637,19 @@ iOS 26 adds hybrid post-quantum key exchange to TLS connections:
 - Protects current data against future quantum computing threats
 - Works automatically with Apple's networking frameworks
 
+### Limit Precise Location (NEW in iOS 26.3)
+
+Reduces the location precision available to your cellular carrier from street-level to neighborhood-level.
+
+**How to enable:**
+1. Go to **Settings > Privacy & Security > Location Services > System Services**
+2. Tap **Limit Precise Location**
+3. Toggle on
+
+**Requirements:**
+- iPhone 16e or iPhone Air (devices with Apple C1/C1X modem)
+- Carrier support: Boost Mobile (US), EE/BT (UK), Telekom (Germany), AIS/True (Thailand) at launch
+
 ### Captive Assist
 
 When you connect to public Wi-Fi by filling out a form, iOS 26 can automatically share that form information with your other Apple devices, making it easier to connect securely.
@@ -713,9 +760,9 @@ After installing iOS 26.2 or any security update, **restart your device**. Some 
 
 ## Conclusion
 
-iOS 26.2 represents Apple's most comprehensive security and privacy update to date. Key priorities:
+iOS 26.3 represents Apple's most comprehensive security and privacy update to date. Key priorities:
 
-1. **Update to iOS 26.2 immediately** – Patches actively exploited zero-day vulnerabilities
+1. **Update to iOS 26.3 immediately** – Patches an actively exploited dyld zero-day (CVE-2026-20700) and 36 other vulnerabilities
 2. **Enable lockdown mode** – Prevents sophisticated spyware attacks
 3. **Enable Stolen Device Protection** – Prevents thieves from accessing data even with your passcode
 4. **Turn on Advanced Data Protection** – End-to-end encrypts your iCloud data
@@ -728,6 +775,7 @@ By configuring these settings, you significantly strengthen your privacy and sec
 
 ---
 
-*Last updated: January 29, 2026 | Applies to iOS 26.2.1*
+*Last updated: February 14, 2026 | Applies to iOS 26.3*
 *Device requirements: iPhone 11 or later (A13 Bionic chip minimum)*
-*AirTag (2nd Generation) requires iOS 26.2.1*
+*AirTag (2nd Generation) requires iOS 26.2.1 or later*
+*Limit Precise Location requires iPhone 16e or iPhone Air*

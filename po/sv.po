@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Security Guidebook\n"
-"POT-Creation-Date: 2026-01-31T11:31:44+01:00\n"
+"POT-Creation-Date: 2026-02-14T18:46:10+01:00\n"
 "PO-Revision-Date: 2026-01-29T20:45:10+01:00\n"
 "Last-Translator: Kushal Das <mail@kushaldas.in>\n"
 "Language-Team: sv\n"
@@ -52,17 +52,17 @@ msgstr ""
 "dem från vänster sidofält."
 
 #: src/ios_security.md:1
-msgid "iOS 26.2.1 Security and Privacy Settings Guide"
-msgstr "Guide för säkerhets- och integritetsinställningar i iOS 26.2.1"
+msgid "iOS 26.3 Security and Privacy Settings Guide"
+msgstr "Guide för säkerhets- och integritetsinställningar i iOS 26.3"
 
 #: src/ios_security.md:3
 msgid ""
 "A comprehensive guide to configuring security and privacy settings on iOS "
-"26.2.1 (the latest version as of January 29, 2026) to protect your personal "
+"26.3 (the latest version as of February 11, 2026) to protect your personal "
 "data and secure your iPhone."
 msgstr ""
 "En omfattande guide för att konfigurera säkerhets- och "
-"integritetsinställningar i iOS 26.2.1 (den senaste versionen per 29 januari "
+"integritetsinställningar i iOS 26.3 (den senaste versionen per 11 februari "
 "2026) för att skydda dina personuppgifter och säkra din iPhone."
 
 #: src/ios_security.md:7
@@ -199,7 +199,7 @@ msgstr ""
 "iOS 26.2.1 är en mindre uppdatering med fokus på nytt maskinvarustöd och "
 "buggfixar."
 
-#: src/ios_security.md:35
+#: src/ios_security.md:35 src/ios_security.md:86
 msgid "**New Features:**"
 msgstr "**Nya funktioner:**"
 
@@ -286,142 +286,286 @@ msgstr ""
 "iOS 26.2.1 krävs för AirTag (2:a generationen). Uppdatera via "
 "**Inställningar > Allmänt > Programuppdatering**."
 
+#: src/ios_security.md:63
+msgid "iOS 26.3 (February 11, 2026)"
+msgstr "iOS 26.3 (11 februari 2026)"
+
 #: src/ios_security.md:65
+msgid ""
+"iOS 26.3 addresses **37 security vulnerabilities** including one actively "
+"exploited zero-day, adds new privacy controls, and introduces a data "
+"transfer tool for users switching to Android."
+msgstr ""
+"iOS 26.3 åtgärdar **37 säkerhetssårbarheter** inklusive en aktivt utnyttjad "
+"nolldagssårbarhet, lägger till nya integritetskontroller och introducerar ett "
+"dataöverföringsverktyg för användare som byter till Android."
+
+#: src/ios_security.md:67
+msgid "**Security Fixes:**"
+msgstr "**Säkerhetskorrigeringar:**"
+
+#: src/ios_security.md:69
+msgid ""
+"**Actively exploited zero-day (CVE-2026-20700)** – A memory corruption flaw "
+"in the `dyld` dynamic link editor that allowed arbitrary code execution. "
+"Apple says it \"may have been exploited in an extremely sophisticated attack "
+"against specific targeted individuals\" on versions before iOS 26."
+msgstr ""
+"**Aktivt utnyttjad nolldagssårbarhet (CVE-2026-20700)** – En "
+"minneskorruptionsbrist i den dynamiska länkhanteraren `dyld` som möjliggjorde "
+"exekvering av godtycklig kod. Apple säger att den \"kan ha utnyttjats i en "
+"extremt sofistikerad attack mot specifika riktade individer\" i versioner "
+"före iOS 26."
+
+#: src/ios_security.md:70
+msgid ""
+"**3 kernel/privilege escalation flaws** – Including CVE-2026-20617 and "
+"CVE-2026-20615 (CoreServices race condition and path handling bugs allowing "
+"root privileges) and CVE-2026-20626 (kernel root privilege escalation)"
+msgstr ""
+"**3 kernel-/privilegieeskaleringssårbarheter** – Inklusive CVE-2026-20617 "
+"och CVE-2026-20615 (CoreServices kapplöpningstillstånd och sökvägsbuggar som "
+"möjliggör rooträttigheter) samt CVE-2026-20626 (kernel-privilegieeskalering)"
+
+#: src/ios_security.md:71
+msgid ""
+"**Sandbox escape (CVE-2026-20667)** – A logic flaw in `libxpc` allowing apps "
+"to break out of the sandbox"
+msgstr ""
+"**Sandbox-utbrytning (CVE-2026-20667)** – En logikbrist i `libxpc` som "
+"möjliggör för appar att bryta sig ut ur sandlådan"
+
+#: src/ios_security.md:72
+msgid ""
+"**Remote file write (CVE-2026-20660)** – A CFNetwork path handling "
+"vulnerability allowing remote attackers to write arbitrary files"
+msgstr ""
+"**Fjärrfilskrivning (CVE-2026-20660)** – En CFNetwork-sårbarhet i "
+"sökvägshantering som möjliggör för fjärrangripare att skriva godtyckliga "
+"filer"
+
+#: src/ios_security.md:73
+msgid ""
+"**Lock screen photo access (CVE-2026-20642)** – A bug in Photos allowing "
+"someone with physical access to view photos from the lock screen"
+msgstr ""
+"**Åtkomst till foton från låsskärmen (CVE-2026-20642)** – En bugg i Foton "
+"som möjliggör för någon med fysisk åtkomst att visa foton från låsskärmen"
+
+#: src/ios_security.md:74
+msgid ""
+"**Accessibility data leaks (CVE-2026-20674)** – Sensitive user information "
+"viewable on a locked device"
+msgstr ""
+"**Dataläckor i Tillgänglighet (CVE-2026-20674)** – Känslig "
+"användarinformation synlig på en låst enhet"
+
+#: src/ios_security.md:75
+msgid ""
+"Additional fixes in WebKit, ImageIO, CoreAudio, Game Center, Messages, "
+"Shortcuts, and StoreKit"
+msgstr ""
+"Ytterligare korrigeringar i WebKit, ImageIO, CoreAudio, Game Center, "
+"Meddelanden, Genvägar och StoreKit"
+
+#: src/ios_security.md:82
+msgid ""
+"The dyld zero-day (CVE-2026-20700) was actively exploited in targeted "
+"attacks. Update to iOS 26.3 immediately via **Settings > General > Software "
+"Update**."
+msgstr ""
+"Nolldagssårbarheten i dyld (CVE-2026-20700) utnyttjades aktivt i riktade "
+"attacker. Uppdatera till iOS 26.3 omedelbart via **Inställningar > Allmänt > "
+"Programuppdatering**."
+
+#: src/ios_security.md:88
+msgid ""
+"**Limit Precise Location** – Reduces what cellular carriers can infer about "
+"your location to neighborhood-level instead of street-level precision. "
+"Requires iPhone 16e or iPhone Air (C1/C1X modem). Currently supported by "
+"Boost Mobile (US), EE/BT (UK), Telekom (Germany), and AIS/True (Thailand)."
+msgstr ""
+"**Begränsa exakt plats** – Minskar vad mobiloperatörer kan härleda om din "
+"plats till grannskapsnivå istället för gatunivåprecision. Kräver iPhone 16e "
+"eller iPhone Air (C1/C1X-modem). Stöds för närvarande av Boost Mobile (USA), "
+"EE/BT (Storbritannien), Telekom (Tyskland) och AIS/True (Thailand)."
+
+#: src/ios_security.md:89
+msgid ""
+"**Transfer to Android** – A new proximity-based tool for migrating photos, "
+"messages, notes, apps, passwords, and phone number to an Android device. "
+"Health data and locked notes remain on iPhone."
+msgstr ""
+"**Överför till Android** – Ett nytt närhetsbaserat verktyg för att migrera "
+"foton, meddelanden, anteckningar, appar, lösenord och telefonnummer till en "
+"Android-enhet. Hälsodata och låsta anteckningar förblir på iPhone."
+
+#: src/ios_security.md:90
+msgid ""
+"**Encrypted RCS messaging support** – System-level support for encrypted "
+"Rich Communication Services messaging is now present in the OS code, pending "
+"carrier activation."
+msgstr ""
+"**Stöd för krypterad RCS-meddelanden** – Systemnivåstöd för krypterade Rich "
+"Communication Services-meddelanden finns nu i OS-koden, i väntan på "
+"operatörsaktivering."
+
+#: src/ios_security.md:92
+msgid "**EU-Only Features (Digital Markets Act compliance):**"
+msgstr "**Funktioner enbart för EU (efterlevnad av lagen om digitala marknader):**"
+
+#: src/ios_security.md:94
+msgid ""
+"**Notification forwarding** – Forward iPhone notifications to third-party "
+"wearables (not just Apple Watch)"
+msgstr ""
+"**Vidarebefordran av notiser** – Vidarebefordra iPhone-notiser till "
+"tredjepartstillbehör (inte bara Apple Watch)"
+
+#: src/ios_security.md:95
+msgid ""
+"**Proximity pairing** – One-tap pairing for third-party headphones and "
+"smartwatches, similar to AirPods"
+msgstr ""
+"**Närhetsparkoppling** – Parkoppling med ett tryck för tredjepartshörlurar "
+"och smartklockor, liknande AirPods"
+
+#: src/ios_security.md:99
 msgid "1. Device Authentication"
 msgstr "1. Enhetsautentisering"
 
-#: src/ios_security.md:67
+#: src/ios_security.md:101
 msgid "Face ID / Touch ID Setup"
 msgstr "Konfigurera Face ID / Touch ID"
 
-#: src/ios_security.md:69
+#: src/ios_security.md:103
 msgid "Biometric authentication provides secure and convenient device access."
 msgstr "Biometrisk autentisering ger säker och bekväm åtkomst till enheten."
 
-#: src/ios_security.md:71
+#: src/ios_security.md:105
 msgid "**How to set up Face ID:**"
 msgstr "**Så konfigurerar du Face ID:**"
 
-#: src/ios_security.md:72 src/android_security.md:67
+#: src/ios_security.md:106 src/android_security.md:67
 msgid "Open **Settings**"
 msgstr "Öppna **Inställningar**"
 
-#: src/ios_security.md:73
+#: src/ios_security.md:107
 msgid "Tap **Face ID & Passcode**"
 msgstr "Tryck på **Face ID och lösenkod**"
 
-#: src/ios_security.md:74 src/ios_security.md:177 src/ios_security.md:452
+#: src/ios_security.md:108 src/ios_security.md:211 src/ios_security.md:486
 msgid "Enter your passcode"
 msgstr "Ange din lösenkod"
 
-#: src/ios_security.md:75
+#: src/ios_security.md:109
 msgid "Tap **Set Up Face ID**"
 msgstr "Tryck på **Ställ in Face ID**"
 
-#: src/ios_security.md:76
+#: src/ios_security.md:110
 msgid "Follow on-screen instructions to position your face"
 msgstr "Följ instruktionerna på skärmen för att positionera ditt ansikte"
 
-#: src/ios_security.md:77
+#: src/ios_security.md:111
 msgid "Move your head in a circle to complete the scan"
 msgstr "Rör huvudet i en cirkel för att slutföra skanningen"
 
-#: src/ios_security.md:79
+#: src/ios_security.md:113
 msgid "**Configure Face ID uses:**"
 msgstr "**Konfigurera användningsområden för Face ID:**"
 
-#: src/ios_security.md:80
+#: src/ios_security.md:114
 msgid "iPhone Unlock"
 msgstr "Lås upp iPhone"
 
-#: src/ios_security.md:81
+#: src/ios_security.md:115
 msgid "iTunes & App Store purchases"
 msgstr "iTunes- och App Store-köp"
 
-#: src/ios_security.md:82
+#: src/ios_security.md:116
 msgid "Apple Pay"
 msgstr "Apple Pay"
 
-#: src/ios_security.md:83
+#: src/ios_security.md:117
 msgid "Password AutoFill"
 msgstr "Autofyll lösenord"
 
-#: src/ios_security.md:84
+#: src/ios_security.md:118
 msgid "Other Apps (toggle individually)"
 msgstr "Andra appar (aktivera individuellt)"
 
-#: src/ios_security.md:86
+#: src/ios_security.md:120
 msgid "Strong Passcode Configuration"
 msgstr "Konfiguration av stark lösenkod"
 
-#: src/ios_security.md:88
+#: src/ios_security.md:122
 msgid "**How to set a strong passcode:**"
 msgstr "**Så ställer du in en stark lösenkod:**"
 
-#: src/ios_security.md:89 src/ios_security.md:176 src/ios_security.md:619
-#: src/ios_security.md:661 src/ios_security.md:690
+#: src/ios_security.md:123 src/ios_security.md:210 src/ios_security.md:666
+#: src/ios_security.md:708 src/ios_security.md:737
 msgid "Go to **Settings > Face ID & Passcode**"
 msgstr "Gå till **Inställningar > Face ID och lösenkod**"
 
-#: src/ios_security.md:90
+#: src/ios_security.md:124
 msgid "Tap **Change Passcode**"
 msgstr "Tryck på **Ändra lösenkod**"
 
-#: src/ios_security.md:91
+#: src/ios_security.md:125
 msgid "Tap **Passcode Options**"
 msgstr "Tryck på **Lösenkodsinställningar**"
 
-#: src/ios_security.md:92
+#: src/ios_security.md:126
 msgid ""
 "Select **Custom Alphanumeric Code** (8-12 random characters recommended)"
 msgstr ""
 "Välj **Egen alfanumerisk kod** (8–12 slumpmässiga tecken rekommenderas)"
 
-#: src/ios_security.md:94
+#: src/ios_security.md:128
 msgid "Two-Factor Authentication (2FA)"
 msgstr "Tvåfaktorsautentisering (2FA)"
 
-#: src/ios_security.md:96
+#: src/ios_security.md:130
 msgid "**How to enable 2FA:**"
 msgstr "**Så aktiverar du 2FA:**"
 
-#: src/ios_security.md:97 src/ios_security.md:125
+#: src/ios_security.md:131 src/ios_security.md:159
 msgid "Go to **Settings > \\[Your Name\\] > Sign-In & Security**"
 msgstr "Gå till **Inställningar > \\[Ditt namn\\] > Inloggning och säkerhet**"
 
-#: src/ios_security.md:98
+#: src/ios_security.md:132
 msgid "Tap **Turn On Two-Factor Authentication**"
 msgstr "Tryck på **Aktivera tvåfaktorsautentisering**"
 
-#: src/ios_security.md:99
+#: src/ios_security.md:133
 msgid "Tap **Continue**"
 msgstr "Tryck på **Fortsätt**"
 
-#: src/ios_security.md:100
+#: src/ios_security.md:134
 msgid "Enter a trusted phone number"
 msgstr "Ange ett betrott telefonnummer"
 
-#: src/ios_security.md:101
+#: src/ios_security.md:135
 msgid "Verify with the code sent to your phone"
 msgstr "Verifiera med koden som skickas till din telefon"
 
-#: src/ios_security.md:103
+#: src/ios_security.md:137
 msgid "Auto-Lock Settings"
 msgstr "Inställningar för autolås"
 
-#: src/ios_security.md:105
+#: src/ios_security.md:139
 msgid "Go to **Settings > Display & Brightness > Auto-Lock**"
 msgstr "Gå till **Inställningar > Skärm och ljusstyrka > Autolås**"
 
-#: src/ios_security.md:106
+#: src/ios_security.md:140
 msgid "Select a time interval (30 seconds to 5 minutes recommended)"
 msgstr "Välj ett tidsintervall (30 sekunder till 5 minuter rekommenderas)"
 
-#: src/ios_security.md:108
+#: src/ios_security.md:142
 msgid "Security Keys for Apple Account"
 msgstr "Säkerhetsnycklar för Apple-konto"
 
-#: src/ios_security.md:110
+#: src/ios_security.md:144
 msgid ""
 "Security keys are small external devices that look like a thumb drive or "
 "tag. They provide extra protection for your Apple Account by replacing the "
@@ -437,12 +581,12 @@ msgstr ""
 "hjälper de till att förhindra att angripare avlyssnar eller begär din andra "
 "faktor via nätfiske."
 
-#: src/ios_security.md:112 src/android_security.md:101
+#: src/ios_security.md:146 src/ios_security.md:649 src/android_security.md:101
 #: src/android_security.md:152
 msgid "**Requirements:**"
 msgstr "**Vad som krävs:**"
 
-#: src/ios_security.md:113
+#: src/ios_security.md:147
 msgid ""
 "At least two FIDO® Certified security keys (e.g., YubiKey 5C NFC, YubiKey "
 "5Ci, or FEITIAN ePass K9 NFC)"
@@ -450,81 +594,81 @@ msgstr ""
 "Minst två FIDO® Certified-säkerhetsnycklar (t.ex. YubiKey 5C NFC, YubiKey "
 "5Ci eller FEITIAN ePass K9 NFC)"
 
-#: src/ios_security.md:114
+#: src/ios_security.md:148
 msgid "iOS 16.3 or later"
 msgstr "iOS 16.3 eller senare"
 
-#: src/ios_security.md:115
+#: src/ios_security.md:149
 msgid "Two-factor authentication already enabled on your Apple Account"
 msgstr "Tvåfaktorsautentisering har ställts in för ditt Apple-konto"
 
-#: src/ios_security.md:116
+#: src/ios_security.md:150
 msgid "A modern web browser"
 msgstr "En modern webbläsare"
 
-#: src/ios_security.md:118 src/android_security.md:156
+#: src/ios_security.md:152 src/android_security.md:156
 msgid "**Compatible connector types:**"
 msgstr "**Kompatibla kontakttyper:**"
 
-#: src/ios_security.md:119
+#: src/ios_security.md:153
 msgid "**NFC** — Works with iPhone via tap (contactless)"
 msgstr "**NFC** – Fungerar med iPhone via ett tryck (kontaktlöst)"
 
-#: src/ios_security.md:120
+#: src/ios_security.md:154
 msgid "**USB-C** — Works with iPhone 15 or later and most Mac models"
 msgstr ""
 "**USB-C** – Fungerar med iPhone 15 eller senare och de flesta Mac-modeller"
 
-#: src/ios_security.md:121
+#: src/ios_security.md:155
 msgid "**Lightning** — Works with iPhone 14 and earlier"
 msgstr "**Lightning** – Fungerar med iPhone 14 och tidigare"
 
-#: src/ios_security.md:122
+#: src/ios_security.md:156
 msgid "**USB-A** — Works with older Mac models"
 msgstr "**USB-A** – Fungerar med äldre Mac-modeller"
 
-#: src/ios_security.md:124
+#: src/ios_security.md:158
 msgid "**How to add security keys:**"
 msgstr "**Så här lägger du till säkerhetsnycklar:**"
 
-#: src/ios_security.md:126
+#: src/ios_security.md:160
 msgid "Tap **Two-Factor Authentication**"
 msgstr "Tryck på **Tvåfaktorsautentisering**"
 
-#: src/ios_security.md:127
+#: src/ios_security.md:161
 msgid "Tap **Security Keys**"
 msgstr "Tryck på **Säkerhetsnycklar**"
 
-#: src/ios_security.md:128
+#: src/ios_security.md:162
 msgid "Tap **Add Security Keys**"
 msgstr "Tryck på **Lägg till säkerhetsnycklar**"
 
-#: src/ios_security.md:129
+#: src/ios_security.md:163
 msgid "Follow the on-screen instructions"
 msgstr "Följ anvisningarna på skärmen"
 
-#: src/ios_security.md:130
+#: src/ios_security.md:164
 msgid "You can add up to six keys total"
 msgstr "Du kan lägga till upp till sex nycklar totalt"
 
-#: src/ios_security.md:132 src/android_security.md:169
+#: src/ios_security.md:166 src/android_security.md:169
 msgid "**What security keys protect:**"
 msgstr "**Det här skyddar säkerhetsnycklar:**"
 
-#: src/ios_security.md:133
+#: src/ios_security.md:167
 msgid "Signing in to your Apple Account on a new device or on the web"
 msgstr "Logga in på ditt Apple-konto på en ny enhet eller på webben"
 
-#: src/ios_security.md:134
+#: src/ios_security.md:168
 msgid "Resetting your Apple Account password or unlocking your account"
 msgstr "Återställa lösenordet för ditt Apple-konto eller låsa upp ditt konto"
 
-#: src/ios_security.md:135
+#: src/ios_security.md:169
 msgid "Adding or removing security keys"
 msgstr ""
 "Lägga till ytterligare säkerhetsnycklar eller ta bort en säkerhetsnyckel"
 
-#: src/ios_security.md:142
+#: src/ios_security.md:176
 msgid ""
 "You must keep at least two security keys in safe places. If you lose all "
 "your trusted devices and security keys, you could be locked out of your "
@@ -534,7 +678,7 @@ msgstr ""
 "alla dina betrodda enheter och säkerhetsnycklar kan du bli utestängd från "
 "ditt konto permanent."
 
-#: src/ios_security.md:143
+#: src/ios_security.md:177
 msgid ""
 "Security keys are not compatible with child accounts or Managed Apple "
 "Accounts."
@@ -542,11 +686,11 @@ msgstr ""
 "Säkerhetsnycklar är inte kompatibla med barnkonton eller hanterade Apple-"
 "konton."
 
-#: src/ios_security.md:144
+#: src/ios_security.md:178
 msgid "Apple Watch paired using a family member's iPhone is not supported."
 msgstr "Apple Watch som är parkopplad med en familjemedlems iPhone stöds inte."
 
-#: src/ios_security.md:145
+#: src/ios_security.md:179
 msgid ""
 "Devices signed in with your account that have not been used for more than 90 "
 "days will be signed out when you add security keys. You can sign back in to "
@@ -556,11 +700,11 @@ msgstr ""
 "90 dagar loggas ut när du lägger till säkerhetsnycklar. Du kan logga in igen "
 "på dessa enheter med en säkerhetsnyckel."
 
-#: src/ios_security.md:151
+#: src/ios_security.md:185
 msgid "2. Stolen Device Protection"
 msgstr "2. Skydd för stulen enhet"
 
-#: src/ios_security.md:153
+#: src/ios_security.md:187
 msgid ""
 "Stolen Device Protection adds security when your iPhone is away from "
 "familiar locations."
@@ -568,90 +712,90 @@ msgstr ""
 "Skydd för stulen enhet lägger till säkerhet när din iPhone är borta från "
 "kända platser."
 
-#: src/ios_security.md:155
+#: src/ios_security.md:189
 msgid "Key Features"
 msgstr "Nyckelfunktioner"
 
-#: src/ios_security.md:157
+#: src/ios_security.md:191
 msgid "**Biometric Authentication Required** (no passcode fallback):"
 msgstr "**Biometrisk autentisering krävs** (ingen lösenkod som reserv):"
 
-#: src/ios_security.md:158
+#: src/ios_security.md:192
 msgid "Accessing passwords stored in iCloud Keychain"
 msgstr "Åtkomst till lösenord lagrade i iCloud-nyckelring"
 
-#: src/ios_security.md:159
+#: src/ios_security.md:193
 msgid "Using saved payment methods in Safari"
 msgstr "Användning av sparade betalningsmetoder i Safari"
 
-#: src/ios_security.md:160
+#: src/ios_security.md:194
 msgid "Turning off Lost Mode"
 msgstr "Stänga av Försvunnen-läge"
 
-#: src/ios_security.md:161
+#: src/ios_security.md:195
 msgid "Erasing all content and settings"
 msgstr "Radera allt innehåll och alla inställningar"
 
-#: src/ios_security.md:162
+#: src/ios_security.md:196
 msgid "Viewing Apple Card virtual card number"
 msgstr "Visa Apple Cards virtuella kortnummer"
 
-#: src/ios_security.md:163
+#: src/ios_security.md:197
 msgid "Opening locked and hidden apps"
 msgstr "Öppna låsta och dolda appar"
 
-#: src/ios_security.md:165
+#: src/ios_security.md:199
 msgid "**Security Delay** (1-hour wait + second biometric scan):"
 msgstr ""
 "**Säkerhetsfördröjning** (1 timmes väntetid + andra biometriska skanningen):"
 
-#: src/ios_security.md:166
+#: src/ios_security.md:200
 msgid "Changing Apple Account password"
 msgstr "Ändra lösenordet för Apple-konto"
 
-#: src/ios_security.md:167
+#: src/ios_security.md:201
 msgid "Signing out of Apple Account"
 msgstr "Logga ut från Apple-konto"
 
-#: src/ios_security.md:168
+#: src/ios_security.md:202
 msgid "Turning off Stolen Device Protection"
 msgstr "Stänga av Skydd för stulen enhet"
 
-#: src/ios_security.md:169
+#: src/ios_security.md:203
 msgid "Changing Face ID or Touch ID settings"
 msgstr "Ändra Face ID- eller Touch ID-inställningar"
 
-#: src/ios_security.md:170
+#: src/ios_security.md:204
 msgid "Changing device passcode"
 msgstr "Ändra enhetens lösenkod"
 
-#: src/ios_security.md:171
+#: src/ios_security.md:205
 msgid "Resetting all settings"
 msgstr "Återställa alla inställningar"
 
-#: src/ios_security.md:172
+#: src/ios_security.md:206
 msgid "Turning off Find My"
 msgstr "Stänga av Hitta"
 
-#: src/ios_security.md:174 src/ios_security.md:329 src/ios_security.md:398
-#: src/ios_security.md:446 src/ios_security.md:505 src/android_security.md:65
+#: src/ios_security.md:208 src/ios_security.md:363 src/ios_security.md:432
+#: src/ios_security.md:480 src/ios_security.md:539 src/android_security.md:65
 #: src/android_security.md:204 src/android_security.md:583
 msgid "How to Enable"
 msgstr "Så aktiverar du"
 
-#: src/ios_security.md:178
+#: src/ios_security.md:212
 msgid "Scroll down and tap **Stolen Device Protection**"
 msgstr "Scrolla ner och tryck på **Skydd för stulen enhet**"
 
-#: src/ios_security.md:179
+#: src/ios_security.md:213 src/ios_security.md:647
 msgid "Toggle on"
 msgstr "Aktivera"
 
-#: src/ios_security.md:181
+#: src/ios_security.md:215
 msgid "Configuration Options"
 msgstr "Konfigurationsalternativ"
 
-#: src/ios_security.md:183
+#: src/ios_security.md:217
 msgid ""
 "**Away from Familiar Locations** – Security features activate only when away "
 "from home/work"
@@ -659,91 +803,91 @@ msgstr ""
 "**Borta från kända platser** – Säkerhetsfunktioner aktiveras endast när du "
 "är borta från hem/arbete"
 
-#: src/ios_security.md:184
+#: src/ios_security.md:218
 msgid "**Always** – Security features are always active"
 msgstr "**Alltid** – Säkerhetsfunktioner är alltid aktiva"
 
-#: src/ios_security.md:186 src/android_security.md:211
+#: src/ios_security.md:220 src/android_security.md:211
 msgid "Requirements"
 msgstr "Krav"
 
-#: src/ios_security.md:188
+#: src/ios_security.md:222
 msgid "iOS 17.3 or later (enhanced in iOS 26)"
 msgstr "iOS 17.3 eller senare (förbättrat i iOS 26)"
 
-#: src/ios_security.md:189
+#: src/ios_security.md:223
 msgid "Two-factor authentication enabled"
 msgstr "Tvåfaktorsautentisering aktiverad"
 
-#: src/ios_security.md:190
+#: src/ios_security.md:224
 msgid "Face ID or Touch ID configured"
 msgstr "Face ID eller Touch ID konfigurerat"
 
-#: src/ios_security.md:191
+#: src/ios_security.md:225
 msgid "Device passcode set"
 msgstr "Enhetens lösenkod inställd"
 
-#: src/ios_security.md:192
+#: src/ios_security.md:226
 msgid "Find My enabled"
 msgstr "Hitta aktiverat"
 
-#: src/ios_security.md:193
+#: src/ios_security.md:227
 msgid "Significant Locations enabled"
 msgstr "Viktiga platser aktiverat"
 
-#: src/ios_security.md:197
+#: src/ios_security.md:231
 msgid "3. App Privacy Controls"
 msgstr "3. Appintegritetskontroller"
 
-#: src/ios_security.md:199
+#: src/ios_security.md:233
 msgid "App Tracking Transparency"
 msgstr "Transparens för appspårning"
 
-#: src/ios_security.md:201 src/ios_security.md:618 src/android_security.md:122
+#: src/ios_security.md:235 src/ios_security.md:665 src/android_security.md:122
 #: src/android_security.md:347
 msgid "**How to configure:**"
 msgstr "**Så konfigurerar du:**"
 
-#: src/ios_security.md:202 src/ios_security.md:551
+#: src/ios_security.md:236 src/ios_security.md:585
 msgid "Go to **Settings > Privacy & Security > Tracking**"
 msgstr "Gå till **Inställningar > Integritet och säkerhet > Spårning**"
 
-#: src/ios_security.md:203
+#: src/ios_security.md:237
 msgid "Toggle **Allow Apps to Request to Track** off to block all tracking"
 msgstr ""
 "Inaktivera **Tillåt att appar begär att spåra** för att blockera all spårning"
 
-#: src/ios_security.md:204
+#: src/ios_security.md:238
 msgid "Or manage individual app permissions below"
 msgstr "Eller hantera individuella appbehörigheter nedan"
 
-#: src/ios_security.md:206
+#: src/ios_security.md:240
 msgid "App Privacy Report"
 msgstr "Appintegritetsrapport"
 
-#: src/ios_security.md:208
+#: src/ios_security.md:242
 msgid "View detailed app data access:"
 msgstr "Visa detaljerad appdataåtkomst:"
 
-#: src/ios_security.md:210
+#: src/ios_security.md:244
 msgid "Go to **Settings > Privacy & Security > App Privacy Report**"
 msgstr ""
 "Gå till **Inställningar > Integritet och säkerhet > Appintegritetsrapport**"
 
-#: src/ios_security.md:211
+#: src/ios_security.md:245
 msgid "Toggle on **App Privacy Report**"
 msgstr "Aktivera **Appintegritetsrapport**"
 
-#: src/ios_security.md:212
+#: src/ios_security.md:246
 msgid "Review 7-day history of sensor, camera, microphone, and network access"
 msgstr ""
 "Granska 7-dagarshistorik för sensor-, kamera-, mikrofon- och nätverksåtkomst"
 
-#: src/ios_security.md:214
+#: src/ios_security.md:248
 msgid "Clipboard Access Alerts"
 msgstr "Varningar för urklippsåtkomst"
 
-#: src/ios_security.md:216
+#: src/ios_security.md:250
 msgid ""
 "iOS 26 continues to notify you whenever apps access your clipboard, "
 "preventing silent data harvesting."
@@ -751,164 +895,164 @@ msgstr ""
 "iOS 26 fortsätter att meddela dig när appar kommer åt ditt urklipp, vilket "
 "förhindrar tyst datainsamling."
 
-#: src/ios_security.md:218
+#: src/ios_security.md:252
 msgid "Review All Permissions"
 msgstr "Granska alla behörigheter"
 
-#: src/ios_security.md:220 src/ios_security.md:448 src/ios_security.md:490
+#: src/ios_security.md:254 src/ios_security.md:482 src/ios_security.md:524
 msgid "Go to **Settings > Privacy & Security**"
 msgstr "Gå till **Inställningar > Integritet och säkerhet**"
 
-#: src/ios_security.md:221
+#: src/ios_security.md:255
 msgid ""
 "Review each category: Location, Contacts, Photos, Microphone, Camera, etc."
 msgstr ""
 "Granska varje kategori: Plats, Kontakter, Bilder, Mikrofon, Kamera, etc."
 
-#: src/ios_security.md:222
+#: src/ios_security.md:256
 msgid "Revoke unnecessary permissions"
 msgstr "Återkalla onödiga behörigheter"
 
-#: src/ios_security.md:226
+#: src/ios_security.md:260
 msgid "4. Location Services"
 msgstr "4. Platstjänster"
 
-#: src/ios_security.md:228
+#: src/ios_security.md:262
 msgid "Per-App Location Settings"
 msgstr "Platsinställningar per app"
 
-#: src/ios_security.md:230 src/android_security.md:337
+#: src/ios_security.md:264 src/android_security.md:337
 msgid "For each app, choose:"
 msgstr "Välj för varje app:"
 
-#: src/ios_security.md:231
+#: src/ios_security.md:265
 msgid "**Never** – No location access"
 msgstr "**Aldrig** – Ingen platsåtkomst"
 
-#: src/ios_security.md:232
+#: src/ios_security.md:266
 msgid "**Ask Next Time Or When I Share** – Prompts each time"
 msgstr "**Fråga nästa gång eller när jag delar** – Frågar varje gång"
 
-#: src/ios_security.md:233
+#: src/ios_security.md:267
 msgid "**While Using the App** – Access only when app is open"
 msgstr "**Medan appen används** – Åtkomst endast när appen är öppen"
 
-#: src/ios_security.md:234
+#: src/ios_security.md:268
 msgid "**Always** – Background access (use sparingly)"
 msgstr "**Alltid** – Bakgrundsåtkomst (använd sparsamt)"
 
-#: src/ios_security.md:236 src/android_security.md:343
+#: src/ios_security.md:270 src/android_security.md:343
 msgid "Precise vs. Approximate Location"
 msgstr "Exakt kontra ungefärlig plats"
 
-#: src/ios_security.md:238
+#: src/ios_security.md:272
 msgid "Go to **Settings > Privacy & Security > Location Services**"
 msgstr "Gå till **Inställningar > Integritet och säkerhet > Platstjänster**"
 
-#: src/ios_security.md:239
+#: src/ios_security.md:273
 msgid "Select an app"
 msgstr "Välj en app"
 
-#: src/ios_security.md:240
+#: src/ios_security.md:274
 msgid "Toggle **Precise Location** off for approximate area sharing"
 msgstr "Inaktivera **Exakt plats** för delning av ungefärligt område"
 
-#: src/ios_security.md:242
+#: src/ios_security.md:276
 msgid "Significant Locations"
 msgstr "Viktiga platser"
 
-#: src/ios_security.md:244
+#: src/ios_security.md:278 src/ios_security.md:645
 msgid ""
 "Go to **Settings > Privacy & Security > Location Services > System Services**"
 msgstr ""
 "Gå till **Inställningar > Integritet och säkerhet > Platstjänster > "
 "Systemtjänster**"
 
-#: src/ios_security.md:245
+#: src/ios_security.md:279
 msgid "Tap **Significant Locations**"
 msgstr "Tryck på **Viktiga platser**"
 
-#: src/ios_security.md:246
+#: src/ios_security.md:280
 msgid "View, toggle off, or clear history"
 msgstr "Visa, inaktivera eller rensa historik"
 
-#: src/ios_security.md:250
+#: src/ios_security.md:284
 msgid "5. Lock and Hide Apps"
 msgstr "5. Lås och dölj appar"
 
-#: src/ios_security.md:252
+#: src/ios_security.md:286
 msgid "How to Lock an App"
 msgstr "Så låser du en app"
 
-#: src/ios_security.md:254
+#: src/ios_security.md:288
 msgid "Touch and hold the app icon on Home Screen"
 msgstr "Tryck och håll på appikonen på hemskärmen"
 
-#: src/ios_security.md:255
+#: src/ios_security.md:289
 msgid "Tap **Require Face ID** (or Touch ID/Passcode)"
 msgstr "Tryck på **Kräv Face ID** (eller Touch ID/lösenkod)"
 
-#: src/ios_security.md:256
+#: src/ios_security.md:290
 msgid "Confirm your choice"
 msgstr "Bekräfta ditt val"
 
-#: src/ios_security.md:258
+#: src/ios_security.md:292
 msgid "How to Lock and Hide an App"
 msgstr "Så låser och döljer du en app"
 
-#: src/ios_security.md:260
+#: src/ios_security.md:294
 msgid "Touch and hold the app icon"
 msgstr "Tryck och håll på appikonen"
 
-#: src/ios_security.md:261
+#: src/ios_security.md:295
 msgid "Select **Hide and Require Face ID**"
 msgstr "Välj **Dölj och kräv Face ID**"
 
-#: src/ios_security.md:262
+#: src/ios_security.md:296
 msgid "App moves to Hidden folder in App Library"
 msgstr "Appen flyttas till mappen Dolda i appbiblioteket"
 
-#: src/ios_security.md:264
+#: src/ios_security.md:298
 msgid "**To access hidden apps:**"
 msgstr "**För att komma åt dolda appar:**"
 
-#: src/ios_security.md:265
+#: src/ios_security.md:299
 msgid "Swipe left to App Library"
 msgstr "Svep åt vänster till appbiblioteket"
 
-#: src/ios_security.md:266
+#: src/ios_security.md:300
 msgid "Scroll to bottom, tap **Hidden** folder"
 msgstr "Scrolla till botten, tryck på mappen **Dolda**"
 
-#: src/ios_security.md:267 src/ios_security.md:355
+#: src/ios_security.md:301 src/ios_security.md:389
 msgid "Authenticate with Face ID/Touch ID"
 msgstr "Autentisera med Face ID/Touch ID"
 
-#: src/ios_security.md:269
+#: src/ios_security.md:303
 msgid "What Happens When Apps Are Locked"
 msgstr "Vad händer när appar är låsta"
 
-#: src/ios_security.md:271
+#: src/ios_security.md:305
 msgid "No notification previews"
 msgstr "Inga förhandsvisningar av notiser"
 
-#: src/ios_security.md:272
+#: src/ios_security.md:306
 msgid "Hidden from Spotlight search"
 msgstr "Dold från Spotlight-sökning"
 
-#: src/ios_security.md:273
+#: src/ios_security.md:307
 msgid "Hidden from Siri suggestions"
 msgstr "Dold från Siri-förslag"
 
-#: src/ios_security.md:274
+#: src/ios_security.md:308
 msgid "Call history from locked apps is hidden"
 msgstr "Samtalshistorik från låsta appar är dold"
 
-#: src/ios_security.md:276
+#: src/ios_security.md:310
 msgid "Integration with Stolen Device Protection"
 msgstr "Integration med Skydd för stulen enhet"
 
-#: src/ios_security.md:278
+#: src/ios_security.md:312
 msgid ""
 "When Stolen Device Protection is enabled, locked apps can **only** be opened "
 "with Face ID/Touch ID—passcode fallback is disabled."
@@ -916,15 +1060,15 @@ msgstr ""
 "När Skydd för stulen enhet är aktiverat kan låsta appar **endast** öppnas "
 "med Face ID/Touch ID—lösenkod som reserv är inaktiverad."
 
-#: src/ios_security.md:282
+#: src/ios_security.md:316
 msgid "6. Safari Privacy Settings"
 msgstr "6. Integritetsinställningar för Safari"
 
-#: src/ios_security.md:284
+#: src/ios_security.md:318
 msgid "Advanced Tracking and Fingerprinting Protection (NEW in iOS 26)"
 msgstr "Avancerat spårnings- och fingeravtrycksskydd (NYTT i iOS 26)"
 
-#: src/ios_security.md:286
+#: src/ios_security.md:320
 msgid ""
 "iOS 26 expands anti-fingerprinting protection to **all browsing**, not just "
 "Private Browsing:"
@@ -932,18 +1076,18 @@ msgstr ""
 "iOS 26 utökar skydd mot fingeravtrycksspårning till **all surfning**, inte "
 "bara privat surfning:"
 
-#: src/ios_security.md:288
+#: src/ios_security.md:322
 msgid "Go to **Settings > Apps > Safari > Advanced**"
 msgstr "Gå till **Inställningar > Appar > Safari > Avancerat**"
 
-#: src/ios_security.md:289
+#: src/ios_security.md:323
 msgid ""
 "Set **Advanced Tracking and Fingerprinting Protection** to **All Browsing**"
 msgstr ""
 "Ställ in **Avancerat spårnings- och fingeravtrycksskydd** till **All "
 "surfning**"
 
-#: src/ios_security.md:291
+#: src/ios_security.md:325
 msgid ""
 "This normalizes browser data to make your device look generic to tracking "
 "scripts, significantly reducing fingerprinting effectiveness."
@@ -952,35 +1096,35 @@ msgstr ""
 "spårningsskript, vilket avsevärt minskar fingeravtrycksspårningens "
 "effektivitet."
 
-#: src/ios_security.md:293
+#: src/ios_security.md:327
 msgid "Private Browsing with Face ID Lock"
 msgstr "Privat surfning med Face ID-lås"
 
-#: src/ios_security.md:295 src/ios_security.md:307 src/ios_security.md:312
+#: src/ios_security.md:329 src/ios_security.md:341 src/ios_security.md:346
 msgid "Go to **Settings > Apps > Safari**"
 msgstr "Gå till **Inställningar > Appar > Safari**"
 
-#: src/ios_security.md:296
+#: src/ios_security.md:330
 msgid "Enable **Require Face ID to Unlock Private Browsing**"
 msgstr "Aktivera **Kräv Face ID för att låsa upp privat surfning**"
 
-#: src/ios_security.md:298
+#: src/ios_security.md:332
 msgid "Hide IP Address"
 msgstr "Dölj IP-adress"
 
-#: src/ios_security.md:300
+#: src/ios_security.md:334
 msgid "Go to **Settings > Apps > Safari > Hide IP Address**"
 msgstr "Gå till **Inställningar > Appar > Safari > Dölj IP-adress**"
 
-#: src/ios_security.md:301
+#: src/ios_security.md:335
 msgid "Choose:"
 msgstr "Välj:"
 
-#: src/ios_security.md:302
+#: src/ios_security.md:336
 msgid "**Trackers Only** – Hides IP from known trackers"
 msgstr "**Endast spårare** – Döljer IP från kända spårare"
 
-#: src/ios_security.md:303
+#: src/ios_security.md:337
 msgid ""
 "**Trackers and Websites** – Hides IP from all sites (requires iCloud+ "
 "Private Relay)"
@@ -988,27 +1132,27 @@ msgstr ""
 "**Spårare och webbplatser** – Döljer IP från alla webbplatser (kräver "
 "iCloud+ Privat reläfunktion)"
 
-#: src/ios_security.md:305
+#: src/ios_security.md:339
 msgid "Intelligent Tracking Prevention"
 msgstr "Intelligent spårningsförebyggande"
 
-#: src/ios_security.md:308
+#: src/ios_security.md:342
 msgid "Enable **Prevent Cross-Site Tracking**"
 msgstr "Aktivera **Förhindra spårning mellan webbplatser**"
 
-#: src/ios_security.md:310
+#: src/ios_security.md:344
 msgid "Fraudulent Website Warning"
 msgstr "Varning för bedrägliga webbplatser"
 
-#: src/ios_security.md:313
+#: src/ios_security.md:347
 msgid "Enable **Fraudulent Website Warning**"
 msgstr "Aktivera **Varning för bedrägliga webbplatser**"
 
-#: src/ios_security.md:315
+#: src/ios_security.md:349
 msgid "Link Tracking Protection"
 msgstr "Länkspårningsskydd"
 
-#: src/ios_security.md:317
+#: src/ios_security.md:351
 msgid ""
 "iOS 26 automatically strips tracking parameters (UTMs) from URLs in Safari "
 "Private Browsing, Messages, and Mail."
@@ -1016,61 +1160,61 @@ msgstr ""
 "iOS 26 tar automatiskt bort spårningsparametrar (UTM:er) från URL:er i "
 "Safaris privata surfning, Meddelanden och Mail."
 
-#: src/ios_security.md:321
+#: src/ios_security.md:355
 msgid "7. Mail Privacy Protection"
 msgstr "7. Integritetsskydd för Mail"
 
-#: src/ios_security.md:323 src/android_security.md:363
+#: src/ios_security.md:357 src/android_security.md:363
 #: src/android_security.md:397 src/android_security.md:562
 #: src/android_security.md:589
 msgid "Features"
 msgstr "Funktioner"
 
-#: src/ios_security.md:325
+#: src/ios_security.md:359
 msgid "Hides your IP address from senders"
 msgstr "Döljer din IP-adress från avsändare"
 
-#: src/ios_security.md:326
+#: src/ios_security.md:360
 msgid "Prevents open tracking"
 msgstr "Förhindrar öppningsspårning"
 
-#: src/ios_security.md:327
+#: src/ios_security.md:361
 msgid "Blocks invisible tracking pixels"
 msgstr "Blockerar osynliga spårningspixlar"
 
-#: src/ios_security.md:331
+#: src/ios_security.md:365
 msgid "Go to **Settings > Apps > Mail > Privacy Protection**"
 msgstr "Gå till **Inställningar > Appar > Mail > Integritetsskydd**"
 
-#: src/ios_security.md:332
+#: src/ios_security.md:366
 msgid "Enable **Protect Mail Activity**"
 msgstr "Aktivera **Skydda Mail-aktivitet**"
 
-#: src/ios_security.md:334
+#: src/ios_security.md:368
 msgid "Or configure separately:"
 msgstr "Eller konfigurera separat:"
 
-#: src/ios_security.md:335
+#: src/ios_security.md:369
 msgid "**Hide IP Address**"
 msgstr "**Dölj IP-adress**"
 
-#: src/ios_security.md:336
+#: src/ios_security.md:370
 msgid "**Block All Remote Content**"
 msgstr "**Blockera allt fjärrinnehåll**"
 
-#: src/ios_security.md:340
+#: src/ios_security.md:374
 msgid "8. Passwords App"
 msgstr "8. Appen Lösenord"
 
-#: src/ios_security.md:342
+#: src/ios_security.md:376
 msgid "iOS 26 significantly enhances the standalone Passwords app."
 msgstr "iOS 26 förbättrar avsevärt den fristående appen Lösenord."
 
-#: src/ios_security.md:344
+#: src/ios_security.md:378
 msgid "New Features in iOS 26"
 msgstr "Nya funktioner i iOS 26"
 
-#: src/ios_security.md:346
+#: src/ios_security.md:380
 msgid ""
 "**Password Version History** – View previous passwords for any account with "
 "timestamps"
@@ -1078,7 +1222,7 @@ msgstr ""
 "**Lösenordsversionshistorik** – Visa tidigare lösenord för alla konton med "
 "tidsstämplar"
 
-#: src/ios_security.md:347
+#: src/ios_security.md:381
 msgid ""
 "**Secure Export** – FIDO Alliance standard for moving passwords, passkeys, "
 "and verification codes to other managers"
@@ -1086,7 +1230,7 @@ msgstr ""
 "**Säker export** – FIDO Alliance-standard för att flytta lösenord, nycklar "
 "och verifieringskoder till andra hanterare"
 
-#: src/ios_security.md:348
+#: src/ios_security.md:382
 msgid ""
 "**Automatic Passkey Upgrades** – When you sign in with a password, system "
 "can create a passkey for next time"
@@ -1094,7 +1238,7 @@ msgstr ""
 "**Automatiska nyckeluppgraderingar** – När du loggar in med ett lösenord kan "
 "systemet skapa en nyckel för nästa gång"
 
-#: src/ios_security.md:349
+#: src/ios_security.md:383
 msgid ""
 "**Credential Management Endpoints** – Prompts to upgrade passwords to "
 "passkeys"
@@ -1102,172 +1246,172 @@ msgstr ""
 "**Slutpunkter för inloggningshantering** – Uppmaningar att uppgradera "
 "lösenord till nycklar"
 
-#: src/ios_security.md:350
+#: src/ios_security.md:384
 msgid ""
 "**Websites to Exclude** – Manage sites where passwords shouldn't be saved"
 msgstr ""
 "**Webbplatser att exkludera** – Hantera webbplatser där lösenord inte ska "
 "sparas"
 
-#: src/ios_security.md:352 src/ios_security.md:488
+#: src/ios_security.md:386 src/ios_security.md:522
 msgid "How to Access"
 msgstr "Så får du åtkomst"
 
-#: src/ios_security.md:354
+#: src/ios_security.md:388
 msgid "Open the **Passwords** app"
 msgstr "Öppna appen **Lösenord**"
 
-#: src/ios_security.md:357
+#: src/ios_security.md:391
 msgid "View Password History"
 msgstr "Visa lösenordshistorik"
 
-#: src/ios_security.md:359 src/ios_security.md:365
+#: src/ios_security.md:393 src/ios_security.md:399
 msgid "Open **Passwords**"
 msgstr "Öppna **Lösenord**"
 
-#: src/ios_security.md:360
+#: src/ios_security.md:394
 msgid "Select a saved login"
 msgstr "Välj en sparad inloggning"
 
-#: src/ios_security.md:361
+#: src/ios_security.md:395
 msgid "Tap **View History** (appears when multiple versions exist)"
 msgstr "Tryck på **Visa historik** (visas när flera versioner finns)"
 
-#: src/ios_security.md:363
+#: src/ios_security.md:397
 msgid "Export Passwords Securely"
 msgstr "Exportera lösenord säkert"
 
-#: src/ios_security.md:366
+#: src/ios_security.md:400
 msgid "Tap **Settings** (gear icon)"
 msgstr "Tryck på **Inställningar** (kugghjulsikonen)"
 
-#: src/ios_security.md:367
+#: src/ios_security.md:401
 msgid "Select **Export Passwords**"
 msgstr "Välj **Exportera lösenord**"
 
-#: src/ios_security.md:368
+#: src/ios_security.md:402
 msgid "Choose destination app (uses encrypted FIDO Alliance format)"
 msgstr "Välj målapp (använder krypterat FIDO Alliance-format)"
 
-#: src/ios_security.md:370
+#: src/ios_security.md:404
 msgid "Security Alerts"
 msgstr "Säkerhetsvarningar"
 
-#: src/ios_security.md:372
+#: src/ios_security.md:406
 msgid "The app warns about:"
 msgstr "Appen varnar om:"
 
-#: src/ios_security.md:373
+#: src/ios_security.md:407
 msgid "Credentials in known data breaches"
 msgstr "Inloggningsuppgifter i kända dataläckor"
 
-#: src/ios_security.md:374
+#: src/ios_security.md:408
 msgid "Weak passwords"
 msgstr "Svaga lösenord"
 
-#: src/ios_security.md:375
+#: src/ios_security.md:409
 msgid "Reused passwords"
 msgstr "Återanvända lösenord"
 
-#: src/ios_security.md:379
+#: src/ios_security.md:413
 msgid "9. Advanced Data Protection for iCloud"
 msgstr "9. Avancerat dataskydd för iCloud"
 
-#: src/ios_security.md:381
+#: src/ios_security.md:415
 msgid "End-to-end encryption for the majority of your iCloud data."
 msgstr "Ändpunkt-till-ändpunkt-kryptering för majoriteten av dina iCloud-data."
 
-#: src/ios_security.md:383
+#: src/ios_security.md:417
 msgid "What It Protects (25 categories total)"
 msgstr "Vad det skyddar (25 kategorier totalt)"
 
-#: src/ios_security.md:385
+#: src/ios_security.md:419
 msgid "iCloud Backup (including Messages)"
 msgstr "iCloud-säkerhetskopiering (inklusive Meddelanden)"
 
-#: src/ios_security.md:386
+#: src/ios_security.md:420
 msgid "iCloud Drive"
 msgstr "iCloud Drive"
 
-#: src/ios_security.md:387
+#: src/ios_security.md:421
 msgid "Photos"
 msgstr "Foton"
 
-#: src/ios_security.md:388 src/grapheneos_security.md:193
+#: src/ios_security.md:422 src/grapheneos_security.md:193
 msgid "Notes"
 msgstr "Anteckningar"
 
-#: src/ios_security.md:389
+#: src/ios_security.md:423
 msgid "Reminders"
 msgstr "Påminnelser"
 
-#: src/ios_security.md:390
+#: src/ios_security.md:424
 msgid "Safari Bookmarks"
 msgstr "Safari-bokmärken"
 
-#: src/ios_security.md:391
+#: src/ios_security.md:425
 msgid "Voice Memos"
 msgstr "Röstmemon"
 
-#: src/ios_security.md:392
+#: src/ios_security.md:426
 msgid "Freeform boards"
 msgstr "Freeform-tavlor"
 
-#: src/ios_security.md:393
+#: src/ios_security.md:427
 msgid "And more..."
 msgstr "Och mer..."
 
-#: src/ios_security.md:395
+#: src/ios_security.md:429
 msgid "**Cannot be encrypted:**"
 msgstr "**Kan inte krypteras:**"
 
-#: src/ios_security.md:396
+#: src/ios_security.md:430
 msgid "iCloud Mail, Contacts, Calendars (due to interoperability requirements)"
 msgstr "iCloud Mail, Kontakter, Kalendrar (på grund av interoperabilitetskrav)"
 
-#: src/ios_security.md:400
+#: src/ios_security.md:434
 msgid "Go to **Settings > \\[Your Name\\] > iCloud**"
 msgstr "Gå till **Inställningar > \\[Ditt namn\\] > iCloud**"
 
-#: src/ios_security.md:401
+#: src/ios_security.md:435
 msgid "Tap **Advanced Data Protection**"
 msgstr "Tryck på **Avancerat dataskydd**"
 
-#: src/ios_security.md:402
+#: src/ios_security.md:436
 msgid "Tap **Turn On Advanced Data Protection**"
 msgstr "Tryck på **Aktivera Avancerat dataskydd**"
 
-#: src/ios_security.md:403
+#: src/ios_security.md:437
 msgid "Set up recovery method first:"
 msgstr "Ställ in återställningsmetod först:"
 
-#: src/ios_security.md:404
+#: src/ios_security.md:438
 msgid "**Recovery Contact** – Trusted person to help regain access"
 msgstr ""
 "**Återställningskontakt** – Betrodd person som kan hjälpa dig att återfå "
 "åtkomst"
 
-#: src/ios_security.md:405
+#: src/ios_security.md:439
 msgid "**Recovery Key** – 28-character code to store securely"
 msgstr "**Återställningsnyckel** – 28-teckens kod att förvara säkert"
 
-#: src/ios_security.md:412
+#: src/ios_security.md:446
 msgid "**Apple cannot recover your data** if you lose access"
 msgstr "**Apple kan inte återställa dina data** om du förlorar åtkomst"
 
-#: src/ios_security.md:413
+#: src/ios_security.md:447
 msgid "All devices must run supported OS versions"
 msgstr "Alla enheter måste köra operativsystemversioner som stöds"
 
-#: src/ios_security.md:414
+#: src/ios_security.md:448
 msgid "iCloud.com access is disabled by default"
 msgstr "Åtkomst till iCloud.com är inaktiverad som standard"
 
-#: src/ios_security.md:420
+#: src/ios_security.md:454
 msgid "10. Lockdown Mode"
 msgstr "10. Låsningsläge"
 
-#: src/ios_security.md:427
+#: src/ios_security.md:461
 msgid ""
 "Extreme protection for users who may be targeted by sophisticated attacks. "
 "This mode significantly restricts device functionality to reduce attack "
@@ -1277,105 +1421,105 @@ msgstr ""
 "Detta läge begränsar enhetens funktionalitet avsevärt för att minska "
 "attackytor, men ger också ett robust försvar mot kommersiellt spionprogram."
 
-#: src/ios_security.md:431 src/android_security.md:73
+#: src/ios_security.md:465 src/android_security.md:73
 msgid "Who Should Use It"
 msgstr "Vem bör använda det"
 
-#: src/ios_security.md:433
+#: src/ios_security.md:467
 msgid "Journalists, activists, diplomats"
 msgstr "Journalister, aktivister, diplomater"
 
-#: src/ios_security.md:434
+#: src/ios_security.md:468
 msgid "High-profile individuals"
 msgstr "Högprofilerade individer"
 
-#: src/ios_security.md:435
+#: src/ios_security.md:469
 msgid "Anyone targeted by mercenary spyware"
 msgstr "Alla som är mål för kommersiellt spionprogram"
 
-#: src/ios_security.md:437
+#: src/ios_security.md:471
 msgid "What Lockdown Mode Does"
 msgstr "Vad Låsningsläge gör"
 
-#: src/ios_security.md:439
+#: src/ios_security.md:473
 msgid "**Messages:** Most attachments blocked"
 msgstr "**Meddelanden:** De flesta bilagor blockeras"
 
-#: src/ios_security.md:440
+#: src/ios_security.md:474
 msgid "**Web:** Complex technologies disabled (JIT JavaScript)"
 msgstr "**Webb:** Komplexa teknologier inaktiverade (JIT JavaScript)"
 
-#: src/ios_security.md:441
+#: src/ios_security.md:475
 msgid "**FaceTime:** Incoming calls blocked from unknown contacts"
 msgstr "**FaceTime:** Inkommande samtal blockeras från okända kontakter"
 
-#: src/ios_security.md:442
+#: src/ios_security.md:476
 msgid "**Photos:** Location excluded from shared photos"
 msgstr "**Foton:** Plats exkluderas från delade foton"
 
-#: src/ios_security.md:443
+#: src/ios_security.md:477
 msgid "**Device:** Wired connections blocked when locked"
 msgstr "**Enhet:** Trådbundna anslutningar blockeras när enheten är låst"
 
-#: src/ios_security.md:444
+#: src/ios_security.md:478
 msgid "**Wireless:** 2G cellular disabled, won't auto-join insecure Wi-Fi"
 msgstr ""
 "**Trådlöst:** 2G-mobilnät inaktiverat, ansluter inte automatiskt till osäkra "
 "Wi-Fi-nätverk"
 
-#: src/ios_security.md:449
+#: src/ios_security.md:483
 msgid "Scroll down and tap **Lockdown Mode**"
 msgstr "Scrolla ner och tryck på **Låsningsläge**"
 
-#: src/ios_security.md:450
+#: src/ios_security.md:484
 msgid "Tap **Turn On Lockdown Mode**"
 msgstr "Tryck på **Aktivera Låsningsläge**"
 
-#: src/ios_security.md:451
+#: src/ios_security.md:485
 msgid "Tap **Turn On & Restart**"
 msgstr "Tryck på **Aktivera och starta om**"
 
-#: src/ios_security.md:456
+#: src/ios_security.md:490
 msgid "11. Communication Safety & Parental Controls"
 msgstr "11. Kommunikationssäkerhet och föräldrakontroller"
 
-#: src/ios_security.md:458
+#: src/ios_security.md:492
 msgid "Enhanced Parental Controls (iOS 26)"
 msgstr "Förbättrade föräldrakontroller (iOS 26)"
 
-#: src/ios_security.md:460
+#: src/ios_security.md:494
 msgid "iOS 26 significantly strengthens parental controls:"
 msgstr "iOS 26 förstärker föräldrakontrollerna avsevärt:"
 
-#: src/ios_security.md:462
+#: src/ios_security.md:496
 msgid "**Child Accounts** – Create or move kids into managed accounts easily"
 msgstr "**Barnkonton** – Skapa eller flytta barn till hanterade konton enkelt"
 
-#: src/ios_security.md:463
+#: src/ios_security.md:497
 msgid "**Communication Controls** – Decide who children can text/call"
 msgstr ""
 "**Kommunikationskontroller** – Bestäm vilka barn kan skicka meddelanden till/"
 "ringa"
 
-#: src/ios_security.md:464
+#: src/ios_security.md:498
 msgid ""
 "**Third-Party App Management** – Control messaging in gaming and social apps"
 msgstr ""
 "**Hantering av tredjepartsappar** – Kontrollera meddelanden i spel- och "
 "sociala appar"
 
-#: src/ios_security.md:465
+#: src/ios_security.md:499
 msgid "**Unknown Number Blocking** – Block calls/messages from unknown numbers"
 msgstr ""
 "**Blockering av okända nummer** – Blockera samtal/meddelanden från okända "
 "nummer"
 
-#: src/ios_security.md:466
+#: src/ios_security.md:500
 msgid "**Age Limits** – Set strict age limits for app downloads"
 msgstr ""
 "**Åldersgränser** – Ställ in strikta åldersgränser för appnedladdningar"
 
-#: src/ios_security.md:467
+#: src/ios_security.md:501
 msgid ""
 "**Explicit Content Detection** – Blurs inappropriate content in shared "
 "albums and FaceTime"
@@ -1383,64 +1527,64 @@ msgstr ""
 "**Detektering av explicit innehåll** – Suddar ut olämpligt innehåll i delade "
 "album och FaceTime"
 
-#: src/ios_security.md:469
+#: src/ios_security.md:503
 msgid "Communication Safety"
 msgstr "Kommunikationssäkerhet"
 
-#: src/ios_security.md:471
+#: src/ios_security.md:505
 msgid "Protects children from sensitive content in Messages:"
 msgstr "Skyddar barn från känsligt innehåll i Meddelanden:"
 
-#: src/ios_security.md:473
+#: src/ios_security.md:507
 msgid "Go to **Settings > Screen Time**"
 msgstr "Gå till **Inställningar > Skärmtid**"
 
-#: src/ios_security.md:474
+#: src/ios_security.md:508
 msgid "Tap **Communication Safety**"
 msgstr "Tryck på **Kommunikationssäkerhet**"
 
-#: src/ios_security.md:475
+#: src/ios_security.md:509
 msgid "Toggle on **Communication Safety**"
 msgstr "Aktivera **Kommunikationssäkerhet**"
 
-#: src/ios_security.md:477
+#: src/ios_security.md:511
 msgid "Sensitive Content Warning (Adults)"
 msgstr "Varning för känsligt innehåll (vuxna)"
 
-#: src/ios_security.md:479
+#: src/ios_security.md:513
 msgid "Go to **Settings > Privacy & Security > Sensitive Content Warning**"
 msgstr ""
 "Gå till **Inställningar > Integritet och säkerhet > Varning för känsligt "
 "innehåll**"
 
-#: src/ios_security.md:480
+#: src/ios_security.md:514
 msgid "Toggle on to blur sensitive images"
 msgstr "Aktivera för att sudda ut känsliga bilder"
 
-#: src/ios_security.md:484
+#: src/ios_security.md:518
 msgid "12. Safety Check"
 msgstr "12. Säkerhetskontroll"
 
-#: src/ios_security.md:486
+#: src/ios_security.md:520
 msgid "Quickly review and reset access you've granted to others."
 msgstr "Granska och återställ snabbt åtkomst du har beviljat andra."
 
-#: src/ios_security.md:491
+#: src/ios_security.md:525
 msgid "Tap **Safety Check**"
 msgstr "Tryck på **Säkerhetskontroll**"
 
-#: src/ios_security.md:493
+#: src/ios_security.md:527
 msgid "Options"
 msgstr "Alternativ"
 
-#: src/ios_security.md:495
+#: src/ios_security.md:529
 msgid ""
 "**Manage Sharing & Access:** Granular control over individual permissions"
 msgstr ""
 "**Hantera delning och åtkomst:** Detaljerad kontroll över individuella "
 "behörigheter"
 
-#: src/ios_security.md:497
+#: src/ios_security.md:531
 msgid ""
 "**Emergency Reset:** Immediately stops all sharing, resets permissions, "
 "signs out of iCloud on other devices"
@@ -1448,43 +1592,43 @@ msgstr ""
 "**Nödåterställning:** Stoppar omedelbart all delning, återställer "
 "behörigheter, loggar ut från iCloud på andra enheter"
 
-#: src/ios_security.md:499
+#: src/ios_security.md:533
 msgid "**Quick Exit:** Instantly returns to Home Screen (progress saved)"
 msgstr "**Snabbavslut:** Återgår omedelbart till hemskärmen (framsteg sparas)"
 
-#: src/ios_security.md:503
+#: src/ios_security.md:537
 msgid "13. Find My iPhone"
 msgstr "13. Hitta min iPhone"
 
-#: src/ios_security.md:507
+#: src/ios_security.md:541
 msgid "Go to **Settings > \\[Your Name\\] > Find My**"
 msgstr "Gå till **Inställningar > \\[Ditt namn\\] > Hitta**"
 
-#: src/ios_security.md:508
+#: src/ios_security.md:542
 msgid "Tap **Find My iPhone**"
 msgstr "Tryck på **Hitta min iPhone**"
 
-#: src/ios_security.md:509
+#: src/ios_security.md:543
 msgid "Enable:"
 msgstr "Aktivera:"
 
-#: src/ios_security.md:510
+#: src/ios_security.md:544
 msgid "**Find My iPhone**"
 msgstr "**Hitta min iPhone**"
 
-#: src/ios_security.md:511
+#: src/ios_security.md:545
 msgid "**Find My Network** (locate even when offline)"
 msgstr "**Hitta-nätverket** (hitta även offline)"
 
-#: src/ios_security.md:512
+#: src/ios_security.md:546
 msgid "**Send Last Location**"
 msgstr "**Skicka senaste plats**"
 
-#: src/ios_security.md:514
+#: src/ios_security.md:548
 msgid "Activation Lock for Parts (iOS 26)"
 msgstr "Aktiveringslås för delar (iOS 26)"
 
-#: src/ios_security.md:516
+#: src/ios_security.md:550
 msgid ""
 "iOS 26 extends Activation Lock to individual components (batteries, cameras, "
 "displays), making stolen parts unusable."
@@ -1492,11 +1636,11 @@ msgstr ""
 "iOS 26 utökar aktiveringslåset till enskilda komponenter (batterier, "
 "kameror, skärmar), vilket gör stulna delar oanvändbara."
 
-#: src/ios_security.md:518
+#: src/ios_security.md:552
 msgid "AirTag (2nd Generation) - iOS 26.2.1 Required"
 msgstr "AirTag (2:a generationen) - iOS 26.2.1 krävs"
 
-#: src/ios_security.md:520
+#: src/ios_security.md:554
 msgid ""
 "The new AirTag (released January 26, 2026) requires iOS 26.2.1 or later and "
 "includes significant security and tracking improvements:"
@@ -1504,11 +1648,11 @@ msgstr ""
 "Den nya AirTag (släppt 26 januari 2026) kräver iOS 26.2.1 eller senare och "
 "inkluderar betydande förbättringar av säkerhet och spårning:"
 
-#: src/ios_security.md:522
+#: src/ios_security.md:556
 msgid "**Enhanced Finding Capabilities:**"
 msgstr "**Förbättrade sökfunktioner:**"
 
-#: src/ios_security.md:523
+#: src/ios_security.md:557
 msgid ""
 "**50% longer Precision Finding range** via second-generation Ultra Wideband "
 "chip"
@@ -1516,7 +1660,7 @@ msgstr ""
 "**50 % längre räckvidd för Precision Finding** via andra generationens Ultra "
 "Wideband-chip"
 
-#: src/ios_security.md:524
+#: src/ios_security.md:558
 msgid ""
 "**Precision Finding on Apple Watch** – Works on Apple Watch Series 9+, Ultra "
 "2+ (first time on wrist)"
@@ -1524,172 +1668,172 @@ msgstr ""
 "**Precision Finding på Apple Watch** – Fungerar på Apple Watch Series 9+, "
 "Ultra 2+ (första gången på handleden)"
 
-#: src/ios_security.md:525
+#: src/ios_security.md:559
 msgid ""
 "**Expanded Bluetooth range** – Better detection by Find My network devices"
 msgstr ""
 "**Utökad Bluetooth-räckvidd** – Bättre detektering av Hitta-nätverksenheter"
 
-#: src/ios_security.md:526
+#: src/ios_security.md:560
 msgid ""
 "**50% louder speaker** – Easier to locate and harder for stalkers to mask"
 msgstr ""
 "**50 % högre högtalare** – Lättare att hitta och svårare för stalkers att "
 "dölja"
 
-#: src/ios_security.md:528
+#: src/ios_security.md:562
 msgid "**Anti-Stalking Improvements:**"
 msgstr "**Förbättringar mot förföljelse:**"
 
-#: src/ios_security.md:529
+#: src/ios_security.md:563
 msgid "Louder alert sounds when separated from owner's device"
 msgstr "Högre varningsljud när den separeras från ägarens enhet"
 
-#: src/ios_security.md:530
+#: src/ios_security.md:564
 msgid "Improved detection notifications on iPhones"
 msgstr "Förbättrade detekteringsnotifikationer på iPhones"
 
-#: src/ios_security.md:531
+#: src/ios_security.md:565
 msgid "Same separation alert timing (approximately 8 hours)"
 msgstr "Samma tidpunkt för separationsvarning (ungefär 8 timmar)"
 
-#: src/ios_security.md:533
+#: src/ios_security.md:567
 msgid "**Share Item Location:**"
 msgstr "**Dela objektets plats:**"
 
-#: src/ios_security.md:534
+#: src/ios_security.md:568
 msgid "Securely share AirTag location with airlines for lost luggage"
 msgstr "Dela AirTag-plats säkert med flygbolag för förlorat bagage"
 
-#: src/ios_security.md:535
+#: src/ios_security.md:569
 msgid "36 airlines supported at launch, 15+ more coming"
 msgstr "36 flygbolag stöds vid lansering, 15+ fler på väg"
 
-#: src/ios_security.md:536
+#: src/ios_security.md:570
 msgid "End-to-end encrypted sharing"
 msgstr "Ändpunkt-till-ändpunkt-krypterad delning"
 
-#: src/ios_security.md:538
+#: src/ios_security.md:572
 msgid "**How to Set Up AirTag (2nd Gen):**"
 msgstr "**Så ställer du in AirTag (2:a gen):**"
 
-#: src/ios_security.md:539
+#: src/ios_security.md:573
 msgid "Ensure iOS 26.2.1 is installed"
 msgstr "Se till att iOS 26.2.1 är installerat"
 
-#: src/ios_security.md:540
+#: src/ios_security.md:574
 msgid "Bring AirTag near your iPhone"
 msgstr "Håll AirTag nära din iPhone"
 
-#: src/ios_security.md:541
+#: src/ios_security.md:575
 msgid "Tap **Connect** when prompted"
 msgstr "Tryck på **Anslut** när du uppmanas"
 
-#: src/ios_security.md:542
+#: src/ios_security.md:576
 msgid "Name your AirTag and assign an emoji"
 msgstr "Namnge din AirTag och tilldela en emoji"
 
-#: src/ios_security.md:543
+#: src/ios_security.md:577
 msgid "Register to your Apple ID"
 msgstr "Registrera till ditt Apple ID"
 
-#: src/ios_security.md:547
+#: src/ios_security.md:581
 msgid "14. Advertising and Tracking Controls"
 msgstr "14. Reklam- och spårningskontroller"
 
-#: src/ios_security.md:549
+#: src/ios_security.md:583
 msgid "Disable Advertising Identifier"
 msgstr "Inaktivera annonsidentifierare"
 
-#: src/ios_security.md:552
+#: src/ios_security.md:586
 msgid "Toggle off **Allow Apps to Request to Track**"
 msgstr "Inaktivera **Tillåt appar att begära spårning**"
 
-#: src/ios_security.md:554
+#: src/ios_security.md:588
 msgid "Disable Apple Personalized Ads"
 msgstr "Inaktivera Apples personanpassade annonser"
 
-#: src/ios_security.md:556
+#: src/ios_security.md:590
 msgid "Go to **Settings > Privacy & Security > Apple Advertising**"
 msgstr ""
 "Gå till **Inställningar > Integritet och säkerhet > Apple-annonsering**"
 
-#: src/ios_security.md:557
+#: src/ios_security.md:591
 msgid "Toggle off **Personalized Ads**"
 msgstr "Inaktivera **Personanpassade annonser**"
 
-#: src/ios_security.md:559
+#: src/ios_security.md:593
 msgid "Analytics & Improvements"
 msgstr "Analys och förbättringar"
 
-#: src/ios_security.md:561
+#: src/ios_security.md:595
 msgid "Go to **Settings > Privacy & Security > Analytics & Improvements**"
 msgstr ""
 "Gå till **Inställningar > Integritet och säkerhet > Analys och "
 "förbättringar**"
 
-#: src/ios_security.md:562
+#: src/ios_security.md:596
 msgid "Toggle off data sharing options"
 msgstr "Inaktivera alternativ för datadelning"
 
-#: src/ios_security.md:566
+#: src/ios_security.md:600
 msgid "15. Apple Intelligence Privacy"
 msgstr "15. Apple Intelligence-integritet"
 
-#: src/ios_security.md:568
+#: src/ios_security.md:602
 msgid "On-Device Processing"
 msgstr "Bearbetning på enheten"
 
-#: src/ios_security.md:570
+#: src/ios_security.md:604
 msgid "Most Apple Intelligence features process data locally on your device."
 msgstr ""
 "De flesta Apple Intelligence-funktioner bearbetar data lokalt på din enhet."
 
-#: src/ios_security.md:572
+#: src/ios_security.md:606
 msgid "Private Cloud Compute"
 msgstr "Private Cloud Compute"
 
-#: src/ios_security.md:574
+#: src/ios_security.md:608
 msgid "For complex requests:"
 msgstr "För komplexa förfrågningar:"
 
-#: src/ios_security.md:575
+#: src/ios_security.md:609
 msgid "Uses Apple's Private Cloud Compute"
 msgstr "Använder Apples Private Cloud Compute"
 
-#: src/ios_security.md:576
+#: src/ios_security.md:610
 msgid "Data never stored on servers"
 msgstr "Data lagras aldrig på servrar"
 
-#: src/ios_security.md:577
+#: src/ios_security.md:611
 msgid "Cryptographically verified privacy"
 msgstr "Kryptografiskt verifierad integritet"
 
-#: src/ios_security.md:579
+#: src/ios_security.md:613
 msgid "Control AI Learning"
 msgstr "Kontrollera AI-inlärning"
 
-#: src/ios_security.md:581
+#: src/ios_security.md:615
 msgid "Go to **Settings > Apple Intelligence & Siri**"
 msgstr "Gå till **Inställningar > Apple Intelligence och Siri**"
 
-#: src/ios_security.md:582
+#: src/ios_security.md:616
 msgid "Scroll to **Apps**"
 msgstr "Scrolla till **Appar**"
 
-#: src/ios_security.md:583
+#: src/ios_security.md:617
 msgid "Toggle off **Learn from this App** for sensitive apps"
 msgstr "Inaktivera **Lär dig från den här appen** för känsliga appar"
 
-#: src/ios_security.md:587
+#: src/ios_security.md:621
 msgid "16. Wi-Fi Aware & Network Security (NEW in iOS 26)"
 msgstr "16. Wi-Fi Aware och nätverkssäkerhet (NYTT i iOS 26)"
 
-#: src/ios_security.md:589
+#: src/ios_security.md:623
 msgid "Wi-Fi Aware"
 msgstr "Wi-Fi Aware"
 
-#: src/ios_security.md:591
+#: src/ios_security.md:625
 msgid ""
 "A new peer-to-peer networking framework allowing secure connections without "
 "access points:"
@@ -1697,47 +1841,82 @@ msgstr ""
 "Ett nytt peer-to-peer-nätverksramverk som möjliggör säkra anslutningar utan "
 "accesspunkter:"
 
-#: src/ios_security.md:593
+#: src/ios_security.md:627
 msgid "Direct encrypted links between devices"
 msgstr "Direkta krypterade länkar mellan enheter"
 
-#: src/ios_security.md:594
+#: src/ios_security.md:628
 msgid "Ideal for file transfers, gaming, media streaming"
 msgstr "Idealiskt för filöverföringar, spel, mediaströmning"
 
-#: src/ios_security.md:595
+#: src/ios_security.md:629
 msgid "No internet connection required"
 msgstr "Ingen internetanslutning krävs"
 
-#: src/ios_security.md:596
+#: src/ios_security.md:630
 msgid "Third-party apps can use this for secure local sharing"
 msgstr "Tredjepartsappar kan använda detta för säker lokal delning"
 
-#: src/ios_security.md:598
+#: src/ios_security.md:632
 msgid "Post-Quantum Cryptography (iOS 26)"
 msgstr "Postkvantkryptografi (iOS 26)"
 
-#: src/ios_security.md:600
+#: src/ios_security.md:634
 msgid "iOS 26 adds hybrid post-quantum key exchange to TLS connections:"
 msgstr "iOS 26 lägger till hybrid postkvantnyckelutbyte i TLS-anslutningar:"
 
-#: src/ios_security.md:602
+#: src/ios_security.md:636
 msgid "Pairs classic elliptic curve math with lattice-based schemes"
 msgstr "Kombinerar klassisk elliptisk kurvmatematik med gitterbaserade scheman"
 
-#: src/ios_security.md:603
+#: src/ios_security.md:637
 msgid "Protects current data against future quantum computing threats"
 msgstr "Skyddar nuvarande data mot framtida kvantdatorhot"
 
-#: src/ios_security.md:604
+#: src/ios_security.md:638
 msgid "Works automatically with Apple's networking frameworks"
 msgstr "Fungerar automatiskt med Apples nätverksramverk"
 
-#: src/ios_security.md:606
+#: src/ios_security.md:640
+msgid "Limit Precise Location (NEW in iOS 26.3)"
+msgstr "Begränsa exakt plats (NYTT i iOS 26.3)"
+
+#: src/ios_security.md:642
+msgid ""
+"Reduces the location precision available to your cellular carrier from "
+"street-level to neighborhood-level."
+msgstr ""
+"Minskar platsprecisionen som är tillgänglig för din mobiloperatör från "
+"gatunivå till grannskapsnivå."
+
+#: src/ios_security.md:644 src/android_security.md:135
+#: src/android_security.md:232 src/android_security.md:245
+#: src/android_security.md:253 src/android_security.md:499
+#: src/android_security.md:509
+msgid "**How to enable:**"
+msgstr "**Så här aktiverar du:**"
+
+#: src/ios_security.md:646
+msgid "Tap **Limit Precise Location**"
+msgstr "Tryck på **Begränsa exakt plats**"
+
+#: src/ios_security.md:650
+msgid "iPhone 16e or iPhone Air (devices with Apple C1/C1X modem)"
+msgstr "iPhone 16e eller iPhone Air (enheter med Apple C1/C1X-modem)"
+
+#: src/ios_security.md:651
+msgid ""
+"Carrier support: Boost Mobile (US), EE/BT (UK), Telekom (Germany), AIS/True "
+"(Thailand) at launch"
+msgstr ""
+"Operatörsstöd: Boost Mobile (USA), EE/BT (Storbritannien), Telekom "
+"(Tyskland), AIS/True (Thailand) vid lansering"
+
+#: src/ios_security.md:653
 msgid "Captive Assist"
 msgstr "Captive Assist"
 
-#: src/ios_security.md:608
+#: src/ios_security.md:655
 msgid ""
 "When you connect to public Wi-Fi by filling out a form, iOS 26 can "
 "automatically share that form information with your other Apple devices, "
@@ -1747,59 +1926,59 @@ msgstr ""
 "26 automatiskt dela den formulärinformationen med dina andra Apple-enheter, "
 "vilket gör det enklare att ansluta säkert."
 
-#: src/ios_security.md:612
+#: src/ios_security.md:659
 msgid "17. Wired Accessories Security (NEW in iOS 26)"
 msgstr "17. Säkerhet för trådbundna tillbehör (NYTT i iOS 26)"
 
-#: src/ios_security.md:614
+#: src/ios_security.md:661
 msgid "Enhanced USB-C/Lightning Port Security"
 msgstr "Förbättrad USB-C/Lightning-portsäkerhet"
 
-#: src/ios_security.md:616
+#: src/ios_security.md:663
 msgid ""
 "iOS 26 gives you explicit control over what happens when accessories connect:"
 msgstr ""
 "iOS 26 ger dig uttrycklig kontroll över vad som händer när tillbehör ansluts:"
 
-#: src/ios_security.md:620
+#: src/ios_security.md:667
 msgid "Scroll to **Accessories**"
 msgstr "Scrolla till **Tillbehör**"
 
-#: src/ios_security.md:621
+#: src/ios_security.md:668
 msgid "Choose behavior:"
 msgstr "Välj beteende:"
 
-#: src/ios_security.md:622
+#: src/ios_security.md:669
 msgid "**Allow when unlocked** (default)"
 msgstr "**Tillåt när upplåst** (standard)"
 
-#: src/ios_security.md:623
+#: src/ios_security.md:670
 msgid "**Always ask**"
 msgstr "**Fråga alltid**"
 
-#: src/ios_security.md:624
+#: src/ios_security.md:671
 msgid "**Never allow**"
 msgstr "**Tillåt aldrig**"
 
-#: src/ios_security.md:626
+#: src/ios_security.md:673
 msgid "Why This Matters"
 msgstr "Varför detta är viktigt"
 
-#: src/ios_security.md:628
+#: src/ios_security.md:675
 msgid "Malicious cables can extract data while appearing to charge"
 msgstr "Skadliga kablar kan extrahera data medan de ser ut att ladda"
 
-#: src/ios_security.md:629
+#: src/ios_security.md:676
 msgid "Compromised chargers in public places pose real risks"
 msgstr "Komprometterade laddare på offentliga platser utgör verkliga risker"
 
-#: src/ios_security.md:630
+#: src/ios_security.md:677
 msgid ""
 "You now get immediate notification when a cable tries to do more than charge"
 msgstr ""
 "Du får nu omedelbar notifikation när en kabel försöker göra mer än att ladda"
 
-#: src/ios_security.md:631
+#: src/ios_security.md:678
 msgid ""
 "Stops \"juice jacking\" attacks at airports, hotels, and other public "
 "charging stations"
@@ -1807,141 +1986,141 @@ msgstr ""
 "Stoppar \"juice jacking\"-attacker på flygplatser, hotell och andra "
 "offentliga laddstationer"
 
-#: src/ios_security.md:635
+#: src/ios_security.md:682
 msgid "18. AirDrop Security (NEW in iOS 26.2)"
 msgstr "18. AirDrop-säkerhet (NYTT i iOS 26.2)"
 
-#: src/ios_security.md:637
+#: src/ios_security.md:684
 msgid "One-Time AirDrop Codes"
 msgstr "Engångskoder för AirDrop"
 
-#: src/ios_security.md:639
+#: src/ios_security.md:686
 msgid "iOS 26.2 introduces secure codes for sharing with unknown contacts:"
 msgstr "iOS 26.2 introducerar säkra koder för delning med okända kontakter:"
 
-#: src/ios_security.md:641 src/android_security.md:236
+#: src/ios_security.md:688 src/android_security.md:236
 #: src/grapheneos_security.md:263
 msgid "**How it works:**"
 msgstr "**Så fungerar det:**"
 
-#: src/ios_security.md:642
+#: src/ios_security.md:689
 msgid ""
 "When sharing with someone not in your contacts, generate a temporary code"
 msgstr ""
 "När du delar med någon som inte finns i dina kontakter, generera en "
 "tillfällig kod"
 
-#: src/ios_security.md:643
+#: src/ios_security.md:690
 msgid "The receiver displays the code on their device"
 msgstr "Mottagaren visar koden på sin enhet"
 
-#: src/ios_security.md:644
+#: src/ios_security.md:691
 msgid "Sender enters the code to complete transfer"
 msgstr "Avsändaren anger koden för att slutföra överföringen"
 
-#: src/ios_security.md:645
+#: src/ios_security.md:692
 msgid "Code is valid for 30 days for that contact"
 msgstr "Koden är giltig i 30 dagar för den kontakten"
 
-#: src/ios_security.md:647
+#: src/ios_security.md:694
 msgid "Tighter Proximity Detection"
 msgstr "Striktare närhetsdetektering"
 
-#: src/ios_security.md:649
+#: src/ios_security.md:696
 msgid ""
 "AirDrop now shows only devices within close physical proximity, reducing:"
 msgstr "AirDrop visar nu bara enheter inom nära fysisk närhet, vilket minskar:"
 
-#: src/ios_security.md:650
+#: src/ios_security.md:697
 msgid "Accidental transfers"
 msgstr "Oavsiktliga överföringar"
 
-#: src/ios_security.md:651
+#: src/ios_security.md:698
 msgid "Unsolicited content (\"AirDrop spam\")"
 msgstr "Oönskat innehåll (\"AirDrop-spam\")"
 
-#: src/ios_security.md:652
+#: src/ios_security.md:699
 msgid "Faster peer-to-peer connections in crowded areas"
 msgstr "Snabbare peer-to-peer-anslutningar i trånga områden"
 
-#: src/ios_security.md:656
+#: src/ios_security.md:703
 msgid "19. Additional Security Recommendations"
 msgstr "19. Ytterligare säkerhetsrekommendationer"
 
-#: src/ios_security.md:658
+#: src/ios_security.md:705
 msgid "Lock Screen Security"
 msgstr "Låsskärmssäkerhet"
 
-#: src/ios_security.md:660
+#: src/ios_security.md:707
 msgid "**Disable Control Center from lock screen:**"
 msgstr "**Inaktivera Control Center från låsskärmen:**"
 
-#: src/ios_security.md:662
+#: src/ios_security.md:709
 msgid "Under **Allow Access When Locked**, toggle off:"
 msgstr "Under **Tillåt åtkomst när låst**, inaktivera:"
 
-#: src/ios_security.md:663
+#: src/ios_security.md:710
 msgid "Control Center"
 msgstr "Kontrollcenter"
 
-#: src/ios_security.md:664
+#: src/ios_security.md:711
 msgid "Notification Center"
 msgstr "Notiscenter"
 
-#: src/ios_security.md:665
+#: src/ios_security.md:712
 msgid "USB Accessories"
 msgstr "USB-tillbehör"
 
-#: src/ios_security.md:667
+#: src/ios_security.md:714
 msgid "Automatic Software Updates"
 msgstr "Automatiska programuppdateringar"
 
-#: src/ios_security.md:669
+#: src/ios_security.md:716
 msgid "Go to **Settings > General > Software Update**"
 msgstr "Gå till **Inställningar > Allmänt > Programuppdatering**"
 
-#: src/ios_security.md:670
+#: src/ios_security.md:717
 msgid "Tap **Automatic Updates**"
 msgstr "Tryck på **Automatiska uppdateringar**"
 
-#: src/ios_security.md:671
+#: src/ios_security.md:718
 msgid "Enable all options including **Security Responses & System Files**"
 msgstr "Aktivera alla alternativ inklusive **Säkerhetssvar och systemfiler**"
 
-#: src/ios_security.md:673 src/android_security.md:718
+#: src/ios_security.md:720 src/android_security.md:718
 #: src/android_security.md:774
 msgid "Lock Screen Notifications"
 msgstr "Låsskärmsnotifikationer"
 
-#: src/ios_security.md:675
+#: src/ios_security.md:722
 msgid "Go to **Settings > Notifications > Show Previews**"
 msgstr "Gå till **Inställningar > Notiser > Visa förhandsvisningar**"
 
-#: src/ios_security.md:676
+#: src/ios_security.md:723
 msgid "Select **When Unlocked** or **Never**"
 msgstr "Välj **När upplåst** eller **Aldrig**"
 
-#: src/ios_security.md:678
+#: src/ios_security.md:725
 msgid "Liquid Glass Opacity (iOS 26)"
 msgstr "Liquid Glass-opacitet (iOS 26)"
 
-#: src/ios_security.md:680
+#: src/ios_security.md:727
 msgid "For better readability and reduced glare:"
 msgstr "För bättre läsbarhet och minskat bländande:"
 
-#: src/ios_security.md:681
+#: src/ios_security.md:728
 msgid "Go to **Settings > Display & Brightness > Liquid Glass**"
 msgstr "Gå till **Inställningar > Skärm och ljusstyrka > Liquid Glass**"
 
-#: src/ios_security.md:682
+#: src/ios_security.md:729
 msgid "Choose **Clear** (sharper) or **Tinted** (softer, less glare)"
 msgstr "Välj **Klar** (skarpare) eller **Tonad** (mjukare, mindre bländande)"
 
-#: src/ios_security.md:684
+#: src/ios_security.md:731
 msgid "Restart After Security Updates"
 msgstr "Starta om efter säkerhetsuppdateringar"
 
-#: src/ios_security.md:686
+#: src/ios_security.md:733
 msgid ""
 "After installing iOS 26.2 or any security update, **restart your device**. "
 "Some spyware lives only in volatile memory and is cleared by a reboot."
@@ -1950,175 +2129,175 @@ msgstr ""
 "din enhet**. Visst spionprogram lever bara i flyktigt minne och rensas vid "
 "en omstart."
 
-#: src/ios_security.md:688
+#: src/ios_security.md:735
 msgid "Erase Data After Failed Attempts"
 msgstr "Radera data efter misslyckade försök"
 
-#: src/ios_security.md:691
+#: src/ios_security.md:738
 msgid "Enable **Erase Data** (erases after 10 failed passcode attempts)"
 msgstr "Aktivera **Erase Data** (raderar efter 10 misslyckade lösenkodförsök)"
 
-#: src/ios_security.md:695 src/android_security.md:757
+#: src/ios_security.md:742 src/android_security.md:757
 msgid "Quick Reference: Essential Settings Checklist"
 msgstr "Snabbreferens: Checklista för viktiga inställningar"
 
-#: src/ios_security.md:697 src/android_security.md:759
+#: src/ios_security.md:744 src/android_security.md:759
 #: src/grapheneos_security.md:255 src/grapheneos_security.md:555
 #: src/grapheneos_security.md:636
 msgid "Setting"
 msgstr "Inställning"
 
-#: src/ios_security.md:697 src/android_security.md:281
+#: src/ios_security.md:744 src/android_security.md:281
 #: src/android_security.md:759 src/android_security.md:769
 msgid "Location"
 msgstr "Plats"
 
-#: src/ios_security.md:697 src/android_security.md:759
+#: src/ios_security.md:744 src/android_security.md:759
 msgid "Recommended"
 msgstr "Rekommenderat"
 
-#: src/ios_security.md:699
+#: src/ios_security.md:746
 msgid "Face ID/Touch ID"
 msgstr "Face ID/Touch ID"
 
-#: src/ios_security.md:699 src/ios_security.md:700 src/ios_security.md:702
+#: src/ios_security.md:746 src/ios_security.md:747 src/ios_security.md:749
 msgid "Settings > Face ID & Passcode"
 msgstr "Inställningar > Face ID och lösenkod"
 
-#: src/ios_security.md:699 src/ios_security.md:701 src/ios_security.md:702
-#: src/ios_security.md:705 src/ios_security.md:706 src/ios_security.md:707
-#: src/ios_security.md:708 src/android_security.md:761
+#: src/ios_security.md:746 src/ios_security.md:748 src/ios_security.md:749
+#: src/ios_security.md:752 src/ios_security.md:753 src/ios_security.md:754
+#: src/ios_security.md:755 src/android_security.md:761
 #: src/android_security.md:763 src/android_security.md:764
 #: src/android_security.md:765 src/android_security.md:772
 msgid "✅ Enable"
 msgstr "✅ Aktivera"
 
-#: src/ios_security.md:700
+#: src/ios_security.md:747
 msgid "Strong Passcode"
 msgstr "Stark lösenkod"
 
-#: src/ios_security.md:700
+#: src/ios_security.md:747
 msgid "✅ Alphanumeric"
 msgstr "✅ Alfanumerisk"
 
-#: src/ios_security.md:701 src/android_security.md:763
+#: src/ios_security.md:748 src/android_security.md:763
 msgid "Two-Factor Authentication"
 msgstr "Tvåfaktorsautentisering"
 
-#: src/ios_security.md:701
+#: src/ios_security.md:748
 msgid "Settings > \\[Name\\] > Sign-In & Security"
 msgstr "Inställningar > \\[Namn\\] > Inloggning och säkerhet"
 
-#: src/ios_security.md:702
+#: src/ios_security.md:749
 msgid "Stolen Device Protection"
 msgstr "Skydd för stulen enhet"
 
-#: src/ios_security.md:703
+#: src/ios_security.md:750
 msgid "App Tracking"
 msgstr "Appspårning"
 
-#: src/ios_security.md:703
+#: src/ios_security.md:750
 msgid "Settings > Privacy & Security > Tracking"
 msgstr "Inställningar > Integritet och säkerhet > Spårning"
 
-#: src/ios_security.md:703 src/android_security.md:771
+#: src/ios_security.md:750 src/android_security.md:771
 msgid "❌ Disable"
 msgstr "❌ Inaktivera"
 
-#: src/ios_security.md:704
+#: src/ios_security.md:751
 msgid "Advanced Tracking Protection"
 msgstr "Avancerat spårningsskydd"
 
-#: src/ios_security.md:704
+#: src/ios_security.md:751
 msgid "Settings > Apps > Safari > Advanced"
 msgstr "Inställningar > Appar > Safari > Avancerat"
 
-#: src/ios_security.md:704
+#: src/ios_security.md:751
 msgid "✅ All Browsing"
 msgstr "✅ All surfning"
 
-#: src/ios_security.md:705
+#: src/ios_security.md:752
 msgid "Mail Privacy"
 msgstr "E-postintegritet"
 
-#: src/ios_security.md:705
+#: src/ios_security.md:752
 msgid "Settings > Apps > Mail > Privacy Protection"
 msgstr "Inställningar > Appar > Mail > Integritetsskydd"
 
-#: src/ios_security.md:706
+#: src/ios_security.md:753
 msgid "Advanced Data Protection"
 msgstr "Avancerat dataskydd"
 
-#: src/ios_security.md:706
+#: src/ios_security.md:753
 msgid "Settings > \\[Name\\] > iCloud > Advanced Data Protection"
 msgstr "Inställningar > \\[Namn\\] > iCloud > Avancerat dataskydd"
 
-#: src/ios_security.md:707
+#: src/ios_security.md:754
 msgid "Find My"
 msgstr "Hitta"
 
-#: src/ios_security.md:707
+#: src/ios_security.md:754
 msgid "Settings > \\[Name\\] > Find My"
 msgstr "Inställningar > \\[Namn\\] > Hitta"
 
-#: src/ios_security.md:708 src/grapheneos_security.md:773
+#: src/ios_security.md:755 src/grapheneos_security.md:773
 msgid "Automatic Updates"
 msgstr "Automatiska uppdateringar"
 
-#: src/ios_security.md:708
+#: src/ios_security.md:755
 msgid "Settings > General > Software Update"
 msgstr "Inställningar > Allmänt > Programuppdatering"
 
-#: src/ios_security.md:709
+#: src/ios_security.md:756
 msgid "Wired Accessories"
 msgstr "Trådbundna tillbehör"
 
-#: src/ios_security.md:709
+#: src/ios_security.md:756
 msgid "Settings > Face ID & Passcode > Accessories"
 msgstr "Inställningar > Face ID och lösenkod > Tillbehör"
 
-#: src/ios_security.md:709
+#: src/ios_security.md:756
 msgid "⚙️ Always Ask"
 msgstr "⚙️ Fråga alltid"
 
-#: src/ios_security.md:710
+#: src/ios_security.md:757
 msgid "Lock Screen Previews"
 msgstr "Förhandsvisningar på låsskärmen"
 
-#: src/ios_security.md:710
+#: src/ios_security.md:757
 msgid "Settings > Notifications > Show Previews"
 msgstr "Inställningar > Notiser > Visa förhandsvisningar"
 
-#: src/ios_security.md:710
+#: src/ios_security.md:757
 msgid "⚙️ When Unlocked"
 msgstr "⚙️ När upplåst"
 
-#: src/ios_security.md:714 src/android_security.md:778
+#: src/ios_security.md:761 src/android_security.md:778
 msgid "Conclusion"
 msgstr "Slutsats"
 
-#: src/ios_security.md:716
+#: src/ios_security.md:763
 msgid ""
-"iOS 26.2 represents Apple's most comprehensive security and privacy update "
+"iOS 26.3 represents Apple's most comprehensive security and privacy update "
 "to date. Key priorities:"
 msgstr ""
-"iOS 26.2 representerar Apples mest omfattande säkerhets- och "
+"iOS 26.3 representerar Apples mest omfattande säkerhets- och "
 "integritetsuppdatering hittills. Viktiga prioriteringar:"
 
-#: src/ios_security.md:718
+#: src/ios_security.md:765
 msgid ""
-"**Update to iOS 26.2 immediately** – Patches actively exploited zero-day "
-"vulnerabilities"
+"**Update to iOS 26.3 immediately** – Patches an actively exploited dyld zero-"
+"day (CVE-2026-20700) and 36 other vulnerabilities"
 msgstr ""
-"**Uppdatera till iOS 26.2 omedelbart** – Patchar aktivt utnyttjade "
-"nolldagssårbarheter"
+"**Uppdatera till iOS 26.3 omedelbart** – Patchar en aktivt utnyttjad dyld-"
+"nolldagssårbarhet (CVE-2026-20700) och 36 andra sårbarheter"
 
-#: src/ios_security.md:719
+#: src/ios_security.md:766
 msgid "**Enable lockdown mode** – Prevents sophisticated spyware attacks"
 msgstr ""
 "**Aktivera Låsningsläge** – Förhindrar sofistikerade spionprogramattacker"
 
-#: src/ios_security.md:720
+#: src/ios_security.md:767
 msgid ""
 "**Enable Stolen Device Protection** – Prevents thieves from accessing data "
 "even with your passcode"
@@ -2126,14 +2305,14 @@ msgstr ""
 "**Aktivera Skydd för stulen enhet** – Förhindrar tjuvar från att komma åt "
 "data även med din lösenkod"
 
-#: src/ios_security.md:721
+#: src/ios_security.md:768
 msgid ""
 "**Turn on Advanced Data Protection** – End-to-end encrypts your iCloud data"
 msgstr ""
 "**Aktivera Avancerat dataskydd** – Krypterar dina iCloud-data ändpunkt-till-"
 "ändpunkt"
 
-#: src/ios_security.md:722
+#: src/ios_security.md:769
 msgid ""
 "**Enable Advanced Tracking Protection for All Browsing** – Major anti-"
 "fingerprinting improvement"
@@ -2141,7 +2320,7 @@ msgstr ""
 "**Aktivera avancerat spårningsskydd för all surfning** – Stor förbättring "
 "mot fingeravtrycksspårning"
 
-#: src/ios_security.md:723
+#: src/ios_security.md:770
 msgid ""
 "**Configure Wired Accessories security** – Protects against malicious "
 "charging cables"
@@ -2149,7 +2328,7 @@ msgstr ""
 "**Konfigurera säkerhet för trådbundna tillbehör** – Skyddar mot skadliga "
 "laddkablar"
 
-#: src/ios_security.md:724
+#: src/ios_security.md:771
 msgid ""
 "**Use Passkeys** – Let iOS 26 automatically upgrade your passwords to "
 "phishing-resistant passkeys"
@@ -2157,11 +2336,11 @@ msgstr ""
 "**Använd Passkeys** – Låt iOS 26 automatiskt uppgradera dina lösenord till "
 "nätfiskeresistenta Passkeys"
 
-#: src/ios_security.md:725
+#: src/ios_security.md:772
 msgid "**Restart after updates** – Clears memory-resident threats"
 msgstr "**Starta om efter uppdateringar** – Rensar minnesresidenta hot"
 
-#: src/ios_security.md:727
+#: src/ios_security.md:774
 msgid ""
 "By configuring these settings, you significantly strengthen your privacy and "
 "security against both common and sophisticated threats."
@@ -2169,15 +2348,17 @@ msgstr ""
 "Genom att konfigurera dessa inställningar stärker du avsevärt din integritet "
 "och säkerhet mot både vanliga och sofistikerade hot."
 
-#: src/ios_security.md:731
+#: src/ios_security.md:778
 msgid ""
-"_Last updated: January 29, 2026 | Applies to iOS 26.2.1_ _Device "
+"_Last updated: February 14, 2026 | Applies to iOS 26.3_ _Device "
 "requirements: iPhone 11 or later (A13 Bionic chip minimum)_ _AirTag (2nd "
-"Generation) requires iOS 26.2.1_"
+"Generation) requires iOS 26.2.1 or later_ _Limit Precise Location requires "
+"iPhone 16e or iPhone Air_"
 msgstr ""
-"_Senast uppdaterad: 29 januari 2026 | Gäller för iOS 26.2.1_ _Enhetskrav: "
+"_Senast uppdaterad: 14 februari 2026 | Gäller för iOS 26.3_ _Enhetskrav: "
 "iPhone 11 eller senare (minst A13 Bionic-chip)_ _AirTag (2:a generationen) "
-"kräver iOS 26.2.1_"
+"kräver iOS 26.2.1 eller senare_ _Begränsa exakt plats kräver iPhone 16e "
+"eller iPhone Air_"
 
 #: src/android_security.md:1
 msgid "Android 16 Security and Privacy Settings Guide"
@@ -2610,12 +2791,6 @@ msgstr ""
 #: src/android_security.md:133
 msgid "Two-Factor Authentication (2FA) for Google Account"
 msgstr "Tvåfaktorsautentisering (2FA) för Google-konto"
-
-#: src/android_security.md:135 src/android_security.md:232
-#: src/android_security.md:245 src/android_security.md:253
-#: src/android_security.md:499 src/android_security.md:509
-msgid "**How to enable:**"
-msgstr "**Så här aktiverar du:**"
 
 #: src/android_security.md:136 src/android_security.md:163
 #: src/android_security.md:643
